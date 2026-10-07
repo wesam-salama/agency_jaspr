@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T00:00:00Z",
+  "title": "Design System: CR8.Media",
+  "extensions": {
+    "shadows": [],
+    "motion": [
+      {"name": "state", "value": "150ms", "purpose": "Immediate control feedback"},
+      {"name": "connection", "value": "300ms", "purpose": "Service selection and diagram continuity"}
+    ],
+    "breakpoints": [
+      {"name": "compact", "value": "480px"},
+      {"name": "tablet", "value": "860px"}
+    ]
+  },
+  "components": [],
+  "narrative": {
+    "northStar": "Connected studio",
+    "overview": "Confident, direct, precise. Existing dark surfaces, signal red, sharp edges, fonts, and connecting geometry evolve around clear client decisions.",
+    "keyCharacteristics": ["Readable hierarchy", "Visible work", "Useful connections", "Honest examples"],
+    "rules": [],
+    "dos": ["Keep content visible by default", "Use native controls"],
+    "donts": ["Hide work behind hover", "Present illustrative results as proof"]
+  }
+}
