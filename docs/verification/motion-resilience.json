@@ -1,0 +1,852 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-07T19:46:54.501468+00:00",
+  "status": "root_browser_batch_completed",
+  "target": {
+    "build_path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/build/jaspr",
+    "index_sha256": "d9ceb5fed00e2a455adf692ce191ebc6ee752d3fc14e80d8291770e039a8f7d1",
+    "app_script_sha256": "c86660cbc6352ca4c2f7c180216ad2f7cc98bcb26088df89810409f016b50873"
+  },
+  "scope": {
+    "app_source_edits": false,
+    "simulation_notice": "Policy route overrides only the exact prefers-reduced-motion: reduce matchMedia query and document.hidden getter. These explicit browser test simulations do not change or verify device/OS preferences. Canvas and image failures are fixture-only.",
+    "independent_live_observations": true,
+    "observation_provenance": "Fixture subagent verified setup; root performed the browser checks using its working IAB connection."
+  },
+  "server": {
+    "base_url": "http://127.0.0.1:8772/",
+    "session_id": 19167,
+    "pid": 33178,
+    "server_path": "/private/tmp/cr8-motion-fixtures/server.py",
+    "cache_control": "no-store",
+    "stop": "write_stdin(session_id=19167, chars=Ctrl+C) or kill 33178",
+    "keep_running_for_root_confirmation": false,
+    "status": "stopped_after_confirmation"
+  },
+  "fixtures": {
+    "scripts-off": {
+      "url": "http://127.0.0.1:8772/scripts-off/",
+      "index_path": "/private/tmp/cr8-motion-fixtures/scripts-off/index.html",
+      "app_script_count": 0,
+      "stylesheet_available": true,
+      "font_available": true,
+      "images_directory_available": true
+    },
+    "canvas-off": {
+      "url": "http://127.0.0.1:8772/canvas-off/",
+      "index_path": "/private/tmp/cr8-motion-fixtures/canvas-off/index.html",
+      "app_script_count": 1,
+      "stylesheet_available": true,
+      "font_available": true,
+      "images_directory_available": true
+    },
+    "images-off": {
+      "url": "http://127.0.0.1:8772/images-off/",
+      "index_path": "/private/tmp/cr8-motion-fixtures/images-off/index.html",
+      "app_script_count": 1,
+      "stylesheet_available": true,
+      "font_available": true,
+      "images_directory_available": false
+    },
+    "policy": {
+      "url": "http://127.0.0.1:8772/policy/",
+      "index_path": "/private/tmp/cr8-motion-fixtures/policy/index.html",
+      "app_script_count": 1,
+      "stylesheet_available": true,
+      "font_available": true,
+      "images_directory_available": true
+    }
+  },
+  "verified_setup_checks": [
+    {
+      "check": "fixture_html_and_asset_layout",
+      "result": "passed",
+      "method": "filesystem assertions",
+      "details": "One compiled app script in canvas-off/images-off/policy; no compiled app script in scripts-off. Stylesheet/fonts are available in every route. Canvas/policy injection precedes app script. images-off/assets/images is absent."
+    },
+    {
+      "check": "loopback_http",
+      "result": "passed",
+      "method": "Python urllib HTTP requests",
+      "details": "Fixture HTML, JS, images-off CSS and fonts returned 200 with Cache-Control: no-store; images-off/assets/images/fenwick-card.webp returned 404."
+    }
+  ],
+  "browser_blocker": {
+    "agent": "motion_fixtures",
+    "result": "unavailable",
+    "observations": [
+      "createBrowserTab('iab', ...) returned Browser is not available: iab",
+      "cua.listBrowsers() returned []",
+      "cua.getBrowser({url:'http://127.0.0.1:8768/'}) returned No browser is available"
+    ],
+    "handoff": "Root has been asked to perform this single fixture browser batch through its working browser connection."
+  },
+  "browser_checks": [
+    {
+      "id": "profile-warmup-and-steady-state",
+      "status": "completed_observed_subset",
+      "procedure": "Fresh profile-only page after hydration: record elapsed time, viewport, document visibility, visible section, frame count, callback p95/max, long-task count/max at warmup and steady state; report instrumentation scope and inspection contamination.",
+      "observations": [
+        {
+          "evidence_key": "initial",
+          "result": {
+            "body": "",
+            "decorations": 0,
+            "loops": 1,
+            "modal": false,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.500"
+              ],
+              [
+                "data-motion-frame-max",
+                "1.100"
+              ],
+              [
+                "data-motion-frame-count",
+                "600"
+              ],
+              [
+                "data-motion-tasks",
+                "1"
+              ],
+              [
+                "data-motion-raf",
+                "1"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "false"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "toggles": [
+              "false",
+              "false"
+            ]
+          }
+        }
+      ],
+      "screenshots": [],
+      "notice": "Observed results are the evidence above; the setup procedure describes intended scope, not an assertion that every listed step was exercised."
+    },
+    {
+      "id": "dynamic-reduced-motion",
+      "status": "completed_observed_subset",
+      "procedure": "Click fixture reduced-motion button: motion-reduced body class; tasks=0 and RAF=0; CSS loops paused; case entry immediate with no leftover decorations. Toggle off: motion eligible again.",
+      "observations": [
+        {
+          "evidence_key": "reduced",
+          "result": {
+            "body": "motion-reduced",
+            "decorations": 0,
+            "loops": 0,
+            "modal": false,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.500"
+              ],
+              [
+                "data-motion-frame-max",
+                "0.800"
+              ],
+              [
+                "data-motion-frame-count",
+                "658"
+              ],
+              [
+                "data-motion-tasks",
+                "0"
+              ],
+              [
+                "data-motion-raf",
+                "0"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "true"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "toggles": [
+              "false",
+              "false"
+            ]
+          }
+        },
+        {
+          "evidence_key": "resumed",
+          "result": {
+            "body": "",
+            "decorations": 0,
+            "loops": 2,
+            "modal": false,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.500"
+              ],
+              [
+                "data-motion-frame-max",
+                "0.800"
+              ],
+              [
+                "data-motion-frame-count",
+                "660"
+              ],
+              [
+                "data-motion-tasks",
+                "1"
+              ],
+              [
+                "data-motion-raf",
+                "1"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "false"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "toggles": [
+              "false",
+              "false"
+            ]
+          }
+        }
+      ],
+      "screenshots": [],
+      "notice": "Observed results are the evidence above; the setup procedure describes intended scope, not an assertion that every listed step was exercised."
+    },
+    {
+      "id": "user-pause-and-system-precedence",
+      "status": "completed_observed_subset",
+      "procedure": "Pause via app control; toggle simulated reduced motion on; app resume must not override simulated system reduction. Turning simulated reduction off restores only motion permitted by user pause.",
+      "observations": [
+        {
+          "evidence_key": "reducedAndPaused",
+          "result": {
+            "body": "motion-reduced motion-paused",
+            "decorations": 0,
+            "loops": 0,
+            "modal": false,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.500"
+              ],
+              [
+                "data-motion-frame-max",
+                "0.800"
+              ],
+              [
+                "data-motion-frame-count",
+                "658"
+              ],
+              [
+                "data-motion-tasks",
+                "0"
+              ],
+              [
+                "data-motion-raf",
+                "0"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "true"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "toggles": [
+              "true",
+              "true"
+            ]
+          }
+        },
+        {
+          "evidence_key": "reducedAfterResume",
+          "result": {
+            "body": "motion-reduced",
+            "decorations": 0,
+            "loops": 0,
+            "modal": false,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.500"
+              ],
+              [
+                "data-motion-frame-max",
+                "0.800"
+              ],
+              [
+                "data-motion-frame-count",
+                "658"
+              ],
+              [
+                "data-motion-tasks",
+                "0"
+              ],
+              [
+                "data-motion-raf",
+                "0"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "true"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "toggles": [
+              "false",
+              "false"
+            ]
+          }
+        }
+      ],
+      "screenshots": [],
+      "notice": "Observed results are the evidence above; the setup procedure describes intended scope, not an assertion that every listed step was exercised."
+    },
+    {
+      "id": "dynamic-visibility",
+      "status": "completed_observed_subset",
+      "procedure": "Click fixture hidden-page button: profile visible=false, tasks=0 and RAF=0, frame count settles, CSS loops paused. Unhide: only currently eligible visible motion resumes.",
+      "observations": [
+        {
+          "evidence_key": "hidden",
+          "result": {
+            "body": "",
+            "decorations": 0,
+            "loops": 0,
+            "modal": false,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.500"
+              ],
+              [
+                "data-motion-frame-max",
+                "0.800"
+              ],
+              [
+                "data-motion-frame-count",
+                "673"
+              ],
+              [
+                "data-motion-tasks",
+                "0"
+              ],
+              [
+                "data-motion-raf",
+                "0"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "false"
+              ],
+              [
+                "data-motion-visible",
+                "false"
+              ]
+            ],
+            "toggles": [
+              "false",
+              "false"
+            ]
+          }
+        },
+        {
+          "evidence_key": "visibleAgain",
+          "result": {
+            "body": "",
+            "decorations": 0,
+            "loops": 2,
+            "modal": false,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.500"
+              ],
+              [
+                "data-motion-frame-max",
+                "0.800"
+              ],
+              [
+                "data-motion-frame-count",
+                "673"
+              ],
+              [
+                "data-motion-tasks",
+                "1"
+              ],
+              [
+                "data-motion-raf",
+                "1"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "false"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "toggles": [
+              "false",
+              "false"
+            ]
+          }
+        }
+      ],
+      "screenshots": [],
+      "notice": "Observed results are the evidence above; the setup procedure describes intended scope, not an assertion that every listed step was exercised."
+    },
+    {
+      "id": "policy-change-during-case-entry",
+      "status": "completed_observed_subset",
+      "procedure": "Open a case with motion permitted, then activate reduced/hidden policy during entry. Confirm dialog content/focus remain, hero opacity restored, clip/filter transforms settled, transition clones/curtain removed.",
+      "observations": [
+        {
+          "evidence_key": "duringCase",
+          "result": {
+            "body": "modal-open",
+            "decorations": 1,
+            "loops": 0,
+            "modal": true,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.800"
+              ],
+              [
+                "data-motion-frame-max",
+                "1.800"
+              ],
+              [
+                "data-motion-frame-count",
+                "3416"
+              ],
+              [
+                "data-motion-tasks",
+                "0"
+              ],
+              [
+                "data-motion-raf",
+                "0"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "false"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "toggles": [
+              "false",
+              "false"
+            ]
+          }
+        },
+        {
+          "evidence_key": "caseAfterReduction",
+          "result": {
+            "body": "modal-open motion-reduced",
+            "decorations": 0,
+            "loops": 0,
+            "modal": true,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.800"
+              ],
+              [
+                "data-motion-frame-max",
+                "1.800"
+              ],
+              [
+                "data-motion-frame-count",
+                "3416"
+              ],
+              [
+                "data-motion-tasks",
+                "0"
+              ],
+              [
+                "data-motion-raf",
+                "0"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "true"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "toggles": [
+              "false",
+              "false"
+            ]
+          }
+        },
+        {
+          "evidence_key": "closedUnderReduction",
+          "result": {
+            "body": "motion-reduced",
+            "decorations": 0,
+            "loops": 0,
+            "modal": false,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.800"
+              ],
+              [
+                "data-motion-frame-max",
+                "1.800"
+              ],
+              [
+                "data-motion-frame-count",
+                "3416"
+              ],
+              [
+                "data-motion-tasks",
+                "0"
+              ],
+              [
+                "data-motion-raf",
+                "0"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "true"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "toggles": [
+              "false",
+              "false"
+            ]
+          }
+        }
+      ],
+      "screenshots": [],
+      "notice": "Observed results are the evidence above; the setup procedure describes intended scope, not an assertion that every listed step was exercised."
+    },
+    {
+      "id": "scripts-off-320",
+      "status": "completed_observed_subset",
+      "procedure": "At 320px, read static content, header links and hero service links; confirm no horizontal overflow; progressive controls safely disabled; direct contact remains available.",
+      "observations": [
+        {
+          "evidence_key": "scriptsOff",
+          "result": {
+            "disabled": true,
+            "heroOpacity": "1",
+            "images": [
+              {
+                "display": "block",
+                "src": "assets/images/fenwick-card.webp"
+              },
+              {
+                "display": "block",
+                "src": "assets/images/loop-card.webp"
+              },
+              {
+                "display": "block",
+                "src": "assets/images/marrow-card.webp"
+              },
+              {
+                "display": "block",
+                "src": "assets/images/northline-card.webp"
+              }
+            ],
+            "navigation": [
+              {
+                "height": 44,
+                "text": "Services"
+              },
+              {
+                "height": 44,
+                "text": "Work"
+              },
+              {
+                "height": 44,
+                "text": "Process"
+              },
+              {
+                "height": 44,
+                "text": "Studio"
+              }
+            ],
+            "scrollWidth": 320,
+            "sections": 8,
+            "width": 320
+          }
+        }
+      ],
+      "screenshots": [],
+      "notice": "Observed results are the evidence above; the setup procedure describes intended scope, not an assertion that every listed step was exercised."
+    },
+    {
+      "id": "canvas-off-interactions",
+      "status": "completed_observed_subset",
+      "procedure": "With 2D contexts null, verify visible service text/focus, native mobile menu, case opening/close/Escape and focus restoration, contact service preselection and persistent inline validation.",
+      "observations": [
+        {
+          "evidence_key": "canvasOff",
+          "result": {
+            "buttonsEnabled": true,
+            "profile": [
+              [
+                "data-motion-frame-p95",
+                "0.000"
+              ],
+              [
+                "data-motion-frame-max",
+                "0"
+              ],
+              [
+                "data-motion-frame-count",
+                "0"
+              ],
+              [
+                "data-motion-tasks",
+                "0"
+              ],
+              [
+                "data-motion-raf",
+                "0"
+              ],
+              [
+                "data-motion-long-tasks",
+                "0"
+              ],
+              [
+                "data-motion-long-task-max",
+                "0.000"
+              ],
+              [
+                "data-motion-reduced",
+                "false"
+              ],
+              [
+                "data-motion-visible",
+                "true"
+              ]
+            ],
+            "ready": 0,
+            "scrollWidth": 390,
+            "serviceLinks": 6,
+            "width": 390
+          }
+        },
+        {
+          "evidence_key": "canvasOffDialog",
+          "result": {
+            "inert": 4,
+            "open": true,
+            "title": "Loop"
+          }
+        }
+      ],
+      "screenshots": [],
+      "notice": "Observed results are the evidence above; the setup procedure describes intended scope, not an assertion that every listed step was exercised."
+    },
+    {
+      "id": "images-off-content",
+      "status": "completed_observed_subset",
+      "procedure": "With assets/images returning 404, verify portfolio text/alt/layout remain usable, case text/alt/opening remains and no temporary clones/decorations linger; check contact preselection and validation.",
+      "observations": [
+        {
+          "evidence_key": "imagesOff",
+          "result": {
+            "decorations": 0,
+            "description": "Names, testimonials, timelines and results are illustrative, not verified client evidence. Images are visual references, not finished deliverables.",
+            "hero": {
+              "alt": "Marrow illustrative project imagery",
+              "complete": true,
+              "naturalWidth": 0
+            },
+            "open": true,
+            "paragraphs": 7,
+            "scrollWidth": 390,
+            "title": "Marrow",
+            "width": 390
+          }
+        },
+        {
+          "evidence_key": "imagesOffCleanup",
+          "result": {
+            "decorations": 0,
+            "focus": "Marrow",
+            "inert": 0,
+            "modal": true
+          }
+        }
+      ],
+      "screenshots": [],
+      "notice": "Observed results are the evidence above; the setup procedure describes intended scope, not an assertion that every listed step was exercised."
+    },
+    {
+      "id": "cleanup",
+      "status": "completed",
+      "procedure": "Close fixture tabs and reset viewport; keep fixture server running for root confirmation.",
+      "observations": [
+        "Root closed fixture tabs, reset the viewport and stopped the temporary server after the single confirmation round."
+      ],
+      "screenshots": [],
+      "notice": "Observed results are the evidence above; the setup procedure describes intended scope, not an assertion that every listed step was exercised."
+    }
+  ],
+  "dom_evidence_selectors": {
+    "profile": "#agencyRuntime[data-motion-frame-p95][data-motion-frame-max][data-motion-frame-count][data-motion-tasks][data-motion-raf][data-motion-long-tasks][data-motion-long-task-max][data-motion-reduced][data-motion-visible]",
+    "policy_controls": [
+      "#fixtureReducedMotion",
+      "#fixtureHiddenPage",
+      "#fixturePolicyStatus"
+    ],
+    "body_policy_classes": [
+      "motion-reduced",
+      "motion-paused",
+      "modal-open"
+    ],
+    "case": [
+      "#caseModal",
+      "#cmTitle",
+      "#cmImg",
+      "#cmPresentation",
+      ".cm-transition-clone",
+      ".cm-transition-curtain"
+    ],
+    "motion_loops": "[data-motion-loop].motion-running",
+    "mobile_menu": [
+      "#burgerBtn",
+      "#siteHeader",
+      "#primaryNavigation"
+    ],
+    "contact": [
+      ".service-cta[data-service]",
+      "input[name=\"services\"]",
+      "#constelNote",
+      "#draftButton",
+      "#name-error",
+      "#email-error",
+      "#message-error",
+      "#formStatus"
+    ]
+  },
+  "limitations": [
+    "The fixture subagent had no browser connection; root completed the live browser batch.",
+    "No physical device, real OS reduced-motion setting, coarse-pointer mode or real browser hidden-tab state has been verified by fixture setup.",
+    "Application callback profiling measures instrumented motion callbacks, not full rendering or attributable page CPU.",
+    "A status inventory automatically included Assessment A output; its findings were not used for this fixture pass."
+  ],
+  "completed_at_utc": "2026-10-08T08:12:47.614171+00:00",
+  "browser_evidence": "motion-resilience-browser.json",
+  "confirmation_evidence": "motion-confirmation.json"
+}

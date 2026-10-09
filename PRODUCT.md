@@ -21,7 +21,7 @@ Visitors compare six service disciplines, explore four illustrative project exam
 Static Jaspr 0.23.4 with Dart and a hydrated browser runtime. Local fonts and imagery. Preserve section anchors, four case-study layouts, and the original ../agency_website.html reference. Name, email, and project goal are required for the enhanced form; service selection and timing are optional.
 
 ## Brand Commitments
-The user confirmed a Connected studio evolution: confident, direct, precise, dark surfaces, red accent, sharp edges, existing fonts, and the connecting-line motif. Code-first implementation is confirmed. Existing agency names and assets define the website identity.
+The user confirmed a Connected studio evolution: confident, direct, precise, dark surfaces, red accent, sharp edges, existing fonts, and the connecting-line motif. Code-first implementation is confirmed. Existing agency names and assets define the website identity. The user explicitly confirmed restoration of the original's full motion language: creative animation is part of the agency's identity and must survive clarity and performance improvements.
 
 ## Evidence on Hand
 All four case studies, customer names, quotes, results, and timescales are illustrative examples. Engagement terms and service timelines are examples rather than commitments. Do not present these as verified client proof or invent business guarantees, pricing, location, or response-time promises.

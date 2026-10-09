@@ -6,6 +6,12 @@
 # Conventional directory for build output.
 /build/
 
+# Firebase Hosting deployment cache.
+.firebase/
+
+# Local Impeccable installation consent and developer overrides.
+.impeccable/config.local.json
+
 # Miscellaneous
 *.class
 *.log

@@ -3,9 +3,9 @@ import 'package:jaspr/server.dart';
 
 import 'app.dart';
 
-const siteTitle = 'Creative Media — Branding, Web & App Development';
+const siteTitle = 'CR8.Media — Brand, web and apps. One connected studio.';
 const siteDescription =
-    'Creative Media: branding, rebranding, consultancy, web development, app development and maintenance. One team, one line of thought.';
+    'Branding, strategy, websites and apps for founders and marketing leads. Explore illustrative project examples and prepare a project brief with CR8.Media.';
 
 Component buildAgencyDocument() => Document(
   title: siteTitle,

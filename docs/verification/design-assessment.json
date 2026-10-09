@@ -1,0 +1,179 @@
+{
+  "assessment": "A — independent design review",
+  "target": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/build/jaspr/index.html",
+  "liveUrl": "http://127.0.0.1:8766/",
+  "mode": "Persuade",
+  "scope": "Clean final build only. Old origin 8765 excluded because its cached CSS/runtime did not match the new markup. No detector findings seen. No edits or fix verification.",
+  "viewports": {
+    "desktop": "1440x960",
+    "mobile": "390x844"
+  },
+  "specificity": {
+    "verdict": "Authored for the approved Connected studio identity, with a clear product-specific centre: the visitor's project joins six disciplines.",
+    "detail": "Dark surfaces, signal red, sharp controls, existing fonts, editorial service rows and the linked diagram form a coherent system. The opening headline explains the offer before asking for metaphor interpretation. The case layouts retain distinct structures. The strongest missed opportunity is the example imagery: generic photos do not demonstrate the described brand and interface decisions."
+  },
+  "heuristics": [
+    {
+      "number": 1,
+      "name": "Visibility of system status",
+      "score": 3,
+      "reason": "Selections update the diagram and a status label; validation identifies fields and focuses Name. No complete draft handoff was tested."
+    },
+    {
+      "number": 2,
+      "name": "Match between system and real world",
+      "score": 3,
+      "reason": "Direct founder-oriented offer and plain enquiry instructions. Case metadata still uses CMS, UX, full-stack and D30 without explaining them."
+    },
+    {
+      "number": 3,
+      "name": "User control and freedom",
+      "score": 4,
+      "reason": "Case close control stays visible on desktop/mobile; Escape closes and restores opener focus. Next-example navigation works, service selection is reversible, draft handoff is clearly disclosed."
+    },
+    {
+      "number": 4,
+      "name": "Consistency and standards",
+      "score": 3,
+      "reason": "Cohesive visual system and native form controls. Web Dev/App Dev abbreviations differ from full service labels; mobile menu keeps hamburger glyph while open despite its accessible label changing to Close menu."
+    },
+    {
+      "number": 5,
+      "name": "Error prevention",
+      "score": 3,
+      "reason": "Required fields and optional fields are stated; invalid empty form stays local. Users can still reach submit with all required fields empty; prevention relies on submit-time validation."
+    },
+    {
+      "number": 6,
+      "name": "Recognition rather than recall",
+      "score": 4,
+      "reason": "Visible portfolio images and labelled controls, persistent form labels, clear placeholders, native service options, contextual guidance, and close/next labels support discovery."
+    },
+    {
+      "number": 7,
+      "name": "Flexibility and efficiency of use",
+      "score": "n/a",
+      "reason": "Persuade surface; no expert workflow or accelerator need."
+    },
+    {
+      "number": 8,
+      "name": "Aesthetic and minimalist design",
+      "score": 3,
+      "reason": "Strong hierarchy, restrained red and useful whitespace. Mobile contact repeats a large diagram before the form, and case images sometimes do not support the accompanying content."
+    },
+    {
+      "number": 9,
+      "name": "Recognize, diagnose, and recover from errors",
+      "score": 4,
+      "reason": "Empty submit produced 'Enter your name.', 'Enter your email address.', and 'Describe your project goal in a few sentences.' near their fields, plus a summary. Selection remained intact; first invalid field received conspicuous focus."
+    },
+    {
+      "number": 10,
+      "name": "Help and documentation",
+      "score": 4,
+      "reason": "Task-focused FAQ covers scope, timing, illustrative status, brief content and draft behaviour. Form gives required/optional status, concise goal guidance and repeated handoff reassurance."
+    }
+  ],
+  "totalScore": 31,
+  "maxScore": 36,
+  "rating": "Good",
+  "cognitiveLoad": {
+    "failedChecklistItems": [
+      {
+        "name": "Chunking",
+        "evidence": "Six service disciplines and six process stages remain one conceptual group; all six process stages can be visible together at desktop1440x960."
+      },
+      {
+        "name": "Minimal choices",
+        "evidence": "Hero diagram presents six service destinations; contact service chooser presents six peer checkboxes. FAQ has five peer questions."
+      }
+    ],
+    "failures": 2,
+    "level": "Moderate by checklist",
+    "mitigation": "The six disciplines are part of the explicit product brief. Services are optional, the enquiry can begin without choosing one, deliverables and FAQ answers use disclosure, and the remaining decision groups stay small. This is a refinement opportunity rather than a blocker.",
+    "decisionPointsOverFour": [
+      "Six hero service links",
+      "Six contact service checkboxes",
+      "Five FAQ questions"
+    ]
+  },
+  "emotionalJourney": {
+    "arrival": "Immediate clarity and confidence: the headline tells founders exactly what the studio connects; the diagram gives the approved motif a useful role.",
+    "peak": "Visible imagery invites exploration; four distinct case structures create variety.",
+    "valley": "Generic phone-home, street and skyline photos under interface/identity captions weaken confidence that the examples demonstrate actual craft, even though illustrative labels correctly prevent evidence confusion.",
+    "reassurance": "Process and engagement descriptions state that scope is agreed in conversation. Contact offers an optional service choice, a direct email path and clear draft-versus-send reassurance.",
+    "mobileValley": "Start a project lands on intro, large constellation and direct email before the required form; the form begins about a viewport farther down.",
+    "end": "Specific field errors preserve context. Valid email drafting and sending deliberately not exercised."
+  },
+  "strengths": [
+    "Hero gives a direct offer for founders and marketing leads; the project-centred diagram expresses the approved identity without hiding content.",
+    "Illustrative labels are visible in gallery, dialog, results and testimonials; they make the evidence boundary clear.",
+    "Native controls, persistent labels, clear validation, sticky dialog close and mobile reflow provide a solid enquiry and case-reading foundation."
+  ],
+  "priorityIssues": [
+    {
+      "priority": "P2",
+      "title": "Example imagery does not demonstrate the described deliverables",
+      "selectors": [
+        "#cmBody img",
+        "#cmImg",
+        ".work-item img"
+      ],
+      "evidence": "Loop repeats the same iPhone home-screen photo for onboarding, streaks, widgets and weekly-review chapters. Marrow's '03 Identity' shows a street scene while the paragraph describes a wordmark and packaging. Northline's 'The network: 400 vehicles, one board' shows a skyline. Fenwick's furniture photography conveys mood, but does not show the identity or website.",
+      "impact": "Founders and marketing leads cannot use these examples to assess visual or product craft; the distinction between project concept and reference imagery is unclear.",
+      "recommendation": "Label the current photos as reference imagery and align captions with what is actually pictured. Future approved concept mockups could show the described outputs while retaining illustrative status. Do not invent delivered work or claims.",
+      "command": "clarify"
+    },
+    {
+      "priority": "P2",
+      "title": "Mobile enquiry form comes after a full screen of repeated diagram content",
+      "selectors": [
+        "#contact .contact-aside",
+        "#contact #constel",
+        "#contact .contact-form-wrap"
+      ],
+      "evidence": "At390x844, the contact landing screen shows the heading, paragraph, roughly250px constellation, selected-service note and direct email. Required form fields are below the first screen. Screenshot /private/tmp/cr8-final-contact-mobile.jpg shows the form only after one page scroll.",
+      "impact": "Casey and a founder following 'Start a project' must scroll again before beginning the primary brief. The same service relationship was already explained in the hero.",
+      "recommendation": "Compact the contact diagram on mobile or place the form before it while keeping concise context, optional selection feedback and the direct email alternative.",
+      "command": "adapt"
+    },
+    {
+      "priority": "P3",
+      "title": "Case-study jargon adds interpretation work",
+      "selectors": [
+        "#cmMeta",
+        "#cmBody",
+        ".work-item"
+      ],
+      "evidence": "CMS, UX, full-stack, CMS-handover and D30 retention appear without explanation. The rest of the page deliberately uses plain founder-facing language.",
+      "impact": "Jordan can read the offer but must translate technical metadata and results to understand their benefit.",
+      "recommendation": "Use plain-language equivalents or brief expansions such as 'content management system', 'user experience', 'complete platform rebuild' and '30-day retention'.",
+      "command": "clarify"
+    }
+  ],
+  "personas": {
+    "Jordan": "The headline and first action are obvious; draft help is explicit. Case jargon is the remaining red flag.",
+    "Sam": "Observed Enter activation for Next example, Escape dismissal, focus restoration to the original case opener, persistent form labels, checkbox state and focused invalid Name field. No full keyboard traversal, screen-reader run, zoom pass or contrast measurement was performed in A; B owns those technical checks. No visually observed blocker.",
+    "Casey": "Large, clear mobile controls and fixed header action are helpful. The contact constellation delays the required form after choosing Start a project; all four mobile case bodies reflowed without visible horizontal clipping.",
+    "productAudience": "Founders and marketing leads can understand the connected offer and prepare a light brief. Reference photos under project-output captions still limit their ability to evaluate the proposed craft."
+  },
+  "minorObservations": [
+    "Mobile open-menu glyph remains three bars, though accessible name changes to Close menu and expanded navigation is plainly visible.",
+    "Marrow's mobile chapter scaffold repeats 'Naming / Explore the chapters' immediately before '01 Naming'; this is redundant but harmless.",
+    "Diagram connection lines are quiet but visible on the clean build; labels and native checkboxes carry the functional meaning, so the linework does not create a visual accessibility blocker."
+  ],
+  "questionsToConsider": [
+    "Should these cases be presented explicitly as reference-led concept walkthroughs until approved design artifacts exist?",
+    "Would a compact selected-services summary serve mobile contact better than repeating the full constellation?"
+  ],
+  "evidence": {
+    "screenshots": [
+      "/private/tmp/cr8-final-desktop.jpg — JPEG1440x960 clean hero",
+      "/private/tmp/cr8-final-mobile.jpg — JPEG390x844 clean hero",
+      "/private/tmp/cr8-final-contact-mobile.jpg — JPEG390x844 form/error state"
+    ],
+    "inspection": "All homepage sections, all four desktop and mobile case layouts, mobile menu, service disclosure, email-draft FAQ, selected checkbox state and empty-submit validation. No valid email submission or external draft triggered.",
+    "cleanup": "Private IAB tab closed; browser viewport override reset.",
+    "toolLimits": "One CDP click timeout recovered by Enter activation; one browser auto-review timeout recovered on the allowed retry. Neither indicated a product failure."
+  }
+}

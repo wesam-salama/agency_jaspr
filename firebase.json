@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build/jaspr",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "predeploy": [
+      "dart pub global run jaspr_cli:jaspr build"
+    ]
+  }
+}

@@ -39,6 +39,11 @@ void main() {
       expect(caseStudies[3].metrics, hasLength(3));
     });
 
+    test('labels every sample case study as illustrative', () {
+      expect(caseStudies.map((study) => study.isIllustrative), everyElement(isTrue));
+      expect(workProjects.map((project) => project.caseStudy.isIllustrative), everyElement(isTrue));
+    });
+
     test('all case-study assets are deterministic local paths', () {
       final paths = <String>[
         for (final project in workProjects) project.cardImage,
@@ -79,6 +84,73 @@ void main() {
       expect(uri.scheme, 'mailto');
       expect(uri.path, 'hello@cr8.media');
       expect(uri.queryParameters['body'], 'Name: Sam\nEmail: sam@example.com\nPoints: Not sure yet\n\n');
+    });
+
+    test('omits timing for missing, blank, and undecided values without changing the URI', () {
+      final original = buildProjectMailto(
+        name: 'Ada Lovelace',
+        email: 'ada@example.com',
+        selectedServices: const ['Branding', 'Web Dev'],
+        message: 'Build it, please.',
+      );
+
+      for (final timing in [null, '', ' \t\n ', 'Not sure yet', '  Not sure yet  ']) {
+        expect(
+          buildProjectMailto(
+            name: 'Ada Lovelace',
+            email: 'ada@example.com',
+            selectedServices: const ['Branding', 'Web Dev'],
+            message: 'Build it, please.',
+            timing: timing,
+          ),
+          original,
+          reason: 'Timing value: $timing',
+        );
+      }
+    });
+
+    test('places a trimmed timing selection after points and before the project goal', () {
+      final uri = Uri.parse(
+        buildProjectMailto(
+          name: 'Sam',
+          email: 'sam@example.com',
+          selectedServices: const ['Web Dev', 'Branding'],
+          message: 'Launch the new site.',
+          timing: '  Within 3 months  ',
+        ),
+      );
+
+      expect(
+        uri.queryParameters['body'],
+        'Name: Sam\nEmail: sam@example.com\nPoints: Web Dev + Branding\nTiming: Within 3 months\n\nLaunch the new site.',
+      );
+    });
+
+    test('preserves Unicode, reserved characters, and caller service order', () {
+      const name = 'وسام & Élodie?';
+      const email = 'studio+brief@example.com';
+      const message = 'موقع جديد 🌍\nUse #1 + 50% = “yes” & revisit?';
+      final result = buildProjectMailto(
+        name: name,
+        email: email,
+        selectedServices: const ['App Dev', 'Branding & identity', 'Web Dev'],
+        message: message,
+        timing: '  3–6 months & flexible?  ',
+      );
+      final uri = Uri.parse(result);
+
+      expect(uri.path, 'hello@cr8.media');
+      expect(uri.fragment, isEmpty);
+      expect(uri.queryParameters.keys, unorderedEquals(['subject', 'body']));
+      expect(uri.queryParameters['subject'], 'New project enquiry, $name');
+      expect(
+        uri.queryParameters['body'],
+        'Name: $name\nEmail: $email\nPoints: App Dev + Branding & identity + Web Dev'
+        '\nTiming: 3–6 months & flexible?\n\n$message',
+      );
+      for (final encodedCharacter in ['%26', '%2B', '%25', '%23']) {
+        expect(result, contains(encodedCharacter));
+      }
     });
   });
 }

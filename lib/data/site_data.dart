@@ -30,8 +30,8 @@ const services = <Service>[
     description: 'Fast, considered sites written by hand, not assembled from a theme or a page builder.',
     deliverables: [
       'Custom design & build, no templates',
-      'CMS handover, if you need to self-edit',
-      'Performance & basic SEO pass',
+      'Editable content handover, if you need it',
+      'Performance & search visibility basics',
     ],
   ),
   Service(
@@ -55,13 +55,14 @@ const services = <Service>[
 const caseStudies = <CaseStudy>[
   CaseStudy(
     name: 'Fenwick & Ash',
+    isIllustrative: true,
     transition: CaseTransition.sharedElementExpand,
     heroImage: 'assets/images/fenwick-hero.jpg',
     tag: 'Rebrand & Web · 2025',
     client: 'Fenwick & Ash Ltd.',
     role: 'Identity, web design & build',
     timeline: '9 weeks',
-    deliverables: 'Identity system, guidelines, site, CMS',
+    deliverables: 'Identity system, guidelines, editable site',
     layout: CaseLayout.split,
     lede: CaseLede(
       'Forty years of joinery, rebuilt for a design-forward audience ',
@@ -72,15 +73,15 @@ const caseStudies = <CaseStudy>[
       CaseFact('Problem', 'Brand older than its audience'),
       CaseFact('Move', 'Keep the workshop, rebuild the voice'),
       CaseFact('System', 'Wordmark, grid, timber palette'),
-      CaseFact('Web', 'Hand-built, CMS-handover'),
+      CaseFact('Web', 'Custom-built, editable website handover'),
     ],
     paragraphs: [
       "Fenwick & Ash made beautiful furniture and looked like a phone directory advert. The audit kept everything earned (the name, the heritage, the client book) and cut everything that wasn’t.",
-      'The site runs on the same grid. Every project page is a case file: commission, wood, hours at the bench. The team edits it themselves through a CMS handover.',
+      'The site runs on the same grid. Every project page is a case file: commission, wood, hours at the bench. The team can edit their own content after handover.',
     ],
     figures: [
-      CaseFigure('assets/images/fenwick-room.jpg', 'Art direction: rooms, not showrooms'),
-      CaseFigure('assets/images/fenwick-chair.jpg', 'Product photography: one object, one light'),
+      CaseFigure('assets/images/fenwick-room.jpg', 'Art-direction reference: rooms and materials'),
+      CaseFigure('assets/images/fenwick-chair.jpg', 'Photography reference: object and light'),
     ],
     quote: CaseQuote(
       '“They kept forty years of history and still made us look like the future.”',
@@ -89,6 +90,7 @@ const caseStudies = <CaseStudy>[
   ),
   CaseStudy(
     name: 'Loop',
+    isIllustrative: true,
     transition: CaseTransition.accentCurtain,
     heroImage: 'assets/images/loop-hero.jpg',
     tag: 'Product & App · 2024',
@@ -108,12 +110,13 @@ const caseStudies = <CaseStudy>[
       CaseChapter(number: '04', title: 'Weekly review, no guilt', image: 'assets/images/loop-review.jpg'),
     ],
     quote: CaseQuote(
-      '“D30 retention doubled against the old prototype. The forgiveness mechanic did that.”',
+      '“Retention after 30 days doubled against the old prototype. The forgiveness mechanic did that.”',
       'Product Lead, Loop',
     ),
   ),
   CaseStudy(
     name: 'Marrow',
+    isIllustrative: true,
     transition: CaseTransition.cursorIris,
     heroImage: 'assets/images/marrow-hero.jpg',
     tag: 'Brand & Consultancy · 2024',
@@ -149,11 +152,12 @@ const caseStudies = <CaseStudy>[
   ),
   CaseStudy(
     name: 'Northline',
+    isIllustrative: true,
     transition: CaseTransition.tunnelZoom,
     heroImage: 'assets/images/northline-hero.jpg',
     tag: 'Web Development · 2023',
     client: 'Northline Logistics',
-    role: 'UX, full-stack rebuild',
+    role: 'User experience, complete platform rebuild',
     timeline: '14 weeks',
     deliverables: 'Platform, routing engine, dashboards',
     layout: CaseLayout.statistics,
@@ -171,8 +175,8 @@ const caseStudies = <CaseStudy>[
       'The old system took eleven seconds to draw a morning board. Dispatchers had memorised workarounds. We rebuilt the query layer first, then the UI around the three questions a dispatcher actually asks: what’s late, what’s empty, what’s next.',
     ],
     figures: [
-      CaseFigure('assets/images/northline-city.jpg', 'The network: 400 vehicles, one board'),
-      CaseFigure('assets/images/northline-field.jpg', 'Routing engine: recalculated every 90 seconds'),
+      CaseFigure('assets/images/northline-city.jpg', 'Visual reference: network context'),
+      CaseFigure('assets/images/northline-field.jpg', 'Visual reference: routing context'),
     ],
     quote: CaseQuote(
       '“The morning board loads before my coffee does. That’s the whole review.”',
@@ -185,7 +189,7 @@ final workProjects = List<WorkProject>.unmodifiable([
   WorkProject(
     index: '01',
     year: '2025',
-    disciplines: 'Identity · Web · CMS',
+    disciplines: 'Identity · Web · Editable content',
     cardImage: 'assets/images/fenwick-card.jpg',
     category: 'Rebrand & Web',
     description:
@@ -213,7 +217,7 @@ final workProjects = List<WorkProject>.unmodifiable([
   WorkProject(
     index: '04',
     year: '2023',
-    disciplines: 'UX · Build · Database',
+    disciplines: 'User experience · Build · Database',
     cardImage: 'assets/images/northline-card.jpg',
     category: 'Web Development',
     description: 'A logistics platform rebuilt from the database up, for speed and for the people using it daily.',

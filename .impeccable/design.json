@@ -1,25 +1,217 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-07T00:00:00Z",
+  "generatedAt": "2026-10-08T08:12:47.617338+00:00",
   "title": "Design System: CR8.Media",
   "extensions": {
-    "shadows": [],
+    "shadows": [
+      {
+        "name": "dialog",
+        "value": "0 12px 48px rgba(0,0,0,.45)",
+        "purpose": "Separate an open case study from its inert background"
+      }
+    ],
     "motion": [
-      {"name": "state", "value": "150ms", "purpose": "Immediate control feedback"},
-      {"name": "connection", "value": "300ms", "purpose": "Service selection and diagram continuity"}
+      {
+        "name": "fast",
+        "value": "150ms",
+        "purpose": "Immediate control and colour feedback"
+      },
+      {
+        "name": "state",
+        "value": "250ms",
+        "purpose": "Diagram and portfolio state feedback"
+      },
+      {
+        "name": "shared-image",
+        "value": "650ms",
+        "purpose": "Fenwick shared-element image expansion"
+      },
+      {
+        "name": "accent-curtain",
+        "value": "700ms",
+        "purpose": "Loop red curtain cover and reveal"
+      },
+      {
+        "name": "cursor-iris",
+        "value": "650ms",
+        "purpose": "Marrow image reveal from pointer or trigger centre"
+      },
+      {
+        "name": "tunnel",
+        "value": "700ms",
+        "purpose": "Northline bounded zoom, blur and crossfade"
+      },
+      {
+        "name": "shape",
+        "value": "400ms",
+        "purpose": "Replay contact selection lines and closed shape"
+      },
+      {
+        "name": "marquee",
+        "value": "32s",
+        "purpose": "Slow service bands, paused offscreen or by preference"
+      },
+      {
+        "name": "metric-count",
+        "value": "1300ms",
+        "purpose": "Visible-only illustrative metrics with stable accessible values"
+      },
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Shared natural deceleration"
+      }
     ],
     "breakpoints": [
-      {"name": "compact", "value": "480px"},
-      {"name": "tablet", "value": "860px"}
-    ]
+      {
+        "name": "narrow",
+        "value": "350px"
+      },
+      {
+        "name": "compact",
+        "value": "480px"
+      },
+      {
+        "name": "single-column",
+        "value": "600px"
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "860px"
+      },
+      {
+        "name": "intermediate",
+        "value": "1000px"
+      },
+      {
+        "name": "wide",
+        "value": "1600px"
+      }
+    ],
+    "typographyMeta": {
+      "display": {
+        "displayName": "Connected studio headline",
+        "purpose": "Main offering and arrival only"
+      },
+      "data": {
+        "displayName": "Project information",
+        "purpose": "Example durations and numbered process steps"
+      }
+    },
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "Signal red"
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "Studio ground"
+      }
+    }
   },
-  "components": [],
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Start a project or open an email draft.",
+      "html": "<button class=\"ds-primary\">Start a project</button>",
+      "css": ".ds-primary{font-family:Inter,system-ui,sans-serif;border-radius:var(--radius);min-height:52px;padding:14px 24px;font-size:1rem;font-weight:600;background:var(--accent);color:var(--bg);border:1px solid var(--accent);cursor:pointer;transition:background var(--motion-fast)}.ds-primary:hover{background:var(--accent-hover)}.ds-primary:focus-visible{outline:3px solid var(--accent);outline-offset:5px;}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "description": "Explore examples without competing with the enquiry.",
+      "html": "<button class=\"ds-secondary\">Explore example work</button>",
+      "css": ".ds-secondary{font-family:Inter,system-ui,sans-serif;border-radius:var(--radius);min-height:52px;padding:14px 24px;font-size:1rem;font-weight:600;background:transparent;color:var(--fg);border:1px solid var(--control-line);cursor:pointer}.ds-secondary:hover{background:var(--panel);border-color:var(--fg)}.ds-secondary:focus-visible{outline:3px solid var(--accent);outline-offset:5px;}"
+    },
+    {
+      "name": "Brief field",
+      "kind": "input",
+      "description": "Persistent labels and readable native inputs.",
+      "html": "<label class=\"ds-label\" for=\"ds-name\">Name</label><input id=\"ds-name\" class=\"ds-field\" autocomplete=\"name\" placeholder=\"Your name\" required/>",
+      "css": ".ds-label{display:block;color:var(--fg);font-family:Inter,system-ui,sans-serif;font-size:.9375rem;margin-bottom:8px}.ds-field{font-family:Inter,system-ui,sans-serif;border-radius:var(--radius);min-height:50px;padding:12px 14px;font-size:1rem;background:var(--bg-alt);color:var(--fg);border:1px solid var(--control-line)}.ds-field::placeholder{color:var(--muted-2);opacity:1}.ds-field:focus-visible{outline:3px solid var(--accent);outline-offset:5px;}"
+    },
+    {
+      "name": "Service selection",
+      "kind": "chip",
+      "description": "Native checkboxes are the selection authority.",
+      "html": "<label class=\"ds-choice\"><input type=\"checkbox\" checked/>Branding</label>",
+      "css": ".ds-choice{font-family:Inter,system-ui,sans-serif;border-radius:var(--radius);display:flex;align-items:center;gap:12px;min-height:48px;padding:10px 12px;color:var(--fg);font-size:.875rem;border:1px solid var(--control-line);cursor:pointer}.ds-choice:has(input:checked){border-color:var(--accent);background:var(--accent-dim)}.ds-choice input{width:18px;height:18px;accent-color:var(--accent)}.ds-choice input:focus-visible{outline:3px solid var(--accent);outline-offset:5px;}"
+    },
+    {
+      "name": "Illustrative status",
+      "kind": "chip",
+      "description": "Keep examples distinguishable from verified proof.",
+      "html": "<span class=\"ds-example\">Illustrative case study</span>",
+      "css": ".ds-example{display:inline-flex;align-items:center;gap:8px;font: .875rem/1.5 Inter,system-ui,sans-serif;color:var(--muted)}.ds-example::before{content:\"\";width:14px;height:1px;background:var(--accent)}"
+    },
+    {
+      "name": "Section navigation",
+      "kind": "nav",
+      "description": "Four section shortcuts and a persistent project action.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Page sections\"><a href=\"#services\">Services</a><a href=\"#work\">Work</a><a href=\"#process\">Process</a><a href=\"#studio\">Studio</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;flex-wrap:wrap;font: .9375rem Inter,system-ui,sans-serif}.ds-nav a{display:flex;align-items:center;min-height:44px;color:var(--muted);text-decoration:none}.ds-nav a:hover{color:var(--fg)}.ds-nav a:focus-visible{outline:3px solid var(--accent);outline-offset:5px;}"
+    },
+    {
+      "name": "Service connection",
+      "kind": "custom",
+      "description": "Hover and focus acknowledge the connection; the labelled link works without motion.",
+      "html": "<a class=\"ds-node\" href=\"#services\">Branding</a>",
+      "css": ".ds-node{font-family:Inter,system-ui,sans-serif;border-radius:var(--radius);display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 12px;font-size:.875rem;white-space:nowrap;background:var(--bg);color:var(--fg);border:1px solid var(--control-line);text-decoration:none;transition:border-color var(--motion-state),color var(--motion-state)}.ds-node:hover{border-color:var(--accent);color:var(--accent)}.ds-node:focus-visible{outline:3px solid var(--accent);outline-offset:5px;border-color:var(--accent);color:var(--accent)}"
+    },
+    {
+      "name": "Motion preference",
+      "kind": "button",
+      "description": "Pause spatial and continuous animation; device reduction remains authoritative.",
+      "html": "<div class=\"ds-motion-group\"><button class=\"ds-motion\" type=\"button\" aria-pressed=\"false\">Pause animations</button><span class=\"ds-motion-status\">Animations on.</span></div>",
+      "css": ".ds-motion{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 12px;border:1px solid var(--control-line);border-radius:var(--radius);background:transparent;color:var(--muted);font: .8125rem/1.4 Inter,system-ui,sans-serif}.ds-motion:hover{border-color:var(--accent);color:var(--fg)}.ds-motion[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}.ds-motion:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.ds-motion-group{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px 12px}.ds-motion-status{color:var(--muted);font:.8125rem/1.4 Inter,system-ui,sans-serif}"
+    }
+  ],
   "narrative": {
     "northStar": "Connected studio",
-    "overview": "Confident, direct, precise. Existing dark surfaces, signal red, sharp edges, fonts, and connecting geometry evolve around clear client decisions.",
-    "keyCharacteristics": ["Readable hierarchy", "Visible work", "Useful connections", "Honest examples"],
-    "rules": [],
-    "dos": ["Keep content visible by default", "Use native controls"],
-    "donts": ["Hide work behind hover", "Present illustrative results as proof"]
+    "overview": "Confident, direct and expressive. Dark surfaces, signal red, sharp edges, existing fonts and moving connections communicate the studio's creative character around clear client decisions.",
+    "keyCharacteristics": [
+      "Readable hierarchy",
+      "Visible work",
+      "Tactile connections",
+      "Authored motion",
+      "Honest examples"
+    ],
+    "rules": [
+      {
+        "name": "Useful connections",
+        "body": "Connections acknowledge service discovery or native checkbox selection. They never carry the only copy or interaction.",
+        "section": "layout"
+      },
+      {
+        "name": "Visible by default",
+        "body": "Keep readable content and project imagery in the prerendered document.",
+        "section": "components"
+      },
+      {
+        "name": "Honest examples",
+        "body": "Keep illustrative project, quote, result and timescale labels explicit.",
+        "section": "components"
+      },
+      {
+        "name": "Brief before diagram on mobile",
+        "body": "Place the enquiry form before the selection diagram on narrow layouts, preserving the direct email alternative.",
+        "section": "layout"
+      },
+      {
+        "name": "Creative motion with control",
+        "body": "Restore the original moving points, service motifs and four case entrances. Keep one demand-driven frame scheduler and pause ambient effects offscreen, hidden or behind a dialog. Respect device reduction and the synchronized pause toggles.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Keep content visible by default",
+      "Use native controls"
+    ],
+    "donts": [
+      "Hide work behind hover",
+      "Present illustrative results as proof"
+    ]
   }
 }

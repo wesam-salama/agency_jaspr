@@ -1,0 +1,595 @@
+{
+  "initial": {
+    "body": "",
+    "decorations": 0,
+    "loops": 1,
+    "modal": false,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.500"
+      ],
+      [
+        "data-motion-frame-max",
+        "1.100"
+      ],
+      [
+        "data-motion-frame-count",
+        "600"
+      ],
+      [
+        "data-motion-tasks",
+        "1"
+      ],
+      [
+        "data-motion-raf",
+        "1"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "false"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "toggles": [
+      "false",
+      "false"
+    ]
+  },
+  "reduced": {
+    "body": "motion-reduced",
+    "decorations": 0,
+    "loops": 0,
+    "modal": false,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.500"
+      ],
+      [
+        "data-motion-frame-max",
+        "0.800"
+      ],
+      [
+        "data-motion-frame-count",
+        "658"
+      ],
+      [
+        "data-motion-tasks",
+        "0"
+      ],
+      [
+        "data-motion-raf",
+        "0"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "true"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "toggles": [
+      "false",
+      "false"
+    ]
+  },
+  "reducedAndPaused": {
+    "body": "motion-reduced motion-paused",
+    "decorations": 0,
+    "loops": 0,
+    "modal": false,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.500"
+      ],
+      [
+        "data-motion-frame-max",
+        "0.800"
+      ],
+      [
+        "data-motion-frame-count",
+        "658"
+      ],
+      [
+        "data-motion-tasks",
+        "0"
+      ],
+      [
+        "data-motion-raf",
+        "0"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "true"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "toggles": [
+      "true",
+      "true"
+    ]
+  },
+  "reducedAfterResume": {
+    "body": "motion-reduced",
+    "decorations": 0,
+    "loops": 0,
+    "modal": false,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.500"
+      ],
+      [
+        "data-motion-frame-max",
+        "0.800"
+      ],
+      [
+        "data-motion-frame-count",
+        "658"
+      ],
+      [
+        "data-motion-tasks",
+        "0"
+      ],
+      [
+        "data-motion-raf",
+        "0"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "true"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "toggles": [
+      "false",
+      "false"
+    ]
+  },
+  "resumed": {
+    "body": "",
+    "decorations": 0,
+    "loops": 2,
+    "modal": false,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.500"
+      ],
+      [
+        "data-motion-frame-max",
+        "0.800"
+      ],
+      [
+        "data-motion-frame-count",
+        "660"
+      ],
+      [
+        "data-motion-tasks",
+        "1"
+      ],
+      [
+        "data-motion-raf",
+        "1"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "false"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "toggles": [
+      "false",
+      "false"
+    ]
+  },
+  "hidden": {
+    "body": "",
+    "decorations": 0,
+    "loops": 0,
+    "modal": false,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.500"
+      ],
+      [
+        "data-motion-frame-max",
+        "0.800"
+      ],
+      [
+        "data-motion-frame-count",
+        "673"
+      ],
+      [
+        "data-motion-tasks",
+        "0"
+      ],
+      [
+        "data-motion-raf",
+        "0"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "false"
+      ],
+      [
+        "data-motion-visible",
+        "false"
+      ]
+    ],
+    "toggles": [
+      "false",
+      "false"
+    ]
+  },
+  "visibleAgain": {
+    "body": "",
+    "decorations": 0,
+    "loops": 2,
+    "modal": false,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.500"
+      ],
+      [
+        "data-motion-frame-max",
+        "0.800"
+      ],
+      [
+        "data-motion-frame-count",
+        "673"
+      ],
+      [
+        "data-motion-tasks",
+        "1"
+      ],
+      [
+        "data-motion-raf",
+        "1"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "false"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "toggles": [
+      "false",
+      "false"
+    ]
+  },
+  "duringCase": {
+    "body": "modal-open",
+    "decorations": 1,
+    "loops": 0,
+    "modal": true,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.800"
+      ],
+      [
+        "data-motion-frame-max",
+        "1.800"
+      ],
+      [
+        "data-motion-frame-count",
+        "3416"
+      ],
+      [
+        "data-motion-tasks",
+        "0"
+      ],
+      [
+        "data-motion-raf",
+        "0"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "false"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "toggles": [
+      "false",
+      "false"
+    ]
+  },
+  "caseAfterReduction": {
+    "body": "modal-open motion-reduced",
+    "decorations": 0,
+    "loops": 0,
+    "modal": true,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.800"
+      ],
+      [
+        "data-motion-frame-max",
+        "1.800"
+      ],
+      [
+        "data-motion-frame-count",
+        "3416"
+      ],
+      [
+        "data-motion-tasks",
+        "0"
+      ],
+      [
+        "data-motion-raf",
+        "0"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "true"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "toggles": [
+      "false",
+      "false"
+    ]
+  },
+  "closedUnderReduction": {
+    "body": "motion-reduced",
+    "decorations": 0,
+    "loops": 0,
+    "modal": false,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.800"
+      ],
+      [
+        "data-motion-frame-max",
+        "1.800"
+      ],
+      [
+        "data-motion-frame-count",
+        "3416"
+      ],
+      [
+        "data-motion-tasks",
+        "0"
+      ],
+      [
+        "data-motion-raf",
+        "0"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "true"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "toggles": [
+      "false",
+      "false"
+    ]
+  },
+  "scriptsOff": {
+    "disabled": true,
+    "heroOpacity": "1",
+    "images": [
+      {
+        "display": "block",
+        "src": "assets/images/fenwick-card.webp"
+      },
+      {
+        "display": "block",
+        "src": "assets/images/loop-card.webp"
+      },
+      {
+        "display": "block",
+        "src": "assets/images/marrow-card.webp"
+      },
+      {
+        "display": "block",
+        "src": "assets/images/northline-card.webp"
+      }
+    ],
+    "navigation": [
+      {
+        "height": 44,
+        "text": "Services"
+      },
+      {
+        "height": 44,
+        "text": "Work"
+      },
+      {
+        "height": 44,
+        "text": "Process"
+      },
+      {
+        "height": 44,
+        "text": "Studio"
+      }
+    ],
+    "scrollWidth": 320,
+    "sections": 8,
+    "width": 320
+  },
+  "canvasOff": {
+    "buttonsEnabled": true,
+    "profile": [
+      [
+        "data-motion-frame-p95",
+        "0.000"
+      ],
+      [
+        "data-motion-frame-max",
+        "0"
+      ],
+      [
+        "data-motion-frame-count",
+        "0"
+      ],
+      [
+        "data-motion-tasks",
+        "0"
+      ],
+      [
+        "data-motion-raf",
+        "0"
+      ],
+      [
+        "data-motion-long-tasks",
+        "0"
+      ],
+      [
+        "data-motion-long-task-max",
+        "0.000"
+      ],
+      [
+        "data-motion-reduced",
+        "false"
+      ],
+      [
+        "data-motion-visible",
+        "true"
+      ]
+    ],
+    "ready": 0,
+    "scrollWidth": 390,
+    "serviceLinks": 6,
+    "width": 390
+  },
+  "canvasOffDialog": {
+    "inert": 4,
+    "open": true,
+    "title": "Loop"
+  },
+  "imagesOff": {
+    "decorations": 0,
+    "description": "Names, testimonials, timelines and results are illustrative, not verified client evidence. Images are visual references, not finished deliverables.",
+    "hero": {
+      "alt": "Marrow illustrative project imagery",
+      "complete": true,
+      "naturalWidth": 0
+    },
+    "open": true,
+    "paragraphs": 7,
+    "scrollWidth": 390,
+    "title": "Marrow",
+    "width": 390
+  },
+  "imagesOffCleanup": {
+    "decorations": 0,
+    "focus": "Marrow",
+    "inert": 0,
+    "modal": true
+  }
+}

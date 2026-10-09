@@ -61,6 +61,7 @@ class CaseMetric {
 class CaseStudy {
   const CaseStudy({
     required this.name,
+    required this.isIllustrative,
     required this.transition,
     required this.heroImage,
     required this.tag,
@@ -79,6 +80,7 @@ class CaseStudy {
   });
 
   final String name;
+  final bool isIllustrative;
   final CaseTransition transition;
   final String heroImage;
   final String tag;

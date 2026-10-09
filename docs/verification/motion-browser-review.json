@@ -1,0 +1,1576 @@
+{
+  "url": "http://127.0.0.1:8768/?motionProfile=1",
+  "engine": "Codex in-app browser; CSS viewport emulation, no physical or synthesized touch",
+  "overlay": "Unavailable: documented evaluate is read-only; no script injection capability.",
+  "widths": [
+    {
+      "bodyScrollWidth": 1440,
+      "header": 1440,
+      "height": 1000,
+      "heroNodes": [
+        {
+          "bottom": 133.5137939453125,
+          "height": 44.00000762939453,
+          "right": 1102.383056640625,
+          "text": "Branding",
+          "width": 85.390625,
+          "x": 1016.992431640625,
+          "y": 89.51378631591797
+        },
+        {
+          "bottom": 204.27622985839844,
+          "height": 44,
+          "right": 1250.37451171875,
+          "text": "Rebranding",
+          "width": 101.765625,
+          "x": 1148.60888671875,
+          "y": 160.27622985839844
+        },
+        {
+          "bottom": 353.8132629394531,
+          "height": 44,
+          "right": 1247.7252197265625,
+          "text": "Consultancy",
+          "width": 108.53125,
+          "x": 1139.1939697265625,
+          "y": 309.8132629394531
+        },
+        {
+          "bottom": 433.1862182617187,
+          "height": 44,
+          "right": 1097.8778076171875,
+          "text": "Web Dev",
+          "width": 85.6171875,
+          "x": 1012.2606201171876,
+          "y": 389.1862182617187
+        },
+        {
+          "bottom": 362.89398193359375,
+          "height": 44,
+          "right": 955.388427734375,
+          "text": "App Dev",
+          "width": 82.6015625,
+          "x": 872.786865234375,
+          "y": 318.89398193359375
+        },
+        {
+          "bottom": 212.51419067382812,
+          "height": 44,
+          "right": 974.6312255859376,
+          "text": "Maintenance",
+          "width": 111.34375,
+          "x": 863.2874755859375,
+          "y": 168.51419067382812
+        }
+      ],
+      "profile": {
+        "aria-hidden": "true",
+        "data-motion-frame-count": "5040",
+        "data-motion-frame-max": "3.200",
+        "data-motion-frame-p95": "1.300",
+        "data-motion-long-task-max": "313.000",
+        "data-motion-long-tasks": "6",
+        "data-motion-raf": "1",
+        "data-motion-reduced": "false",
+        "data-motion-tasks": "1",
+        "data-motion-visible": "true",
+        "hidden": "",
+        "id": "agencyRuntime"
+      },
+      "scrollWidth": 1440,
+      "visibleSmallControls": [
+        {
+          "height": 44,
+          "text": "Work",
+          "width": 37.1328125
+        },
+        {
+          "height": 33,
+          "text": "hello@cr8.media",
+          "width": 210.6953125
+        },
+        {
+          "height": 26.3984375,
+          "text": "hello@cr8.media",
+          "width": 126.8984375
+        }
+      ],
+      "width": 1440
+    },
+    {
+      "bodyScrollWidth": 1024,
+      "header": 1024,
+      "height": 1000,
+      "heroNodes": [
+        {
+          "bottom": 116.39827728271484,
+          "height": 44,
+          "right": 841.933837890625,
+          "text": "Branding",
+          "width": 85.390625,
+          "x": 756.543212890625,
+          "y": 72.39827728271484
+        },
+        {
+          "bottom": 175.23565673828125,
+          "height": 44,
+          "right": 968.6007690429688,
+          "text": "Rebranding",
+          "width": 101.765625,
+          "x": 866.8351440429688,
+          "y": 131.23565673828125
+        },
+        {
+          "bottom": 301.5127258300781,
+          "height": 44,
+          "right": 968.9002685546876,
+          "text": "Consultancy",
+          "width": 108.53125,
+          "x": 860.3690185546875,
+          "y": 257.5127258300781
+        },
+        {
+          "bottom": 369.3675231933594,
+          "height": 44,
+          "right": 840.9793701171875,
+          "text": "Web Dev",
+          "width": 85.6171875,
+          "x": 755.3621826171875,
+          "y": 325.3675231933594
+        },
+        {
+          "bottom": 310.71514892578125,
+          "height": 44,
+          "right": 720.2316284179688,
+          "text": "App Dev",
+          "width": 82.6015625,
+          "x": 637.6300659179688,
+          "y": 266.71514892578125
+        },
+        {
+          "bottom": 183.58401489257812,
+          "height": 44,
+          "right": 736.5819091796875,
+          "text": "Maintenance",
+          "width": 111.34375,
+          "x": 625.2381591796875,
+          "y": 139.58401489257812
+        }
+      ],
+      "profile": {
+        "aria-hidden": "true",
+        "data-motion-frame-count": "5040",
+        "data-motion-frame-max": "3.200",
+        "data-motion-frame-p95": "1.300",
+        "data-motion-long-task-max": "313.000",
+        "data-motion-long-tasks": "6",
+        "data-motion-raf": "1",
+        "data-motion-reduced": "false",
+        "data-motion-tasks": "1",
+        "data-motion-visible": "true",
+        "hidden": "",
+        "id": "agencyRuntime"
+      },
+      "scrollWidth": 1024,
+      "visibleSmallControls": [
+        {
+          "height": 44,
+          "text": "Work",
+          "width": 37.1328125
+        },
+        {
+          "height": 33,
+          "text": "hello@cr8.media",
+          "width": 210.6953125
+        },
+        {
+          "height": 26.3984375,
+          "text": "hello@cr8.media",
+          "width": 126.8984375
+        }
+      ],
+      "width": 1024
+    },
+    {
+      "bodyScrollWidth": 768,
+      "header": 768,
+      "height": 1000,
+      "heroNodes": [
+        {
+          "bottom": 549.7569580078125,
+          "height": 44,
+          "right": 423.3515930175781,
+          "text": "Branding",
+          "width": 79.390625,
+          "x": 343.9609680175781,
+          "y": 505.7569580078125
+        },
+        {
+          "bottom": 616.31640625,
+          "height": 44,
+          "right": 567.0044555664062,
+          "text": "Rebranding",
+          "width": 95.765625,
+          "x": 471.23883056640625,
+          "y": 572.31640625
+        },
+        {
+          "bottom": 760.8554077148438,
+          "height": 44,
+          "right": 569.136474609375,
+          "text": "Consultancy",
+          "width": 102.53125,
+          "x": 466.605224609375,
+          "y": 716.8554077148438
+        },
+        {
+          "bottom": 839.188232421875,
+          "height": 44,
+          "right": 425.3035278320313,
+          "text": "Web Dev",
+          "width": 79.6171875,
+          "x": 345.68634033203125,
+          "y": 795.188232421875
+        },
+        {
+          "bottom": 772.6072998046875,
+          "height": 44,
+          "right": 287.7437744140625,
+          "text": "App Dev",
+          "width": 76.60154724121094,
+          "x": 211.14222717285156,
+          "y": 728.6072998046875
+        },
+        {
+          "bottom": 626.9776611328125,
+          "height": 44,
+          "right": 302.07708740234375,
+          "text": "Maintenance",
+          "width": 105.34373474121094,
+          "x": 196.7333526611328,
+          "y": 582.9776611328125
+        }
+      ],
+      "profile": {
+        "aria-hidden": "true",
+        "data-motion-frame-count": "5068",
+        "data-motion-frame-max": "3.200",
+        "data-motion-frame-p95": "1.300",
+        "data-motion-long-task-max": "313.000",
+        "data-motion-long-tasks": "6",
+        "data-motion-raf": "1",
+        "data-motion-reduced": "false",
+        "data-motion-tasks": "1",
+        "data-motion-visible": "true",
+        "hidden": "",
+        "id": "agencyRuntime"
+      },
+      "scrollWidth": 768,
+      "visibleSmallControls": [
+        {
+          "height": 33,
+          "text": "hello@cr8.media",
+          "width": 210.6953125
+        },
+        {
+          "height": 26.3984375,
+          "text": "hello@cr8.media",
+          "width": 126.8984375
+        }
+      ],
+      "width": 768
+    },
+    {
+      "bodyScrollWidth": 390,
+      "header": 390,
+      "height": 1000,
+      "heroNodes": [
+        {
+          "bottom": 587.597900390625,
+          "height": 44,
+          "right": 231.96002197265625,
+          "text": "Branding",
+          "width": 75.390625,
+          "x": 156.56939697265625,
+          "y": 543.597900390625
+        },
+        {
+          "bottom": 643.6055908203125,
+          "height": 44,
+          "right": 345.331298828125,
+          "text": "Rebranding",
+          "width": 91.765625,
+          "x": 253.565673828125,
+          "y": 599.6055908203125
+        },
+        {
+          "bottom": 760.6542358398438,
+          "height": 44,
+          "right": 349.0876770019531,
+          "text": "Consultancy",
+          "width": 98.53125,
+          "x": 250.55642700195312,
+          "y": 716.6542358398438
+        },
+        {
+          "bottom": 821.7822875976562,
+          "height": 44,
+          "right": 233.97991943359375,
+          "text": "Web Dev",
+          "width": 75.6171875,
+          "x": 158.36273193359375,
+          "y": 777.7822875976562
+        },
+        {
+          "bottom": 765.6748046875,
+          "height": 44,
+          "right": 127.1648406982422,
+          "text": "App Dev",
+          "width": 72.6015625,
+          "x": 54.56327819824219,
+          "y": 721.6748046875
+        },
+        {
+          "bottom": 648.16015625,
+          "height": 44,
+          "right": 140.67491149902344,
+          "text": "Maintenance",
+          "width": 101.34375,
+          "x": 39.33116149902344,
+          "y": 604.16015625
+        }
+      ],
+      "profile": {
+        "aria-hidden": "true",
+        "data-motion-frame-count": "5076",
+        "data-motion-frame-max": "3.200",
+        "data-motion-frame-p95": "1.300",
+        "data-motion-long-task-max": "313.000",
+        "data-motion-long-tasks": "6",
+        "data-motion-raf": "1",
+        "data-motion-reduced": "false",
+        "data-motion-tasks": "1",
+        "data-motion-visible": "true",
+        "hidden": "",
+        "id": "agencyRuntime"
+      },
+      "scrollWidth": 390,
+      "visibleSmallControls": [
+        {
+          "height": 33,
+          "text": "hello@cr8.media",
+          "width": 210.6953125
+        },
+        {
+          "height": 26.3984375,
+          "text": "hello@cr8.media",
+          "width": 126.8984375
+        }
+      ],
+      "width": 390
+    },
+    {
+      "bodyScrollWidth": 320,
+      "header": 320,
+      "height": 1000,
+      "heroNodes": [
+        {
+          "bottom": 611.6531372070312,
+          "height": 44,
+          "right": 195.4748077392578,
+          "text": "Branding",
+          "width": 73.390625,
+          "x": 122.0841827392578,
+          "y": 567.6531372070312
+        },
+        {
+          "bottom": 657.9055786132812,
+          "height": 44,
+          "right": 290.2230224609375,
+          "text": "Rebranding",
+          "width": 89.76560974121094,
+          "x": 200.45741271972656,
+          "y": 613.9055786132812
+        },
+        {
+          "bottom": 754.8378295898438,
+          "height": 44,
+          "right": 294.7557373046875,
+          "text": "Consultancy",
+          "width": 96.53123474121094,
+          "x": 198.22450256347656,
+          "y": 710.8378295898438
+        },
+        {
+          "bottom": 805.5455322265625,
+          "height": 44,
+          "right": 198.3397979736328,
+          "text": "Web Dev",
+          "width": 73.6171875,
+          "x": 124.7226104736328,
+          "y": 761.5455322265625
+        },
+        {
+          "bottom": 759.1155395507812,
+          "height": 44,
+          "right": 110.2918701171875,
+          "text": "App Dev",
+          "width": 70.6015625,
+          "x": 39.6903076171875,
+          "y": 715.1155395507812
+        },
+        {
+          "bottom": 661.7862548828125,
+          "height": 44,
+          "right": 123.18315505981444,
+          "text": "Maintenance",
+          "width": 99.34375,
+          "x": 23.839405059814453,
+          "y": 617.7862548828125
+        }
+      ],
+      "profile": {
+        "aria-hidden": "true",
+        "data-motion-frame-count": "5076",
+        "data-motion-frame-max": "3.200",
+        "data-motion-frame-p95": "1.300",
+        "data-motion-long-task-max": "313.000",
+        "data-motion-long-tasks": "6",
+        "data-motion-raf": "1",
+        "data-motion-reduced": "false",
+        "data-motion-tasks": "1",
+        "data-motion-visible": "true",
+        "hidden": "",
+        "id": "agencyRuntime"
+      },
+      "scrollWidth": 320,
+      "visibleSmallControls": [
+        {
+          "height": 33,
+          "text": "hello@cr8.media",
+          "width": 210.6953125
+        },
+        {
+          "height": 26.3984375,
+          "text": "hello@cr8.media",
+          "width": 126.8984375
+        }
+      ],
+      "width": 320
+    }
+  ],
+  "cases": [
+    {
+      "name": "Fenwick & Ash",
+      "opening": {
+        "decorations": [
+          {
+            "class": "cm-transition-clone",
+            "opacity": "1",
+            "transform": "matrix(0.930367, 0, 0, 0.982647, -1.69255, 19.762)"
+          }
+        ],
+        "focus": "cmTitle",
+        "hidden": false,
+        "imageOpacity": "0",
+        "inert": [
+          "skip-link",
+          "siteHeader",
+          "mainContent",
+          "siteFooter"
+        ],
+        "presentation": {
+          "clipPath": "none",
+          "transform": "none"
+        },
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7093",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.700",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "scrollWidth": 1440,
+        "title": "Fenwick & Ash"
+      },
+      "tabFirst": "cmClose",
+      "tabLast": "cmNext",
+      "closed": {
+        "bodyClass": "",
+        "bodyOverflow": "",
+        "decorations": 0,
+        "focus": "Fenwick & Ash",
+        "hidden": true,
+        "inertCount": 0,
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7093",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.700",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "1",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "4",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        }
+      },
+      "secondSample": {
+        "decorations": 1,
+        "image": {
+          "complete": true,
+          "naturalWidth": 1200
+        },
+        "imageOpacity": "0",
+        "presentation": {
+          "clipPath": "none",
+          "transform": "none"
+        },
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7093",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.700",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "title": "Fenwick & Ash"
+      }
+    },
+    {
+      "name": "Loop",
+      "opening": {
+        "decorations": [
+          {
+            "class": "cm-transition-clone",
+            "opacity": "0",
+            "transform": "none"
+          },
+          {
+            "class": "cm-transition-curtain",
+            "opacity": "1",
+            "transform": "matrix(0.320965, 0, 0, 1, 0, 0)"
+          }
+        ],
+        "focus": "cmTitle",
+        "hidden": false,
+        "imageOpacity": "1",
+        "inert": [
+          "skip-link",
+          "siteHeader",
+          "mainContent",
+          "siteFooter"
+        ],
+        "presentation": {
+          "clipPath": "none",
+          "transform": "none"
+        },
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7103",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.700",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "scrollWidth": 1440,
+        "title": "Loop"
+      },
+      "tabFirst": "cmClose",
+      "tabLast": "cmNext",
+      "closed": {
+        "bodyClass": "",
+        "bodyOverflow": "",
+        "decorations": 0,
+        "focus": "Loop",
+        "hidden": true,
+        "inertCount": 0,
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7103",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.700",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "1",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "4",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        }
+      },
+      "secondSample": {
+        "decorations": 2,
+        "image": {
+          "complete": true,
+          "naturalWidth": 1200
+        },
+        "imageOpacity": "1",
+        "presentation": {
+          "clipPath": "none",
+          "transform": "none"
+        },
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7103",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.700",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "title": "Loop"
+      }
+    },
+    {
+      "name": "Marrow",
+      "opening": {
+        "decorations": [],
+        "focus": "cmTitle",
+        "hidden": false,
+        "imageOpacity": "1",
+        "inert": [
+          "skip-link",
+          "siteHeader",
+          "mainContent",
+          "siteFooter"
+        ],
+        "presentation": {
+          "clipPath": "circle(830.634px at 268px 447.906px)",
+          "transform": "none"
+        },
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7113",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.800",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "scrollWidth": 1440,
+        "title": "Marrow"
+      },
+      "tabFirst": "cmClose",
+      "tabLast": "cmNext",
+      "closed": {
+        "bodyClass": "",
+        "bodyOverflow": "",
+        "decorations": 0,
+        "focus": "Marrow",
+        "hidden": true,
+        "inertCount": 0,
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7113",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.800",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "1",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "4",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        }
+      },
+      "secondSample": {
+        "decorations": 0,
+        "image": {
+          "complete": true,
+          "naturalWidth": 1200
+        },
+        "imageOpacity": "1",
+        "presentation": {
+          "clipPath": "circle(957.631px at 268px 447.906px)",
+          "transform": "none"
+        },
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7113",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.800",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "title": "Marrow"
+      }
+    },
+    {
+      "name": "Northline",
+      "opening": {
+        "decorations": [
+          {
+            "class": "cm-transition-clone",
+            "opacity": "0.134823",
+            "transform": "matrix(1.51911, 0, 0, 1.51911, -252.632, -96.8323)"
+          }
+        ],
+        "focus": "cmTitle",
+        "hidden": false,
+        "imageOpacity": "1",
+        "inert": [
+          "skip-link",
+          "siteHeader",
+          "mainContent",
+          "siteFooter"
+        ],
+        "presentation": {
+          "clipPath": "none",
+          "transform": "matrix(0.991911, 0, 0, 0.991911, 0, 0)"
+        },
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7123",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.800",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "scrollWidth": 1440,
+        "title": "Northline"
+      },
+      "tabFirst": "cmClose",
+      "tabLast": "cmNext",
+      "closed": {
+        "bodyClass": "",
+        "bodyOverflow": "",
+        "decorations": 0,
+        "focus": "Northline",
+        "hidden": true,
+        "inertCount": 0,
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7124",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.800",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "1",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "4",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        }
+      },
+      "secondSample": {
+        "decorations": 0,
+        "image": {
+          "complete": true,
+          "naturalWidth": 1200
+        },
+        "imageOpacity": "1",
+        "presentation": {
+          "clipPath": "none",
+          "transform": "none"
+        },
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "7123",
+          "data-motion-frame-max": "81.800",
+          "data-motion-frame-p95": "1.800",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "13",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "title": "Northline"
+      }
+    },
+    {
+      "name": "Fenwick & Ash",
+      "width": 390,
+      "opening": {
+        "clipPath": "none",
+        "decorations": 1,
+        "focus": "cmTitle",
+        "inertCount": 4,
+        "modalWidth": 390,
+        "title": "Fenwick & Ash",
+        "transform": "none",
+        "width": 390
+      },
+      "closed": {
+        "decorations": 0,
+        "focus": "Fenwick & Ash",
+        "inertCount": 0
+      }
+    },
+    {
+      "name": "Marrow",
+      "width": 390,
+      "opening": {
+        "clipPath": "circle(517.697px at 195px 479.906px)",
+        "decorations": 0,
+        "focus": "cmTitle",
+        "inertCount": 4,
+        "modalWidth": 390,
+        "title": "Marrow",
+        "transform": "none",
+        "width": 390
+      },
+      "closed": {
+        "decorations": 0,
+        "focus": "Marrow",
+        "inertCount": 0
+      }
+    },
+    {
+      "name": "Northline",
+      "width": 390,
+      "opening": {
+        "clipPath": "none",
+        "decorations": 1,
+        "focus": "cmTitle",
+        "inertCount": 4,
+        "modalWidth": 390,
+        "title": "Northline",
+        "transform": "matrix(0.998602, 0, 0, 0.998602, 0, 0)",
+        "width": 390
+      },
+      "closed": {
+        "decorations": 0,
+        "focus": "Northline",
+        "inertCount": 0
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "name": "hero focus freeze",
+      "before": {
+        "focus": "Rebranding",
+        "lines": [
+          {
+            "x1": "241.40051777301701",
+            "x2": "247.83524796686686",
+            "y1": "221.6951051310819",
+            "y2": "85.45668290966388"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "387.36625223224604",
+            "y1": "221.6951051310819",
+            "y2": "174.63111210066324"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "383.3643193318512",
+            "y1": "221.6951051310819",
+            "y2": "338.765218134768"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "232.51764287723168",
+            "y1": "221.6951051310819",
+            "y2": "413.52683338333037"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "92.13175970978536",
+            "y1": "221.6951051310819",
+            "y2": "324.7333130948004"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "95.50863187248315",
+            "y1": "221.6951051310819",
+            "y2": "161.9014766959806"
+          }
+        ],
+        "positions": [
+          {
+            "text": "Branding",
+            "transform": "matrix(1, 0, 0, 1, -35.1473, -24.55)"
+          },
+          {
+            "text": "Rebranding",
+            "transform": "matrix(1, 0, 0, 1, -44.0718, -16.6753)"
+          },
+          {
+            "text": "Consultancy",
+            "transform": "matrix(1, 0, 0, 1, -51.3099, -14.6195)"
+          },
+          {
+            "text": "Web Dev",
+            "transform": "matrix(1, 0, 0, 1, -50.0167, -20.6291)"
+          },
+          {
+            "text": "App Dev",
+            "transform": "matrix(1, 0, 0, 1, -48.5954, -28.1369)"
+          },
+          {
+            "text": "Maintenance",
+            "transform": "matrix(1, 0, 0, 1, -59.7134, -28.9382)"
+          }
+        ]
+      },
+      "after": {
+        "focus": "Rebranding",
+        "lines": [
+          {
+            "x1": "241.40051777301701",
+            "x2": "247.83524796686686",
+            "y1": "221.6951051310819",
+            "y2": "85.45668290966388"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "387.36625223224604",
+            "y1": "221.6951051310819",
+            "y2": "174.63111210066324"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "383.3643193318512",
+            "y1": "221.6951051310819",
+            "y2": "338.765218134768"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "232.51764287723168",
+            "y1": "221.6951051310819",
+            "y2": "413.52683338333037"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "92.13175970978536",
+            "y1": "221.6951051310819",
+            "y2": "324.7333130948004"
+          },
+          {
+            "x1": "241.40051777301701",
+            "x2": "95.50863187248315",
+            "y1": "221.6951051310819",
+            "y2": "161.9014766959806"
+          }
+        ],
+        "positions": [
+          {
+            "text": "Branding",
+            "transform": "matrix(1, 0, 0, 1, -35.1473, -24.55)"
+          },
+          {
+            "text": "Rebranding",
+            "transform": "matrix(1, 0, 0, 1, -44.0718, -16.6753)"
+          },
+          {
+            "text": "Consultancy",
+            "transform": "matrix(1, 0, 0, 1, -51.3099, -14.6195)"
+          },
+          {
+            "text": "Web Dev",
+            "transform": "matrix(1, 0, 0, 1, -50.0167, -20.6291)"
+          },
+          {
+            "text": "App Dev",
+            "transform": "matrix(1, 0, 0, 1, -48.5954, -28.1369)"
+          },
+          {
+            "text": "Maintenance",
+            "transform": "matrix(1, 0, 0, 1, -59.7134, -28.9382)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pause",
+      "state": {
+        "bodyClass": "motion-paused",
+        "buttons": [
+          {
+            "disabled": false,
+            "pressed": "true"
+          },
+          {
+            "disabled": false,
+            "pressed": "true"
+          }
+        ],
+        "loops": [
+          {
+            "kind": "hero",
+            "running": false
+          },
+          {
+            "kind": "marquee",
+            "running": false
+          },
+          {
+            "kind": "service",
+            "running": false
+          },
+          {
+            "kind": "service",
+            "running": false
+          },
+          {
+            "kind": "service",
+            "running": false
+          },
+          {
+            "kind": "service",
+            "running": false
+          },
+          {
+            "kind": "service",
+            "running": false
+          },
+          {
+            "kind": "service",
+            "running": false
+          },
+          {
+            "kind": "work",
+            "running": false
+          },
+          {
+            "kind": "work",
+            "running": false
+          },
+          {
+            "kind": "work",
+            "running": false
+          },
+          {
+            "kind": "work",
+            "running": false
+          },
+          {
+            "kind": "contact",
+            "running": false
+          },
+          {
+            "kind": "marquee",
+            "running": false
+          }
+        ],
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "4122",
+          "data-motion-frame-max": "16.100",
+          "data-motion-frame-p95": "1.200",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "5",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "true",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        }
+      }
+    },
+    {
+      "name": "resume",
+      "state": {
+        "bodyClass": "",
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "4122",
+          "data-motion-frame-max": "16.100",
+          "data-motion-frame-p95": "1.200",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "5",
+          "data-motion-raf": "1",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "1",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        }
+      }
+    },
+    {
+      "name": "Next sequence opening",
+      "state": {
+        "decorations": 1,
+        "focus": "cmTitle",
+        "opacity": "0",
+        "title": "Fenwick & Ash"
+      }
+    },
+    {
+      "name": "Fenwick natural completion",
+      "state": {
+        "clipPath": "none",
+        "decorations": 0,
+        "opacity": "1",
+        "presentationTransform": "none",
+        "title": "Fenwick & Ash"
+      }
+    },
+    {
+      "name": "Next 1",
+      "state": {
+        "decorations": 2,
+        "focus": "cmTitle",
+        "inertCount": 4,
+        "title": "Loop"
+      }
+    },
+    {
+      "name": "Next 2",
+      "state": {
+        "decorations": 0,
+        "focus": "cmTitle",
+        "inertCount": 4,
+        "title": "Marrow"
+      }
+    },
+    {
+      "name": "Next 3",
+      "state": {
+        "decorations": 1,
+        "focus": "cmTitle",
+        "inertCount": 4,
+        "title": "Northline"
+      }
+    },
+    {
+      "name": "Escape after rapid Next",
+      "state": {
+        "decorations": 0,
+        "focus": "Fenwick & Ash",
+        "hidden": true,
+        "imageOpacity": "1",
+        "inert": 0
+      }
+    },
+    {
+      "name": "mobile Loop",
+      "state": {
+        "close": 45.09375,
+        "focus": "cmTitle",
+        "modalWidth": 390,
+        "scroller": {
+          "left": 40,
+          "scrollWidth": 1680,
+          "width": 350
+        },
+        "title": "Loop",
+        "width": 390
+      }
+    },
+    {
+      "name": "horizontal chapters keyboard Right",
+      "state": {
+        "focus": "cm-hscroll",
+        "left": 261
+      }
+    },
+    {
+      "name": "horizontal chapters keyboard End",
+      "state": {
+        "left": 1330,
+        "max": 1330
+      }
+    },
+    {
+      "name": "320 dialog reflow",
+      "state": {
+        "close": 45.09375,
+        "focus": "cmTitle",
+        "metaColumns": "280px",
+        "modalWidth": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "mobile menu open",
+      "state": {
+        "expanded": "true",
+        "focus": "Services",
+        "navDisplay": "flex"
+      }
+    },
+    {
+      "name": "mobile menu Escape",
+      "state": {
+        "expanded": "false",
+        "focus": "burgerBtn"
+      }
+    },
+    {
+      "name": "contact offscreen scheduler",
+      "state": {
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "8481",
+          "data-motion-frame-max": "1.900",
+          "data-motion-frame-p95": "1.400",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "16",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "runningLoops": [
+          "service",
+          "service"
+        ],
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "service selection and redraw",
+      "state": {
+        "note": "Selected: Branding, Web Dev.",
+        "points": "160,112 160,36 160,188 160,112",
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "8481",
+          "data-motion-frame-max": "1.900",
+          "data-motion-frame-p95": "1.400",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "16",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "selected": [
+          "Branding",
+          "Web Dev"
+        ],
+        "selectedLines": [
+          {
+            "dash": "0px",
+            "index": "0"
+          },
+          {
+            "dash": "0px",
+            "index": "3"
+          }
+        ]
+      }
+    },
+    {
+      "name": "empty form validation",
+      "state": {
+        "errors": [
+          "Enter your name.",
+          "Enter your email address.",
+          "Describe your project goal in a few sentences."
+        ],
+        "focus": "name",
+        "invalid": [
+          "name",
+          "email",
+          "message"
+        ],
+        "status": "Please check the highlighted fields before opening a draft."
+      }
+    },
+    {
+      "name": "invalid email validation",
+      "state": {
+        "errors": [
+          "Enter an email address such as you@company.com."
+        ],
+        "focus": "email",
+        "invalid": [
+          "email"
+        ],
+        "status": "Please check the highlighted fields before opening a draft."
+      }
+    },
+    {
+      "name": "inline error recovery",
+      "state": {
+        "invalid": [],
+        "selected": [
+          "Branding",
+          "Web Dev"
+        ],
+        "status": ""
+      }
+    },
+    {
+      "name": "clear service selection",
+      "state": {
+        "note": "No services selected. We can discuss the right starting point.",
+        "points": "",
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "8481",
+          "data-motion-frame-max": "1.900",
+          "data-motion-frame-p95": "1.400",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "16",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "selected": 0
+      }
+    },
+    {
+      "name": "contact resting policy",
+      "state": {
+        "loops": [
+          {
+            "bottom": -9508.109375,
+            "kind": "hero",
+            "running": false,
+            "top": -9828.9375
+          },
+          {
+            "bottom": -9303.21875,
+            "kind": "marquee",
+            "running": false,
+            "top": -9358.6640625
+          },
+          {
+            "bottom": -8699.875,
+            "kind": "service",
+            "running": false,
+            "top": -8755.875
+          },
+          {
+            "bottom": -8282.6015625,
+            "kind": "service",
+            "running": false,
+            "top": -8338.6015625
+          },
+          {
+            "bottom": -7865.328125,
+            "kind": "service",
+            "running": false,
+            "top": -7921.328125
+          },
+          {
+            "bottom": -7474.453125,
+            "kind": "service",
+            "running": false,
+            "top": -7530.453125
+          },
+          {
+            "bottom": -7083.578125,
+            "kind": "service",
+            "running": false,
+            "top": -7139.578125
+          },
+          {
+            "bottom": -6692.703125,
+            "kind": "service",
+            "running": false,
+            "top": -6748.703125
+          },
+          {
+            "bottom": -5909.75,
+            "kind": "work",
+            "running": false,
+            "top": -6172.25
+          },
+          {
+            "bottom": -5391.515625,
+            "kind": "work",
+            "running": false,
+            "top": -5654.015625
+          },
+          {
+            "bottom": -4873.28125,
+            "kind": "work",
+            "running": false,
+            "top": -5135.78125
+          },
+          {
+            "bottom": -4355.046875,
+            "kind": "work",
+            "running": false,
+            "top": -4617.546875
+          },
+          {
+            "bottom": 1320.8125,
+            "kind": "contact",
+            "running": false,
+            "top": 1080.8125
+          },
+          {
+            "bottom": 1498.4453125,
+            "kind": "marquee",
+            "running": false,
+            "top": 1444
+          }
+        ],
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "8481",
+          "data-motion-frame-max": "1.900",
+          "data-motion-frame-p95": "1.400",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "16",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        },
+        "shape": "shape"
+      }
+    },
+    {
+      "name": "contact pause",
+      "state": {
+        "pressed": [
+          "true",
+          "true"
+        ],
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "8481",
+          "data-motion-frame-max": "1.900",
+          "data-motion-frame-p95": "1.400",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "16",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "true",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        }
+      }
+    },
+    {
+      "name": "contact resume with no canvases visible",
+      "state": {
+        "loops": [
+          "contact",
+          "marquee"
+        ],
+        "profile": {
+          "aria-hidden": "true",
+          "data-motion-frame-count": "8481",
+          "data-motion-frame-max": "1.900",
+          "data-motion-frame-p95": "1.400",
+          "data-motion-long-task-max": "313.000",
+          "data-motion-long-tasks": "16",
+          "data-motion-raf": "0",
+          "data-motion-reduced": "false",
+          "data-motion-tasks": "0",
+          "data-motion-visible": "true",
+          "hidden": "",
+          "id": "agencyRuntime"
+        }
+      }
+    }
+  ],
+  "initial": {
+    "height": 1000,
+    "hero": [
+      {
+        "text": "Branding",
+        "transform": "matrix(1, 0, 0, 1, -35.0985, -24.7765)"
+      },
+      {
+        "text": "Rebranding",
+        "transform": "matrix(1, 0, 0, 1, -47.787, -29.6664)"
+      },
+      {
+        "text": "Consultancy",
+        "transform": "matrix(1, 0, 0, 1, -60.3652, -26.1784)"
+      },
+      {
+        "text": "Web Dev",
+        "transform": "matrix(1, 0, 0, 1, -50.5149, -18.1242)"
+      },
+      {
+        "text": "App Dev",
+        "transform": "matrix(1, 0, 0, 1, -43.2445, -14.3055)"
+      },
+      {
+        "text": "Maintenance",
+        "transform": "matrix(1, 0, 0, 1, -48.9056, -18.8954)"
+      }
+    ],
+    "hidden": false,
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "1122",
+      "data-motion-frame-max": "2.100",
+      "data-motion-frame-p95": "0.400",
+      "data-motion-long-task-max": "0.000",
+      "data-motion-long-tasks": "0",
+      "data-motion-raf": "1",
+      "data-motion-reduced": "false",
+      "data-motion-tasks": "1",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    },
+    "width": 1440
+  },
+  "logs": [],
+  "longTaskSupport": {
+    "status": "observed working",
+    "evidence": "Observer counters reached 16 long tasks / 313 ms maximum during this run; no support flag was exposed in the page.",
+    "attribution": "Includes browser inspection and interaction; not attributed specifically to canvas callbacks."
+  },
+  "profileInterpretation": "Frame p95/max measure synchronous callback work, not full render/paint duration or frame rate; rolling sample retains up to 600 callbacks.",
+  "limitations": [
+    "Read-only evaluate has no mutable injection; no overlay/live-server started.",
+    "Actual OS reduced-motion setting, 200% browser zoom, screen readers and physical/synthesized touch were not exposed or exercised.",
+    "Natural completion explicitly checked for Fenwick; other cases were checked while running and upon Escape/Next cancellation."
+  ]
+}

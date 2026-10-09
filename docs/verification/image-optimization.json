@@ -1,0 +1,491 @@
+{
+  "originals": {
+    "fenwick-card.jpg": {
+      "bytes": 134741,
+      "sha256": "b880fb57cbf96b0d3286f203e719d51a55a07c8d3ca35444551fc1425922c974"
+    },
+    "fenwick-chair.jpg": {
+      "bytes": 117580,
+      "sha256": "098da1afae020c1c552d5386433b15a5d84aa350dafbcb30e89e843df6b317f5"
+    },
+    "fenwick-hero.jpg": {
+      "bytes": 205321,
+      "sha256": "67fb2bb5bd9dcacaf9fc8e1daefea587be2d0197823da823d7ae2e6fde9e8373"
+    },
+    "fenwick-room.jpg": {
+      "bytes": 195318,
+      "sha256": "e614c2a0d5d5156df5825f50c9bd86d9935893a5a696d4a78331328824b3072d"
+    },
+    "loop-card.jpg": {
+      "bytes": 184080,
+      "sha256": "2e7ac1db88b6836398fc173a618607646da62f65174a24ea318ecece390f95db"
+    },
+    "loop-hero.jpg": {
+      "bytes": 276368,
+      "sha256": "933bd252712f3bf1c24e96d0ad4e8b63d9403bf80cc27d77a460f6c32591298a"
+    },
+    "loop-onboarding.jpg": {
+      "bytes": 75828,
+      "sha256": "a6caf3701952b287c346504247facef924c151a5825e4020eefde302ebb77c7f"
+    },
+    "loop-phone.jpg": {
+      "bytes": 29,
+      "sha256": "4ae437f84d93257eb0632b48b6e3e85bc0d36c9e3fe939bd04e5d3e0d2f81585"
+    },
+    "loop-review.jpg": {
+      "bytes": 195009,
+      "sha256": "70055068b52baf3ef6cb37f13f7ffbc75638d10b1a65ffbaf2d20aaa195490bb"
+    },
+    "loop-widgets.jpg": {
+      "bytes": 117316,
+      "sha256": "6cb0ac2b27aff8b45b13c13df73a3c67466ee8440dbe6c44ab72710361233618"
+    },
+    "marrow-card.jpg": {
+      "bytes": 482012,
+      "sha256": "38d5f32a4ba91c5b4aac9bdaeae9b240a800ec090ec81c911a840bc520ea9846"
+    },
+    "marrow-food.jpg": {
+      "bytes": 366979,
+      "sha256": "9474097d98e0171eed33403f663c7686b3042acdf14a60e0cbb168b0871cf68f"
+    },
+    "marrow-hero.jpg": {
+      "bytes": 713211,
+      "sha256": "d230ae7843d8817de87e601375b8064f79fb47ece785826b153cccdeb5685700"
+    },
+    "marrow-pack.jpg": {
+      "bytes": 141817,
+      "sha256": "117e94978effe73ec6d8b5b8bc6a25115107f2b9f07e316cb262a8806e99d261"
+    },
+    "marrow-salad.jpg": {
+      "bytes": 365044,
+      "sha256": "cea3c781186c6c9d5b8e4a78d74f89390e06e6dd3c92d3c412a073f9159ec2ff"
+    },
+    "northline-card.jpg": {
+      "bytes": 521878,
+      "sha256": "6aa17eb32fc5af7544d5f13049a81570f583dc95ba7b3f6843c271a806e35bc7"
+    },
+    "northline-city.jpg": {
+      "bytes": 368755,
+      "sha256": "9bcf8e8afe2cd95b4cd10acea54ff39c41712211aaffb766227036aeb074b76d"
+    },
+    "northline-field.jpg": {
+      "bytes": 187657,
+      "sha256": "f43b63da336088f90025fa1f67e61601ccdea09f88de075c8da6d1baa8966862"
+    },
+    "northline-hero.jpg": {
+      "bytes": 761034,
+      "sha256": "fb1a7eaaa0929cf299ee8c49d1faa29045e60b7b171b9bb6013d83078028b143"
+    }
+  },
+  "images": [
+    {
+      "source": "fenwick-card.jpg",
+      "width": 1600,
+      "height": 1067,
+      "jpegBytes": 134741,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "fenwick-card-480.webp",
+          "bytes": 7010
+        },
+        {
+          "width": 960,
+          "filename": "fenwick-card-960.webp",
+          "bytes": 19898
+        },
+        {
+          "width": 1600,
+          "filename": "fenwick-card.webp",
+          "bytes": 49066
+        }
+      ]
+    },
+    {
+      "source": "fenwick-chair.jpg",
+      "width": 1400,
+      "height": 2099,
+      "jpegBytes": 117580,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "fenwick-chair-480.webp",
+          "bytes": 6070
+        },
+        {
+          "width": 960,
+          "filename": "fenwick-chair-960.webp",
+          "bytes": 15672
+        },
+        {
+          "width": 1400,
+          "filename": "fenwick-chair.webp",
+          "bytes": 31122
+        }
+      ]
+    },
+    {
+      "source": "fenwick-hero.jpg",
+      "width": 2000,
+      "height": 1333,
+      "jpegBytes": 205321,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "fenwick-hero-480.webp",
+          "bytes": 6880
+        },
+        {
+          "width": 960,
+          "filename": "fenwick-hero-960.webp",
+          "bytes": 19946
+        },
+        {
+          "width": 2000,
+          "filename": "fenwick-hero.webp",
+          "bytes": 71092
+        }
+      ]
+    },
+    {
+      "source": "fenwick-room.jpg",
+      "width": 1400,
+      "height": 1235,
+      "jpegBytes": 195318,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "fenwick-room-480.webp",
+          "bytes": 12112
+        },
+        {
+          "width": 960,
+          "filename": "fenwick-room-960.webp",
+          "bytes": 33852
+        },
+        {
+          "width": 1400,
+          "filename": "fenwick-room.webp",
+          "bytes": 78990
+        }
+      ]
+    },
+    {
+      "source": "loop-card.jpg",
+      "width": 1600,
+      "height": 1067,
+      "jpegBytes": 184080,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "loop-card-480.webp",
+          "bytes": 16230
+        },
+        {
+          "width": 960,
+          "filename": "loop-card-960.webp",
+          "bytes": 36706
+        },
+        {
+          "width": 1600,
+          "filename": "loop-card.webp",
+          "bytes": 72382
+        }
+      ]
+    },
+    {
+      "source": "loop-hero.jpg",
+      "width": 2000,
+      "height": 1333,
+      "jpegBytes": 276368,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "loop-hero-480.webp",
+          "bytes": 15808
+        },
+        {
+          "width": 960,
+          "filename": "loop-hero-960.webp",
+          "bytes": 36528
+        },
+        {
+          "width": 2000,
+          "filename": "loop-hero.webp",
+          "bytes": 99698
+        }
+      ]
+    },
+    {
+      "source": "loop-onboarding.jpg",
+      "width": 900,
+      "height": 600,
+      "jpegBytes": 75828,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "loop-onboarding-480.webp",
+          "bytes": 15142
+        },
+        {
+          "width": 900,
+          "filename": "loop-onboarding.webp",
+          "bytes": 33956
+        }
+      ]
+    },
+    {
+      "source": "loop-review.jpg",
+      "width": 900,
+      "height": 1125,
+      "jpegBytes": 195009,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "loop-review-480.webp",
+          "bytes": 60970
+        },
+        {
+          "width": 900,
+          "filename": "loop-review.webp",
+          "bytes": 185236
+        }
+      ]
+    },
+    {
+      "source": "loop-widgets.jpg",
+      "width": 900,
+      "height": 1125,
+      "jpegBytes": 117316,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "loop-widgets-480.webp",
+          "bytes": 35158
+        },
+        {
+          "width": 900,
+          "filename": "loop-widgets.webp",
+          "bytes": 92228
+        }
+      ]
+    },
+    {
+      "source": "marrow-card.jpg",
+      "width": 1600,
+      "height": 1067,
+      "jpegBytes": 482012,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "marrow-card-480.webp",
+          "bytes": 43136
+        },
+        {
+          "width": 960,
+          "filename": "marrow-card-960.webp",
+          "bytes": 140356
+        },
+        {
+          "width": 1600,
+          "filename": "marrow-card.webp",
+          "bytes": 367710
+        }
+      ]
+    },
+    {
+      "source": "marrow-food.jpg",
+      "width": 1400,
+      "height": 933,
+      "jpegBytes": 366979,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "marrow-food-480.webp",
+          "bytes": 42738
+        },
+        {
+          "width": 960,
+          "filename": "marrow-food-960.webp",
+          "bytes": 133526
+        },
+        {
+          "width": 1400,
+          "filename": "marrow-food.webp",
+          "bytes": 264296
+        }
+      ]
+    },
+    {
+      "source": "marrow-hero.jpg",
+      "width": 2000,
+      "height": 1333,
+      "jpegBytes": 713211,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "marrow-hero-480.webp",
+          "bytes": 43484
+        },
+        {
+          "width": 960,
+          "filename": "marrow-hero-960.webp",
+          "bytes": 145288
+        },
+        {
+          "width": 2000,
+          "filename": "marrow-hero.webp",
+          "bytes": 521300
+        }
+      ]
+    },
+    {
+      "source": "marrow-pack.jpg",
+      "width": 1400,
+      "height": 875,
+      "jpegBytes": 141817,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "marrow-pack-480.webp",
+          "bytes": 24758
+        },
+        {
+          "width": 960,
+          "filename": "marrow-pack-960.webp",
+          "bytes": 59218
+        },
+        {
+          "width": 1400,
+          "filename": "marrow-pack.webp",
+          "bytes": 104080
+        }
+      ]
+    },
+    {
+      "source": "marrow-salad.jpg",
+      "width": 1400,
+      "height": 1400,
+      "jpegBytes": 365044,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "marrow-salad-480.webp",
+          "bytes": 27194
+        },
+        {
+          "width": 960,
+          "filename": "marrow-salad-960.webp",
+          "bytes": 78552
+        },
+        {
+          "width": 1400,
+          "filename": "marrow-salad.webp",
+          "bytes": 215928
+        }
+      ]
+    },
+    {
+      "source": "northline-card.jpg",
+      "width": 1600,
+      "height": 1067,
+      "jpegBytes": 521878,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "northline-card-480.webp",
+          "bytes": 52788
+        },
+        {
+          "width": 960,
+          "filename": "northline-card-960.webp",
+          "bytes": 159246
+        },
+        {
+          "width": 1600,
+          "filename": "northline-card.webp",
+          "bytes": 377212
+        }
+      ]
+    },
+    {
+      "source": "northline-city.jpg",
+      "width": 1400,
+      "height": 861,
+      "jpegBytes": 368755,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "northline-city-480.webp",
+          "bytes": 37132
+        },
+        {
+          "width": 960,
+          "filename": "northline-city-960.webp",
+          "bytes": 128560
+        },
+        {
+          "width": 1400,
+          "filename": "northline-city.webp",
+          "bytes": 276840
+        }
+      ]
+    },
+    {
+      "source": "northline-field.jpg",
+      "width": 1400,
+      "height": 788,
+      "jpegBytes": 187657,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "northline-field-480.webp",
+          "bytes": 17122
+        },
+        {
+          "width": 960,
+          "filename": "northline-field-960.webp",
+          "bytes": 54994
+        },
+        {
+          "width": 1400,
+          "filename": "northline-field.webp",
+          "bytes": 116056
+        }
+      ]
+    },
+    {
+      "source": "northline-hero.jpg",
+      "width": 2000,
+      "height": 1333,
+      "jpegBytes": 761034,
+      "variants": [
+        {
+          "width": 480,
+          "filename": "northline-hero-480.webp",
+          "bytes": 52820
+        },
+        {
+          "width": 960,
+          "filename": "northline-hero-960.webp",
+          "bytes": 160476
+        },
+        {
+          "width": 2000,
+          "filename": "northline-hero.webp",
+          "bytes": 531388
+        }
+      ]
+    }
+  ],
+  "fallback": {
+    "source": "loop-phone.jpg",
+    "uses": "loop-onboarding.jpg",
+    "dimensions": "900x600",
+    "reason": "Original contains an HTML 404 response."
+  },
+  "quality": {
+    "default": 82,
+    "loop-review.webp": 80
+  }
+}

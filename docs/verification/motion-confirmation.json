@@ -1,0 +1,634 @@
+{
+  "url": "http://127.0.0.1:8768/?motionProfile=1",
+  "recordedAt": "2026-10-08T08:00:46.905Z",
+  "environment": "Codex in-app browser on local macOS; CSS viewport emulation; instrumented synchronous callbacks, not render/paint or visitor performance",
+  "confirmationRound": 1,
+  "start": {
+    "time": "2026-10-08T08:01:03.492Z",
+    "canvasesReady": 5,
+    "emailTargets": [
+      {
+        "height": 44,
+        "text": "hello@cr8.media"
+      },
+      {
+        "height": 44,
+        "text": "\n          \n          \n        "
+      },
+      {
+        "height": 44,
+        "text": "hello@cr8.media"
+      }
+    ],
+    "height": 1000,
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "1860",
+      "data-motion-frame-max": "1.100",
+      "data-motion-frame-p95": "0.400",
+      "data-motion-long-task-max": "0.000",
+      "data-motion-long-task-supported": "true",
+      "data-motion-long-tasks": "0",
+      "data-motion-raf": "1",
+      "data-motion-reduced": "false",
+      "data-motion-tasks": "1",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    },
+    "scrollWidth": 1440,
+    "selectedNoteInFieldset": true,
+    "status": [
+      "Animations on.",
+      "Animations on."
+    ],
+    "width": 1440
+  },
+  "heroSequence": [
+    {
+      "frame": 1,
+      "capturedAt": 1791446486363,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-01.png",
+      "completedAt": 1791446486455
+    },
+    {
+      "frame": 2,
+      "capturedAt": 1791446486455,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-02.png",
+      "completedAt": 1791446486503
+    },
+    {
+      "frame": 3,
+      "capturedAt": 1791446486503,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-03.png",
+      "completedAt": 1791446486549
+    },
+    {
+      "frame": 4,
+      "capturedAt": 1791446486549,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-04.png",
+      "completedAt": 1791446486647
+    },
+    {
+      "frame": 5,
+      "capturedAt": 1791446486647,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-05.png",
+      "completedAt": 1791446486702
+    },
+    {
+      "frame": 6,
+      "capturedAt": 1791446486702,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-06.png",
+      "completedAt": 1791446486748
+    },
+    {
+      "frame": 7,
+      "capturedAt": 1791446486748,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-07.png",
+      "completedAt": 1791446486816
+    },
+    {
+      "frame": 8,
+      "capturedAt": 1791446486816,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-08.png",
+      "completedAt": 1791446486849
+    },
+    {
+      "frame": 9,
+      "capturedAt": 1791446486849,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-09.png",
+      "completedAt": 1791446486881
+    },
+    {
+      "frame": 10,
+      "capturedAt": 1791446486881,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-10.png",
+      "completedAt": 1791446486948
+    },
+    {
+      "frame": 11,
+      "capturedAt": 1791446486948,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-11.png",
+      "completedAt": 1791446487010
+    },
+    {
+      "frame": 12,
+      "capturedAt": 1791446487010,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-12.png",
+      "completedAt": 1791446487051
+    },
+    {
+      "frame": 13,
+      "capturedAt": 1791446487051,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-13.png",
+      "completedAt": 1791446487162
+    },
+    {
+      "frame": 14,
+      "capturedAt": 1791446487162,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-14.png",
+      "completedAt": 1791446487261
+    },
+    {
+      "frame": 15,
+      "capturedAt": 1791446487261,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-15.png",
+      "completedAt": 1791446487284
+    },
+    {
+      "frame": 16,
+      "capturedAt": 1791446487284,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-16.png",
+      "completedAt": 1791446487360
+    },
+    {
+      "frame": 17,
+      "capturedAt": 1791446487360,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-17.png",
+      "completedAt": 1791446487415
+    },
+    {
+      "frame": 18,
+      "capturedAt": 1791446487415,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-18.png",
+      "completedAt": 1791446487574
+    },
+    {
+      "frame": 19,
+      "capturedAt": 1791446487574,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-19.png",
+      "completedAt": 1791446487629
+    },
+    {
+      "frame": 20,
+      "capturedAt": 1791446487629,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-hero-sequence-20.png",
+      "completedAt": 1791446487670
+    }
+  ],
+  "steadyHero": {
+    "time": "2026-10-08T08:01:27.670Z",
+    "nodes": [
+      {
+        "text": "Branding",
+        "transform": "matrix(1, 0, 0, 1, -47.6222, -21.8558)"
+      },
+      {
+        "text": "Rebranding",
+        "transform": "matrix(1, 0, 0, 1, -57.2913, -15.0675)"
+      },
+      {
+        "text": "Consultancy",
+        "transform": "matrix(1, 0, 0, 1, -50.6776, -15.8552)"
+      },
+      {
+        "text": "Web Dev",
+        "transform": "matrix(1, 0, 0, 1, -38.8782, -23.3579)"
+      },
+      {
+        "text": "App Dev",
+        "transform": "matrix(1, 0, 0, 1, -34.2973, -29.3767)"
+      },
+      {
+        "text": "Maintenance",
+        "transform": "matrix(1, 0, 0, 1, -58.139, -27.3342)"
+      }
+    ],
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "3300",
+      "data-motion-frame-max": "1.200",
+      "data-motion-frame-p95": "0.300",
+      "data-motion-long-task-max": "0.000",
+      "data-motion-long-task-supported": "true",
+      "data-motion-long-tasks": "0",
+      "data-motion-raf": "1",
+      "data-motion-reduced": "false",
+      "data-motion-tasks": "1",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    }
+  },
+  "pause": {
+    "pressed": [
+      "true",
+      "true"
+    ],
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "4672",
+      "data-motion-frame-max": "1.900",
+      "data-motion-frame-p95": "0.300",
+      "data-motion-long-task-max": "0.000",
+      "data-motion-long-task-supported": "true",
+      "data-motion-long-tasks": "0",
+      "data-motion-raf": "0",
+      "data-motion-reduced": "true",
+      "data-motion-tasks": "0",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    },
+    "scrollBehavior": "auto",
+    "status": [
+      "Paused · activate to resume.",
+      "Paused · activate to resume."
+    ]
+  },
+  "resume": {
+    "pressed": [
+      "false",
+      "false"
+    ],
+    "scrollBehavior": "smooth",
+    "status": [
+      "Animations on.",
+      "Animations on."
+    ]
+  },
+  "caseEntry": {
+    "backgroundInert": 4,
+    "decorations": 0,
+    "focused": "cmTitle",
+    "open": true,
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "4688",
+      "data-motion-frame-max": "6.300",
+      "data-motion-frame-p95": "0.300",
+      "data-motion-long-task-max": "0.000",
+      "data-motion-long-task-supported": "true",
+      "data-motion-long-tasks": "0",
+      "data-motion-raf": "0",
+      "data-motion-reduced": "false",
+      "data-motion-tasks": "0",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    },
+    "title": "Fenwick & Ash"
+  },
+  "loopSequence": [
+    {
+      "frame": 1,
+      "capturedAt": 1791446564545,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-01.png",
+      "completedAt": 1791446565001
+    },
+    {
+      "frame": 2,
+      "capturedAt": 1791446565001,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-02.png",
+      "completedAt": 1791446565133
+    },
+    {
+      "frame": 3,
+      "capturedAt": 1791446565133,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-03.png",
+      "completedAt": 1791446565208
+    },
+    {
+      "frame": 4,
+      "capturedAt": 1791446565208,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-04.png",
+      "completedAt": 1791446565306
+    },
+    {
+      "frame": 5,
+      "capturedAt": 1791446565306,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-05.png",
+      "completedAt": 1791446565402
+    },
+    {
+      "frame": 6,
+      "capturedAt": 1791446565402,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-06.png",
+      "completedAt": 1791446565503
+    },
+    {
+      "frame": 7,
+      "capturedAt": 1791446565503,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-07.png",
+      "completedAt": 1791446565603
+    },
+    {
+      "frame": 8,
+      "capturedAt": 1791446565603,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-08.png",
+      "completedAt": 1791446565703
+    },
+    {
+      "frame": 9,
+      "capturedAt": 1791446565703,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-09.png",
+      "completedAt": 1791446565803
+    },
+    {
+      "frame": 10,
+      "capturedAt": 1791446565803,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-10.png",
+      "completedAt": 1791446565905
+    },
+    {
+      "frame": 11,
+      "capturedAt": 1791446565905,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-11.png",
+      "completedAt": 1791446566004
+    },
+    {
+      "frame": 12,
+      "capturedAt": 1791446566004,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-12.png",
+      "completedAt": 1791446566107
+    },
+    {
+      "frame": 13,
+      "capturedAt": 1791446566107,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-13.png",
+      "completedAt": 1791446566206
+    },
+    {
+      "frame": 14,
+      "capturedAt": 1791446566206,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-14.png",
+      "completedAt": 1791446566311
+    },
+    {
+      "frame": 15,
+      "capturedAt": 1791446566311,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-15.png",
+      "completedAt": 1791446566395
+    },
+    {
+      "frame": 16,
+      "capturedAt": 1791446566395,
+      "path": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/motion-loop-sequence-16.png",
+      "completedAt": 1791446566509
+    }
+  ],
+  "loopSettled": {
+    "decorations": 0,
+    "focus": "cmTitle",
+    "opacity": "1",
+    "open": true,
+    "presentation": "none",
+    "title": "Loop"
+  },
+  "interruptedNext": {
+    "closed": true,
+    "decorations": 0,
+    "focus": "Explore Fenwick & Ash example",
+    "inert": 0
+  },
+  "resize": {
+    "decorations": 0,
+    "imageOpacity": "1",
+    "open": true,
+    "scrollWidth": 390,
+    "title": "Northline"
+  },
+  "containment": {
+    "focused": "Next example: Fenwick & Ash",
+    "inside": true
+  },
+  "restored": {
+    "closed": true,
+    "decorations": 0,
+    "focus": "Explore Northline example",
+    "inert": 0
+  },
+  "widths": [
+    {
+      "bodyScrollWidth": 320,
+      "emailHeight": 44,
+      "notes": 1,
+      "scrollWidth": 320,
+      "status": [
+        {
+          "left": 187.421875,
+          "right": 278.5234375,
+          "text": "Animations on."
+        },
+        {
+          "left": 161.9453125,
+          "right": 253.046875,
+          "text": "Animations on."
+        }
+      ],
+      "width": 320
+    },
+    {
+      "bodyScrollWidth": 390,
+      "emailHeight": 44,
+      "notes": 1,
+      "scrollWidth": 390,
+      "status": [
+        {
+          "left": 222.421875,
+          "right": 313.5234375,
+          "text": "Animations on."
+        },
+        {
+          "left": 165.9453125,
+          "right": 257.046875,
+          "text": "Animations on."
+        }
+      ],
+      "width": 390
+    },
+    {
+      "bodyScrollWidth": 768,
+      "emailHeight": 44,
+      "notes": 1,
+      "scrollWidth": 768,
+      "status": [
+        {
+          "left": 411.421875,
+          "right": 502.5234375,
+          "text": "Animations on."
+        },
+        {
+          "left": 177.9453125,
+          "right": 269.046875,
+          "text": "Animations on."
+        }
+      ],
+      "width": 768
+    },
+    {
+      "bodyScrollWidth": 1024,
+      "emailHeight": 44,
+      "notes": 1,
+      "scrollWidth": 1024,
+      "status": [
+        {
+          "left": 825.6171875,
+          "right": 916.71875,
+          "text": "Animations on."
+        },
+        {
+          "left": 770.140625,
+          "right": 861.2421875,
+          "text": "Animations on."
+        }
+      ],
+      "width": 1024
+    },
+    {
+      "bodyScrollWidth": 1440,
+      "emailHeight": 44,
+      "notes": 1,
+      "scrollWidth": 1440,
+      "status": [
+        {
+          "left": 1084.21875,
+          "right": 1175.3203125,
+          "text": "Animations on."
+        },
+        {
+          "left": 1007.4765625,
+          "right": 1098.578125,
+          "text": "Animations on."
+        }
+      ],
+      "width": 1440
+    }
+  ],
+  "selection": {
+    "note": "Selected: Branding, Web Dev.",
+    "noteInFieldset": true,
+    "scrollWidth": 390,
+    "selected": [
+      "Branding",
+      "Web Dev"
+    ],
+    "selectedEdges": 2
+  },
+  "deviceReduced": {
+    "loops": 0,
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "1975",
+      "data-motion-frame-max": "1.000",
+      "data-motion-frame-p95": "0.400",
+      "data-motion-long-task-max": "0.000",
+      "data-motion-long-task-supported": "true",
+      "data-motion-long-tasks": "0",
+      "data-motion-raf": "0",
+      "data-motion-reduced": "true",
+      "data-motion-tasks": "0",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    },
+    "scrollBehavior": "auto",
+    "scrollWidth": 320,
+    "status": [
+      "Reduced by your device preference.",
+      "Reduced by your device preference."
+    ],
+    "width": 320
+  },
+  "devicePrecedence": {
+    "pressed": [
+      "false",
+      "false"
+    ],
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "1975",
+      "data-motion-frame-max": "1.000",
+      "data-motion-frame-p95": "0.400",
+      "data-motion-long-task-max": "0.000",
+      "data-motion-long-task-supported": "true",
+      "data-motion-long-tasks": "0",
+      "data-motion-raf": "0",
+      "data-motion-reduced": "true",
+      "data-motion-tasks": "0",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    },
+    "status": [
+      "Reduced by your device preference.",
+      "Reduced by your device preference."
+    ]
+  },
+  "deviceRestored": {
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "1980",
+      "data-motion-frame-max": "1.000",
+      "data-motion-frame-p95": "0.400",
+      "data-motion-long-task-max": "0.000",
+      "data-motion-long-task-supported": "true",
+      "data-motion-long-tasks": "0",
+      "data-motion-raf": "1",
+      "data-motion-reduced": "false",
+      "data-motion-tasks": "1",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    },
+    "status": [
+      "Animations on.",
+      "Animations on."
+    ]
+  },
+  "workProfileStart": {
+    "time": "2026-10-08T08:07:46.737Z",
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "6859",
+      "data-motion-frame-max": "1.100",
+      "data-motion-frame-p95": "0.400",
+      "data-motion-long-task-max": "140.000",
+      "data-motion-long-task-supported": "true",
+      "data-motion-long-tasks": "1",
+      "data-motion-raf": "0",
+      "data-motion-reduced": "false",
+      "data-motion-tasks": "0",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    },
+    "visibleWork": []
+  },
+  "workProfileEnd": {
+    "time": "2026-10-08T08:09:37.629Z",
+    "profile": {
+      "aria-hidden": "true",
+      "data-motion-frame-count": "13440",
+      "data-motion-frame-max": "0.800",
+      "data-motion-frame-p95": "0.500",
+      "data-motion-long-task-max": "140.000",
+      "data-motion-long-task-supported": "true",
+      "data-motion-long-tasks": "1",
+      "data-motion-raf": "1",
+      "data-motion-reduced": "false",
+      "data-motion-tasks": "2",
+      "data-motion-visible": "true",
+      "hidden": "",
+      "id": "agencyRuntime"
+    },
+    "scrollWidth": 1440,
+    "visibleWork": [
+      {
+        "bottom": 854.03125,
+        "top": 440.03125
+      },
+      {
+        "bottom": 854.03125,
+        "top": 440.03125
+      }
+    ]
+  },
+  "logs": [],
+  "hardware": {
+    "cpu": "Apple M1",
+    "memoryBytes": 8589934592,
+    "os": "macOS 26.6.2 (25G83)",
+    "browser": "Codex in-app browser; precise engine version not exposed by inspection API"
+  }
+}

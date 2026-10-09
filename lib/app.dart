@@ -1,6 +1,6 @@
 import 'package:jaspr/jaspr.dart';
 
-import 'generated/agency_markup.dart';
+import 'components/site_sections.dart';
 import 'runtime/agency_runtime.dart';
 
 class App extends StatelessComponent {
@@ -8,7 +8,7 @@ class App extends StatelessComponent {
 
   @override
   Component build(BuildContext context) => Component.fragment([
-    buildAgencyMarkup(),
+    const AgencyPage(),
     const AgencyRuntime(),
   ]);
 }

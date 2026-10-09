@@ -41,25 +41,3 @@ class EventScope {
 
   void dispose() => _controller.abort();
 }
-
-class AnimationFrames {
-  final Set<int> _scheduled = {};
-
-  void request(void Function(num time) callback) {
-    late int requestId;
-    requestId = web.window.requestAnimationFrame(
-      ((num time) {
-        _scheduled.remove(requestId);
-        callback(time);
-      }).toJS,
-    );
-    _scheduled.add(requestId);
-  }
-
-  void dispose() {
-    for (final requestId in _scheduled) {
-      web.window.cancelAnimationFrame(requestId);
-    }
-    _scheduled.clear();
-  }
-}
