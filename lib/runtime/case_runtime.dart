@@ -4,6 +4,7 @@ import 'package:universal_web/web.dart' as web;
 import '../data/site_data.dart';
 import '../models/site_models.dart';
 import '../utils/image_assets.dart';
+import 'case_navigation.dart';
 import 'case_transition.dart';
 import 'dom_utils.dart';
 import 'motion_runtime.dart';
@@ -29,6 +30,7 @@ class CaseRuntime {
   web.IntersectionObserver? _metricObserver;
   final MotionGeneration _contentGeneration = MotionGeneration();
   final MotionGeneration _countGeneration = MotionGeneration();
+  final CaseNavigation _navigation = CaseNavigation();
   final List<(web.HTMLElement, CaseMetric)> _metricValues = [];
   void Function()? _cancelCountFrames;
   bool _countsStarted = false;
@@ -77,20 +79,23 @@ class CaseRuntime {
       open(caseStudies[(_currentIndex + 1) % caseStudies.length], activation: activation);
     });
     events.listen(web.window, 'resize', (_) {
-      _transition.cancel();
-      _settleCounts();
+      _handleMotionPolicy();
     });
     events.listen(_modal, 'click', (event) {
       if (event.target == _modal) close();
     });
     events.listen(web.document, 'keydown', (event) {
-      if (!isOpen || !event.isA<web.KeyboardEvent>()) return;
+      if ((!isOpen && !_navigation.pending) || !event.isA<web.KeyboardEvent>()) return;
       final key = event as web.KeyboardEvent;
       if (key.key == 'Escape') {
         key.preventDefault();
         close();
       } else if (key.key == 'Tab') {
-        _trapFocus(key);
+        if (isOpen) {
+          _trapFocus(key);
+        } else {
+          key.preventDefault();
+        }
       }
     });
     events.listen(web.document, 'focusin', (event) {
@@ -113,17 +118,25 @@ class CaseRuntime {
         ? _activationFor(opener)
         : (isOpen ? ActivationGeometry.capture(_heroImage, _next, useTriggerCenter: true) : null);
     _cancelTransientWork();
-    if (!isOpen) {
+    if (!_backgroundLocked) {
       final active = web.document.activeElement;
       _opener = opener ?? (active != null && active.isA<web.HTMLElement>() ? active as web.HTMLElement : null);
       _lockBackground();
       motion.setModalOpen(true);
     }
-    _populate(study);
-    _modal.removeAttribute('hidden');
-    _modal.scrollTop = 0;
-    _title.focus(web.FocusOptions(preventScroll: true));
-    if (!reduceMotion && motion.documentVisible) _transition.run(study.transition, activation);
+    final token = _navigation.begin(() {
+      _populate(study);
+      _modal.removeAttribute('hidden');
+      _modal.scrollTop = 0;
+      _title.focus(web.FocusOptions(preventScroll: true));
+    });
+    final animate = !reduceMotion && motion.documentVisible;
+    if (animate && study.transition == CaseTransition.accentCurtain) {
+      _transition.coverAndReveal(() => _navigation.commit(token));
+    } else {
+      _navigation.commit(token);
+      if (animate) _transition.run(study.transition, activation);
+    }
   }
 
   void _populate(CaseStudy study) {
@@ -132,24 +145,18 @@ class CaseRuntime {
     _countsStarted = false;
     final token = _contentGeneration.begin();
     _contentEvents = EventScope();
-    _applyImage(_heroImage, study.heroImage, '${study.name} illustrative project imagery', loading: 'eager');
+    _applyImage(_heroImage, study.heroImage, study.name, loading: 'eager');
     _heroImage.removeAttribute('hidden');
     _contentEvents!.listen(_heroImage, 'error', (_) {
       if (_contentGeneration.accepts(token)) _transition.cancel();
     });
     _title.textContent = study.name;
     elementById<web.HTMLElement>('cmTag').textContent = study.tag;
-    elementById<web.HTMLElement>('cmExample').textContent = study.isIllustrative
-        ? 'Illustrative case study'
-        : 'Case study';
-    elementById<web.HTMLElement>('cmDescription').textContent = study.isIllustrative
-        ? 'Names, testimonials, timelines and results are illustrative, not verified client evidence. Images are visual references, not finished deliverables.'
-        : 'Project scope, timeline and results.';
     _meta.textContent = '';
     for (final entry in <(String, String)>[
-      (study.isIllustrative ? 'Example client' : 'Client', study.client),
+      ('Client', study.client),
       ('Role', study.role),
-      (study.isIllustrative ? 'Example timeline' : 'Timeline', study.timeline),
+      ('Timeline', study.timeline),
       ('Deliverables', study.deliverables),
     ]) {
       final item = _element('div');
@@ -159,8 +166,7 @@ class CaseRuntime {
       _meta.append(item);
     }
     _renderBody(study);
-    final next = caseStudies[(_currentIndex + 1) % caseStudies.length];
-    _next.textContent = '${next.isIllustrative ? 'Next example' : 'Next project'}: ${next.name}';
+    _next.textContent = 'Next project →';
   }
 
   void _renderBody(CaseStudy study) {
@@ -218,9 +224,9 @@ class CaseRuntime {
       final card = _element('figure', classes: 'cm-hch');
       card
         ..append(
-          _image(chapter.image, '${study.name} example: ${chapter.title}', sizes: '(max-width: 860px) 90vw, 520px'),
+          _image(chapter.image, '${study.name}: ${chapter.title}', sizes: '(max-width: 860px) 90vw, 520px'),
         )
-        ..append(_element('figcaption', classes: 'cap', text: 'Visual reference · ${chapter.number} ${chapter.title}'));
+        ..append(_element('figcaption', classes: 'cap', text: '${chapter.number} ${chapter.title}'));
       if (chapter.body case final body?) card.append(_element('p', text: body));
       scroller.append(card);
     }
@@ -244,7 +250,7 @@ class CaseRuntime {
         _element(
           'p',
           classes: 'cm-hint',
-          text: 'Scroll the chapters sideways, or focus them and use the left and right arrow keys.',
+          text: '← drag / scroll →',
         ),
       );
     if (study.quote case final quote?) _body.append(_quote(quote, study));
@@ -257,7 +263,7 @@ class CaseRuntime {
       left
         ..append(_element('div', id: 'chNum', classes: 'chn', text: study.chapters.first.number))
         ..append(_element('div', id: 'chTitle', classes: 'cht', text: study.chapters.first.title))
-        ..append(_element('div', classes: 'chp', text: 'Explore the chapters'));
+        ..append(_element('div', classes: 'chp', text: 'Scroll the chapters →'));
     }
     final chapters = _element('div');
     final blocks = <web.HTMLElement>[];
@@ -273,10 +279,9 @@ class CaseRuntime {
       block
         ..append(_element('h3', text: '${chapter.number} ${chapter.title}'))
         ..append(
-          _image(chapter.image, '${study.name} example: ${chapter.title}', sizes: '(max-width: 860px) 90vw, 680px'),
+          _image(chapter.image, '${study.name}: ${chapter.title}', sizes: '(max-width: 860px) 90vw, 680px'),
         );
       if (chapter.body case final body?) block.append(_element('p', text: body));
-      block.append(_element('p', classes: 'content-note', text: 'Visual reference for this concept direction.'));
       chapters.append(block);
       blocks.add(block);
     }
@@ -326,19 +331,10 @@ class CaseRuntime {
   }
 
   void _renderStatistics(CaseStudy study) {
-    if (study.isIllustrative) {
-      _body.append(
-        _element(
-          'p',
-          classes: 'content-note',
-          text: 'Illustrative results for this example, not verified client outcomes.',
-        ),
-      );
-    }
     final metrics = _element(
       'div',
       classes: 'cm-stats',
-      attributes: {'role': 'group', 'aria-label': study.isIllustrative ? 'Illustrative results' : 'Results'},
+      attributes: {'role': 'group', 'aria-label': 'Results'},
     );
     for (final metric in study.metrics) {
       final card = _element('div');
@@ -421,6 +417,7 @@ class CaseRuntime {
 
   void _handleMotionPolicy() {
     _transition.cancel();
+    _navigation.settle();
     _settleCounts();
   }
 
@@ -434,7 +431,7 @@ class CaseRuntime {
     for (final figure in study.figures) {
       final element = _element('figure', classes: 'cm-fig');
       element
-        ..append(_image(figure.image, '${study.name} example: ${figure.caption}'))
+        ..append(_image(figure.image, '${study.name}: ${figure.caption}'))
         ..append(_element('figcaption', text: figure.caption));
       parent.append(element);
     }
@@ -442,9 +439,6 @@ class CaseRuntime {
 
   web.HTMLElement _quote(CaseQuote quote, CaseStudy study) {
     final element = _element('blockquote', classes: 'cm-quote');
-    if (study.isIllustrative) {
-      element.append(_element('span', classes: 'example-label', text: 'Illustrative testimonial'));
-    }
     element
       ..append(_element('p', text: quote.text))
       ..append(_element('footer', text: quote.attribution));
@@ -549,6 +543,7 @@ class CaseRuntime {
   }
 
   void _cancelTransientWork() {
+    _navigation.cancel();
     _contentGeneration.cancel();
     _transition.cancel();
     _settleCounts();
@@ -562,8 +557,8 @@ class CaseRuntime {
   }
 
   void close() {
+    final wasActive = isOpen || _navigation.pending;
     _cancelTransientWork();
-    final wasOpen = isOpen;
     _modal.setAttribute('hidden', '');
     if (_backgroundLocked) {
       for (final entry in _previousInert.entries) {
@@ -583,7 +578,7 @@ class CaseRuntime {
       setClass(body, 'modal-open', _previousModalClass);
       _backgroundLocked = false;
     }
-    if (wasOpen) {
+    if (wasActive) {
       final opener = _opener;
       if (opener != null && opener.isConnected && opener.closest('[inert]') == null) {
         opener.focus(web.FocusOptions(preventScroll: true));
@@ -603,6 +598,7 @@ class CaseRuntime {
     close();
     motion.removePolicyListener(_handleMotionPolicy);
     _transition.dispose();
+    _navigation.dispose();
     _contentGeneration.dispose();
     _countGeneration.dispose();
   }

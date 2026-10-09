@@ -4,7 +4,15 @@ Method: dual-agent (A: /root/restored_design_review · B: /root/restored_technic
 
 Restored locally on 8 October 2026 in `website/agency_jaspr`. Deployment remains outside this work. This report supersedes the motion and current bundle/test counts in [the initial enhancement report](impeccable-enhancement.md).
 
-The moving constellation, six animated service motifs, portfolio particles and four distinct case entrances return within the Connected studio layout. The clearer copy, visible imagery, illustrative framing, native enquiry controls and email-draft handoff remain.
+The moving constellation, six animated service motifs, portfolio particles and case entrances return within the Connected studio layout. The clearer copy, visible imagery, illustrative framing, native enquiry controls and email-draft handoff remain.
+
+## Selected work update — 9 October 2026
+
+All four cases and Next now use the original Loop's full-viewport curtain: 550 ms to cover from the left, details open at 580 ms under full cover, and 550 ms to retract toward the right, using `cubic-bezier(.7,0,.3,1)`. The curtain is attached to the document body above the header and dialog, independently of image readiness or geometry. The other transition enum values and implementations are retained.
+
+`case_navigation.dart` guards the latest delayed opening. Dismissal cancels it and restores opener focus even before the dialog opens. Resize, document hiding, and preference changes settle the requested case immediately; paused/reduced motion and unavailable animation support bypass the curtain. Tab cannot enter the inert background while opening. Current verification is recorded in [the curtain update report](selected-work-curtain.md).
+
+The restoration inventory and captures below document the earlier 8 October implementation; its four individual case entrances have been superseded by this update.
 
 ## Change inventory
 

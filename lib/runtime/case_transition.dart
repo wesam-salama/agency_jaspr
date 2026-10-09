@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:math' as math;
 
 import 'package:universal_web/js_interop.dart';
@@ -66,8 +67,8 @@ class ActivationGeometry {
   }
 }
 
-/// An entrance owns all its effects and decorations. Cancellation restores the
-/// already-open dialog; it never changes content, focus, or visibility.
+/// An entrance owns all its effects, decorations and delayed callbacks.
+/// Cancellation never changes dialog content, focus, or visibility.
 class CaseTransitionTransaction {
   CaseTransitionTransaction({required this.modal, required this.presentation, required this.image});
 
@@ -77,10 +78,62 @@ class CaseTransitionTransaction {
   final MotionGeneration _generation = MotionGeneration();
   final List<web.Animation> _animations = [];
   final List<web.HTMLElement> _decorations = [];
+  Timer? _coverTimer;
   String? _imageOpacity;
   String _imageOpacityPriority = '';
 
+  /// Matches the reference's viewport curtain, independently of image geometry.
+  void coverAndReveal(void Function() onCovered) {
+    cancel();
+    if (_generation.disposed) return;
+    final token = _generation.begin();
+    try {
+      final curtain = _decoration('div', 'cm-transition-curtain');
+      web.document.body!.append(curtain);
+      _animate(
+        curtain,
+        [
+          {'transform': 'scaleX(0)', 'transformOrigin': 'left center'},
+          {'transform': 'scaleX(1)', 'transformOrigin': 'left center'},
+        ],
+        550,
+        token: token,
+        easing: 'cubic-bezier(.7,0,.3,1)',
+      );
+      _coverTimer = Timer(const Duration(milliseconds: 580), () {
+        _coverTimer = null;
+        if (!_generation.accepts(token)) return;
+        try {
+          onCovered();
+          if (!_generation.accepts(token)) return;
+          _animate(
+            curtain,
+            [
+              {'transform': 'scaleX(1)', 'transformOrigin': 'right center'},
+              {'transform': 'scaleX(0)', 'transformOrigin': 'right center'},
+            ],
+            550,
+            token: token,
+            easing: 'cubic-bezier(.7,0,.3,1)',
+            completes: true,
+          );
+        } catch (_) {
+          cancel();
+          onCovered();
+        }
+      });
+    } catch (_) {
+      // Missing animation support still opens the requested details immediately.
+      cancel();
+      onCovered();
+    }
+  }
+
   void run(CaseTransition transition, ActivationGeometry? activation) {
+    if (transition == CaseTransition.accentCurtain) {
+      coverAndReveal(() {});
+      return;
+    }
     cancel();
     if (_generation.disposed || activation == null || !activation.usable) return;
     if (image.complete && image.naturalWidth == 0) return;
@@ -108,32 +161,8 @@ class CaseTransitionTransaction {
             completes: true,
           );
         case CaseTransition.accentCurtain:
-          final previous = _presentationClone(activation.imageSource);
-          final curtain = _decoration('div', 'cm-transition-curtain');
-          presentation.append(curtain);
-          _animate(
-            previous,
-            [
-              {'opacity': 1, 'offset': 0},
-              {'opacity': 1, 'offset': .45},
-              {'opacity': 0, 'offset': .5},
-              {'opacity': 0, 'offset': 1},
-            ],
-            700,
-            token: token,
-          );
-          _animate(
-            curtain,
-            [
-              {'transform': 'scaleX(0)', 'transformOrigin': 'left center', 'offset': 0},
-              {'transform': 'scaleX(1)', 'transformOrigin': 'left center', 'offset': .45},
-              {'transform': 'scaleX(1)', 'transformOrigin': 'right center', 'offset': .5},
-              {'transform': 'scaleX(0)', 'transformOrigin': 'right center', 'offset': 1},
-            ],
-            700,
-            token: token,
-            completes: true,
-          );
+          // Handled before the image-dependent entrance guards above.
+          break;
         case CaseTransition.cursorIris:
           final x = activation.x - target.left;
           final y = activation.y - target.top;
@@ -203,15 +232,6 @@ class CaseTransitionTransaction {
     return clone;
   }
 
-  web.HTMLImageElement _presentationClone(String source) {
-    final clone = _decoration('img', 'cm-transition-clone') as web.HTMLImageElement;
-    clone
-      ..src = source
-      ..alt = '';
-    presentation.append(clone);
-    return clone;
-  }
-
   web.HTMLElement _decoration(String tag, String classes) {
     final element = web.document.createElement(tag) as web.HTMLElement;
     element
@@ -233,12 +253,13 @@ class CaseTransitionTransaction {
     int milliseconds, {
     required int token,
     bool completes = false,
+    String easing = 'cubic-bezier(.16,1,.3,1)',
   }) {
     final animation = element.animate(
       frames.jsify() as JSObject,
       web.KeyframeAnimationOptions(
         duration: milliseconds.toJS,
-        easing: 'cubic-bezier(.16,1,.3,1)',
+        easing: easing,
         fill: 'both',
       ),
     );
@@ -251,6 +272,8 @@ class CaseTransitionTransaction {
   }
 
   void _clearOwnedEffects() {
+    _coverTimer?.cancel();
+    _coverTimer = null;
     for (final animation in _animations) {
       try {
         animation.onfinish = null;

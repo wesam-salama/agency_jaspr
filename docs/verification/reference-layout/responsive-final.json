@@ -1,0 +1,541 @@
+[
+  {
+    "burgerVisible": false,
+    "contact": [
+      {
+        "className": "contact-aside",
+        "top": 443.140625
+      },
+      {
+        "className": "contact-form-wrap",
+        "top": 443.140625
+      },
+      {
+        "className": "contact-connection",
+        "top": 821.4296875
+      }
+    ],
+    "deliverables": true,
+    "documentWidth": 1440,
+    "faq": {
+      "heading": 152,
+      "list": 152,
+      "width": 1136
+    },
+    "sections": [
+      {
+        "headingSize": null,
+        "height": 878.515625,
+        "id": "top",
+        "width": 1440
+      },
+      {
+        "headingSize": "44px",
+        "height": 1795.1953125,
+        "id": "services",
+        "width": 1440
+      },
+      {
+        "headingSize": "44px",
+        "height": 1532.4375,
+        "id": "work",
+        "width": 1440
+      },
+      {
+        "headingSize": "44px",
+        "height": 1106.234375,
+        "id": "process",
+        "width": 1440
+      },
+      {
+        "headingSize": "44px",
+        "height": 681.296875,
+        "id": "engagement",
+        "width": 1440
+      },
+      {
+        "headingSize": "44px",
+        "height": 558.390625,
+        "id": "studio",
+        "width": 1440
+      },
+      {
+        "headingSize": "44px",
+        "height": 706.0703125,
+        "id": "faq",
+        "width": 1440
+      },
+      {
+        "headingSize": "44px",
+        "height": 1190.2578125,
+        "id": "contact",
+        "width": 1440
+      }
+    ],
+    "services": "566.5px 566.5px",
+    "width": 1440,
+    "work": "566.5px 566.5px"
+  },
+  {
+    "burgerVisible": false,
+    "contact": [
+      {
+        "className": "contact-aside",
+        "top": 443.0390625
+      },
+      {
+        "className": "contact-form-wrap",
+        "top": 443.0390625
+      },
+      {
+        "className": "contact-connection",
+        "top": 803.34375
+      }
+    ],
+    "deliverables": true,
+    "documentWidth": 900,
+    "faq": {
+      "heading": 32,
+      "list": 32,
+      "width": 836
+    },
+    "sections": [
+      {
+        "headingSize": null,
+        "height": 766.984375,
+        "id": "top",
+        "width": 900
+      },
+      {
+        "headingSize": "32.4px",
+        "height": 1822.0078125,
+        "id": "services",
+        "width": 900
+      },
+      {
+        "headingSize": "32.4px",
+        "height": 1431.71875,
+        "id": "work",
+        "width": 900
+      },
+      {
+        "headingSize": "32.4px",
+        "height": 1080.25,
+        "id": "process",
+        "width": 900
+      },
+      {
+        "headingSize": "32.4px",
+        "height": 708.109375,
+        "id": "engagement",
+        "width": 900
+      },
+      {
+        "headingSize": "32.4px",
+        "height": 558.390625,
+        "id": "studio",
+        "width": 900
+      },
+      {
+        "headingSize": "32.4px",
+        "height": 693.078125,
+        "id": "faq",
+        "width": 900
+      },
+      {
+        "headingSize": "32.4px",
+        "height": 1212.65625,
+        "id": "contact",
+        "width": 900
+      }
+    ],
+    "services": "416.5px 416.5px",
+    "width": 900,
+    "work": "416.5px 416.5px"
+  },
+  {
+    "burgerVisible": false,
+    "contact": [
+      {
+        "className": "contact-aside",
+        "top": 443.078125
+      },
+      {
+        "className": "contact-form-wrap",
+        "top": 443.078125
+      },
+      {
+        "className": "contact-connection",
+        "top": 800.2421875
+      }
+    ],
+    "deliverables": true,
+    "documentWidth": 861,
+    "faq": {
+      "heading": 32,
+      "list": 32,
+      "width": 797
+    },
+    "sections": [
+      {
+        "headingSize": null,
+        "height": 786.2578125,
+        "id": "top",
+        "width": 861
+      },
+      {
+        "headingSize": "30.996px",
+        "height": 1845.265625,
+        "id": "services",
+        "width": 861
+      },
+      {
+        "headingSize": "30.996px",
+        "height": 1404.578125,
+        "id": "work",
+        "width": 861
+      },
+      {
+        "headingSize": "30.996px",
+        "height": 1077.109375,
+        "id": "process",
+        "width": 861
+      },
+      {
+        "headingSize": "30.996px",
+        "height": 704.96875,
+        "id": "engagement",
+        "width": 861
+      },
+      {
+        "headingSize": "30.996px",
+        "height": 558.390625,
+        "id": "studio",
+        "width": 861
+      },
+      {
+        "headingSize": "30.996px",
+        "height": 691.5078125,
+        "id": "faq",
+        "width": 861
+      },
+      {
+        "headingSize": "30.996px",
+        "height": 1212.65625,
+        "id": "contact",
+        "width": 861
+      }
+    ],
+    "services": "397px 397px",
+    "width": 861,
+    "work": "397px 397px"
+  },
+  {
+    "burgerVisible": true,
+    "contact": [
+      {
+        "className": "contact-aside",
+        "top": 4841.265625
+      },
+      {
+        "className": "contact-form-wrap",
+        "top": 5155.953125
+      },
+      {
+        "className": "contact-connection",
+        "top": 6186.2109375
+      }
+    ],
+    "deliverables": true,
+    "documentWidth": 860,
+    "faq": {
+      "heading": 32,
+      "list": 32,
+      "width": 796
+    },
+    "sections": [
+      {
+        "headingSize": null,
+        "height": 1254.6953125,
+        "id": "top",
+        "width": 860
+      },
+      {
+        "headingSize": "30.96px",
+        "height": 3163.546875,
+        "id": "services",
+        "width": 860
+      },
+      {
+        "headingSize": "30.96px",
+        "height": 3373.8125,
+        "id": "work",
+        "width": 860
+      },
+      {
+        "headingSize": "30.96px",
+        "height": 1101.828125,
+        "id": "process",
+        "width": 860
+      },
+      {
+        "headingSize": "30.96px",
+        "height": 1185.6015625,
+        "id": "engagement",
+        "width": 860
+      },
+      {
+        "headingSize": "30.96px",
+        "height": 728.9140625,
+        "id": "studio",
+        "width": 860
+      },
+      {
+        "headingSize": "30.96px",
+        "height": 689.8671875,
+        "id": "faq",
+        "width": 860
+      },
+      {
+        "headingSize": "30.96px",
+        "height": 1725.9453125,
+        "id": "contact",
+        "width": 860
+      }
+    ],
+    "services": "794px",
+    "width": 860,
+    "work": "794px"
+  },
+  {
+    "burgerVisible": true,
+    "contact": [
+      {
+        "className": "contact-aside",
+        "top": 4787.2109375
+      },
+      {
+        "className": "contact-form-wrap",
+        "top": 5095.2734375
+      },
+      {
+        "className": "contact-connection",
+        "top": 6125.53125
+      }
+    ],
+    "deliverables": true,
+    "documentWidth": 768,
+    "faq": {
+      "heading": 32,
+      "list": 32,
+      "width": 704
+    },
+    "sections": [
+      {
+        "headingSize": null,
+        "height": 1233.1796875,
+        "id": "top",
+        "width": 768
+      },
+      {
+        "headingSize": "28px",
+        "height": 3156.921875,
+        "id": "services",
+        "width": 768
+      },
+      {
+        "headingSize": "28px",
+        "height": 3137.1875,
+        "id": "work",
+        "width": 768
+      },
+      {
+        "headingSize": "28px",
+        "height": 1121.6015625,
+        "id": "process",
+        "width": 768
+      },
+      {
+        "headingSize": "28px",
+        "height": 1178.9765625,
+        "id": "engagement",
+        "width": 768
+      },
+      {
+        "headingSize": "28px",
+        "height": 722.2890625,
+        "id": "studio",
+        "width": 768
+      },
+      {
+        "headingSize": "28px",
+        "height": 686.5546875,
+        "id": "faq",
+        "width": 768
+      },
+      {
+        "headingSize": "28px",
+        "height": 1719.3203125,
+        "id": "contact",
+        "width": 768
+      }
+    ],
+    "services": "702px",
+    "width": 768,
+    "work": "702px"
+  },
+  {
+    "burgerVisible": true,
+    "contact": [
+      {
+        "className": "contact-aside",
+        "top": 4488.7421875
+      },
+      {
+        "className": "contact-form-wrap",
+        "top": 4823.203125
+      },
+      {
+        "className": "contact-connection",
+        "top": 6036.796875
+      }
+    ],
+    "deliverables": true,
+    "documentWidth": 390,
+    "faq": {
+      "heading": 20,
+      "list": 20,
+      "width": 350
+    },
+    "sections": [
+      {
+        "headingSize": null,
+        "height": 1180.78125,
+        "id": "top",
+        "width": 390
+      },
+      {
+        "headingSize": "28px",
+        "height": 3415.0625,
+        "id": "services",
+        "width": 390
+      },
+      {
+        "headingSize": "28px",
+        "height": 2244.4453125,
+        "id": "work",
+        "width": 390
+      },
+      {
+        "headingSize": "28px",
+        "height": 1398.953125,
+        "id": "process",
+        "width": 390
+      },
+      {
+        "headingSize": "28px",
+        "height": 1204.5703125,
+        "id": "engagement",
+        "width": 390
+      },
+      {
+        "headingSize": "28px",
+        "height": 793.875,
+        "id": "studio",
+        "width": 390
+      },
+      {
+        "headingSize": "28px",
+        "height": 708.5546875,
+        "id": "faq",
+        "width": 390
+      },
+      {
+        "headingSize": "28px",
+        "height": 1913.0546875,
+        "id": "contact",
+        "width": 390
+      }
+    ],
+    "services": "348px",
+    "width": 390,
+    "work": "348px"
+  },
+  {
+    "burgerVisible": true,
+    "contact": [
+      {
+        "className": "contact-aside",
+        "top": 5484.2265625
+      },
+      {
+        "className": "contact-form-wrap",
+        "top": 5845.0859375
+      },
+      {
+        "className": "contact-connection",
+        "top": 7249.7734375
+      }
+    ],
+    "deliverables": true,
+    "documentWidth": 320,
+    "faq": {
+      "heading": 16,
+      "list": 16,
+      "width": 288
+    },
+    "sections": [
+      {
+        "headingSize": null,
+        "height": 1203.9453125,
+        "id": "top",
+        "width": 320
+      },
+      {
+        "headingSize": "28px",
+        "height": 3845.703125,
+        "id": "services",
+        "width": 320
+      },
+      {
+        "headingSize": "28px",
+        "height": 2322.1953125,
+        "id": "work",
+        "width": 320
+      },
+      {
+        "headingSize": "28px",
+        "height": 1504.546875,
+        "id": "process",
+        "width": 320
+      },
+      {
+        "headingSize": "28px",
+        "height": 1310.1640625,
+        "id": "engagement",
+        "width": 320
+      },
+      {
+        "headingSize": "28px",
+        "height": 939.21875,
+        "id": "studio",
+        "width": 320
+      },
+      {
+        "headingSize": "28px",
+        "height": 815.953125,
+        "id": "faq",
+        "width": 320
+      },
+      {
+        "headingSize": "28px",
+        "height": 2121.546875,
+        "id": "contact",
+        "width": 320
+      }
+    ],
+    "services": "286px",
+    "width": 320,
+    "work": "286px"
+  }
+]

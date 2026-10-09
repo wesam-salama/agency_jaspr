@@ -1,0 +1,436 @@
+{
+  "sections": {
+    "services": {
+      "label": "What we do",
+      "title": "Six services. One dot each.",
+      "introduction": "Six is not the whole studio. Add the seventh dot, you, the client, and the shape closes. Every service below can run alone or as part of a bigger program."
+    },
+    "work": {
+      "label": "Selected work",
+      "title": "Recent lines drawn.",
+      "introduction": "Hover and the dots step aside as the picture appears. Click and each case opens with its own transition."
+    },
+    "process": {
+      "label": "How it works",
+      "title": "Six steps, in order, connected as you go.",
+      "introduction": "The scope changes from project to project. The order, and what's delivered at each stage, rarely does. Timeframes below are typical, not fixed."
+    },
+    "engagement": {
+      "label": "How we work together",
+      "title": "Three ways in.",
+      "introduction": "Most projects start as one of these. We'll tell you honestly which one fits before you commit to anything."
+    },
+    "faq": {
+      "label": "Questions",
+      "title": "Before you ask.",
+      "introduction": "Anything else, use the form below. We reply within a day or two."
+    }
+  },
+  "hero": {
+    "label": "Brand & product studio",
+    "title": "Every brand is a handful of points. We draw the line between them.",
+    "description": "Creative Media is a small studio working across branding, rebranding, consultancy, web development, app development and the maintenance that keeps it all standing up. One team, one line of thought, from first sketch to shipped product.",
+    "hint": "Hover the six points to draw the line · move the cursor to leave ink"
+  },
+  "services": [
+    {
+      "name": "Branding",
+      "duration": "2–4 weeks",
+      "description": "Identity systems built to hold up at any size: favicon, packaging, or the side of a building.",
+      "deliverables": [
+        "Strategy & positioning input",
+        "Logo, colour, type & identity system",
+        "Brand guidelines document"
+      ]
+    },
+    {
+      "name": "Rebranding",
+      "duration": "3–5 weeks",
+      "description": "For businesses that have outgrown the story they started with. We keep what's earned, cut what isn't.",
+      "deliverables": [
+        "Audit of existing brand equity",
+        "Refreshed or rebuilt identity system",
+        "Rollout plan across touchpoints"
+      ]
+    },
+    {
+      "name": "Consultancy",
+      "duration": "1–2 weeks",
+      "description": "Positioning, naming and go-to-market thinking, worked through before a single pixel moves.",
+      "deliverables": [
+        "Market & competitor scan",
+        "Positioning & naming workshop",
+        "Written recommendation & scope doc"
+      ]
+    },
+    {
+      "name": "Web development",
+      "duration": "3–8 weeks",
+      "description": "Fast, considered sites written by hand, not assembled from a theme or a page builder.",
+      "deliverables": [
+        "Custom design & build, no templates",
+        "CMS handover, if you need to self-edit",
+        "Performance & basic SEO pass"
+      ]
+    },
+    {
+      "name": "App development",
+      "duration": "6–12 weeks",
+      "description": "Native and cross-platform products designed to be opened again tomorrow, not just once.",
+      "deliverables": [
+        "Product design & interaction flows",
+        "iOS, Android or cross-platform build",
+        "App Store / Play Store submission"
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "duration": "Ongoing",
+      "description": "Ongoing care: updates, monitoring and small fixes handled before they become big ones.",
+      "deliverables": [
+        "Monthly updates & uptime monitoring",
+        "Priority bug fixes",
+        "Small content & feature changes"
+      ]
+    }
+  ],
+  "process": [
+    {
+      "number": "Step 01",
+      "name": "Connect",
+      "duration": "3–5 days",
+      "description": "We start with your business, your market and the gap between where you are and where you want to be, before we suggest anything.",
+      "deliverables": [
+        "Discovery call & stakeholder interviews",
+        "Competitor & market scan",
+        "Written summary of what we heard"
+      ]
+    },
+    {
+      "number": "Step 02",
+      "name": "Define",
+      "duration": "~1 week",
+      "description": "Positioning, naming and scope get settled here, before design work starts, not worked out alongside it.",
+      "deliverables": [
+        "Positioning & naming workshop",
+        "Scope document & timeline",
+        "Success metrics agreed with you"
+      ]
+    },
+    {
+      "number": "Step 03",
+      "name": "Design",
+      "duration": "2–4 weeks",
+      "description": "Identity, interface, or both, designed to carry the decisions made in the step before, not to look good in isolation.",
+      "deliverables": [
+        "Concept direction & design system",
+        "Structured review rounds",
+        "Tracked feedback, not scattered comments"
+      ]
+    },
+    {
+      "number": "Step 04",
+      "name": "Build",
+      "duration": "3–8 weeks",
+      "description": "Sites and apps are written by hand and tested against your real content, on real devices, not placeholder text on a laptop.",
+      "deliverables": [
+        "Development in weekly sprints",
+        "Staging environment to review as we go",
+        "QA across browsers & devices"
+      ]
+    },
+    {
+      "number": "Step 05",
+      "name": "Launch",
+      "duration": "~1 week",
+      "description": "We ship, check every device we can reach, and hand over something you actually know how to run.",
+      "deliverables": [
+        "Pre-launch checklist",
+        "DNS / App Store & Play Store submission",
+        "Walkthrough with your team"
+      ]
+    },
+    {
+      "number": "Step 06",
+      "name": "Maintain",
+      "duration": "Ongoing",
+      "description": "Ongoing support keeps it fast and current, so launch day isn't the best day it ever looks.",
+      "deliverables": [
+        "Monthly check-ins",
+        "Updates & uptime monitoring",
+        "Priority fixes & small changes"
+      ]
+    }
+  ],
+  "engagement": [
+    {
+      "name": "Project",
+      "tag": "One-off",
+      "description": "A single deliverable, start to finish: a rebrand, a new site, or a new app.",
+      "features": [
+        "Fixed scope, fixed price",
+        "One discipline or a closely related pair",
+        "Handover at the end, not a slow fade-out"
+      ],
+      "terms": "Typically 4–10 weeks"
+    },
+    {
+      "name": "Program",
+      "tag": "Most common",
+      "description": "Multiple disciplines running together: a rebrand and a website, or an app with ongoing design support.",
+      "features": [
+        "Coordinated across brand, web & product",
+        "One point of contact for everything",
+        "Phased delivery, reviewed as we go"
+      ],
+      "terms": "Typically 2–4 months"
+    },
+    {
+      "name": "Partner",
+      "tag": "Ongoing",
+      "description": "A monthly retainer for teams who want a design & dev partner on call, not a one-off vendor.",
+      "features": [
+        "Reserved capacity each month",
+        "Covers maintenance and new work",
+        "Month-to-month, no lock-in"
+      ],
+      "terms": "Monthly, cancel anytime"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long does a typical project take?",
+      "answer": "Most single-discipline projects run 4–10 weeks; branding is on the shorter end, apps on the longer end. Combined programs (brand + web, for example) usually run 2–4 months. You'll get a specific timeline before anything is signed off."
+    },
+    {
+      "question": "Do you work with early-stage startups, or only established brands?",
+      "answer": "Both. Early-stage teams tend to lean on the Consultancy and Branding services first; established brands more often come in for a rebrand or a rebuild. Scope flexes to match the stage you're at."
+    },
+    {
+      "question": "What's actually included in maintenance?",
+      "answer": "Software and plugin updates, uptime and error monitoring, priority bug fixes, and small content or feature changes: the kind of upkeep that otherwise gets put off until something breaks."
+    },
+    {
+      "question": "Do you work with teams outside the UK?",
+      "answer": "Yes. Most collaboration happens over call and async review, so time zones with a few hours of overlap work fine. We'll flag it early if a project needs more in-person time than that allows."
+    },
+    {
+      "question": "Can we bring you in for just one part, the website say?",
+      "answer": "Yes. Each of the six services can be booked on its own as a Project engagement. If it later needs a companion piece, a brand to sit behind that website for instance, we can fold it into a Program without starting over."
+    }
+  ],
+  "work": [
+    {
+      "name": "Fenwick & Ash",
+      "category": "Rebrand & Web",
+      "description": "A 40-year furniture maker's identity, rebuilt for a design-forward audience without losing the workshop underneath it.",
+      "disciplines": "Identity · Web · CMS"
+    },
+    {
+      "name": "Loop",
+      "category": "Product & App",
+      "description": "A habit-tracking app taken from onboarding flow to App Store: design system, build and launch.",
+      "disciplines": "Product · iOS · Android"
+    },
+    {
+      "name": "Marrow",
+      "category": "Brand & Consultancy",
+      "description": "Naming and positioning for a direct-to-consumer butchery brand entering a crowded shelf.",
+      "disciplines": "Naming · Positioning · Identity"
+    },
+    {
+      "name": "Northline",
+      "category": "Web Development",
+      "description": "A logistics platform rebuilt from the database up, for speed and for the people using it daily.",
+      "disciplines": "UX · Build · Database"
+    }
+  ],
+  "studio": {
+    "label": "The studio",
+    "title": "A small team, on purpose.",
+    "paragraphs": [
+      "Creative Media stays small enough that the people who pitch the work are the people who do it. No handoffs to a second team once the contract's signed.",
+      "We work with founders and marketing leads who treat a brand and its website as one connected system, not a logo here, a site there, and a hope that they'll match."
+    ],
+    "values": [
+      "One team from strategy through to shipped product",
+      "Everything built from scratch, no themes, no templates",
+      "Design decisions judged against the brief, not a trend",
+      "Maintenance included, not sold as an afterthought"
+    ]
+  },
+  "contact": {
+    "label": "Get in touch",
+    "title": "Tell us what you need. We'll do the rest.",
+    "introduction": "Pick your points. The line to \"You\" draws itself, the shape closes, and it all travels with the email.",
+    "reset": "Not sure yet, clear",
+    "empty": "No points selected yet.",
+    "submit": "Send →",
+    "help": "Opens your email client, nothing is sent from this page."
+  },
+  "footer": "© 2026 CR8.Media. Every line ends at a conversation.",
+  "cases": {
+    "Fenwick & Ash": {
+      "fx": "expand",
+      "img": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=2000&q=70",
+      "tag": "Rebrand & Web · 2025",
+      "client": "Fenwick & Ash Ltd.",
+      "role": "Identity, web design & build",
+      "timeline": "9 weeks",
+      "deliver": "Identity system, guidelines, site, CMS",
+      "layout": "split",
+      "side": [
+        [
+          "Problem",
+          "Brand older than its audience"
+        ],
+        [
+          "Move",
+          "Keep the workshop, rebuild the voice"
+        ],
+        [
+          "System",
+          "Wordmark, grid, timber palette"
+        ],
+        [
+          "Web",
+          "Hand-built, CMS-handover"
+        ]
+      ],
+      "lede": "Forty years of joinery, rebuilt for a design-forward audience <em>without losing the workshop</em> underneath it.",
+      "paras": [
+        "Fenwick & Ash made beautiful furniture and looked like a phone directory advert. The audit kept everything earned (the name, the heritage, the client book) and cut everything that wasn’t.",
+        "The site runs on the same grid. Every project page is a case file: commission, wood, hours at the bench. The team edits it themselves through a CMS handover."
+      ],
+      "figs": [
+        [
+          "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1400&q=70",
+          "Art direction: rooms, not showrooms"
+        ],
+        [
+          "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1400&q=70",
+          "Product photography: one object, one light"
+        ]
+      ],
+      "quote": [
+        "“They kept forty years of history and still made us look like the future.”",
+        "E. Fenwick, Managing Director"
+      ]
+    },
+    "Loop": {
+      "fx": "curtain",
+      "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=2000&q=70",
+      "tag": "Product & App · 2024",
+      "client": "Loop Health Ltd.",
+      "role": "Product design, iOS & Android",
+      "timeline": "11 weeks",
+      "deliver": "Design system, app, store launch",
+      "layout": "hscroll",
+      "lede": "A habit tracker people actually <em>keep opening</em>, from onboarding flow to App Store.",
+      "paras": [
+        "Most habit apps are guilt machines. Loop is built around streaks that forgive: miss a day and the line bends, it doesn’t break. That single product decision shaped the whole design system: soft curves, warm darks, one accent."
+      ],
+      "chapters": [
+        [
+          "01 Onboarding: 90 seconds max",
+          "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=70"
+        ],
+        [
+          "02 Streaks that bend, not break",
+          "https://images.unsplash.com/photo-1511707171631-332711d205ad?auto=format&fit=crop&w=900&q=70"
+        ],
+        [
+          "03 Home-screen widgets",
+          "https://picsum.photos/seed/loop-widgets/900/1125"
+        ],
+        [
+          "04 Weekly review, no guilt",
+          "https://picsum.photos/seed/loop-review/900/1125"
+        ]
+      ],
+      "quote": [
+        "“D30 retention doubled against the old prototype. The forgiveness mechanic did that.”",
+        "Product Lead, Loop"
+      ]
+    },
+    "Marrow": {
+      "fx": "iris",
+      "img": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=2000&q=70",
+      "tag": "Brand & Consultancy · 2024",
+      "client": "Marrow Butchery Co.",
+      "role": "Naming, positioning, identity",
+      "timeline": "6 weeks",
+      "deliver": "Name, voice, identity, packaging",
+      "layout": "sticky",
+      "lede": "A direct-to-consumer butchery entering a <em>crowded shelf</em>: named, positioned, dressed.",
+      "chapters": [
+        [
+          "01",
+          "Naming",
+          "Shortlists went from forty names to four to one. “Marrow” won because it’s the part of the animal chefs fight over: depth, richness, the good stuff.",
+          "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1400&q=70"
+        ],
+        [
+          "02",
+          "Positioning",
+          "The shelf already shouts “artisanal small-batch”. Marrow is positioned on provenance transparency: farm, distance, days aged, printed on every pack.",
+          "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1400&q=70"
+        ],
+        [
+          "03",
+          "Identity",
+          "The identity is a butcher’s block of a wordmark, blood-red accent, and packaging that reads like a spec sheet. It stands out by standing still.",
+          "https://picsum.photos/seed/marrow-pack/1400/875"
+        ]
+      ]
+    },
+    "Northline": {
+      "fx": "tunnel",
+      "img": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2000&q=70",
+      "tag": "Web Development · 2023",
+      "client": "Northline Logistics",
+      "role": "UX, full-stack rebuild",
+      "timeline": "14 weeks",
+      "deliver": "Platform, routing engine, dashboards",
+      "layout": "stats",
+      "lede": "A logistics platform rebuilt from the database up, for speed and for the <em>people using it daily</em>.",
+      "stats": [
+        [
+          68,
+          "%",
+          0,
+          "Faster route queries"
+        ],
+        [
+          12400,
+          "",
+          0,
+          "Routes re-planned daily"
+        ],
+        [
+          0.4,
+          "s",
+          1,
+          "Median dashboard load"
+        ]
+      ],
+      "paras": [
+        "The old system took eleven seconds to draw a morning board. Dispatchers had memorised workarounds. We rebuilt the query layer first, then the UI around the three questions a dispatcher actually asks: what’s late, what’s empty, what’s next."
+      ],
+      "figs": [
+        [
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1400&q=70",
+          "The network: 400 vehicles, one board"
+        ],
+        [
+          "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1400&q=70",
+          "Routing engine: recalculated every 90 seconds"
+        ]
+      ],
+      "quote": [
+        "“The morning board loads before my coffee does. That’s the whole review.”",
+        "Operations Director, Northline"
+      ]
+    }
+  }
+}

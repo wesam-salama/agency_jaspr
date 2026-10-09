@@ -1,0 +1,1315 @@
+[
+  {
+    "expectedProgress": 421.4296875,
+    "fillTransition": "height 0.25s",
+    "height": 1508.5,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "16px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 261,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 522,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 782,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1043,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1304,
+        "rowPadding": "0px 0px 0px 34px"
+      }
+    ],
+    "scrollY": 4201,
+    "targetProgress": 421.43,
+    "top": 278.5703125,
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    },
+    "visibleProgress": 421.43,
+    "label": "desktop-initial",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 1421.4296875,
+    "fillTransition": "height 0.25s",
+    "height": 1508.5,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "16px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 261,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 522,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 782,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1043,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1304,
+        "rowPadding": "0px 0px 0px 34px"
+      }
+    ],
+    "scrollY": 5201,
+    "targetProgress": 1421.43,
+    "top": -721.4296875,
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    },
+    "visibleProgress": 1421.43,
+    "label": "desktop-down",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 421.4296875,
+    "fillTransition": "height 0.25s",
+    "height": 1508.5,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "16px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 261,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 522,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 782,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1043,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1304,
+        "rowPadding": "0px 0px 0px 34px"
+      }
+    ],
+    "scrollY": 4201,
+    "targetProgress": 421.43,
+    "top": 278.5703125,
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    },
+    "visibleProgress": 421.43,
+    "label": "desktop-back-up",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 1508.5,
+    "fillTransition": "height 0.25s",
+    "height": 1508.5,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "16px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 261,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 522,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 782,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1043,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1304,
+        "rowPadding": "0px 0px 0px 34px"
+      }
+    ],
+    "scrollY": 7201,
+    "targetProgress": 1508.5,
+    "top": -2721.4296875,
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    },
+    "visibleProgress": 1508.5,
+    "label": "desktop-past-end",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 421.4296875,
+    "fillTransition": "none",
+    "height": 1508.5,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "16px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 261,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 522,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 782,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1043,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1304,
+        "rowPadding": "0px 0px 0px 34px"
+      }
+    ],
+    "scrollY": 4201,
+    "targetProgress": 421.43,
+    "top": 278.5703125,
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    },
+    "visibleProgress": 421.43,
+    "label": "desktop-paused",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 1421.4296875,
+    "fillTransition": "none",
+    "height": 1508.5,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "16px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 261,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 522,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 782,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1043,
+        "rowPadding": "0px 0px 56px 34px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-38px",
+        "dotTop": "5px",
+        "dotTransition": "none",
+        "dotWidth": "14px",
+        "expectedActive": true,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1304,
+        "rowPadding": "0px 0px 0px 34px"
+      }
+    ],
+    "scrollY": 5201,
+    "targetProgress": 1421.43,
+    "top": -721.4296875,
+    "viewport": {
+      "height": 1000,
+      "width": 1440
+    },
+    "visibleProgress": 1421.43,
+    "label": "desktop-paused-scroll",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 0,
+    "fillTransition": "height 0.25s",
+    "height": 1666,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "10px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 306,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 589,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 872,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1156,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1439,
+        "rowPadding": "0px 0px 0px 24px"
+      }
+    ],
+    "scrollY": 2340,
+    "targetProgress": 0,
+    "top": 4707.0390625,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "visibleProgress": 0,
+    "label": "mobile-initial",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 246.76093749999995,
+    "fillTransition": "height 0.25s",
+    "height": 1666,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "10px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 306,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 589,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 872,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1156,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1439,
+        "rowPadding": "0px 0px 0px 24px"
+      }
+    ],
+    "scrollY": 6703,
+    "targetProgress": 246.761,
+    "top": 344.0390625,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "visibleProgress": 246.758,
+    "label": "mobile-anchor-settled",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 1090.7609375,
+    "fillTransition": "height 0.25s",
+    "height": 1666,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "10px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 306,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 589,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 872,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1156,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1439,
+        "rowPadding": "0px 0px 0px 24px"
+      }
+    ],
+    "scrollY": 7547,
+    "targetProgress": 1090.76,
+    "top": -499.9609375,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "visibleProgress": 1090.76,
+    "label": "mobile-down",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 246.76093749999995,
+    "fillTransition": "height 0.25s",
+    "height": 1666,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "10px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 306,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 589,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 872,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1156,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1439,
+        "rowPadding": "0px 0px 0px 24px"
+      }
+    ],
+    "scrollY": 6703,
+    "targetProgress": 246.761,
+    "top": 344.0390625,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "visibleProgress": 246.758,
+    "label": "mobile-back-up",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 0,
+    "fillTransition": "height 0.25s",
+    "height": 1666,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "10px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 306,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 589,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 872,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1156,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1439,
+        "rowPadding": "0px 0px 0px 24px"
+      }
+    ],
+    "scrollY": 2577,
+    "targetProgress": 0,
+    "top": 4470.0390625,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "visibleProgress": 0,
+    "label": "mobile-final-390",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 0,
+    "fillTransition": "height 0.25s",
+    "height": 1666,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "10px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 306,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 589,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 872,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1156,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1439,
+        "rowPadding": "0px 0px 0px 24px"
+      }
+    ],
+    "scrollY": 5843,
+    "targetProgress": 0,
+    "top": 1204.0390625,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "visibleProgress": 0,
+    "label": "mobile-confirmation-390",
+    "progressMatches": true,
+    "dotsMatch": true
+  },
+  {
+    "expectedProgress": 230.76093749999995,
+    "fillTransition": "height 0.25s",
+    "height": 1666,
+    "horizontalOverflow": false,
+    "rail": {
+      "left": "10px",
+      "width": "2px"
+    },
+    "rows": [
+      {
+        "active": true,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": true,
+        "name": "Connect",
+        "numberFont": "12px",
+        "offsetTop": 0,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Define",
+        "numberFont": "12px",
+        "offsetTop": 306,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Design",
+        "numberFont": "12px",
+        "offsetTop": 589,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Build",
+        "numberFont": "12px",
+        "offsetTop": 872,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Launch",
+        "numberFont": "12px",
+        "offsetTop": 1156,
+        "rowPadding": "0px 0px 56px 24px"
+      },
+      {
+        "active": false,
+        "dotBorder": "2px",
+        "dotLeft": "-27px",
+        "dotTop": "4px",
+        "dotTransition": "background 0.3s, border-color 0.3s",
+        "dotWidth": "12px",
+        "expectedActive": false,
+        "name": "Maintain",
+        "numberFont": "12px",
+        "offsetTop": 1439,
+        "rowPadding": "0px 0px 0px 24px"
+      }
+    ],
+    "scrollY": 6687,
+    "targetProgress": 230.761,
+    "top": 360.0390625,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    },
+    "visibleProgress": 230.758,
+    "label": "mobile-visible-final",
+    "progressMatches": true,
+    "dotsMatch": true
+  }
+]

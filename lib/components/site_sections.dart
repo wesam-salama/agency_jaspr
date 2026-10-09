@@ -38,7 +38,14 @@ Component _logo() => _el(
   attributes: {'href': '#top', 'aria-label': 'CR8.Media — home'},
 );
 
-Component _image(String source, String alt, {String? classes, String sizes = '(max-width: 700px) 100vw, 50vw'}) {
+Component _image(
+  String source,
+  String alt, {
+  String? classes,
+  String sizes =
+      '(max-width: 480px) calc(100vw - 40px), (max-width: 860px) calc(100vw - 64px), '
+      '(max-width: 1200px) calc((100vw - 64px) / 2), 568px',
+}) {
   final asset = imageAssetFor(source);
   return _el(
     'img',
@@ -59,10 +66,20 @@ Component _image(String source, String alt, {String? classes, String sizes = '(m
   );
 }
 
-Component _heading(String title, String intro, {String? id}) => _el('div', [
-  _el('h2', [_text(title)], id: id),
+Component _sectionLabel(String label) => _el('p', [_text(label)], classes: 'section-label');
+
+Component _heading(String title, String intro, {required String label, String? id}) => _el('div', [
+  _el('div', [
+    _sectionLabel(label),
+    _el('h2', [_text(title)], id: id),
+  ], classes: 'section-title'),
   _el('p', [_text(intro)], classes: 'section-intro'),
 ], classes: 'section-heading');
+
+Component _referenceHeading(String section) {
+  final copy = sectionCopy[section]!;
+  return _heading(copy.title, copy.introduction, label: copy.label);
+}
 
 Component _motionToggle() => _el('div', [
   _el(
@@ -78,7 +95,8 @@ Component _marquee({bool footer = false}) => _el(
   'div',
   [
     _el('div', [
-      for (var repeat = 0; repeat < 2; repeat++)
+      // Fill wide screens before the client fits the loop to the viewport.
+      for (var repeat = 0; repeat < 4; repeat++)
         _el('span', [
           _text('CR8.MEDIA'),
           for (final name in const ['Branding', 'Rebranding', 'Consultancy', 'Web Dev', 'App Dev', 'Maintenance']) ...[
@@ -188,12 +206,10 @@ class AgencyPage extends StatelessComponent {
       _marquee(footer: true),
       _el('div', [
         _logo(),
-        _el('p', [_text('Every line ends at a conversation.')]),
         _link('hello@cr8.media', 'mailto:hello@cr8.media'),
       ], classes: 'wrap footer-main'),
       _el('div', [
-        _el('small', [_text('© 2026 CR8.Media')]),
-        _el('small', [_text('Case studies, results and engagement examples are illustrative.')]),
+        _el('small', [_text('© 2026 CR8.Media. Every line ends at a conversation.')]),
         _motionToggle(),
         _link('Back to top', '#top'),
       ], classes: 'wrap footer-bottom'),
@@ -219,7 +235,9 @@ class SiteHeader extends StatelessComponent {
               ('Services', 'services'),
               ('Work', 'work'),
               ('Process', 'process'),
+              ('Engagement', 'engagement'),
               ('Studio', 'studio'),
+              ('FAQ', 'faq'),
             ])
               _el('li', [_link(entry.$1, '#${entry.$2}')]),
           ],
@@ -262,20 +280,22 @@ Component _hero() => _el(
       _el(
         'div',
         [
+          _sectionLabel(heroEyebrow),
           _el('h1', [
-            _text('Brand, web and apps. '),
-            _el('span', [_text('One connected studio.')]),
+            _text('Every brand is a handful of points. We draw the '),
+            _el('span', [_text('line')]),
+            _text(' between them.'),
           ]),
           _el('p', [
             _text(
-              'For founders and marketing leads who need the pieces to work together. We connect strategy, design and development, from the first idea to the next chapter.',
+              heroDescription,
             ),
           ], classes: 'hero-copy'),
           _el('div', [
-            _link('Start a project', '#contact', classes: 'btn btn-primary'),
-            _link('Explore example work', '#work', classes: 'btn btn-secondary'),
+            _link('Start a project →', '#contact', classes: 'btn btn-primary'),
+            _link('See our work', '#work', classes: 'btn btn-secondary'),
           ], classes: 'hero-ctas'),
-          _el('p', [_text('One brief. Brand, web, apps and ongoing care.')], classes: 'hero-note'),
+          _el('p', [_text(heroHint)], classes: 'hero-note'),
         ],
         id: 'heroInner',
         classes: 'hero-text',
@@ -306,32 +326,26 @@ Component _hero() => _el(
               classes: 'hero-network-lines',
               attributes: {'viewBox': '0 0 480 440', 'aria-hidden': 'true', 'focusable': 'false'},
             ),
-            _el('span', [_text('Your project')], classes: 'hero-you'),
+            _el('span', [_text('You')], classes: 'hero-you'),
             for (var i = 0; i < serviceNames.length; i++)
               _link(serviceNames[i], '#service-$i', classes: 'hero-node node-$i', attributes: {'data-node': '$i'}),
           ],
           classes: 'hero-network',
           attributes: {'data-motion-loop': 'hero'},
         ),
-        _el('div', [
-          _el('p', [_text('Six disciplines. Connected around your project.')], classes: 'network-caption'),
-          _motionToggle(),
-        ], classes: 'network-controls'),
+        _el('div', [_motionToggle()], classes: 'network-controls'),
       ], classes: 'hero-visual'),
     ], classes: 'wrap hero-grid'),
     _marquee(),
   ],
   id: 'top',
   classes: 'hero',
-  attributes: {'aria-label': 'Brand, web and apps'},
+  attributes: {'aria-label': heroEyebrow},
 );
 
 Component _services() => _el('section', [
   _el('div', [
-    _heading(
-      'Start with what you need.',
-      'One discipline or a connected programme. These are the pieces we can bring together.',
-    ),
+    _referenceHeading('services'),
     _el('div', [
       for (var i = 0; i < services.length; i++)
         _el(
@@ -343,19 +357,18 @@ Component _services() => _el('section', [
                 'span',
                 [_text(services[i].duration)],
                 classes: 'service-duration',
-                attributes: {'aria-label': 'Illustrative timing: ${services[i].duration}'},
+                attributes: {'aria-label': 'Timing: ${services[i].duration}'},
               ),
             ], classes: 'service-title'),
             _el('p', [_text(services[i].description)]),
-            _el('details', [
-              _el('summary', [_text('Example deliverables')]),
+            _el('div', [
               _el('ul', [
                 for (final item in services[i].deliverables) _el('li', [_text(item)]),
               ]),
-            ], classes: 'service-details'),
+            ], classes: 'service-deliverables'),
             _serviceIcon(i),
             _link(
-              'Discuss ${services[i].name.toLowerCase()}',
+              'Start a project →',
               '#contact',
               classes: 'service-cta text-link',
               attributes: {'data-service': '$i'},
@@ -365,9 +378,6 @@ Component _services() => _el('section', [
           classes: 'service',
         ),
     ], classes: 'services-grid'),
-    _el('p', [
-      _text('Timescales and deliverables are illustrative. A project brief defines the scope.'),
-    ], classes: 'content-note'),
   ], classes: 'wrap'),
 ], id: 'services');
 
@@ -375,10 +385,7 @@ Component _work() => _el(
   'section',
   [
     _el('div', [
-      _heading(
-        'See how the pieces connect.',
-        'Four illustrative projects, from a brand’s first impression to the product people use. These examples demonstrate the approach; they are not verified client results.',
-      ),
+      _referenceHeading('work'),
       _el('div', [
         for (final project in workProjects)
           _el('article', [
@@ -390,7 +397,7 @@ Component _work() => _el(
                   [
                     _image(
                       project.cardImage,
-                      '${project.caseStudy.name} — illustrative ${project.category.toLowerCase()} project',
+                      project.caseStudy.name,
                     ),
                     _el(
                       'canvas',
@@ -403,15 +410,17 @@ Component _work() => _el(
                   attributes: {'data-motion-loop': 'work'},
                 ),
                 _el('div', [
+                  _el('p', [_text(project.category)], classes: 'work-category'),
                   _el('div', [
                     _el('h3', [_text(project.caseStudy.name)]),
-                    _el('span', [_text('View example')], classes: 'work-open'),
+                    _el('span', [_text('View case study →')], classes: 'work-open'),
                   ], classes: 'work-title'),
-                  _el('p', [_text(project.disciplines)], classes: 'work-disciplines'),
+                  _el('div', [
+                    _el('span', [_text(project.index)], classes: 'work-index'),
+                    _el('span', [_text(project.year)], classes: 'work-year'),
+                    _el('p', [_text(project.disciplines)], classes: 'work-disciplines'),
+                  ], classes: 'work-meta'),
                   _el('p', [_text(project.description)], classes: 'work-description'),
-                  _el('span', [
-                    _text(project.caseStudy.isIllustrative ? 'Illustrative project' : 'Client project'),
-                  ], classes: 'example-label'),
                 ], classes: 'work-info'),
               ],
               classes: 'work-item',
@@ -421,7 +430,7 @@ Component _work() => _el(
                 'data-case': project.caseStudy.name,
                 'aria-haspopup': 'dialog',
                 'aria-controls': 'caseModal',
-                'aria-label': 'Explore ${project.caseStudy.name} example',
+                'aria-label': 'View ${project.caseStudy.name} case study',
               },
             ),
           ], classes: 'work-project'),
@@ -439,74 +448,52 @@ Component _work() => _el(
   classes: 'surface-alt',
 );
 
-const _processSteps = <(String, String)>[
-  (
-    'Connect',
-    'Start with the business, the audience and the problem. A focused brief gives the work a useful direction.',
-  ),
-  ('Define', 'Connect positioning, naming and scope. Agree what the project should make possible before designing.'),
-  ('Design', 'Build the identity, interface or both around the same decisions. Review the work against the brief.'),
-  (
-    'Build',
-    'Turn the design into a working site or product. Review progress with real content and useful interactions.',
-  ),
-  ('Launch', 'Check the experience, prepare the release and make the handover understandable.'),
-  ('Maintain', 'Keep the work current through a support scope that fits the project.'),
-];
-
 Component _process() => _el('section', [
   _el('div', [
-    _heading(
-      'A clear path from brief to build.',
-      'An example process with six connected stages. Scope and timing are agreed for each project.',
+    _referenceHeading('process'),
+    _el(
+      'div',
+      [
+        _el('div', const [], classes: 'timeline-line', attributes: {'aria-hidden': 'true'}),
+        _el('div', const [], id: 'timelineFill', classes: 'timeline-fill', attributes: {'aria-hidden': 'true'}),
+        _el('ol', [
+          for (var i = 0; i < processSteps.length; i++)
+            _el('li', [
+              _el('span', const [], classes: 'step-point', attributes: {'aria-hidden': 'true'}),
+              _el('span', [_text('Step ${'${i + 1}'.padLeft(2, '0')}')], classes: 'step-number'),
+              _el('div', [
+                _el('h3', [_text(processSteps[i].name)]),
+                _el('span', [_text(processSteps[i].duration)], classes: 'step-duration'),
+              ], classes: 'step-heading'),
+              _el('p', [_text(processSteps[i].description)]),
+              _el('ul', [
+                for (final deliverable in processSteps[i].deliverables) _el('li', [_text(deliverable)]),
+              ], classes: 'process-deliverables'),
+            ], classes: 'process-step'),
+        ], classes: 'process-list'),
+      ],
+      id: 'timelineEl',
+      classes: 'process-timeline',
     ),
-    _el('ol', [
-      for (var i = 0; i < _processSteps.length; i++)
-        _el('li', [
-          _el('span', [_text('${i + 1}'.padLeft(2, '0'))], classes: 'step-number', attributes: {'aria-hidden': 'true'}),
-          _el('div', [
-            _el('h3', [_text(_processSteps[i].$1)]),
-            _el('p', [_text(_processSteps[i].$2)]),
-          ]),
-        ], classes: 'process-step'),
-    ], classes: 'process-list'),
   ], classes: 'wrap'),
 ], id: 'process');
-
-const _engagements = <(String, String, String)>[
-  (
-    'Project',
-    'One clear outcome.',
-    'A defined piece of work, such as an identity, a website or an app. Start by describing the outcome you need.',
-  ),
-  (
-    'Programme',
-    'The pieces, together.',
-    'Connected disciplines working towards one launch or change: brand and web, or product design and development.',
-  ),
-  (
-    'Partner',
-    'Support for the next chapter.',
-    'An ongoing collaboration for teams with evolving design, development and maintenance needs.',
-  ),
-];
 
 Component _engagement() => _el(
   'section',
   [
     _el('div', [
-      _heading(
-        'Three ways to work together.',
-        'Example engagement models. The right scope comes from the conversation, not a package chosen in advance.',
-      ),
+      _referenceHeading('engagement'),
       _el('div', [
-        for (final item in _engagements)
+        for (var i = 0; i < engagements.length; i++)
           _el('article', [
-            _el('h3', [_text(item.$1)]),
-            _el('p', [_text(item.$2)], classes: 'engagement-lead'),
-            _el('p', [_text(item.$3)]),
-            _link('Talk about a ${item.$1.toLowerCase()}', '#contact', classes: 'text-link'),
-          ], classes: 'engagement-option'),
+            _el('span', [_text(engagements[i].tag)], classes: 'engagement-tag'),
+            _el('h3', [_text(engagements[i].name)]),
+            _el('p', [_text(engagements[i].description)]),
+            _el('ul', [
+              for (final feature in engagements[i].features) _el('li', [_text(feature)]),
+            ], classes: 'engagement-features'),
+            _el('p', [_text(engagements[i].terms)], classes: 'engagement-terms'),
+          ], classes: 'engagement-option${i == 1 ? ' featured' : ''}'),
       ], classes: 'engage-grid'),
     ], classes: 'wrap'),
   ],
@@ -516,55 +503,39 @@ Component _engagement() => _el(
 
 Component _studio() => _el('section', [
   _el('div', [
-    _el('h2', [_text('One brief. One connected point of view.')]),
     _el('div', [
-      _el('p', [
-        _text(
-          'A brand and its digital products should tell the same story. CR8.Media brings those conversations together, so the identity, the interface and the next release can move in one direction.',
-        ),
-      ], classes: 'studio-lead'),
-      _el('p', [
-        _text(
-          'For founders and marketing leads: bring the business problem, the audience and what needs to change. We can start with one discipline and connect the rest when the project needs it.',
-        ),
-      ]),
-      _link('Let’s connect the pieces', '#contact', classes: 'text-link'),
-    ]),
+      _sectionLabel(sectionCopy['studio']!.label),
+      _el('h2', [_text(sectionCopy['studio']!.title)]),
+      for (final paragraph in studioParagraphs) _el('p', [_text(paragraph)], classes: 'studio-lead'),
+    ], classes: 'studio-story'),
+    _el('div', [
+      _el('ul', [
+        for (final value in studioValues) _el('li', [_text(value)]),
+      ], classes: 'studio-guidance'),
+    ], classes: 'studio-brief'),
   ], classes: 'wrap studio-grid'),
 ], id: 'studio');
-
-const _faqs = <(String, String)>[
-  (
-    'Can we start with one service?',
-    'Yes. The website’s six disciplines can be discussed individually or as part of a connected brief. Select the ones you have in mind, or leave the selection open.',
-  ),
-  (
-    'How long would a project take?',
-    'The service timings on this page are illustrative planning examples. The scope, review process and delivery schedule need to be agreed for your project.',
-  ),
-  (
-    'Are these real client case studies?',
-    'The four projects, names, testimonials and results are illustrative examples. They show how a brief and its connected work could be presented; they are not verified client evidence.',
-  ),
-  (
-    'What should we include in the brief?',
-    'Tell us the goal, the audience and what needs to change. Add the services and a rough timing if you know them. Budget can be discussed in the email conversation.',
-  ),
-  (
-    'What happens when we open an email draft?',
-    'Your selections and brief are prepared for your email app. Nothing is sent from this website. Review and send the draft there, or use the email address shown below.',
-  ),
-];
 
 Component _faq() => _el(
   'section',
   [
     _el('div', [
-      _heading('A few things to know.', 'Clear answers before the first conversation.'),
+      _referenceHeading('faq'),
       _el('div', [
-        for (final item in _faqs)
+        for (final item in faqs)
           _el('details', [
-            _el('summary', [_text(item.$1)]),
+            _el('summary', [
+              _el('span', [_text(item.$1)], classes: 'faq-question'),
+              _el(
+                'svg',
+                [
+                  _el('path', const [], attributes: {'d': 'M4 12h16'}),
+                  _el('path', const [], classes: 'faq-plus-stroke', attributes: {'d': 'M12 4v16'}),
+                ],
+                classes: 'faq-indicator',
+                attributes: {'viewBox': '0 0 24 24', 'aria-hidden': 'true', 'focusable': 'false'},
+              ),
+            ]),
             _el('p', [_text(item.$2)]),
           ], classes: 'faq-item'),
       ], classes: 'faq-list'),
@@ -584,10 +555,11 @@ Component _field(String label, String id, Component input, {String? help}) => _e
 Component _contact() => _el('section', [
   _el('div', [
     _el('div', [
-      _el('h2', [_text('What should we connect next?')]),
+      _sectionLabel(sectionCopy['contact']!.label),
+      _el('h2', [_text(sectionCopy['contact']!.title)]),
       _el('p', [
         _text(
-          'A first identity, a better website, an app or the next chapter. Start with the goal; we can work out the right pieces together.',
+          sectionCopy['contact']!.introduction,
         ),
       ], classes: 'contact-intro'),
       _el('p', [_text('Prefer a direct conversation?')], classes: 'direct-contact'),
@@ -610,6 +582,7 @@ Component _contact() => _el('section', [
                   'name': 'name',
                   'type': 'text',
                   'autocomplete': 'name',
+                  'placeholder': 'Your name',
                   'required': '',
                   'maxlength': '120',
                   'aria-describedby': 'name-error',
@@ -627,6 +600,7 @@ Component _contact() => _el('section', [
                   'name': 'email',
                   'type': 'email',
                   'autocomplete': 'email',
+                  'placeholder': 'you@company.com',
                   'required': '',
                   'maxlength': '254',
                   'aria-describedby': 'email-error',
@@ -652,21 +626,21 @@ Component _contact() => _el('section', [
             ], classes: 'service-choices'),
             _el(
               'button',
-              [_text('Not sure yet — clear selections')],
+              [_text('Not sure yet, clear')],
               id: 'constelReset',
               classes: 'clear-services',
               attributes: {'type': 'button', 'disabled': ''},
             ),
             _el(
               'p',
-              [_text('No services selected. We can discuss the right starting point.')],
+              [_text('No points selected yet.')],
               id: 'constelNote',
               classes: 'constel-note',
               attributes: {'role': 'status', 'aria-live': 'polite', 'aria-atomic': 'true'},
             ),
           ]),
           _field(
-            'Project goal',
+            'Tell us more',
             'message',
             _el(
               'textarea',
@@ -677,7 +651,7 @@ Component _contact() => _el('section', [
                 'rows': '4',
                 'required': '',
                 'maxlength': '3000',
-                'placeholder': 'Who is it for, and what needs to change?',
+                'placeholder': 'A little about the project and rough timing',
                 'aria-describedby': 'message-hint message-error',
               },
             ),
@@ -705,13 +679,13 @@ Component _contact() => _el('section', [
           ),
           _el(
             'button',
-            [_text('Open email draft')],
+            [_text('Send →')],
             id: 'draftButton',
             classes: 'btn btn-primary',
             attributes: {'type': 'submit', 'disabled': ''},
           ),
           _el('p', [
-            _text('Review and send from your email app. Nothing is sent from this page.'),
+            _text('Opens your email client, nothing is sent from this page.'),
           ], classes: 'field-hint'),
         ],
         id: 'contactForm',
@@ -762,7 +736,7 @@ List<Component> buildProjectConstellation() {
           ),
         _el('polyline', const [], id: 'constShape', classes: 'shape', attributes: {'points': '', 'pathLength': '1'}),
         _el('circle', const [], classes: 'you', attributes: {'cx': '$cx', 'cy': '$cy', 'r': '6'}),
-        _el('text', [_text('Your project')], attributes: {'x': '$cx', 'y': '${cy + 22}', 'text-anchor': 'middle'}),
+        _el('text', [_text('You')], attributes: {'x': '$cx', 'y': '${cy + 22}', 'text-anchor': 'middle'}),
         for (var i = 0; i < points.length; i++) ...[
           _el(
             'circle',
@@ -791,10 +765,9 @@ Component _caseDialog() => _el(
   [
     _el('div', [
       _el('div', [
-        _el('span', [_text('Illustrative case study')], id: 'cmExample', classes: 'example-label'),
         _el(
           'button',
-          [_text('Close case study')],
+          [_text('Close ✕')],
           id: 'cmClose',
           classes: 'dialog-close',
           attributes: {'type': 'button'},
@@ -820,21 +793,12 @@ Component _caseDialog() => _el(
         classes: 'cm-hero',
       ),
       _el('div', const [], id: 'cmMeta', classes: 'cm-meta'),
-      _el(
-        'p',
-        [
-          _text(
-            'Names, testimonials, timelines and results are illustrative. Images are visual references, not finished deliverables.',
-          ),
-        ],
-        id: 'cmDescription',
-        classes: 'content-note',
-      ),
       _el('div', const [], id: 'cmBody', classes: 'cm-body'),
       _el('div', [
+        _el('small', [_text('Drag / scroll inside the case →')]),
         _el(
           'button',
-          [_text('Next example project')],
+          [_text('Next project →')],
           id: 'cmNext',
           classes: 'btn btn-secondary',
           attributes: {'type': 'button'},
@@ -849,7 +813,7 @@ Component _caseDialog() => _el(
     'role': 'dialog',
     'aria-modal': 'true',
     'aria-labelledby': 'cmTitle',
-    'aria-describedby': 'cmDescription',
+    'aria-describedby': 'cmTag',
     'tabindex': '-1',
   },
 );

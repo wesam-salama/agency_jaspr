@@ -1,0 +1,1464 @@
+[
+  {
+    "test": "desktop card Fenwick & Ash",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.170394, 0, 0, 1, 0, 0)",
+        "width": 218.10438537597656,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "dismissed": {
+      "curtain": null,
+      "focused": "Fenwick & Ash",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Loop",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "desktop card Loop",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.218945, 0, 0, 1, 0, 0)",
+        "width": 280.25,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "dismissed": {
+      "curtain": null,
+      "focused": "Loop",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Marrow",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "desktop card Marrow",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.280025, 0, 0, 1, 0, 0)",
+        "width": 358.43182373046875,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "dismissed": {
+      "curtain": null,
+      "focused": "Marrow",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Northline",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "desktop card Northline",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.218793, 0, 0, 1, 0, 0)",
+        "width": 280.0545349121094,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Fenwick & Ash",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Northline",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "dismissed": {
+      "curtain": null,
+      "focused": "Northline",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Fenwick & Ash",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Northline",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "desktop Next Loop",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.218874, 0, 0, 1, 0, 0)",
+        "width": 280.15850830078125,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": true,
+      "scrollTop": 2566.5,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "desktop Next Marrow",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.215917, 0, 0, 1, 0, 0)",
+        "width": 276.37322998046875,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 1295.5,
+      "title": "Loop",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "desktop Next Northline",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.225046, 0, 0, 1, 0, 0)",
+        "width": 288.05865478515625,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": true,
+      "scrollTop": 2570,
+      "title": "Marrow",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Fenwick & Ash",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Northline",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "desktop Next Fenwick & Ash",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.280103, 0, 0, 1, 0, 0)",
+        "width": 358.5320739746094,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Fenwick & Ash",
+      "open": true,
+      "scrollTop": 2312,
+      "title": "Northline",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "keyboard focus wrap",
+    "state": {
+      "curtain": null,
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": true,
+      "scrollTop": 2566.5,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "Escape and Tab during initial cover",
+    "beforeEscape": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.221321, 0, 0, 1, 0, 0)",
+        "width": 283.2906494140625,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "pendingTab": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.278049, 0, 0, 1, 0, 0)",
+        "width": 355.9022521972656,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "afterEscape": {
+      "curtain": null,
+      "focused": "Loop",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Loop",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "afterOldTimer": {
+      "curtain": null,
+      "focused": "Loop",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Loop",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        1280,
+        720
+      ]
+    }
+  },
+  {
+    "test": "resize during initial cover",
+    "beforeResize": {
+      "curtain": {
+        "count": 1,
+        "height": 720,
+        "left": 0,
+        "origin": "0px 360px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.224316, 0, 0, 1, 0, 0)",
+        "width": 287.12445068359375,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        1280,
+        720
+      ]
+    },
+    "afterResize": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "mobile card Fenwick & Ash",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.212773, 0, 0, 1, 0, 0)",
+        "width": 82.98150634765625,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "dismissed": {
+      "curtain": null,
+      "focused": "Fenwick & Ash",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Loop",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "mobile card Loop",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.225229, 0, 0, 1, 0, 0)",
+        "width": 87.83948516845703,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "dismissed": {
+      "curtain": null,
+      "focused": "Loop",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Marrow",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "mobile card Marrow",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.212508, 0, 0, 1, 0, 0)",
+        "width": 82.87796783447266,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "dismissed": {
+      "curtain": null,
+      "focused": "Marrow",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Northline",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "mobile card Northline",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.274019, 0, 0, 1, 0, 0)",
+        "width": 106.86746978759766,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Fenwick & Ash",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Northline",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "dismissed": {
+      "curtain": null,
+      "focused": "Northline",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Fenwick & Ash",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Northline",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "mobile Next Loop",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.218737, 0, 0, 1, 0, 0)",
+        "width": 85.30757904052734,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": true,
+      "scrollTop": 2059.5,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "mobile Next Marrow",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.218676, 0, 0, 1, 0, 0)",
+        "width": 85.28351593017578,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 936,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "mobile Next Northline",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.279967, 0, 0, 1, 0, 0)",
+        "width": 109.18717956542967,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": true,
+      "scrollTop": 1833.5,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Fenwick & Ash",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Northline",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "mobile Next Fenwick & Ash",
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.218767, 0, 0, 1, 0, 0)",
+        "width": 85.31897735595703,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Fenwick & Ash",
+      "open": true,
+      "scrollTop": 1498.5,
+      "title": "Northline",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "repeated Next supersedes its pending curtain",
+    "repeatFirst": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.218897, 0, 0, 1, 0, 0)",
+        "width": 85.36965942382812,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": true,
+      "scrollTop": 2059.5,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "repeatLatest": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0, 0, 0, 1, 0, 0)",
+        "width": 0,
+        "zIndex": "650"
+      },
+      "focused": "cmNext",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Loop",
+      "open": true,
+      "scrollTop": 2059.5,
+      "title": "Fenwick & Ash",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "Escape during reveal",
+    "duringReveal": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 2.321014404296875,
+        "origin": "390px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.994049, 0, 0, 1, 0, 0)",
+        "width": 387.6789855957031,
+        "zIndex": "650"
+      },
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "revealCancelled": {
+      "curtain": null,
+      "focused": "Marrow",
+      "inert": [
+        false,
+        false,
+        false
+      ],
+      "locked": "",
+      "next": "Next example: Northline",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "user pause bypasses curtain",
+    "state": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "system reduction during pending navigation",
+    "before": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.356735, 0, 0, 1, 0, 0)",
+        "width": 139.12646484375,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example project",
+      "open": false,
+      "scrollTop": 0,
+      "title": "",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "after": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "system reduced motion bypasses curtain",
+    "state": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "document hiding during pending navigation",
+    "before": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.172329, 0, 0, 1, 0, 0)",
+        "width": 67.20824432373047,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Northline",
+      "open": false,
+      "scrollTop": 0,
+      "title": "Marrow",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "after": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Fenwick & Ash",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Northline",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "unavailable animation API opens immediately",
+    "state": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  {
+    "test": "curtain independent of missing thumbnail and hero",
+    "missingCard": {
+      "complete": false,
+      "naturalWidth": 0
+    },
+    "initial": {
+      "curtain": {
+        "count": 1,
+        "height": 844,
+        "left": 0,
+        "origin": "0px 422px",
+        "parent": "BODY",
+        "position": "fixed",
+        "top": 0,
+        "transform": "matrix(0.172404, 0, 0, 1, 0, 0)",
+        "width": 67.23757934570312,
+        "zIndex": "650"
+      },
+      "focused": "BODY",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example project",
+      "open": false,
+      "scrollTop": 0,
+      "title": "",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "settled": {
+      "curtain": null,
+      "focused": "cmTitle",
+      "inert": [
+        true,
+        true,
+        true
+      ],
+      "locked": "hidden",
+      "next": "Next example: Marrow",
+      "open": true,
+      "scrollTop": 0,
+      "title": "Loop",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "missingHero": {
+      "complete": true,
+      "naturalWidth": 0
+    }
+  }
+]

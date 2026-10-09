@@ -29,10 +29,10 @@ void main() {
       );
     });
 
-    test('models all four case layouts and transition types', () {
+    test('preserves four case layouts with a shared reference curtain entrance', () {
       expect(caseStudies, hasLength(4));
       expect(caseStudies.map((study) => study.layout).toSet(), CaseLayout.values.toSet());
-      expect(caseStudies.map((study) => study.transition).toSet(), CaseTransition.values.toSet());
+      expect(caseStudies.map((study) => study.transition), everyElement(CaseTransition.accentCurtain));
       expect(caseStudies[0].figures, hasLength(2));
       expect(caseStudies[1].chapters, hasLength(4));
       expect(caseStudies[2].chapters, hasLength(3));

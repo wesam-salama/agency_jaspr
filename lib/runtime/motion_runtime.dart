@@ -5,6 +5,7 @@ import 'package:universal_web/web.dart' as web;
 
 import 'dom_utils.dart';
 import 'motion_state.dart';
+import 'process_progress.dart';
 
 /// Owns motion preferences, visibility and the page's single canvas scheduler.
 class MotionRuntime {
@@ -76,6 +77,7 @@ class MotionRuntime {
       });
       button.disabled = false;
     }
+    _mountMarquees();
     _profile = web.window.location.search.contains('motionProfile=1');
     if (_profile) _mountProfiling();
     _mountVisibility();
@@ -93,6 +95,42 @@ class MotionRuntime {
   void removePolicyListener(void Function() listener) => _listeners.remove(listener);
 
   void setModalOpen(bool open) => _change(modalOpen: open);
+
+  void _mountMarquees() {
+    for (final band in documentElements('.motion-marquee-band')) {
+      final track = band.querySelector('.motion-marquee') as web.HTMLElement?;
+      final copy = track?.firstElementChild;
+      if (track == null || copy == null) continue;
+
+      void fit() {
+        if (_disposed) return;
+        final copyWidth = copy.getBoundingClientRect().width;
+        if (copyWidth <= 0 || band.clientWidth <= 0) return;
+        // Keep a full viewport of text after travelling one complete copy.
+        final copies = math.max(2, (band.clientWidth / copyWidth).ceil() + 1);
+        while (track.childElementCount < copies) {
+          track.appendChild(copy.cloneNode(true));
+        }
+        while (track.childElementCount > copies) {
+          track.lastElementChild!.remove();
+        }
+        track.style.setProperty('--marquee-shift', '-${copyWidth}px');
+      }
+
+      fit();
+      try {
+        final observer =
+            web.ResizeObserver(
+                ((JSArray<web.ResizeObserverEntry> entries, web.ResizeObserver observer) => fit()).toJS,
+              )
+              ..observe(band)
+              ..observe(copy);
+        _cleanup.add(() => observer.disconnect());
+      } catch (_) {
+        events.listen(web.window, 'resize', (_) => fit(), passive: true);
+      }
+    }
+  }
 
   void _change({bool? reducedBySystem, bool? userPaused, bool? documentVisible, bool? modalOpen}) {
     if (_disposed) return;
@@ -284,7 +322,12 @@ class MotionRuntime {
   }
 
   void markNavigation(web.Element? link) {
-    if (link == null || _navIndicator == null) return;
+    if (_navIndicator == null) return;
+    if (link == null) {
+      _navLink = null;
+      _navIndicator!.classList.remove('is-visible');
+      return;
+    }
     _navLink = link as web.HTMLElement;
     final parent = web.document.getElementById('primaryNavigation')!.getBoundingClientRect();
     final rect = link.getBoundingClientRect();
@@ -303,28 +346,69 @@ class MotionRuntime {
     for (final link in documentElements('.nav-cta, .hero-ctas a')) {
       events.listen(link, 'click', (event) => _drawWire(link as web.HTMLElement, event));
     }
-    try {
-      final progress = web.IntersectionObserver(
-        ((JSArray<web.IntersectionObserverEntry> entries, web.IntersectionObserver observer) {
-          for (final entry in entries.toDart) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('is-active');
-              observer.unobserve(entry.target);
-            }
-          }
-        }).toJS,
-        web.IntersectionObserverInit(threshold: .3.toJS),
+    _mountProcessTimeline();
+  }
+
+  void _mountProcessTimeline() {
+    final timeline = web.document.getElementById('timelineEl') as web.HTMLElement?;
+    final fill = web.document.getElementById('timelineFill') as web.HTMLElement?;
+    if (timeline == null || fill == null) return;
+    final rows = childElements(timeline, '.process-step').cast<web.HTMLElement>();
+    int? pendingFrame;
+
+    void update() {
+      if (_disposed || !documentVisible || state.modalOpen) return;
+      final rect = timeline.getBoundingClientRect();
+      final progress = processProgress(
+        viewportHeight: web.window.innerHeight.toDouble(),
+        timelineTop: rect.top,
+        timelineHeight: rect.height,
       );
-      // Store a disposal callback alongside the other motion-owned resources.
-      _cleanup.add(() => progress.disconnect());
-      for (final step in documentElements('.process-step')) {
-        progress.observe(step);
-      }
-    } catch (_) {
-      for (final step in documentElements('.process-step')) {
-        step.classList.add('is-active');
+      fill.style.height = '${progress}px';
+      for (final row in rows) {
+        setClass(row, 'is-active', processStepActive(row.offsetTop.toDouble(), progress));
       }
     }
+
+    // Scroll feedback is event-driven, including while ambient motion is paused.
+    // One pending callback coalesces scroll, resize and layout notifications.
+    void schedule() {
+      if (_disposed) return;
+      if (reduced || !documentVisible || state.modalOpen) {
+        if (pendingFrame != null) web.window.cancelAnimationFrame(pendingFrame!);
+        pendingFrame = null;
+        update();
+        return;
+      }
+      pendingFrame ??= web.window.requestAnimationFrame(
+        ((double timestamp) {
+          pendingFrame = null;
+          update();
+        }).toJS,
+      );
+    }
+
+    events.listen(web.window, 'scroll', (_) => schedule(), passive: true);
+    events.listen(web.window, 'resize', (_) => schedule(), passive: true);
+    events.listen(web.window, 'load', (_) => schedule());
+    addPolicyListener(schedule);
+    _cleanup.add(() {
+      removePolicyListener(schedule);
+      if (pendingFrame != null) web.window.cancelAnimationFrame(pendingFrame!);
+      pendingFrame = null;
+    });
+    try {
+      final observer =
+          web.ResizeObserver(
+              ((JSArray<web.ResizeObserverEntry> entries, web.ResizeObserver observer) => schedule()).toJS,
+            )
+            ..observe(timeline)
+            ..observe(web.document.body!);
+      _cleanup.add(() => observer.disconnect());
+    } catch (_) {
+      // Initial, scroll, resize and load updates remain available without RO.
+    }
+    update();
   }
 
   final List<void Function()> _cleanup = [];

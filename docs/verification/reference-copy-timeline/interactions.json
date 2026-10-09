@@ -1,0 +1,82 @@
+{
+  "faq": {
+    "focusedTag": "SUMMARY",
+    "openQuestions": [
+      "How long does a typical project take?",
+      "Do you work with early-stage startups, or only established brands?"
+    ]
+  },
+  "servicePreselection": {
+    "focus": "message",
+    "note": "You + Web Dev, the shape closes.",
+    "selected": [
+      "Web Dev"
+    ]
+  },
+  "emptyForm": {
+    "errors": [
+      "Enter your name.",
+      "Enter your email address.",
+      "Describe your project goal in a few sentences."
+    ],
+    "focus": "name",
+    "messageRequired": true,
+    "note": "No points selected yet.",
+    "selectedCount": 0,
+    "status": "Please check the highlighted fields before opening a draft.",
+    "submitLabel": "Send →",
+    "timingRequired": false
+  },
+  "cases": [
+    {
+      "extraDemoLabels": 0,
+      "focus": "cmTitle",
+      "image": "assets/images/fenwick-hero.webp",
+      "imageWidth": 1200,
+      "meta": "ClientFenwick & Ash Ltd.RoleIdentity, web design & buildTimeline9 weeksDeliverablesIdentity system, guidelines, site, CMS",
+      "nextLabel": "Next project →",
+      "title": "Fenwick & Ash",
+      "transitionLayers": 0
+    },
+    {
+      "extraDemoLabels": 0,
+      "focus": "cmTitle",
+      "image": "assets/images/loop-hero.webp",
+      "imageWidth": 1200,
+      "meta": "ClientLoop Health Ltd.RoleProduct design, iOS & AndroidTimeline11 weeksDeliverablesDesign system, app, store launch",
+      "nextLabel": "Next project →",
+      "title": "Loop",
+      "transitionLayers": 0
+    },
+    {
+      "extraDemoLabels": 0,
+      "focus": "cmTitle",
+      "image": "assets/images/marrow-hero.webp",
+      "imageWidth": 1200,
+      "meta": "ClientMarrow Butchery Co.RoleNaming, positioning, identityTimeline6 weeksDeliverablesName, voice, identity, packaging",
+      "nextLabel": "Next project →",
+      "title": "Marrow",
+      "transitionLayers": 0
+    },
+    {
+      "extraDemoLabels": 0,
+      "focus": "cmTitle",
+      "image": "assets/images/northline-hero.webp",
+      "imageWidth": 1200,
+      "meta": "ClientNorthline LogisticsRoleUX, full-stack rebuildTimeline14 weeksDeliverablesPlatform, routing engine, dashboards",
+      "nextLabel": "Next project →",
+      "title": "Northline",
+      "transitionLayers": 0
+    }
+  ],
+  "caseClose": {
+    "hidden": true,
+    "modalClass": false,
+    "restoredCase": "Fenwick & Ash",
+    "transitionLayers": 0
+  },
+  "mobileMenu": {
+    "expanded": "false",
+    "focus": "burgerBtn"
+  }
+}

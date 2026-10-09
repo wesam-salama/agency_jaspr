@@ -18,7 +18,7 @@ Jaspr is configured with `mode: static`. Build output contains prerendered HTML 
 
 `lib/runtime/motion_runtime.dart` owns dynamic motion preferences, synchronized pause controls, viewport suspension and a single demand-driven frame scheduler. The hero restores organic service points, drawn connections and a bounded fine-pointer trail. Six animated service SVGs, visible-image portfolio particles, two service bands and supporting linework retain the original creative vocabulary.
 
-`lib/runtime/case_transition.dart` dispatches the existing `CaseTransition` values into cancellable image expansion, red curtain, iris and tunnel entrances. Dialog controls and title remain stable. `motion_state.dart` supplies the testable preference and stale-callback guards. Close, Next, visibility/preference changes and resize settle transient effects.
+All four project cards and Next use the reference Loop's full-screen red curtain: 550 ms to cover from the left, details open at 580 ms, then 550 ms to retract to the right. `lib/runtime/case_transition.dart` owns the temporary viewport layer and animations; `case_navigation.dart` guards the delayed opening. Close cancels pending navigation and restores opener focus; resize and visibility/preference changes immediately reveal the latest requested case. Pause and reduced motion bypass the curtain. The existing transition enum and image expansion, iris and tunnel implementations remain available.
 
 The hero and footer share a **Pause animations** toggle. Device reduced motion takes precedence; storage failures retain a working page-level preference. Content, SVG and imagery are prerendered and visible without motion or client enhancement.
 
@@ -26,7 +26,7 @@ For local profiling, append `?motionProfile=1` to the preview URL. Hidden `#agen
 
 ## Content and enquiry semantics
 
-Projects, client names, quotes, outcomes, service durations, process timings, and engagement terms are illustrative examples. They are not verified client evidence or business commitments. Keep the example framing when changing content.
+Projects, client names, quotes, outcomes, service durations, process timings, and engagement terms are illustrative examples. They are not verified client evidence or business commitments. The user approved exact reference wording and removal of visible example labels on 9 October 2026. Preserve this copy choice while retaining internal illustrative classification; approval of supplied copy does not verify its claims.
 
 The enquiry action prepares an encoded `mailto:` draft addressed to `hello@cr8.media`. Visitors review and send it in their email app; this website does not deliver messages or confirm receipt. Name, email, and a project goal are required; services and rough timing are optional. The visible email address supplies an alternative when browser enhancement or an email-app handoff is unavailable.
 
@@ -107,3 +107,7 @@ Exit code `0` means no findings; `2` means findings were reported. This manual c
 ## Enhancement verification
 
 See [the motion restoration report](docs/impeccable-motion.md) for the restored effects, measured runtime costs, captures and current verification limits. [The initial enhancement report](docs/impeccable-enhancement.md) records the preceding content, accessibility and asset work.
+
+## Reference copy and process parity
+
+The eight page sections and four case studies now use the original HTML wording, including process deliverables, engagement terms and Studio values. The enhanced contact controls and shared case curtain remain. The process uses the original 70%-viewport scroll formula, a continuous 2px rail, reversible dots, 250ms/300ms ease transitions and the 860px geometry breakpoint. Tests compare typed and rendered copy to `test/fixtures/reference_copy.json`, captured from the unchanged reference, and cover process progress boundaries and reverse scrolling. See [verification](docs/reference-copy-timeline.md).

@@ -1,0 +1,184 @@
+[
+  {
+    "burgerVisible": false,
+    "contactOrder": [
+      {
+        "class": "contact-aside",
+        "top": 6475.640625
+      },
+      {
+        "class": "contact-form-wrap",
+        "top": 6475.640625
+      },
+      {
+        "class": "contact-connection",
+        "top": 6853.9296875
+      }
+    ],
+    "deliverablesVisible": true,
+    "documentWidth": 1440,
+    "faqAligned": true,
+    "headerHeight": 81,
+    "headingSize": "44px",
+    "navOverflow": false,
+    "serviceColumns": "566.5px 566.5px",
+    "width": 1440,
+    "workColumns": "566.5px 566.5px"
+  },
+  {
+    "burgerVisible": false,
+    "contactOrder": [
+      {
+        "class": "contact-aside",
+        "top": 6389.5390625
+      },
+      {
+        "class": "contact-form-wrap",
+        "top": 6389.5390625
+      },
+      {
+        "class": "contact-connection",
+        "top": 6749.84375
+      }
+    ],
+    "deliverablesVisible": true,
+    "documentWidth": 900,
+    "faqAligned": true,
+    "headerHeight": 81,
+    "headingSize": "32.4px",
+    "navOverflow": false,
+    "serviceColumns": "416.5px 416.5px",
+    "width": 900,
+    "workColumns": "416.5px 416.5px"
+  },
+  {
+    "burgerVisible": false,
+    "contactOrder": [
+      {
+        "class": "contact-aside",
+        "top": 6377.578125
+      },
+      {
+        "class": "contact-form-wrap",
+        "top": 6377.578125
+      },
+      {
+        "class": "contact-connection",
+        "top": 6734.7421875
+      }
+    ],
+    "deliverablesVisible": true,
+    "documentWidth": 861,
+    "faqAligned": true,
+    "headerHeight": 81,
+    "headingSize": "30.996px",
+    "navOverflow": false,
+    "serviceColumns": "397px 397px",
+    "width": 861,
+    "workColumns": "397px 397px"
+  },
+  {
+    "burgerVisible": true,
+    "contactOrder": [
+      {
+        "class": "contact-aside",
+        "top": 10775.765625
+      },
+      {
+        "class": "contact-form-wrap",
+        "top": 11090.453125
+      },
+      {
+        "class": "contact-connection",
+        "top": 12019.4296875
+      }
+    ],
+    "deliverablesVisible": true,
+    "documentWidth": 860,
+    "faqAligned": true,
+    "headerHeight": 73,
+    "headingSize": "30.96px",
+    "navOverflow": false,
+    "serviceColumns": "794px",
+    "width": 860,
+    "workColumns": "794px"
+  },
+  {
+    "burgerVisible": true,
+    "contactOrder": [
+      {
+        "class": "contact-aside",
+        "top": 10535.7109375
+      },
+      {
+        "class": "contact-form-wrap",
+        "top": 10843.7734375
+      },
+      {
+        "class": "contact-connection",
+        "top": 11772.75
+      }
+    ],
+    "deliverablesVisible": true,
+    "documentWidth": 768,
+    "faqAligned": true,
+    "headerHeight": 73,
+    "headingSize": "28px",
+    "navOverflow": false,
+    "serviceColumns": "702px",
+    "width": 768,
+    "workColumns": "702px"
+  },
+  {
+    "burgerVisible": true,
+    "contactOrder": [
+      {
+        "class": "contact-aside",
+        "top": 10237.2421875
+      },
+      {
+        "class": "contact-form-wrap",
+        "top": 10571.703125
+      },
+      {
+        "class": "contact-connection",
+        "top": 11629.828125
+      }
+    ],
+    "deliverablesVisible": true,
+    "documentWidth": 390,
+    "faqAligned": true,
+    "headerHeight": 73,
+    "headingSize": "28px",
+    "navOverflow": false,
+    "serviceColumns": "348px",
+    "width": 390,
+    "workColumns": "348px"
+  },
+  {
+    "burgerVisible": true,
+    "contactOrder": [
+      {
+        "class": "contact-aside",
+        "top": 11232.7265625
+      },
+      {
+        "class": "contact-form-wrap",
+        "top": 11593.5859375
+      },
+      {
+        "class": "contact-connection",
+        "top": 12819.7109375
+      }
+    ],
+    "deliverablesVisible": true,
+    "documentWidth": 320,
+    "faqAligned": true,
+    "headerHeight": 73,
+    "headingSize": "28px",
+    "navOverflow": false,
+    "serviceColumns": "286px",
+    "width": 320,
+    "workColumns": "286px"
+  }
+]

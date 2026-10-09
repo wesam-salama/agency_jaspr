@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-09",
+  "url": "http://localhost:8080/",
+  "environment": "Codex in-app browser with temporary viewport overrides; not physical-device testing",
+  "checks": {
+    "dartAnalysis": "passed",
+    "existingTests": 33,
+    "productionBuild": "passed",
+    "pauseAndResume": "passed",
+    "viewportOverrideRestored": true
+  },
+  "widths": [
+    { "cssPixels": 3150, "copiesPerBand": 5, "fullCycleCoverage": true },
+    { "cssPixels": 390, "copiesPerBand": 2, "fullCycleCoverage": true },
+    { "cssPixels": 1440, "copiesPerBand": 3, "fullCycleCoverage": true }
+  ],
+  "wideHeroLoop": {
+    "observedMilliseconds": 34087,
+    "sampleCount": 7,
+    "observedWrap": true,
+    "maximumLeftGapPixels": 0,
+    "maximumRightGapPixels": 0,
+    "progressSamples": [0.083329, 0.256767, 0.430205, 0.603117, 0.776523, 0.966135, 0.148919]
+  },
+  "bothBands": {
+    "identicalCopyWidths": true,
+    "travelEqualsOneCopyWidth": true,
+    "trackWidthMinusTravelCoversBand": true,
+    "offscreenMotionPaused": true
+  }
+}

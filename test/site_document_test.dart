@@ -39,7 +39,7 @@ void main() {
     expect(document.querySelectorAll('.work-item'), hasLength(4));
     expect(document.querySelectorAll('.faq-item'), hasLength(5));
     expect(document.querySelectorAll('h1'), hasLength(1));
-    expect(_normaliseWhitespace(document.querySelector('h1')!.text), 'Brand, web and apps. One connected studio.');
+    expect(_normaliseWhitespace(document.querySelector('h1')!.text), heroHeadline);
 
     for (final item in document.querySelectorAll('.faq-item')) {
       expect(item.localName, 'details');
@@ -61,10 +61,10 @@ void main() {
     expect(skipLink.localName, 'a');
     expect(skipLink.attributes['href'], '#mainContent');
     expect(_normaliseWhitespace(skipLink.text), isNotEmpty);
-    expect(navigation.querySelectorAll('a'), hasLength(4));
+    expect(navigation.querySelectorAll('a'), hasLength(6));
     expect(
       navigation.querySelectorAll('a').map((link) => link.attributes['href']),
-      orderedEquals(['#services', '#work', '#process', '#studio']),
+      orderedEquals(['#services', '#work', '#process', '#engagement', '#studio', '#faq']),
     );
     expect(document.querySelector('#siteHeader .nav-cta')?.attributes['href'], '#contact');
     expect(burger.localName, 'button');
@@ -88,6 +88,40 @@ void main() {
       final target = link.attributes['href']!.substring(1);
       expect(target, isNotEmpty);
       expect(document.getElementById(target), isNotNull, reason: link.outerHtml);
+    }
+  });
+
+  testServer('exposes service deliverables, the ordered process and independent FAQ disclosures', (tester) async {
+    tester.pumpComponent(buildAgencyDocument());
+    final document = (await tester.request('/')).document!;
+    final serviceElements = document.querySelectorAll('#services .service');
+
+    for (var index = 0; index < services.length; index++) {
+      final service = serviceElements[index];
+      expect(service.querySelector('details'), isNull);
+      expect(service.querySelector('.deliverables-label'), isNull);
+      expect(
+        service.querySelectorAll('.service-deliverables li').map((item) => _normaliseWhitespace(item.text)),
+        orderedEquals(services[index].deliverables),
+      );
+      expect(service.querySelectorAll('[hidden]'), isEmpty);
+    }
+
+    final process = document.querySelector('#process .process-list')!;
+    expect(process.localName, 'ol');
+    expect(process.children.map((step) => step.localName), everyElement('li'));
+    expect(
+      process.querySelectorAll('h3').map((heading) => heading.text),
+      orderedEquals(['Connect', 'Define', 'Design', 'Build', 'Launch', 'Maintain']),
+    );
+
+    for (final faq in document.querySelectorAll('#faq .faq-item')) {
+      expect(faq.localName, 'details');
+      expect(faq.attributes.containsKey('name'), isFalse, reason: 'Visitors can keep several answers open.');
+      expect(faq.children.first.localName, 'summary');
+      expect(faq.querySelector('summary svg')?.attributes['aria-hidden'], 'true');
+      expect(faq.querySelector('summary svg')?.attributes['focusable'], 'false');
+      expect(_normaliseWhitespace(faq.querySelector('.faq-question')!.text), isNotEmpty);
     }
   });
 
@@ -171,7 +205,7 @@ void main() {
     }
   });
 
-  testServer('shows illustrative work with accessible dialog triggers and a dormant dialog', (tester) async {
+  testServer('shows reference work with accessible dialog triggers and a dormant dialog', (tester) async {
     tester.pumpComponent(buildAgencyDocument());
     final document = (await tester.request('/')).document!;
     final modal = document.querySelector('#caseModal')!;
@@ -188,13 +222,10 @@ void main() {
       expect(project.attributes['aria-haspopup'], 'dialog');
       expect(project.attributes['aria-controls'], modal.id);
       expect(project.attributes['aria-label'], isNotEmpty);
-      expect(
-        _normaliseWhitespace(project.querySelector('.example-label')!.text).toLowerCase(),
-        contains('illustrative'),
-      );
+      expect(project.querySelector('.example-label'), isNull);
     }
     for (final duration in document.querySelectorAll('.service-duration')) {
-      expect(duration.attributes['aria-label']?.toLowerCase(), contains('illustrative'));
+      expect(duration.attributes['aria-label'], startsWith('Timing:'));
     }
 
     expect(modal.attributes, containsPair('hidden', ''));
@@ -204,10 +235,8 @@ void main() {
     _assertIdReferences(document, modal.attributes['aria-labelledby']);
     _assertIdReferences(document, modal.attributes['aria-describedby']);
     expect(document.querySelector('#cmTitle')?.localName, 'h2');
-    expect(
-      _normaliseWhitespace(document.querySelector('#cmDescription')!.text).toLowerCase(),
-      contains('illustrative'),
-    );
+    expect(document.querySelector('#cmDescription'), isNull);
+    expect(document.querySelector('#cmExample'), isNull);
     expect(image.attributes, containsPair('hidden', ''));
     expect(image.attributes.containsKey('src'), isFalse);
     expect(image.attributes.containsKey('srcset'), isFalse);

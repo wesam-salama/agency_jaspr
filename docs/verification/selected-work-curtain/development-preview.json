@@ -1,0 +1,49 @@
+{
+  "developmentCover": {
+    "curtain": {
+      "count": 1,
+      "height": 720,
+      "left": 0,
+      "origin": "0px 360px",
+      "parent": "BODY",
+      "position": "fixed",
+      "top": 0,
+      "transform": "matrix(0.218783, 0, 0, 1, 0, 0)",
+      "width": 280.04205322265625,
+      "zIndex": "650"
+    },
+    "focused": "BODY",
+    "inert": [
+      true,
+      true,
+      true
+    ],
+    "locked": "hidden",
+    "next": "Next example project",
+    "open": false,
+    "scrollTop": 0,
+    "title": "",
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  "developmentSettled": {
+    "curtain": null,
+    "focused": "cmTitle",
+    "inert": [
+      true,
+      true,
+      true
+    ],
+    "locked": "hidden",
+    "next": "Next example: Northline",
+    "open": true,
+    "scrollTop": 0,
+    "title": "Marrow",
+    "viewport": [
+      1280,
+      720
+    ]
+  }
+}

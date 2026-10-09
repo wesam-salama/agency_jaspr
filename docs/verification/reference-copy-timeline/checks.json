@@ -1,0 +1,21 @@
+{
+  "sourceMatchesIsolatedBuild": true,
+  "referenceSha256": "7a4d4736ada6b8e624f17ef95e082e6f67fac80e21903fc52192ac1f8c803295",
+  "tests": 47,
+  "analysis": "No issues found",
+  "productionBuild": "Passed with Jaspr CLI 0.23.4; isolated proxy port 5568 and renderer port 8083",
+  "browserWidths": [
+    320,
+    390,
+    860,
+    861,
+    1440
+  ],
+  "timelineSamples": 13,
+  "allTimelineSamplesMatchReference": true,
+  "overflow": false,
+  "browserConsole": [],
+  "mobileGutter": "16px below 480px",
+  "realDeviceReducedMotionChange": "Not performed; MotionState policy tests and CSS/runtime paths checked",
+  "deployment": "Not performed"
+}

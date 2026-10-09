@@ -24,22 +24,22 @@
       {
         "name": "shared-image",
         "value": "650ms",
-        "purpose": "Fenwick shared-element image expansion"
+        "purpose": "Retained shared-element entrance, currently unused by project content"
       },
       {
         "name": "accent-curtain",
-        "value": "700ms",
-        "purpose": "Loop red curtain cover and reveal"
+        "value": "1130ms",
+        "purpose": "All cases and Next: viewport cover 550ms, open at 580ms, reveal 550ms; cubic-bezier(.7,0,.3,1)"
       },
       {
         "name": "cursor-iris",
         "value": "650ms",
-        "purpose": "Marrow image reveal from pointer or trigger centre"
+        "purpose": "Retained image iris entrance, currently unused by project content"
       },
       {
         "name": "tunnel",
         "value": "700ms",
-        "purpose": "Northline bounded zoom, blur and crossfade"
+        "purpose": "Retained tunnel entrance, currently unused by project content"
       },
       {
         "name": "shape",
@@ -60,6 +60,11 @@
         "name": "ease",
         "value": "cubic-bezier(.16,1,.3,1)",
         "purpose": "Shared natural deceleration"
+      },
+      {
+        "name": "process-scroll",
+        "value": "250ms / 300ms ease",
+        "purpose": "Reference continuous fill follows the 70% viewport point; reversible dots activate at relative row offset <= progress + 8; instant when paused/reduced."
       }
     ],
     "breakpoints": [
@@ -73,7 +78,7 @@
       },
       {
         "name": "single-column",
-        "value": "600px"
+        "value": "860px"
       },
       {
         "name": "mobile-navigation",
@@ -191,7 +196,7 @@
       },
       {
         "name": "Honest examples",
-        "body": "Keep illustrative project, quote, result and timescale labels explicit.",
+        "body": "Use approved reference wording without added demo labels; preserve internal example classification and do not infer verified evidence.",
         "section": "components"
       },
       {
@@ -201,7 +206,7 @@
       },
       {
         "name": "Creative motion with control",
-        "body": "Restore the original moving points, service motifs and four case entrances. Keep one demand-driven frame scheduler and pause ambient effects offscreen, hidden or behind a dialog. Respect device reduction and the synchronized pause toggles.",
+        "body": "Preserve moving points and service motifs; all cases and Next share the reference Loop viewport curtain. Keep one demand-driven frame scheduler and pause ambient effects offscreen, hidden or behind a dialog. Respect device reduction and the synchronized pause toggles.",
         "section": "components"
       }
     ],

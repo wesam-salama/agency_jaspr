@@ -2,6 +2,44 @@ enum CaseTransition { sharedElementExpand, accentCurtain, cursorIris, tunnelZoom
 
 enum CaseLayout { split, horizontalScroll, stickyChapters, statistics }
 
+class SectionCopy {
+  const SectionCopy(this.label, this.title, this.introduction);
+
+  final String label;
+  final String title;
+  final String introduction;
+}
+
+class ProcessStep {
+  const ProcessStep({
+    required this.name,
+    required this.duration,
+    required this.description,
+    required this.deliverables,
+  });
+
+  final String name;
+  final String duration;
+  final String description;
+  final List<String> deliverables;
+}
+
+class Engagement {
+  const Engagement({
+    required this.name,
+    required this.tag,
+    required this.description,
+    required this.features,
+    required this.terms,
+  });
+
+  final String name;
+  final String tag;
+  final String description;
+  final List<String> features;
+  final String terms;
+}
+
 class Service {
   const Service({required this.name, required this.duration, required this.description, required this.deliverables});
 

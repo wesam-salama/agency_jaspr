@@ -284,7 +284,7 @@ class AgencyDomRuntime {
     setClass(shape, 'on', selected.isNotEmpty);
     if (selected.isEmpty) {
       shape.setAttribute('points', '');
-      note.textContent = 'No services selected. We can discuss the right starting point.';
+      note.textContent = 'No points selected yet.';
       return;
     }
     const centerX = 160.0;
@@ -296,7 +296,7 @@ class AgencyDomRuntime {
         })
         .join(' ');
     shape.setAttribute('points', '$centerX,$centerY $points $centerX,$centerY');
-    note.textContent = 'Selected: ${selected.map((index) => serviceNames[index]).join(', ')}.';
+    note.textContent = 'You + ${selected.map((index) => serviceNames[index]).join(' + ')}, the shape closes.';
     motion.redrawConstellation();
   }
 

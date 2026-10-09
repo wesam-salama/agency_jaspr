@@ -1,0 +1,142 @@
+[
+  {
+    "activeDots": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "actualProgress": 0,
+    "dotWidth": "12px",
+    "expectedDots": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "expectedProgress": 0,
+    "height": 844,
+    "horizontalOverflow": false,
+    "menuExpanded": "false",
+    "processGutter": "16px",
+    "railLeft": "10px",
+    "width": 320,
+    "matchesReference": true
+  },
+  {
+    "activeDots": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "actualProgress": 0,
+    "dotWidth": "12px",
+    "expectedDots": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "expectedProgress": 0,
+    "height": 844,
+    "horizontalOverflow": false,
+    "menuExpanded": "false",
+    "processGutter": "16px",
+    "railLeft": "10px",
+    "width": 390,
+    "matchesReference": true
+  },
+  {
+    "activeDots": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "actualProgress": 0,
+    "dotWidth": "12px",
+    "expectedDots": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "expectedProgress": 0,
+    "height": 1000,
+    "horizontalOverflow": false,
+    "menuExpanded": "false",
+    "processGutter": "32px",
+    "railLeft": "10px",
+    "width": 860,
+    "matchesReference": true
+  },
+  {
+    "activeDots": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "actualProgress": 1508.5,
+    "dotWidth": "14px",
+    "expectedDots": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expectedProgress": 1508.5,
+    "height": 1000,
+    "horizontalOverflow": false,
+    "menuExpanded": "false",
+    "processGutter": "32px",
+    "railLeft": "16px",
+    "width": 861,
+    "matchesReference": true
+  },
+  {
+    "activeDots": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "actualProgress": 1508.5,
+    "dotWidth": "14px",
+    "expectedDots": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "expectedProgress": 1508.5,
+    "height": 1000,
+    "horizontalOverflow": false,
+    "menuExpanded": "false",
+    "processGutter": "32px",
+    "railLeft": "16px",
+    "width": 1440,
+    "matchesReference": true
+  }
+]

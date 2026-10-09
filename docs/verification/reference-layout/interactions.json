@@ -1,0 +1,245 @@
+{
+  "cases": [
+    {
+      "focus": "cmTitle",
+      "imageLoaded": true,
+      "open": "case-modal",
+      "title": "Fenwick & Ash",
+      "trap": "cmNext",
+      "closed": {
+        "focus": "Explore Fenwick & Ash example",
+        "state": "case-modal"
+      }
+    },
+    {
+      "focus": "cmTitle",
+      "imageLoaded": true,
+      "open": "case-modal",
+      "title": "Loop",
+      "trap": "cmNext",
+      "closed": {
+        "focus": "Explore Loop example",
+        "state": "case-modal"
+      }
+    },
+    {
+      "focus": "cmTitle",
+      "imageLoaded": true,
+      "open": "case-modal",
+      "title": "Marrow",
+      "trap": "cmNext",
+      "closed": {
+        "focus": "Explore Marrow example",
+        "state": "case-modal"
+      }
+    },
+    {
+      "focus": "cmTitle",
+      "imageLoaded": true,
+      "open": "case-modal",
+      "title": "Northline",
+      "trap": "cmNext",
+      "closed": {
+        "focus": "Explore Northline example",
+        "state": "case-modal"
+      }
+    }
+  ],
+  "nextCase": {
+    "hidden": false,
+    "title": "Loop"
+  },
+  "dialogClosed": true,
+  "faq": {
+    "focusOutline": "3px",
+    "minus": [
+      "none",
+      "none"
+    ],
+    "opened": [
+      true,
+      true,
+      false,
+      false,
+      false
+    ]
+  },
+  "serviceSelection": {
+    "checked": [
+      "Web Dev"
+    ],
+    "focus": "message",
+    "hash": "#services"
+  },
+  "validation": {
+    "focus": "name",
+    "invalid": [
+      "name",
+      "email",
+      "message"
+    ]
+  },
+  "menuOpen": {
+    "expanded": "true",
+    "links": [
+      {
+        "text": "Services",
+        "visible": true
+      },
+      {
+        "text": "Work",
+        "visible": true
+      },
+      {
+        "text": "Process",
+        "visible": true
+      },
+      {
+        "text": "Engagement",
+        "visible": true
+      },
+      {
+        "text": "Studio",
+        "visible": true
+      },
+      {
+        "text": "FAQ",
+        "visible": true
+      }
+    ]
+  },
+  "menuEscape": {
+    "expanded": "false",
+    "focus": "burgerBtn"
+  },
+  "mobileAnchor": {
+    "focus": "BODY",
+    "headerBottom": 73,
+    "labelY": 88.1875
+  },
+  "zoomReflow": {
+    "allServiceListsVisible": true,
+    "documentWidth": 720,
+    "method": "720x500 CSS-pixel viewport models 1440x1000 at 200 percent zoom; native zoom shortcut had no effect",
+    "width": 720
+  },
+  "pauseSync": {
+    "buttons": [
+      "false",
+      "false"
+    ],
+    "paused": false
+  },
+  "processMotion": {
+    "activeSteps": 6,
+    "connectorTransition": "0.45s"
+  },
+  "animatedCases": [
+    {
+      "decorations": [
+        "cm-transition-clone"
+      ],
+      "hidden": false,
+      "presentationStyle": null,
+      "title": "Fenwick & Ash",
+      "cleanup": {
+        "decorations": 0,
+        "hidden": true
+      }
+    },
+    {
+      "decorations": [
+        "cm-transition-clone",
+        "cm-transition-curtain"
+      ],
+      "hidden": false,
+      "presentationStyle": null,
+      "title": "Loop",
+      "cleanup": {
+        "decorations": 0,
+        "hidden": true
+      }
+    },
+    {
+      "decorations": [],
+      "hidden": false,
+      "presentationStyle": null,
+      "title": "Marrow",
+      "cleanup": {
+        "decorations": 0,
+        "hidden": true
+      }
+    },
+    {
+      "decorations": [
+        "cm-transition-clone"
+      ],
+      "hidden": false,
+      "presentationStyle": null,
+      "title": "Northline",
+      "cleanup": {
+        "decorations": 0,
+        "hidden": true
+      }
+    }
+  ],
+  "pausedConnector": {
+    "buttons": [
+      "true",
+      "true"
+    ],
+    "paused": true,
+    "transition": "0s"
+  },
+  "fallback": {
+    "documentWidth": 320,
+    "enhanced": false,
+    "headerPosition": "relative",
+    "links": [
+      {
+        "left": 16,
+        "right": 77.546875,
+        "text": "Services",
+        "top": 52,
+        "visible": true
+      },
+      {
+        "left": 93.546875,
+        "right": 130.6796875,
+        "text": "Work",
+        "top": 52,
+        "visible": true
+      },
+      {
+        "left": 146.6796875,
+        "right": 203.8046875,
+        "text": "Process",
+        "top": 52,
+        "visible": true
+      },
+      {
+        "left": 16,
+        "right": 105.1015625,
+        "text": "Engagement",
+        "top": 100,
+        "visible": true
+      },
+      {
+        "left": 121.1015625,
+        "right": 166.3203125,
+        "text": "Studio",
+        "top": 100,
+        "visible": true
+      },
+      {
+        "left": 182.3203125,
+        "right": 211.125,
+        "text": "FAQ",
+        "top": 100,
+        "visible": true
+      }
+    ],
+    "width": 320,
+    "faqOpens": true
+  }
+}
