@@ -59,6 +59,35 @@ jaspr build
 
 `jaspr build` writes static output to `build/jaspr/`. A successful local build does not publish the site.
 
+## GitHub Pages
+
+The site publishes to https://wesam-salama.github.io/agency_jaspr/ through `.github/workflows/deploy-pages.yml`. The workflow analyzes and tests the project, builds it with Dart 3.13.2 and Jaspr CLI 0.23.4, and uploads only `build/jaspr/`. Pushes to `main` deploy automatically; the workflow also supports manual runs.
+
+The build sets `SITE_BASE_PATH` from GitHub Pages metadata. This emits a document base URL so Jaspr's client script, styles, fonts and images load beneath the repository path. Builds without this define retain the existing root-hosting behavior.
+
+To build for this repository locally:
+
+```sh
+dart pub global run jaspr_cli:jaspr build --dart-define=SITE_BASE_PATH=/agency_jaspr/
+```
+
+With GitHub CLI authenticated, enable Pages once using the GitHub Actions source:
+
+```sh
+gh api --method POST repos/wesam-salama/agency_jaspr/pages -f build_type=workflow
+```
+
+For later deployments and status checks:
+
+```sh
+git push origin main
+gh run list --workflow deploy-pages.yml --limit 5
+# Alternatively, rebuild the current main branch manually:
+gh workflow run deploy-pages.yml --ref main
+```
+
+Confirm a successful deployment run and open the live URL before treating a release as published.
+
 ## Firebase Hosting
 
 Hosting is configured in `firebase.json` to serve only `build/jaspr/`. The default project in `.firebaserc` is `cr8-media-agency`. Each deployment runs `dart pub global run jaspr_cli:jaspr build` first; a failed build cancels deployment. Hidden build files and Firebase's local deployment cache are excluded from upload or version control. Navigation uses section anchors, so Hosting has no catch-all rewrite.

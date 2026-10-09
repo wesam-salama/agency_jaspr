@@ -28,7 +28,11 @@ void main() {
     expect(document.querySelector('title')?.text, siteTitle);
     expect(document.querySelector('meta[name="description"]')?.attributes['content'], siteDescription);
     expect(document.querySelector('link[rel="stylesheet"]')?.attributes['href'], 'assets/styles.css');
-    expect(document.querySelector('base'), isNull);
+    if (siteBasePath.isEmpty) {
+      expect(document.querySelector('base'), isNull);
+    } else {
+      expect(document.querySelector('base')?.attributes['href'], siteBasePath);
+    }
     expect(document.querySelectorAll('main'), hasLength(1));
     expect(document.querySelectorAll('main > section'), hasLength(8));
     expect(
