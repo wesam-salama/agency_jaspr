@@ -18,7 +18,7 @@ The restoration inventory and captures below document the earlier 8 October impl
 
 | Area | Restored behavior |
 |---|---|
-| Hero | Organic node drift, fine-pointer ink, proximity response and progressive service connections. Six native links remain usable; positions freeze while hovering, focusing or pressing the network. Keyboard focus activates its connection. Coarse-pointer labels stay stable and use native first-activation navigation. |
+| Hero | Organic node drift, fine-pointer ink, proximity response and progressive service connections continue while hovering, focusing or pressing the network. Six native links remain usable; keyboard focus activates its connection. Consultancy, Web Dev and App Dev sit 7px below their existing endpoints in aligned animated/static layouts, with 64px reserved below the diagram. The “You” label stays centered 16px below the moving red hub with a page-colored background clearing the lines. Coarse-pointer service labels stay stable while decorative points move, add 8px of clearance beneath the lower endpoints and use native first-activation navigation. |
 | Services | Overlapping branding circles, rotating identity ring, consultancy pulses, moving web brackets, travelling app dot and maintenance orbit. |
 | Work | Sparse particles disperse on hover or keyboard focus. Project text and imagery stay visible before interaction. |
 | Fenwick & Ash | Shared image expansion, 650 ms. |
@@ -95,7 +95,7 @@ The tests include existing prerender/metadata, enquiry/mailto and asset coverage
 The shared browser batch verified:
 
 - No horizontal overflow at **320, 390, 768, 1024 and 1440 px**. Both independent reviews used desktop and narrow layouts; all four case entrances were inspected on desktop and at 390 px.
-- Hero keyboard focus freezes the network positions while keeping the selected connection active. Pause/resume works with pointer and Enter, synchronizes both controls and survives a reload.
+- Hero hover, keyboard focus and pressing keep the network moving while activating the selected service connection. The “You” label follows the hub and remains horizontally centered below it.
 - All four case presentations, repeated Next/open/close actions, dismissal during motion, contained focus, Escape, inert background and opener restoration. Natural completion was explicitly checked for Fenwick; the others were checked during entry and cancellation.
 - Service preselection/clearing, selection feedback, required-field and invalid-email recovery, mobile menu/Escape and the Loop chapter region's horizontal keys.
 - Offscreen loops pause. Background canvas tasks and the RAF stop while the case dialog is open.

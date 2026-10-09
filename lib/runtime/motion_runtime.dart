@@ -21,7 +21,6 @@ class MotionRuntime {
   late final web.MediaQueryList _reduction;
   late final web.HTMLElement _body;
   late final List<web.Element> _loops;
-  late final List<web.HTMLButtonElement> _toggles;
   web.IntersectionObserver? _observer;
   web.PerformanceObserver? _performanceObserver;
   _HeroMotion? _hero;
@@ -55,28 +54,10 @@ class MotionRuntime {
     if (accentToken.isNotEmpty) accent = accentToken;
     if (foregroundToken.isNotEmpty) foreground = foregroundToken;
     _reduction = web.window.matchMedia('(prefers-reduced-motion: reduce)');
-    var paused = false;
-    try {
-      paused = web.window.sessionStorage.getItem('cr8-motion-paused') == 'true';
-    } catch (_) {
-      // A blocked storage API must not affect the controls or static page.
-    }
-    state.update(reducedBySystem: _reduction.matches, userPaused: paused, documentVisible: !web.document.hidden);
+    state.update(reducedBySystem: _reduction.matches, documentVisible: !web.document.hidden);
     _loops = documentElements('[data-motion-loop]');
-    _toggles = documentElements('.motion-toggle').cast<web.HTMLButtonElement>();
     events.listen(_reduction, 'change', (_) => _change(reducedBySystem: _reduction.matches));
     events.listen(web.document, 'visibilitychange', (_) => _change(documentVisible: !web.document.hidden));
-    for (final button in _toggles) {
-      events.listen(button, 'click', (_) {
-        _change(userPaused: !state.userPaused);
-        try {
-          web.window.sessionStorage.setItem('cr8-motion-paused', '${state.userPaused}');
-        } catch (_) {
-          // Preferences still work for the current page when storage is blocked.
-        }
-      });
-      button.disabled = false;
-    }
     _mountMarquees();
     _profile = web.window.location.search.contains('motionProfile=1');
     if (_profile) _mountProfiling();
@@ -132,11 +113,10 @@ class MotionRuntime {
     }
   }
 
-  void _change({bool? reducedBySystem, bool? userPaused, bool? documentVisible, bool? modalOpen}) {
+  void _change({bool? reducedBySystem, bool? documentVisible, bool? modalOpen}) {
     if (_disposed) return;
     if (!state.update(
       reducedBySystem: reducedBySystem,
-      userPaused: userPaused,
       documentVisible: documentVisible,
       modalOpen: modalOpen,
     )) {
@@ -170,26 +150,8 @@ class MotionRuntime {
   void _sync({bool notifyPolicy = true}) {
     if (_disposed) return;
     setClass(_body, 'motion-reduced', state.reducedBySystem);
-    setClass(_body, 'motion-paused', state.userPaused);
     final root = web.document.documentElement!;
     setClass(root, 'motion-reduced', state.reducedBySystem);
-    setClass(root, 'motion-paused', state.userPaused);
-    final status = state.reducedBySystem
-        ? 'Reduced by your device preference.'
-        : state.userPaused
-        ? 'Paused · activate to resume.'
-        : 'Animations on.';
-    for (final label in documentElements('.motion-status')) {
-      if (label.textContent != status) label.textContent = status;
-    }
-    for (final button in _toggles) {
-      button.setAttribute('aria-pressed', '${state.userPaused}');
-      button.title = state.reducedBySystem
-          ? 'Your device preference reduces animation. This toggle also pauses animation when that preference changes.'
-          : state.userPaused
-          ? 'Animation is paused. Activate to resume.'
-          : 'Pause continuous and spatial animation.';
-    }
     for (final element in _loops) {
       setClass(element, 'motion-running', ambientAllowed && isVisible(element));
     }
@@ -500,12 +462,7 @@ class MotionRuntime {
     for (final loop in _loops) {
       loop.classList.remove('motion-running');
     }
-    for (final button in _toggles) {
-      button.disabled = true;
-    }
-    web.document.documentElement?.classList
-      ?..remove('motion-reduced')
-      ..remove('motion-paused');
+    web.document.documentElement?.classList.remove('motion-reduced');
   }
 }
 
@@ -588,13 +545,9 @@ class _HeroMotion extends _CanvasMotion {
   final Set<int> discovered = {};
   final Map<int, double> drawn = {};
   final List<(double, double, double)> trail = [];
-  bool hovered = false;
-  bool focused = false;
-  bool pressed = false;
   double phase = 0;
   double mouseX = -10000;
   double mouseY = -10000;
-  double? _frozenPhase;
   final List<double> _dotOffsets = [];
 
   void mount() {
@@ -603,18 +556,8 @@ class _HeroMotion extends _CanvasMotion {
     center = container.querySelector('.hero-center')! as web.SVGElement;
     finePointer = web.window.matchMedia('(pointer: fine)');
     mountCanvas();
-    motion.events.listen(container, 'pointerenter', (_) => hovered = true);
     motion.events.listen(container, 'pointerleave', (_) {
-      hovered = false;
       mouseX = mouseY = -10000;
-    });
-    motion.events.listen(container, 'pointerdown', (_) => pressed = true, passive: true);
-    motion.events.listen(web.window, 'pointerup', (_) => pressed = false, passive: true);
-    motion.events.listen(web.window, 'pointercancel', (_) => pressed = false, passive: true);
-    motion.events.listen(container, 'focusin', (_) => focused = true);
-    motion.events.listen(container, 'focusout', (event) {
-      final next = event.isA<web.FocusEvent>() ? (event as web.FocusEvent).relatedTarget : null;
-      focused = next != null && next.isA<web.Node>() && container.contains(next as web.Node);
     });
     motion.events.listen(container, 'pointermove', (event) {
       if (!running || !finePointer.matches || !event.isA<web.PointerEvent>()) return;
@@ -665,18 +608,17 @@ class _HeroMotion extends _CanvasMotion {
 
   void _positionNodes({bool static = false}) {
     final settled = static;
-    if (hovered || focused || pressed) {
-      _frozenPhase ??= phase;
-    } else {
-      _frozenPhase = null;
-    }
-    final at = _frozenPhase ?? phase;
+    setClass(container, 'coarse-pointer', !finePointer.matches);
+    final at = phase;
     final amplitude = width < 380 ? 4.0 : 8.0;
     final cx = 240.0 + (settled ? 0 : math.sin(at * 1.7) * 6);
     final cy = 220.0 + (settled ? 0 : math.cos(at * 1.4) * 6);
     center
       ..setAttribute('cx', '$cx')
       ..setAttribute('cy', '$cy');
+    container.style
+      ..setProperty('--hero-center-x', '${cx / 480 * 100}%')
+      ..setProperty('--hero-center-y', '${cy / 440 * 100}%');
     for (var i = 0; i < nodes.length; i++) {
       final angle = i * math.pi / 3 - math.pi / 2;
       final dx = settled ? 0.0 : math.cos(at * (1.2 + i % 3 * .25) + i * 1.1) * amplitude;

@@ -167,12 +167,14 @@ const faqs = <(String, String)>[
 const services = <Service>[
   Service(
     name: 'Branding',
+    ctaLabel: 'Build your brand →',
     duration: '2–4 weeks',
     description: 'Identity systems built to hold up at any size: favicon, packaging, or the side of a building.',
     deliverables: ['Strategy & positioning input', 'Logo, colour, type & identity system', 'Brand guidelines document'],
   ),
   Service(
     name: 'Rebranding',
+    ctaLabel: 'Refresh your brand →',
     duration: '3–5 weeks',
     description:
         "For businesses that have outgrown the story they started with. We keep what's earned, cut what isn't.",
@@ -184,12 +186,14 @@ const services = <Service>[
   ),
   Service(
     name: 'Consultancy',
+    ctaLabel: 'Shape your strategy →',
     duration: '1–2 weeks',
     description: 'Positioning, naming and go-to-market thinking, worked through before a single pixel moves.',
     deliverables: ['Market & competitor scan', 'Positioning & naming workshop', 'Written recommendation & scope doc'],
   ),
   Service(
     name: 'Web development',
+    ctaLabel: 'Build your website →',
     duration: '3–8 weeks',
     description: 'Fast, considered sites written by hand, not assembled from a theme or a page builder.',
     deliverables: [
@@ -200,6 +204,7 @@ const services = <Service>[
   ),
   Service(
     name: 'App development',
+    ctaLabel: 'Build your app →',
     duration: '6–12 weeks',
     description: 'Native and cross-platform products designed to be opened again tomorrow, not just once.',
     deliverables: [
@@ -210,6 +215,7 @@ const services = <Service>[
   ),
   Service(
     name: 'Maintenance',
+    ctaLabel: 'Get ongoing support →',
     duration: 'Ongoing',
     description: 'Ongoing care: updates, monitoring and small fixes handled before they become big ones.',
     deliverables: ['Monthly updates & uptime monitoring', 'Priority bug fixes', 'Small content & feature changes'],

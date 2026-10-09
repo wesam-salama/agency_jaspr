@@ -100,7 +100,7 @@ void main() {
     expect(text(contact.querySelector('#constelReset')), reference['contact']['reset']);
     expect(text(contact.querySelector('#constelNote')), reference['contact']['empty']);
     expect(text(contact.querySelector('#draftButton')), reference['contact']['submit']);
-    expect(text(document.querySelector('.footer-bottom small')), reference['footer']);
+    expect(text(document.querySelector('#siteFooter .footer-copy')), reference['footer']);
     expect(document.querySelectorAll('.example-label, #cmExample, #cmDescription'), isEmpty);
     expect(text(document.querySelector('#cmClose')), 'Close ✕');
     expect(text(document.querySelector('#cmNext')), 'Next project →');

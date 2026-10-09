@@ -2,41 +2,34 @@
 class MotionState {
   MotionState({
     bool reducedBySystem = false,
-    bool userPaused = false,
     bool documentVisible = true,
     bool modalOpen = false,
   }) : _reducedBySystem = reducedBySystem,
-       _userPaused = userPaused,
        _documentVisible = documentVisible,
        _modalOpen = modalOpen;
 
   bool _reducedBySystem;
-  bool _userPaused;
   bool _documentVisible;
   bool _modalOpen;
 
   bool get reducedBySystem => _reducedBySystem;
-  bool get userPaused => _userPaused;
   bool get documentVisible => _documentVisible;
   bool get modalOpen => _modalOpen;
 
-  bool get reduced => reducedBySystem || userPaused;
+  bool get reduced => reducedBySystem;
   bool get ambientAllowed => !reduced && documentVisible && !modalOpen;
 
   /// Updates only supplied flags and reports whether the state changed.
-  bool update({bool? reducedBySystem, bool? userPaused, bool? documentVisible, bool? modalOpen}) {
+  bool update({bool? reducedBySystem, bool? documentVisible, bool? modalOpen}) {
     final nextReducedBySystem = reducedBySystem ?? _reducedBySystem;
-    final nextUserPaused = userPaused ?? _userPaused;
     final nextDocumentVisible = documentVisible ?? _documentVisible;
     final nextModalOpen = modalOpen ?? _modalOpen;
     final changed =
         nextReducedBySystem != _reducedBySystem ||
-        nextUserPaused != _userPaused ||
         nextDocumentVisible != _documentVisible ||
         nextModalOpen != _modalOpen;
 
     _reducedBySystem = nextReducedBySystem;
-    _userPaused = nextUserPaused;
     _documentVisible = nextDocumentVisible;
     _modalOpen = nextModalOpen;
     return changed;

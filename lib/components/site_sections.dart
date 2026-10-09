@@ -81,16 +81,6 @@ Component _referenceHeading(String section) {
   return _heading(copy.title, copy.introduction, label: copy.label);
 }
 
-Component _motionToggle() => _el('div', [
-  _el(
-    'button',
-    [_text('Pause animations')],
-    classes: 'motion-toggle',
-    attributes: {'type': 'button', 'aria-pressed': 'false', 'disabled': ''},
-  ),
-  _el('span', const [], classes: 'motion-status'),
-], classes: 'motion-preference');
-
 Component _marquee({bool footer = false}) => _el(
   'div',
   [
@@ -206,13 +196,12 @@ class AgencyPage extends StatelessComponent {
       _marquee(footer: true),
       _el('div', [
         _logo(),
-        _link('hello@cr8.media', 'mailto:hello@cr8.media'),
-      ], classes: 'wrap footer-main'),
-      _el('div', [
-        _el('small', [_text('© 2026 CR8.Media. Every line ends at a conversation.')]),
-        _motionToggle(),
-        _link('Back to top', '#top'),
-      ], classes: 'wrap footer-bottom'),
+        _el('div', [
+          _link('hello@cr8.media', 'mailto:hello@cr8.media'),
+          _link('Back to top', '#top'),
+        ], classes: 'footer-links'),
+        _el('small', [_text('© 2026 CR8.Media. Every line ends at a conversation.')], classes: 'footer-copy'),
+      ], classes: 'wrap footer-row'),
     ], id: 'siteFooter'),
     _caseDialog(),
   ]);
@@ -333,7 +322,6 @@ Component _hero() => _el(
           classes: 'hero-network',
           attributes: {'data-motion-loop': 'hero'},
         ),
-        _el('div', [_motionToggle()], classes: 'network-controls'),
       ], classes: 'hero-visual'),
     ], classes: 'wrap hero-grid'),
     _marquee(),
@@ -368,7 +356,7 @@ Component _services() => _el('section', [
             ], classes: 'service-deliverables'),
             _serviceIcon(i),
             _link(
-              'Start a project →',
+              services[i].ctaLabel,
               '#contact',
               classes: 'service-cta text-link',
               attributes: {'data-service': '$i'},

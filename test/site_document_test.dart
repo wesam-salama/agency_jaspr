@@ -181,24 +181,20 @@ void main() {
     }
   });
 
-  testServer('prerenders pause controls and keeps repeated marquee content decorative', (tester) async {
+  testServer('renders a compact footer without pause controls and keeps marquee content decorative', (tester) async {
     tester.pumpComponent(buildAgencyDocument());
     final document = (await tester.request('/')).document!;
-    final controls = document.querySelectorAll('.motion-toggle');
+    final footer = document.querySelector('#siteFooter')!;
+    final links = footer.querySelectorAll('.footer-links a');
     final marquees = document.querySelectorAll('.motion-marquee-band');
 
-    expect(controls, hasLength(2));
-    for (final control in controls) {
-      expect(control.localName, 'button');
-      expect(control.attributes['type'], 'button');
-      expect(control.attributes['aria-pressed'], 'false');
-      expect(control.attributes, containsPair('disabled', ''));
-      expect(_normaliseWhitespace(control.text), 'Pause animations');
-      expect(control.attributes['aria-hidden'], isNull);
-    }
-    expect(document.querySelector('#top .motion-toggle'), isNotNull);
-    expect(document.querySelector('footer .motion-toggle'), isNotNull);
-    expect(document.querySelectorAll('.motion-preference .motion-status'), hasLength(2));
+    expect(document.querySelectorAll('.motion-toggle, .motion-preference, .motion-status, .network-controls'), isEmpty);
+    expect(document.body!.text, isNot(contains('Pause animations')));
+    expect(footer.querySelectorAll('.footer-row'), hasLength(1));
+    expect(footer.querySelector('.logo')!.attributes['href'], '#top');
+    expect(links.map((link) => link.attributes['href']), ['mailto:hello@cr8.media', '#top']);
+    expect(links.map((link) => _normaliseWhitespace(link.text)), ['hello@cr8.media', 'Back to top']);
+    expect(footer.querySelectorAll('.footer-main, .footer-bottom, button'), isEmpty);
     expect(marquees, hasLength(2));
     for (final marquee in marquees) {
       expect(marquee.attributes['aria-hidden'], 'true');

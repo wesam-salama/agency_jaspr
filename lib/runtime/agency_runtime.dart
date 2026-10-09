@@ -289,13 +289,12 @@ class AgencyDomRuntime {
     }
     const centerX = 160.0;
     const centerY = 112.0;
-    final points = selected
-        .map((index) {
-          final angle = index * math.pi / 3 - math.pi / 2;
-          return '${centerX + math.cos(angle) * 106},${centerY + math.sin(angle) * 76}';
-        })
-        .join(' ');
-    shape.setAttribute('points', '$centerX,$centerY $points $centerX,$centerY');
+    final points = selected.map((index) {
+      final angle = index * math.pi / 3 - math.pi / 2;
+      return '${centerX + math.cos(angle) * 106},${centerY + math.sin(angle) * 76}';
+    }).toList();
+    if (selected.length == serviceNames.length) points.add(points.first);
+    shape.setAttribute('points', '$centerX,$centerY ${points.join(' ')} $centerX,$centerY');
     note.textContent = 'You + ${selected.map((index) => serviceNames[index]).join(' + ')}, the shape closes.';
     motion.redrawConstellation();
   }

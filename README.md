@@ -16,11 +16,13 @@ Jaspr is configured with `mode: static`. Build output contains prerendered HTML 
 
 ## Motion
 
-`lib/runtime/motion_runtime.dart` owns dynamic motion preferences, synchronized pause controls, viewport suspension and a single demand-driven frame scheduler. The hero restores organic service points, drawn connections and a bounded fine-pointer trail. Six animated service SVGs, visible-image portfolio particles, two service bands and supporting linework retain the original creative vocabulary.
+`lib/runtime/motion_runtime.dart` owns dynamic device motion preferences, viewport suspension and a single demand-driven frame scheduler. The hero restores organic service points, drawn connections and a bounded fine-pointer trail. Six animated service SVGs, visible-image portfolio particles, two service bands and supporting linework retain the original creative vocabulary.
 
-All four project cards and Next use the reference Loop's full-screen red curtain: 550 ms to cover from the left, details open at 580 ms, then 550 ms to retract to the right. `lib/runtime/case_transition.dart` owns the temporary viewport layer and animations; `case_navigation.dart` guards the delayed opening. Close cancels pending navigation and restores opener focus; resize and visibility/preference changes immediately reveal the latest requested case. Pause and reduced motion bypass the curtain. The existing transition enum and image expansion, iris and tunnel implementations remain available.
+All four project cards and Next use the reference Loop's full-screen red curtain: 550 ms to cover from the left, details open at 580 ms, then 550 ms to retract to the right. `lib/runtime/case_transition.dart` owns the temporary viewport layer and animations; `case_navigation.dart` guards the delayed opening. Close cancels pending navigation and restores opener focus; resize and visibility/preference changes immediately reveal the latest requested case. Device reduced motion bypasses the curtain. The existing transition enum and image expansion, iris and tunnel implementations remain available.
 
-The hero and footer share a **Pause animations** toggle. Device reduced motion takes precedence; storage failures retain a working page-level preference. Content, SVG and imagery are prerendered and visible without motion or client enhancement.
+Motion follows the device's reduced-motion preference without manual pause controls or stored overrides. Ambient effects suspend when offscreen, while the document is hidden, and behind an open case dialog. Content, SVG and imagery are prerendered and visible without motion or client enhancement.
+
+The footer uses one wrapping row beneath its marquee, with the logo, grouped email/Back to top links, and copyright. It follows the reference's 28px vertical padding and 18px logo height while retaining 44px link targets and responsive wrapping.
 
 For local profiling, append `?motionProfile=1` to the preview URL. Hidden `#agencyRuntime` data attributes report sampled callback costs, frame/task counts and observed long tasks. These measure the local browser run and do not establish device or field performance.
 

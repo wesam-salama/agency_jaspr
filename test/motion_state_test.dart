@@ -3,39 +3,25 @@ import 'package:test/test.dart';
 
 void main() {
   group('MotionState', () {
-    test('permits ambient motion in a visible, unpaused page by default', () {
+    test('permits ambient motion in a visible page by default', () {
       final state = MotionState();
 
       expect(state.reduced, isFalse);
       expect(state.ambientAllowed, isTrue);
       expect(state.update(), isFalse);
-      expect(state.update(documentVisible: true, userPaused: false), isFalse);
+      expect(state.update(documentVisible: true, reducedBySystem: false), isFalse);
     });
 
-    test('explicit resume cannot override the system reduced motion preference', () {
-      final state = MotionState(reducedBySystem: true, userPaused: true);
+    test('responds to dynamic system reduced motion preferences', () {
+      final state = MotionState();
 
-      expect(state.update(userPaused: false), isTrue);
-      expect(state.userPaused, isFalse);
+      expect(state.update(reducedBySystem: true), isTrue);
       expect(state.reducedBySystem, isTrue);
       expect(state.reduced, isTrue);
       expect(state.ambientAllowed, isFalse);
 
       expect(state.update(reducedBySystem: false), isTrue);
       expect(state.reduced, isFalse);
-      expect(state.ambientAllowed, isTrue);
-    });
-
-    test('system preference changes preserve a user pause', () {
-      final state = MotionState(userPaused: true);
-
-      state.update(reducedBySystem: true);
-      state.update(reducedBySystem: false);
-
-      expect(state.userPaused, isTrue);
-      expect(state.reduced, isTrue);
-      expect(state.ambientAllowed, isFalse);
-      state.update(userPaused: false);
       expect(state.ambientAllowed, isTrue);
     });
 
@@ -58,11 +44,11 @@ void main() {
       expect(state.ambientAllowed, isTrue);
     });
 
-    test('closing a modal and returning to the page cannot clear a user pause', () {
-      final state = MotionState(userPaused: true, documentVisible: false, modalOpen: true);
+    test('closing a modal and returning to the page preserves system reduced motion', () {
+      final state = MotionState(reducedBySystem: true, documentVisible: false, modalOpen: true);
 
       expect(state.update(documentVisible: true, modalOpen: false), isTrue);
-      expect(state.userPaused, isTrue);
+      expect(state.reducedBySystem, isTrue);
       expect(state.reduced, isTrue);
       expect(state.ambientAllowed, isFalse);
       expect(state.update(documentVisible: true, modalOpen: false), isFalse);
@@ -82,23 +68,20 @@ void main() {
 
     test('allows ambient motion only when every policy condition permits it', () {
       for (final reducedBySystem in [false, true]) {
-        for (final userPaused in [false, true]) {
-          for (final documentVisible in [false, true]) {
-            for (final modalOpen in [false, true]) {
-              final state = MotionState(
-                reducedBySystem: reducedBySystem,
-                userPaused: userPaused,
-                documentVisible: documentVisible,
-                modalOpen: modalOpen,
-              );
+        for (final documentVisible in [false, true]) {
+          for (final modalOpen in [false, true]) {
+            final state = MotionState(
+              reducedBySystem: reducedBySystem,
+              documentVisible: documentVisible,
+              modalOpen: modalOpen,
+            );
 
-              expect(state.reduced, reducedBySystem || userPaused);
-              expect(
-                state.ambientAllowed,
-                !reducedBySystem && !userPaused && documentVisible && !modalOpen,
-                reason: 'system=$reducedBySystem, paused=$userPaused, visible=$documentVisible, modal=$modalOpen',
-              );
-            }
+            expect(state.reduced, reducedBySystem);
+            expect(
+              state.ambientAllowed,
+              !reducedBySystem && documentVisible && !modalOpen,
+              reason: 'system=$reducedBySystem, visible=$documentVisible, modal=$modalOpen',
+            );
           }
         }
       }

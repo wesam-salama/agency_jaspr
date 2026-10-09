@@ -41,12 +41,19 @@ class Engagement {
 }
 
 class Service {
-  const Service({required this.name, required this.duration, required this.description, required this.deliverables});
+  const Service({
+    required this.name,
+    required this.duration,
+    required this.description,
+    required this.deliverables,
+    required this.ctaLabel,
+  });
 
   final String name;
   final String duration;
   final String description;
   final List<String> deliverables;
+  final String ctaLabel;
 }
 
 class CaseLede {
