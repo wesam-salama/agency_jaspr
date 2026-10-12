@@ -2,17 +2,26 @@
 
 A static Jaspr/Dart agency website built around the Connected studio direction: dark surfaces, signal red, the existing fonts, sharp edges, and a connecting-line motif. The original `../agency_website.html` remains unchanged as a reference.
 
+The site has three complete language editions: English at `/`, Arabic at `/ar/`, and French at `/fr/`. Arabic uses a right-to-left document layout; all three pages keep the same section anchors and four case studies.
+
 ## Architecture
 
-`lib/components/site_sections.dart` owns the page's Jaspr components. It replaces the former reference generator and `lib/generated/agency_markup.dart`; edit the components, typed content, and stylesheet directly. There is no markup-regeneration step.
+The Jaspr components, typed localized content, and stylesheet are the source of truth. They replace the former reference generator and `lib/generated/agency_markup.dart`; there is no markup-regeneration step.
 
 - `lib/app.dart` composes the page and hydrated browser runtime.
-- `lib/site_document.dart` supplies the document language, title, description, and stylesheet.
-- `lib/data/site_data.dart` and `lib/models/site_models.dart` hold services and illustrative project content.
+- `lib/components/site_sections.dart` owns the shared page shell, navigation, case dialog, and component helpers; `lib/components/sections/` holds one Jaspr part file per page section.
+- `lib/site_document.dart` supplies each page's language, direction, title, description, and stylesheet; the header renders the language links.
+- `lib/l10n/site_content.dart` selects a typed `SiteContent` for each route; its Arabic, French, and UI-text parts provide complete translated strings. `lib/data/` and `lib/models/` retain shared services and illustrative project identities.
 - `lib/runtime/` enhances navigation, the service constellation, case exploration, animation, and enquiry preparation.
 - `web/assets/styles.css` owns the implemented visual system and responsive layouts.
 
-Jaspr is configured with `mode: static`. Build output contains prerendered HTML and client JavaScript; hosting needs static-file serving, not a running Dart backend. Section anchors and the four case layouts remain part of the page contract.
+Jaspr is configured with `mode: static`. Build output contains prerendered HTML for all three routes and client JavaScript; hosting needs static-file serving, not a running Dart backend. Section anchors and the four case layouts remain part of the page contract.
+
+## Languages and enquiry
+
+The header language selector uses native links and works before hydration or with JavaScript disabled. On an enhanced switch, the current section is retained. An unfinished enquiry is passed through same-tab temporary storage, restored once on the destination page, and removed from storage. If storage fails, the site keeps the brief on the current page and explains how to continue. A direct visit to the main URL always opens English.
+
+English keeps the approved reference wording. Arabic uses a natural, professional Saudi/Gulf marketing voice; French uses professional “vous.” Project identities, numbers, timescales, and illustrative claims retain their source meaning. Page metadata, image descriptions, labels, validation, live messages, case details, and the `mailto:` draft use the selected language. User-written brief text is copied verbatim into the email draft. The site does not send the email.
 
 ## Motion
 
@@ -34,7 +43,7 @@ The enquiry action prepares an encoded `mailto:` draft addressed to `hello@cr8.m
 
 ## Local assets
 
-Fonts are served from `web/assets/fonts/` with `font-display: swap`. The preserved CR8 mark is `web/assets/cr8-logo.svg`.
+Fonts are served from `web/assets/fonts/` with `font-display: swap`. Arabic uses Regular and SemiBold from [IBM's Plex Sans Arabic source](https://github.com/IBM/plex/tree/master/packages/plex-sans-arabic/fonts/complete/woff2), licensed under the SIL Open Font License in `web/assets/fonts/IBM-Plex-Sans-Arabic-OFL.txt`. The preserved CR8 mark is `web/assets/cr8-logo.svg`.
 
 `lib/utils/image_assets.dart` maps the existing JPEG content paths to local WebP sources, responsive `srcset` candidates, and intrinsic dimensions. Variants use 480px, 960px where applicable, and full-size widths. Original JPEG assets remain available as references. The legacy `loop-phone.jpg` contains a captured 404 response; its metadata deliberately aliases the valid Loop onboarding photo rather than displaying that broken asset.
 
@@ -59,13 +68,13 @@ dart test
 jaspr build
 ```
 
-`jaspr build` writes static output to `build/jaspr/`. A successful local build does not publish the site.
+`jaspr build` writes static output to `build/jaspr/`. Verify `index.html`, `ar/index.html`, and `fr/index.html`, plus their locale metadata and asset links. A successful local build does not publish the site.
 
 ## GitHub Pages
 
 The site publishes to https://wesam-salama.github.io/agency_jaspr/ through `.github/workflows/deploy-pages.yml`. The workflow analyzes and tests the project, builds it with Dart 3.13.2 and Jaspr CLI 0.23.4, and uploads only `build/jaspr/`. Pushes to `main` deploy automatically; the workflow also supports manual runs.
 
-The build sets `SITE_BASE_PATH` from GitHub Pages metadata. This emits a document base URL so Jaspr's client script, styles, fonts and images load beneath the repository path. Builds without this define retain the existing root-hosting behavior.
+The build sets `SITE_BASE_PATH` from GitHub Pages metadata. This emits a document base URL so Jaspr's client script, styles, fonts and images load beneath the repository path. Locale links then resolve to `/agency_jaspr/`, `/agency_jaspr/ar/`, and `/agency_jaspr/fr/`. Builds without this define retain root-hosting behavior with `/`, `/ar/`, and `/fr/`.
 
 To build for this repository locally:
 

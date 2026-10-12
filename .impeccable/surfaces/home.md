@@ -1,7 +1,7 @@
 # Homepage enhancement brief
 
 ## Job and mode
-Persuade: help founders and marketing leads understand the six disciplines and prepare a suitable enquiry. Case-study exploration supports this task with illustrative material.
+Persuade: help English, Arabic, and French-speaking founders and marketing leads understand the six disciplines and prepare a suitable enquiry. Case-study exploration supports this task with illustrative material.
 
 ## Direction
 The user approved Connected studio, a code-first evolution of the existing dark/red identity and fonts. Use the supplied reference headline “Every brand is a handful of points. We draw the line between them.” Keep the eight existing sections and their anchors, four case-study layouts, and email-draft handoff.
@@ -14,6 +14,8 @@ App-owned Jaspr components replace destructive reference generation. Services an
 
 The 9 October 2026 reference-restoration pass restores six header shortcuts including Engagement and FAQ, compact section labels, connected service/work grids, visible service deliverables, a vertical process timeline, three bounded engagement choices and grouped Studio narrative/values. FAQ spans the container and retains independent native disclosures with trailing plus/minus SVGs. Services and work stack at 860px. The user approved exact reference section and case-study wording, including omission of added illustrative notes, while preserving the expanded enquiry and shared curtain. Source examples remain internally classified as unverified.
 
+The 12 October 2026 localization pass adds shareable `/`, `/ar/`, and `/fr/` pages. English keeps its approved wording; Arabic uses a natural, professional Saudi/Gulf marketing voice and RTL; French uses professional “vous.” Every section, case, form message, image description, metadata field, and prepared email is translated. A native, visible language selector works without JavaScript. On enhanced switches, preserve the current section and transfer an unfinished brief once in the same tab; a storage failure leaves the current brief intact and explains the problem. Preserve Latin project names, numerals, and the email address in readable direction. The Arabic typeface is locally hosted IBM Plex Sans Arabic, while all three languages share the existing brand, layout vocabulary, and motion.
+
 ## Motion thesis
 The user confirmed the full original motion vocabulary within the current composition, then selected the reference Loop curtain for all four cases and Next on 9 October 2026. The focal moment is a tactile constellation of moving points, pointer ink and progressive connections. Service motifs and portfolio particles support it. Case navigation covers the viewport from the left over 550ms, opens details at 580ms, and retracts to the right over 550ms. Logo, navigation, CTA wire, service marquees, process connectors and contact selection acknowledge the same visual language.
 
@@ -21,6 +23,8 @@ Keep dialog content and controls stable beneath the temporary curtain; focus the
 
 ## Finish
 One batched desktop/mobile inspection and one confirmation at most; share final evidence between polish, audit, and critique. Preserve ../agency_website.html, local assets, and static deployment architecture.
+
+Inspect each language at 320, 390, 768, and 1440 pixels. Check RTL navigation, process rail, service labels, case scroll and dialog controls, long French copy, reduced motion, direct locale URLs, and the selector without JavaScript.
 
 ## Process progress
 

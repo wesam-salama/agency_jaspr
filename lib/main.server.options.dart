@@ -28,6 +28,11 @@ ServerOptions get defaultServerOptions => ServerOptions(
   clients: {
     _agency_runtime.AgencyRuntime: ClientTarget<_agency_runtime.AgencyRuntime>(
       'agency_runtime',
+      params: __agency_runtimeAgencyRuntime,
     ),
   },
 );
+
+Map<String, Object?> __agency_runtimeAgencyRuntime(
+  _agency_runtime.AgencyRuntime c,
+) => {'localeCode': c.localeCode};

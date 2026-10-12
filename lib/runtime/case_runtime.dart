@@ -1,7 +1,7 @@
 import 'package:universal_web/js_interop.dart';
 import 'package:universal_web/web.dart' as web;
 
-import '../data/site_data.dart';
+import '../l10n/site_content.dart';
 import '../models/site_models.dart';
 import '../utils/image_assets.dart';
 import 'case_navigation.dart';
@@ -11,10 +11,12 @@ import 'motion_runtime.dart';
 import 'motion_state.dart';
 
 class CaseRuntime {
-  CaseRuntime({required this.motion, required this.events});
+  CaseRuntime({required this.motion, required this.events, required this.content, required this.rtl});
 
   final MotionRuntime motion;
   final EventScope events;
+  final SiteContent content;
+  final bool rtl;
   bool get reduceMotion => motion.reduced;
   final Map<web.HTMLElement, String?> _previousInert = {};
   final Map<web.Element, double> _chapterVisibility = {};
@@ -61,7 +63,7 @@ class CaseRuntime {
     for (final item in documentElements('button.work-item[data-case]')) {
       events.listen(item, 'click', (event) {
         final name = item.getAttribute('data-case');
-        final matches = caseStudies.where((study) => study.name == name);
+        final matches = content.caseStudies.where((study) => study.name == name);
         if (matches.isNotEmpty) {
           final trigger = item as web.HTMLElement;
           open(
@@ -76,7 +78,7 @@ class CaseRuntime {
     events.listen(elementById<web.HTMLButtonElement>('cmClose'), 'click', (_) => close());
     events.listen(_next, 'click', (_) {
       final activation = ActivationGeometry.capture(_heroImage, _next, useTriggerCenter: true);
-      open(caseStudies[(_currentIndex + 1) % caseStudies.length], activation: activation);
+      open(content.caseStudies[(_currentIndex + 1) % content.caseStudies.length], activation: activation);
     });
     events.listen(web.window, 'resize', (_) {
       _handleMotionPolicy();
@@ -141,7 +143,7 @@ class CaseRuntime {
 
   void _populate(CaseStudy study) {
     _current = study;
-    _currentIndex = caseStudies.indexOf(study);
+    _currentIndex = content.caseStudies.indexOf(study);
     _countsStarted = false;
     final token = _contentGeneration.begin();
     _contentEvents = EventScope();
@@ -154,10 +156,10 @@ class CaseRuntime {
     elementById<web.HTMLElement>('cmTag').textContent = study.tag;
     _meta.textContent = '';
     for (final entry in <(String, String)>[
-      ('Client', study.client),
-      ('Role', study.role),
-      ('Timeline', study.timeline),
-      ('Deliverables', study.deliverables),
+      (content.t(UiTextKey.caseClient), study.client),
+      (content.t(UiTextKey.caseRole), study.role),
+      (content.t(UiTextKey.caseTimeline), study.timeline),
+      (content.t(UiTextKey.caseDeliverables), study.deliverables),
     ]) {
       final item = _element('div');
       item
@@ -166,7 +168,7 @@ class CaseRuntime {
       _meta.append(item);
     }
     _renderBody(study);
-    _next.textContent = 'Next project →';
+    _next.textContent = content.t(UiTextKey.nextProject);
   }
 
   void _renderBody(CaseStudy study) {
@@ -217,7 +219,7 @@ class CaseRuntime {
       attributes: {
         'tabindex': '0',
         'role': 'region',
-        'aria-label': '${study.name} project chapters; use left and right arrow keys to scroll',
+        'aria-label': content.t(UiTextKey.caseScrollerAria, values: {'name': study.name}),
       },
     );
     for (final chapter in study.chapters) {
@@ -238,7 +240,8 @@ class CaseRuntime {
       if (key.key == 'Home') {
         scroller.scrollLeft = 0;
       } else if (key.key == 'End') {
-        scroller.scrollLeft = scroller.scrollWidth.toDouble();
+        final distance = (scroller.scrollWidth - scroller.clientWidth).toDouble();
+        scroller.scrollLeft = rtl ? -distance : distance;
       } else {
         final step = scroller.clientWidth * .8 * (key.key == 'ArrowLeft' ? -1 : 1);
         scroller.scrollBy(web.ScrollToOptions(left: step, behavior: reduceMotion ? 'auto' : 'smooth'));
@@ -250,7 +253,7 @@ class CaseRuntime {
         _element(
           'p',
           classes: 'cm-hint',
-          text: '← drag / scroll →',
+          text: content.t(UiTextKey.caseScrollerHint),
         ),
       );
     if (study.quote case final quote?) _body.append(_quote(quote, study));
@@ -263,7 +266,7 @@ class CaseRuntime {
       left
         ..append(_element('div', id: 'chNum', classes: 'chn', text: study.chapters.first.number))
         ..append(_element('div', id: 'chTitle', classes: 'cht', text: study.chapters.first.title))
-        ..append(_element('div', classes: 'chp', text: 'Scroll the chapters →'));
+        ..append(_element('div', classes: 'chp', text: content.t(UiTextKey.caseChaptersHint)));
     }
     final chapters = _element('div');
     final blocks = <web.HTMLElement>[];
@@ -334,15 +337,15 @@ class CaseRuntime {
     final metrics = _element(
       'div',
       classes: 'cm-stats',
-      attributes: {'role': 'group', 'aria-label': 'Results'},
+      attributes: {'role': 'group', 'aria-label': content.t(UiTextKey.caseResults)},
     );
     for (final metric in study.metrics) {
       final card = _element('div');
-      final value = '${_formatMetric(metric.target, metric.decimals)}${metric.suffix}';
+      final value = '${content.formatMetric(metric.target, metric.decimals)}${metric.suffix}';
       final number = _element('div', classes: 'n');
       final visualValue = _element('span', text: value, attributes: {'aria-hidden': 'true'});
       number
-        ..append(_element('span', classes: 'visually-hidden', text: value))
+        ..append(_element('span', classes: 'visually-hidden', text: content.spokenMetricValue(metric)))
         ..append(visualValue);
       _metricValues.add((visualValue, metric));
       card
@@ -388,7 +391,7 @@ class CaseRuntime {
     final token = _countGeneration.begin();
     double? startedAt;
     for (final (element, metric) in _metricValues) {
-      element.textContent = '${_formatMetric(0, metric.decimals)}${metric.suffix}';
+      element.textContent = '${content.formatMetric(0, metric.decimals)}${metric.suffix}';
     }
     _cancelCountFrames = motion.registerFrameTask((timestamp) {
       if (!_countGeneration.accepts(token) || _disposed || !isOpen) return;
@@ -397,7 +400,7 @@ class CaseRuntime {
       final inverse = 1 - progress;
       final eased = 1 - inverse * inverse * inverse;
       for (final (element, metric) in _metricValues) {
-        element.textContent = '${_formatMetric(metric.target * eased, metric.decimals)}${metric.suffix}';
+        element.textContent = '${content.formatMetric(metric.target * eased, metric.decimals)}${metric.suffix}';
       }
       if (progress >= 1) _settleCounts();
     });
@@ -411,7 +414,7 @@ class CaseRuntime {
     _metricObserver?.disconnect();
     _metricObserver = null;
     for (final (element, metric) in _metricValues) {
-      element.textContent = '${_formatMetric(metric.target, metric.decimals)}${metric.suffix}';
+      element.textContent = '${content.formatMetric(metric.target, metric.decimals)}${metric.suffix}';
     }
   }
 
@@ -490,17 +493,6 @@ class CaseRuntime {
       }
     }
     return element;
-  }
-
-  String _formatMetric(num value, int decimals) {
-    if (decimals > 0) return value.toStringAsFixed(decimals);
-    final digits = value.round().toString();
-    final output = StringBuffer();
-    for (var index = 0; index < digits.length; index++) {
-      if (index > 0 && (digits.length - index) % 3 == 0) output.write(',');
-      output.write(digits[index]);
-    }
-    return output.toString();
   }
 
   void _trapFocus(web.KeyboardEvent event) {

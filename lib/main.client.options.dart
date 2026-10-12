@@ -28,7 +28,8 @@ import 'package:agency_jaspr/runtime/agency_runtime.dart'
 ClientOptions get defaultClientOptions => ClientOptions(
   clients: {
     'agency_runtime': ClientLoader(
-      (p) => _agency_runtime.AgencyRuntime(),
+      (p) =>
+          _agency_runtime.AgencyRuntime(localeCode: p['localeCode'] as String),
       loader: _agency_runtime.loadLibrary,
     ),
   },
