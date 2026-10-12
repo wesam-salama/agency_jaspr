@@ -1,10 +1,58 @@
 import 'package:agency_jaspr/components/static_extras.dart';
 import 'package:agency_jaspr/data/site_data.dart';
+import 'package:agency_jaspr/l10n/site_content.dart';
 import 'package:agency_jaspr/models/site_models.dart';
 import 'package:agency_jaspr/utils/mailto.dart';
 import 'package:test/test.dart';
 
 void main() {
+  test('Arabic and French cover the same sections, cases, and interface keys as English', () {
+    final english = siteContentFor(SiteLocale.en);
+    for (final locale in [SiteLocale.ar, SiteLocale.fr]) {
+      final translated = siteContentFor(locale);
+      expect(translated.uiText.keys.toSet(), UiTextKey.values.toSet(), reason: locale.code);
+      expect(translated.uiText.values, everyElement(isNotEmpty), reason: locale.code);
+      expect(translated.sectionCopy.keys.toSet(), english.sectionCopy.keys.toSet(), reason: locale.code);
+      expect(translated.services, hasLength(english.services.length), reason: locale.code);
+      expect(translated.caseStudies, hasLength(english.caseStudies.length), reason: locale.code);
+      expect(translated.workProjects, hasLength(english.workProjects.length), reason: locale.code);
+      for (var index = 0; index < english.caseStudies.length; index++) {
+        final source = english.caseStudies[index];
+        final localized = translated.caseStudies[index];
+        expect(localized.name, source.name);
+        expect(localized.heroImage, source.heroImage);
+        expect(localized.metrics.map((metric) => metric.target), source.metrics.map((metric) => metric.target));
+        expect(localized.figures, hasLength(source.figures.length));
+        expect(localized.chapters, hasLength(source.chapters.length));
+      }
+    }
+  });
+
+  test('formats shared case-study results for each language', () {
+    expect(siteContentFor(SiteLocale.en).formatMetric(12400, 0), '12,400');
+    expect(siteContentFor(SiteLocale.ar).formatMetric(12400, 0), '12٬400');
+    expect(siteContentFor(SiteLocale.fr).formatMetric(12400, 0), '12 400');
+    expect(siteContentFor(SiteLocale.en).formatMetric(.4, 1), '0.4');
+    expect(siteContentFor(SiteLocale.ar).formatMetric(.4, 1), '0٫4');
+    expect(siteContentFor(SiteLocale.fr).formatMetric(.4, 1), '0,4');
+  });
+
+  test('reads the compact case-study seconds metric in full in each language', () {
+    for (final (locale, visual, spoken) in <(SiteLocale, String, String)>[
+      (SiteLocale.en, '0.4s', '0.4 seconds'),
+      (SiteLocale.ar, '0٫4ث', '0٫4 ثانية'),
+      (SiteLocale.fr, '0,4s', '0,4 seconde'),
+    ]) {
+      final content = siteContentFor(locale);
+      final metrics = content.caseStudies.last.metrics;
+      final seconds = metrics.last;
+      expect(seconds.target, .4);
+      expect('${content.formatMetric(seconds.target, seconds.decimals)}${seconds.suffix}', visual);
+      expect(content.spokenMetricValue(seconds), spoken);
+      expect(content.spokenMetricValue(metrics.first), '68%');
+    }
+  });
+
   group('reference content', () {
     test('contains every service and work project in reference order', () {
       expect(services, hasLength(6));
@@ -62,6 +110,42 @@ void main() {
   });
 
   group('contact mailto', () {
+    test('localizes draft labels while preserving the visitor message and service IDs', () {
+      const message = 'A bilingual launch — إطلاق ثنائي اللغة';
+      for (final locale in [SiteLocale.ar, SiteLocale.fr]) {
+        final content = siteContentFor(locale);
+        final uri = Uri.parse(
+          buildProjectMailto(
+            name: 'Élodie',
+            email: 'elodie@example.com',
+            selectedServices: const ['0', '3'],
+            message: message,
+            timing: 'oneToThree',
+            locale: locale,
+          ),
+        );
+        final body = uri.queryParameters['body']!;
+        expect(uri.queryParameters['subject'], content.t(UiTextKey.mailtoSubject, values: {'name': 'Élodie'}));
+        expect(body, contains('${content.t(UiTextKey.mailtoName)}: Élodie'));
+        expect(body, contains(content.serviceNames[0]));
+        expect(body, contains(content.serviceNames[3]));
+        expect(body, contains(content.timingLabels['oneToThree']));
+        expect(body.endsWith(message), isTrue);
+        expect(
+          Uri.parse(
+            buildProjectMailto(
+              name: 'Élodie',
+              email: 'elodie@example.com',
+              selectedServices: const [],
+              message: message,
+              timing: 'unsure',
+              locale: locale,
+            ),
+          ).queryParameters['body'],
+          isNot(contains('${content.t(UiTextKey.mailtoTiming)}:')),
+        );
+      }
+    });
     test('encodes selected reference labels exactly', () {
       expect(
         buildProjectMailto(

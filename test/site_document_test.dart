@@ -5,6 +5,7 @@ import 'dart:io';
 
 import 'package:agency_jaspr/components/static_extras.dart' show serviceNames;
 import 'package:agency_jaspr/data/site_data.dart';
+import 'package:agency_jaspr/l10n/site_content.dart';
 import 'package:agency_jaspr/site_document.dart';
 import 'package:agency_jaspr/utils/image_assets.dart';
 import 'package:html/dom.dart';
@@ -49,6 +50,48 @@ void main() {
       expect(item.localName, 'details');
       expect(_normaliseWhitespace(item.querySelector('summary')!.text), isNotEmpty);
       expect(item.querySelector('p'), isNotNull);
+    }
+  });
+
+  testServer('prerenders complete Arabic and French pages with local navigation', (tester) async {
+    tester.pumpComponent(buildAgencyDocument());
+    for (final locale in [SiteLocale.ar, SiteLocale.fr]) {
+      final document = (await tester.request('/${locale.pathSegment}/')).document!;
+      final content = siteContentFor(locale);
+      final path = '/${locale.pathSegment}/';
+
+      expect(document.documentElement?.attributes['lang'], locale.code);
+      expect(document.documentElement?.attributes['dir'], locale.direction);
+      expect(document.querySelector('base')?.attributes['href'], siteRootPath);
+      expect(document.querySelector('title')?.text, content.siteTitle);
+      expect(document.querySelector('meta[name="description"]')?.attributes['content'], content.siteDescription);
+      expect(_normaliseWhitespace(document.querySelector('h1')!.text), content.heroHeadline);
+      expect(document.querySelectorAll('main > section'), hasLength(8));
+      expect(document.querySelectorAll('.work-item'), hasLength(4));
+      expect(document.querySelectorAll('.language-switcher a[data-language-link]'), hasLength(3));
+      expect(document.querySelector('.skip-link')?.attributes['href'], '$path#mainContent');
+      expect(document.querySelector('#primaryNavigation a')?.attributes['href'], '$path#services');
+      expect(document.querySelector('.hero-ctas a')?.attributes['href'], '$path#contact');
+      expect(
+        document.querySelectorAll('#contactForm input[name="services"]').map((input) => input.attributes['value']),
+        orderedEquals(['0', '1', '2', '3', '4', '5']),
+      );
+      expect(
+        document.querySelectorAll('#contactForm .service-choice span').map((label) => _normaliseWhitespace(label.text)),
+        orderedEquals(content.services.map((service) => service.name)),
+      );
+    }
+  });
+
+  testServer('language selector displays only the current language name', (tester) async {
+    tester.pumpComponent(buildAgencyDocument());
+    for (final locale in SiteLocale.values) {
+      final path = locale == SiteLocale.en ? '/' : '/${locale.pathSegment}/';
+      final document = (await tester.request(path)).document!;
+      final summary = document.querySelector('.language-switcher summary')!;
+
+      expect(_normaliseWhitespace(summary.text), locale.nativeLabel);
+      expect(summary.attributes['aria-label'], siteContentFor(locale).t(UiTextKey.languageSelectorAria));
     }
   });
 
@@ -262,7 +305,11 @@ void main() {
     expect(form.attributes['method'], 'post');
     expect(form.attributes['enctype'], 'text/plain');
     expect(choices, hasLength(6));
-    expect(choices.map((choice) => choice.attributes['value']), orderedEquals(serviceNames));
+    expect(choices.map((choice) => choice.attributes['value']), orderedEquals(['0', '1', '2', '3', '4', '5']));
+    expect(
+      form.querySelectorAll('.service-choice span').map((label) => _normaliseWhitespace(label.text)),
+      orderedEquals(services.map((service) => service.name)),
+    );
     expect(document.querySelectorAll('#constel .hit'), isEmpty);
     expect(document.querySelector('#constel')?.attributes['aria-hidden'], 'true');
     expect(document.querySelector('#constel svg')?.attributes['focusable'], 'false');
@@ -291,7 +338,7 @@ void main() {
     expect(timing.attributes.containsKey('required'), isFalse);
     expect(
       timing.querySelectorAll('option').map((option) => option.attributes['value']),
-      orderedEquals(['Not sure yet', 'As soon as practical', 'Within 1–3 months', 'Later']),
+      orderedEquals(['unsure', 'soon', 'oneToThree', 'later']),
     );
     expect(draft.localName, 'button');
     expect(draft.attributes['type'], 'submit');
