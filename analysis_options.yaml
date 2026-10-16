@@ -14,8 +14,10 @@
 include: package:lints/recommended.yaml
 
 analyzer:
-#   exclude:
-#     - path/to/excluded/files/**
+  exclude:
+    # This standalone Flutter package has its own dependencies and analysis.
+    # The website's Dart-only Pages job must not analyze it as website code.
+    - docs/frame/app/**
 
 # Jaspr has a custom analyzer plugin 'jaspr_lints', which is enabled here.
 #
