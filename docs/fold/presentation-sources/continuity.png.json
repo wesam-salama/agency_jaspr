@@ -1,0 +1,43 @@
+{
+  "origin": "docs/fold/presentation-sources/continuity.html",
+  "operation": "Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "sourceFiles": [
+    "web/assets/selected-work/fold/products/fl01-chalk-front.webp",
+    "web/assets/selected-work/fold/products/fl01-chalk-back.webp",
+    "web/assets/selected-work/fold/products/fl01-chalk-detail.webp"
+  ],
+  "generatedImageReferences": [
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-chalk-front.webp",
+      "provenance": {
+        "prompt": "Use case: product-mockup. Asset: Fold Clothing authored fictional capsule product imagery, NOT software evidence or a real manufactured garment. Produce one very high-resolution wide 2:1 catalog triptych, exactly THREE EQUAL WIDTH vertical panels, each 2:3 aspect. Left panel full straight FRONT flatlay, middle full straight BACK flatlay of EXACT SAME garment, right panel macro construction detail of the front. Neutral warm light-grey matte background #E8E7E1 across all panels. Neutral daylight, textile tactile realism, overhead camera, subtle natural shadow only, exact coherent patterns and materials. Garments centered and entire silhouette contained in each left/middle panel with 10% breathing room, no overlap between panels. No text, labels, logos, numbers, rulers, hands, models, decorations, watermarks. Button counts and pockets must be EXACT. No additional seams or trims. Colour uniform across ALL views. This is locked source art direction for Collection 01: Everyday Structure.\nBOX SHIRT in Chalk (warm ivory #F6F3EC), 100% cotton poplin, short drop-shoulder sleeves, compact point collar, exactly FIVE evenly spaced visible ivory front placket buttons from below collar to hem, exactly ONE rectangular wearer-left (viewer RIGHT) chest patch pocket with open top, no pocket button. Boxy relaxed M proportion 58cm laid-flat half chest to70cm body length. Straight hem. Back has one horizontal upper shoulder-blade yoke, plain below, no pleat, no pockets, no buttons. Right macro shows SAME single pocket, nearby placket and fine cotton poplin seam stitching.",
+        "origin": "source/fl01-chalk-triptych.png",
+        "operation": "Equal-panel crop; front/back canvas padded to 3:4 without altering garment geometry; native-height export. Generated artwork, not software evidence."
+      }
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-chalk-back.webp",
+      "provenance": {
+        "prompt": "Use case: product-mockup. Asset: Fold Clothing authored fictional capsule product imagery, NOT software evidence or a real manufactured garment. Produce one very high-resolution wide 2:1 catalog triptych, exactly THREE EQUAL WIDTH vertical panels, each 2:3 aspect. Left panel full straight FRONT flatlay, middle full straight BACK flatlay of EXACT SAME garment, right panel macro construction detail of the front. Neutral warm light-grey matte background #E8E7E1 across all panels. Neutral daylight, textile tactile realism, overhead camera, subtle natural shadow only, exact coherent patterns and materials. Garments centered and entire silhouette contained in each left/middle panel with 10% breathing room, no overlap between panels. No text, labels, logos, numbers, rulers, hands, models, decorations, watermarks. Button counts and pockets must be EXACT. No additional seams or trims. Colour uniform across ALL views. This is locked source art direction for Collection 01: Everyday Structure.\nBOX SHIRT in Chalk (warm ivory #F6F3EC), 100% cotton poplin, short drop-shoulder sleeves, compact point collar, exactly FIVE evenly spaced visible ivory front placket buttons from below collar to hem, exactly ONE rectangular wearer-left (viewer RIGHT) chest patch pocket with open top, no pocket button. Boxy relaxed M proportion 58cm laid-flat half chest to70cm body length. Straight hem. Back has one horizontal upper shoulder-blade yoke, plain below, no pleat, no pockets, no buttons. Right macro shows SAME single pocket, nearby placket and fine cotton poplin seam stitching.",
+        "origin": "source/fl01-chalk-triptych.png",
+        "operation": "Equal-panel crop; front/back canvas padded to 3:4 without altering garment geometry; native-height export. Generated artwork, not software evidence."
+      }
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-chalk-detail.webp",
+      "provenance": {
+        "prompt": "Use case: product-mockup. Asset: Fold Clothing authored fictional capsule product imagery, NOT software evidence or a real manufactured garment. Produce one very high-resolution wide 2:1 catalog triptych, exactly THREE EQUAL WIDTH vertical panels, each 2:3 aspect. Left panel full straight FRONT flatlay, middle full straight BACK flatlay of EXACT SAME garment, right panel macro construction detail of the front. Neutral warm light-grey matte background #E8E7E1 across all panels. Neutral daylight, textile tactile realism, overhead camera, subtle natural shadow only, exact coherent patterns and materials. Garments centered and entire silhouette contained in each left/middle panel with 10% breathing room, no overlap between panels. No text, labels, logos, numbers, rulers, hands, models, decorations, watermarks. Button counts and pockets must be EXACT. No additional seams or trims. Colour uniform across ALL views. This is locked source art direction for Collection 01: Everyday Structure.\nBOX SHIRT in Chalk (warm ivory #F6F3EC), 100% cotton poplin, short drop-shoulder sleeves, compact point collar, exactly FIVE evenly spaced visible ivory front placket buttons from below collar to hem, exactly ONE rectangular wearer-left (viewer RIGHT) chest patch pocket with open top, no pocket button. Boxy relaxed M proportion 58cm laid-flat half chest to70cm body length. Straight hem. Back has one horizontal upper shoulder-blade yoke, plain below, no pleat, no pockets, no buttons. Right macro shows SAME single pocket, nearby placket and fine cotton poplin seam stitching.",
+        "origin": "source/fl01-chalk-triptych.png",
+        "operation": "Equal-panel crop; front/back canvas padded to 3:4 without altering garment geometry; native-height export. Generated artwork, not software evidence."
+      }
+    }
+  ],
+  "created": "2026-10-15",
+  "creator": "CR8.Media / Codex authored presentation composition",
+  "file": "docs/fold/presentation-sources/continuity.png",
+  "width": 2000,
+  "height": 1500,
+  "sha256": "dc0ab75427bee63742a83b826365817a6685b784f1ad9a652acb5fe015a44480",
+  "prompt": "Origin: docs/fold/presentation-sources/continuity.html. Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "provenanceStorage": "native image metadata"
+}

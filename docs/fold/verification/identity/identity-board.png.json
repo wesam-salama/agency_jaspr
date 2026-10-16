@@ -1,0 +1,16 @@
+{
+  "file": "docs/fold/verification/identity/identity-board.png",
+  "source": "web/assets/selected-work/fold/source/identity-board.html",
+  "dimensions": [
+    2000,
+    1500
+  ],
+  "creator": "Authored SVG/HTML board rendered in local headless Google Chrome using Playwright",
+  "origin": "Digital source artwork capture; no image generation",
+  "status": "Designed digital artwork and guide verification",
+  "sha256": "54d4eb72a5cc0b1309c9e4974f322b9e890f373995701c957c7ff59f9c8f5660",
+  "created": "2026-10-15",
+  "caption": "Fold Clothing identity board; authored studio concept",
+  "prompt": "Origin: Digital source artwork capture; no image generation. Actual local authored capture; not generated software imagery.",
+  "provenanceStorage": "native image metadata"
+}

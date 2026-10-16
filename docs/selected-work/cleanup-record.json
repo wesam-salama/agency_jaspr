@@ -1,0 +1,379 @@
+{
+  "date": "2026-10-16",
+  "scope": "Selected Work developer organization; no publication",
+  "removedFiles": 592,
+  "removedBytes": 884792942,
+  "removed": [
+    {
+      "path": "docs/frame/app/build",
+      "kind": "directory",
+      "files": 336,
+      "bytes": 524117439,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/.dart_tool",
+      "kind": "directory",
+      "files": 160,
+      "bytes": 319251327,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/.idea",
+      "kind": "directory",
+      "files": 5,
+      "bytes": 4011,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/frame_academy.iml",
+      "kind": "file",
+      "files": 1,
+      "bytes": 842,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/android/frame_academy_android.iml",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1601,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/.flutter-plugins-dependencies",
+      "kind": "file",
+      "files": 1,
+      "bytes": 4922,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/ios/Flutter/ephemeral",
+      "kind": "directory",
+      "files": 8,
+      "bytes": 4445,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/macos/Flutter/ephemeral",
+      "kind": "directory",
+      "files": 8,
+      "bytes": 3774,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/ios/Flutter/Generated.xcconfig",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1144,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/ios/Flutter/flutter_export_environment.sh",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1192,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/frame/app/android/local.properties",
+      "kind": "file",
+      "files": 1,
+      "bytes": 97,
+      "reason": "Regenerated Flutter build/cache or local IDE/SDK configuration; source and platform projects retained."
+    },
+    {
+      "path": "docs/sift/.DS_Store",
+      "kind": "file",
+      "files": 1,
+      "bytes": 6148,
+      "reason": "Finder metadata."
+    },
+    {
+      "path": "docs/sift/guide/.DS_Store",
+      "kind": "file",
+      "files": 1,
+      "bytes": 6148,
+      "reason": "Finder metadata."
+    },
+    {
+      "path": "docs/frame/__pycache__",
+      "kind": "directory",
+      "files": 8,
+      "bytes": 60859,
+      "reason": "Generated Python bytecode cache."
+    },
+    {
+      "path": "docs/fold/.DS_Store",
+      "kind": "file",
+      "files": 1,
+      "bytes": 6148,
+      "reason": "Finder metadata."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@215074fe9901fe3be634bd9dd5b77108.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1375120,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@ce1cb9fef9bc897c62a13f1db5b5f5d1.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 981136,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@91739cffdbddf237cffc50f7ca34cce7.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 823714,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@2d466b9938c1ccf1301fc9acf68b2721.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 847749,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@f26afa9bceb2f0236a1bcb12ac88511a.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1807646,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@d7ea500205668c9fc41cf004a8011e7f.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 616514,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@cb4f03408317770936cc03fd5b3257a0.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 786432,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@a8f72736836c3eb5aeb47c8f4c2debef.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 915618,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@7739d8ea5c0df936944cedc7f813ce2a.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1897374,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@8ae5a915e78f64aa806172b6a6cf93d5.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 693253,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@8638e4a03c1dc682437e97185d98215c.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 724107,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@fef06fbaa22a71c262653fd3cf499efc.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 604355,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/web-proofs/page@bdc5babdbff1161de17c665384587a85.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1717026,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@7b7db2027ca14b34d56e0ba3d942d9b6.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1240300,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@935b9ff50ed07925365e2c284d666ee6.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 625218,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@e2c809700a62cf31e6bee6c7fec33d78.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 647656,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@c9a2b07e2342a92d24f9ad82b42c1a94.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1226851,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@6573550f537580cee2396f8f3bf8732e.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 683595,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@7711e1f97d44aad5fb4d3ceebdc23f0d.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1210295,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@c667a7ce4cda5115a72897565859e64f.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1257629,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@0494097d22fb9dedd7453de3dfa0ca76.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1361394,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@a09006868ff7fd8df4f66ee8f1a78bf4.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 654414,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/fold/recordings/page@f8e240b5d2185e3806d246661c2c5826.webm",
+      "kind": "file",
+      "files": 1,
+      "bytes": 681435,
+      "reason": "Unselected recorder scratch file with no references in project records; named final recordings, trace ZIPs and timelines retained."
+    },
+    {
+      "path": "docs/frame/app-proofs/failed-recorder-en",
+      "kind": "directory",
+      "files": 3,
+      "bytes": 4394760,
+      "reason": "Superseded diagnostic capture with no references in current project records; final named native proofs and documented maintenance comparisons retained."
+    },
+    {
+      "path": "docs/frame/app-proofs/failed-native-tap-ar",
+      "kind": "directory",
+      "files": 4,
+      "bytes": 1050435,
+      "reason": "Superseded diagnostic capture with no references in current project records; final named native proofs and documented maintenance comparisons retained."
+    },
+    {
+      "path": "docs/frame/app-proofs/failed-observed-center-ar",
+      "kind": "directory",
+      "files": 3,
+      "bytes": 87652,
+      "reason": "Superseded diagnostic capture with no references in current project records; final named native proofs and documented maintenance comparisons retained."
+    },
+    {
+      "path": "docs/frame/app-proofs/failed-clipped-control-ar",
+      "kind": "directory",
+      "files": 4,
+      "bytes": 1750662,
+      "reason": "Superseded diagnostic capture with no references in current project records; final named native proofs and documented maintenance comparisons retained."
+    },
+    {
+      "path": "docs/frame/app-proofs/before-uri-fix",
+      "kind": "directory",
+      "files": 4,
+      "bytes": 6303319,
+      "reason": "Superseded diagnostic capture with no references in current project records; final named native proofs and documented maintenance comparisons retained."
+    },
+    {
+      "path": "docs/frame/app-proofs/before-race-fix",
+      "kind": "directory",
+      "files": 13,
+      "bytes": 4355467,
+      "reason": "Superseded diagnostic capture with no references in current project records; final named native proofs and documented maintenance comparisons retained."
+    },
+    {
+      "path": "docs/fold/preview.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 149,
+      "reason": "Stale preview process receipt/log; its recorded process is no longer running, and start-preview scripts recreate it."
+    },
+    {
+      "path": "docs/fold/preview.log",
+      "kind": "file",
+      "files": 1,
+      "bytes": 1302,
+      "reason": "Stale preview process receipt/log; its recorded process is no longer running, and start-preview scripts recreate it."
+    },
+    {
+      "path": "docs/frame/preview-service.json",
+      "kind": "file",
+      "files": 1,
+      "bytes": 196,
+      "reason": "Stale preview process receipt/log; its recorded process is no longer running, and start-preview scripts recreate it."
+    },
+    {
+      "path": "docs/frame/preview-service.log",
+      "kind": "file",
+      "files": 1,
+      "bytes": 72,
+      "reason": "Stale preview process receipt/log; its recorded process is no longer running, and start-preview scripts recreate it."
+    }
+  ],
+  "relocated": [
+    {
+      "from": "docs/frame/integrate-agency.py",
+      "to": "docs/frame/history/integrate-agency.py.txt",
+      "sha256": "9e65528b17a8c864fb0c232489b27d253ac06312988a2a8b9a6210c188a072a5",
+      "reason": "Applied migration or superseded test draft; retained verbatim as non-executable history."
+    },
+    {
+      "from": "docs/frame/update-agency-tests.py",
+      "to": "docs/frame/history/update-agency-tests.py.txt",
+      "sha256": "22dec7b3f2cb430f9e4102a6e929687d85dbbf9e0237727ed868298f48238aeb",
+      "reason": "Applied migration or superseded test draft; retained verbatim as non-executable history."
+    },
+    {
+      "from": "docs/frame/finalize-status.py",
+      "to": "docs/frame/history/finalize-status.py.txt",
+      "sha256": "a7fef83ab2de2f3b14cef9587e93ce9afeaa96fcf238b43451f2f458db5942c1",
+      "reason": "Applied migration or superseded test draft; retained verbatim as non-executable history."
+    },
+    {
+      "from": "docs/frame/frame_case_test.dart.staged",
+      "to": "docs/frame/history/frame_case_test.dart.staged.txt",
+      "sha256": "17a61571e4210d78b0f926058483f19cc5a31dfb7758cdf840cba6c4ad4965e3",
+      "reason": "Applied migration or superseded test draft; retained verbatim as non-executable history."
+    }
+  ],
+  "retained": [
+    "All four projects authored implementations and tests",
+    "Master context, approved plan and curtain contract",
+    "Per-project identity, canon, product, design, production, verification and finish records",
+    "Editable artwork, original generated imagery, fonts and licences",
+    "Final named recordings and documented before/after evidence",
+    "Live local learner state and public runtime URLs",
+    "Public source downloads, with the Frame archive refreshed separately"
+  ]
+}

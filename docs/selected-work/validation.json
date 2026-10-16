@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-16",
+  "scope": "Developer documentation, disposable artifact cleanup and Frame source package refresh",
+  "focusedTests": {
+    "dart": 42,
+    "node": 43,
+    "failed": 0,
+    "note": "Dart document-render tests emitted the existing test-context missing client entrypoint warning; all tests passed. No Flutter/native recapture or full production rebuild was needed for this organization pass."
+  },
+  "sourcePreservation": {
+    "filesChecked": 839,
+    "unexpectedChanges": [],
+    "historicalFilesMovedVerbatim": 4,
+    "authorizedChanges": [
+      "docs/frame/README.md",
+      "docs/frame/tools/package-source.py",
+      "web/assets/selected-work/frame/SOURCE-README.md",
+      "web/assets/selected-work/frame/frame-source.zip"
+    ]
+  },
+  "removedPathsStillPresent": [],
+  "sourceArchives": [
+    {
+      "project": "sift",
+      "file": "web/assets/selected-work/sift/sift-artwork.zip",
+      "entries": 60,
+      "bytes": 22819382,
+      "sha256": "3d6affe66ae18b28f8ee4865913162454632f1066076b1291e861951b6329e92",
+      "integrity": "passed"
+    },
+    {
+      "project": "form",
+      "file": "web/assets/selected-work/form/form-source.zip",
+      "entries": 267,
+      "bytes": 101211786,
+      "sha256": "034ee02ce1c741d7870686e77f94e80ea960c82892568d9d0601deb7ca23fce5",
+      "integrity": "passed"
+    },
+    {
+      "project": "frame",
+      "file": "web/assets/selected-work/frame/frame-source.zip",
+      "entries": 745,
+      "bytes": 163863939,
+      "sha256": "7a33306c2a07139c71067bd6538d9551dff8356b1088cd447f40a279ebf982d6",
+      "integrity": "passed"
+    },
+    {
+      "project": "fold",
+      "file": "web/assets/selected-work/fold/fold-source.zip",
+      "entries": 448,
+      "bytes": 59763178,
+      "sha256": "5e6612ef8e5c8d7fe167f390f91b1d5b3b2d2148f79917f039dff1d72ddc86a4",
+      "integrity": "passed"
+    }
+  ],
+  "whitespace": "passed",
+  "runtimeChanges": "Only Frame source archive and public source README changed; implementation code, imagery and media were preserved.",
+  "handoffLinks": {
+    "checked": 204,
+    "missing": []
+  }
+}

@@ -1,0 +1,77 @@
+00:00 +0: loading test/site_document_test.dart
+00:00 +0: test/site_document_test.dart: App owns the native page instead of importing generated HTML
+00:00 +1: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +2: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +3: test/site_document_test.dart: prerenders document metadata and the complete native page
+[WARNING] Could not find a respective '.client.dart' file for the current server entrypoint, and no client script was specified
+in the document's <head>. This may lead to missing client-side functionality. To fix this, either:
+  - ensure that a '.client.dart' file with the same name as the '.server.dart' entrypoint exists, or
+  - add a `script(src: '<filename>.client.dart.js', defer: true)` to `Document(head: [...])` manually.
+00:00 +4: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +5: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +6: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +7: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +8: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +9: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +10: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +11: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +12: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +13: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +14: test/site_document_test.dart: prerenders document metadata and the complete native page
+[WARNING] Could not find a respective '.client.dart' file for the current server entrypoint, and no client script was specified
+in the document's <head>. This may lead to missing client-side functionality. To fix this, either:
+  - ensure that a '.client.dart' file with the same name as the '.server.dart' entrypoint exists, or
+  - add a `script(src: '<filename>.client.dart.js', defer: true)` to `Document(head: [...])` manually.
+00:00 +15: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +16: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +17: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +18: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +19: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +20: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +21: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +22: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +23: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +24: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +25: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +26: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +27: test/site_document_test.dart: prerenders document metadata and the complete native page
+00:00 +28: test/sift_case_test.dart: preserves the Sift card and its concept label beside the new Form study
+00:00 +29: test/sift_case_test.dart: preserves the Sift card and its concept label beside the new Form study
+00:00 +30: test/sift_case_test.dart: preserves the Sift card and its concept label beside the new Form study
+00:00 +31: test/sift_case_test.dart: preserves the Sift card and its concept label beside the new Form study
+00:00 +32: test/sift_case_test.dart: preserves the Sift card and its concept label beside the new Form study
+00:00 +33: test/sift_case_test.dart: preserves the Sift card and its concept label beside the new Form study
+00:00 +34: test/sift_case_test.dart: preserves the Sift card and its concept label beside the new Form study
+00:00 +35: test/sift_case_test.dart: preserves the Sift card and its concept label beside the new Form study
+00:00 +36: test/sift_case_test.dart: preserves the Sift card and its concept label beside the new Form study
+00:00 +37: test/site_document_test.dart: provides skip navigation and native links to every section
+00:00 +38: test/form_case_test.dart: Form replaces slot 02 with an honest split case and preserves its neighbours
+00:00 +39: test/site_document_test.dart: exposes service deliverables, the ordered process and independent FAQ disclosures
+00:00 +40: test/site_document_test.dart: exposes service deliverables, the ordered process and independent FAQ disclosures
+00:00 +41: test/form_case_test.dart: Form presentation assets and local demonstration destinations exist
+00:00 +42: test/site_document_test.dart: keeps six native service links available alongside decorative hero animation
+00:00 +43: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +44: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +45: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +46: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+[WARNING] Could not find a respective '.client.dart' file for the current server entrypoint, and no client script was specified
+in the document's <head>. This may lead to missing client-side functionality. To fix this, either:
+  - ensure that a '.client.dart' file with the same name as the '.server.dart' entrypoint exists, or
+  - add a `script(src: '<filename>.client.dart.js', defer: true)` to `Document(head: [...])` manually.
+00:00 +47: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +48: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +49: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +50: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +51: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +52: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +53: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +54: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +55: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +56: test/form_case_test.dart: prerenders the Form card with localized labels while agency enquiry stays intact
+00:00 +57: test/reference_copy_test.dart: renders the reference wording throughout all eight sections and footer
+[WARNING] Could not find a respective '.client.dart' file for the current server entrypoint, and no client script was specified
+in the document's <head>. This may lead to missing client-side functionality. To fix this, either:
+  - ensure that a '.client.dart' file with the same name as the '.server.dart' entrypoint exists, or
+  - add a `script(src: '<filename>.client.dart.js', defer: true)` to `Document(head: [...])` manually.
+00:00 +58: test/reference_copy_test.dart: the two remaining case studies retain reference text, figures, quotes, chapters and metrics
+00:00 +59: All tests passed!

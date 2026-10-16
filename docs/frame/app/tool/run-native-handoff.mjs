@@ -1,0 +1,20 @@
+import {spawn,execFileSync} from 'node:child_process';
+import {writeFileSync,rmSync,copyFileSync} from 'node:fs';
+import {proofRoot,udid} from './native-proof.mjs';
+const lang=process.argv[2]??'ar';
+const learner=lang==='ar'?'demo-ar':'demo';
+const before=await(await fetch(`http://127.0.0.1:8803/api/session?learner=${learner}`)).json();
+if(before.completed.length!==0||!before.enrolments.includes('FA-PH-01'))throw new Error('Website handoff requires the enrolled learner at0/6.');
+rmSync('/tmp/frame-handoff-ready',{force:true});
+const rawStartUTC=new Date().toISOString();
+const rec=spawn('xcrun',['simctl','io',udid,'recordVideo','--codec=h264','--force',`${proofRoot}/native-handoff-${lang}-raw.mp4`]);
+const t=spawn('xcodebuild',['test-without-building','-xctestrun','/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/frame/app/tool/frame-ui-final.xctestrun','-destination',`id=${udid}`,'-parallel-testing-enabled','NO',`-only-testing:RunnerTests/RunnerTests/testAccept${lang==='ar'?'Arabic':'English'}Scheme`]);
+let log='';for(const st of[t.stdout,t.stderr])st.on('data',c=>{log+=c;process.stdout.write(c)});
+const status=await new Promise(r=>t.on('exit',r));rec.kill('SIGINT');await new Promise(r=>rec.on('exit',r));
+writeFileSync(`${proofRoot}/native-handoff-${lang}.log`,log);
+const dataContainer=execFileSync('xcrun',['simctl','get_app_container',udid,'media.cr8.frameAcademy','data'],{encoding:'utf8'}).trim();
+const prefs=execFileSync('plutil',['-convert','json','-o','-',`${dataContainer}/Library/Preferences/media.cr8.frameAcademy.plist`],{encoding:'utf8'});
+const events=[...log.matchAll(/FRAME_CAPTURE (\S+) UTC (\S+)/g)].map(([,name,utc])=>({name,utc}));
+writeFileSync(`${proofRoot}/native-handoff-${lang}.json`,JSON.stringify({rawStartUTC,status,date:'2026-10-14',learner,language:lang,before,events,appStates:log.match(/FRAME_HANDOFF_APP_STATE_\S+ \S+/g),preferences:JSON.parse(prefs)},null,2));
+if(status===0){copyFileSync(`/tmp/frame-course-overview-${lang}.png`,`${proofRoot}/course-overview-${lang}.png`);copyFileSync('/tmp/frame-handoff-confirmed.png',`${proofRoot}/handoff-confirmed-${lang}.png`);}
+process.exitCode=status;

@@ -1,0 +1,127 @@
+{
+  "language": "ar",
+  "learner": "demo-ar",
+  "course": "FA-PH-01",
+  "recordedAt": "2026-10-14",
+  "annotationLanguage": "en",
+  "nativeKernelSHA256": "bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b",
+  "nativeBinaryAuthority": "docs/frame/verification/native/native-binary.json",
+  "nativePTSAuthority": "docs/frame/verification/native/native-pts-ar.json",
+  "webDiscoveryRecord": "docs/frame/verification/website/capture-record-ar.json",
+  "finalRequestRecord": "docs/frame/verification/website/request-only-ar.json",
+  "nativeColdHandoffRecord": "docs/frame/verification/native/native-handoff-ar.json",
+  "nativeSessionRecord": "docs/frame/verification/native/native-session-ar.json",
+  "sharedConsistencyRecord": "docs/frame/verification/website/shared-progress-ar.json",
+  "supplementalNextLessonRecord": "docs/frame/verification/native/native-next02-ar.json",
+  "sourceSHA256": {
+    "docs/frame/verification/website/handoff-ar.webm": "c5c8dfd556b65b377aac5606bc8d70e69805908b7f5a42f89ef69e972565d7b3",
+    "docs/frame/verification/website/request-only-ar.webm": "bce971c792555b353ee8a58f2ae501133ff8846681936d8c444693aa8a778c87",
+    "docs/frame/verification/native/native-core-ar-raw.mp4": "c688127fcb11e815feb7337b4e641947920a0f2d5fab388821cc1ce064b2e143",
+    "docs/frame/verification/native/native-next02-ar-raw.mp4": "6bfe3e6d29e9b42443c87276346d2e7d770bfbfa38d8bf9730222539fffa13de"
+  },
+  "editScope": "An edited highlight sequence of actual original Arabic browser discovery/preview/enrolment, the final browser cold-handoff request and native exercise/cold-restart recordings for demo-ar. English evidence annotations accompany the actual Arabic interface. Original sources retained; cuts and speed changes are explicit.",
+  "sourceNotes": "Original catalogue video has unloaded cover thumbnails; canonical course selection text and actual Arabic preview/enrolment remain recorded. The corrected final covers are verified separately in current full website screenshots. Final lesson02 uses a later real read-only hold because the continuous raw source records it for only22ms; it is an explicit supplemental cut, not an extended screenshot or fabricated frame.",
+  "segments": [
+    {
+      "source": "docs/frame/verification/website/handoff-ar.webm",
+      "kind": "web",
+      "start": 0.1,
+      "end": 0.72,
+      "label": "Choose Composition Essentials in Arabic.",
+      "footnote": "Actual original catalogue text · authored studio fixture"
+    },
+    {
+      "source": "docs/frame/verification/website/handoff-ar.webm",
+      "kind": "web",
+      "start": 1,
+      "end": 3.12,
+      "label": "Preview lesson 01 with Arabic captions.",
+      "footnote": "Actual authored preview · viewing does not complete the lesson"
+    },
+    {
+      "source": "docs/frame/verification/website/handoff-ar.webm",
+      "kind": "web",
+      "start": 3.5,
+      "end": 4.35,
+      "label": "Demo enrolment confirmed for demo-ar.",
+      "footnote": "Actual original confirmed enrolment · initial 0 of 6"
+    },
+    {
+      "source": "docs/frame/verification/website/request-only-ar.webm",
+      "kind": "web",
+      "start": 2.3,
+      "end": 5.6,
+      "label": "The final local app-open request is acknowledged.",
+      "footnote": "Actual final helper readiness · same learner and course · HTTP 200"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+      "kind": "native",
+      "start": 28.5,
+      "end": 30.5,
+      "label": "Matching Arabic course.\n0 of 6 complete.",
+      "footnote": "FA-PH-01 · demo-ar · actual native app"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+      "kind": "native",
+      "start": 50.8,
+      "end": 53.2,
+      "label": "Play the authored lesson.\nArabic captions remain clear.",
+      "footnote": "30-second produced lesson · 8 minutes planned study"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+      "kind": "native",
+      "start": 100.08,
+      "end": 101.3,
+      "speed": 0.5,
+      "label": "Save failed.\nThe Arabic note remains.",
+      "footnote": "Controlled real service failure · entered work retained · this segment 0.5×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+      "kind": "native",
+      "start": 101.65,
+      "end": 103.35,
+      "speed": 0.6,
+      "label": "Retry confirmed.\nThe full note is saved.",
+      "footnote": "Actual confirmed draft · same exact stored note · this segment 0.6×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+      "kind": "native",
+      "start": 104,
+      "end": 105.5,
+      "label": "Explicit completion.\n1 of 6 complete.",
+      "footnote": "Playing the lesson alone never writes completion"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+      "kind": "native",
+      "start": 105.5,
+      "end": 126.9,
+      "speed": 8,
+      "label": "Terminate the app.\nLaunch it again.",
+      "footnote": "Actual cold launch · waiting shown at 8×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+      "kind": "native",
+      "start": 127,
+      "end": 129.3,
+      "speed": 0.8,
+      "label": "Arabic progress restored.\nContinue at lesson 02.",
+      "footnote": "Same learner · 1 of 6 after restart · this segment 0.8×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-next02-ar-raw.mp4",
+      "kind": "native",
+      "start": 1,
+      "end": 6,
+      "label": "02 Find the subject.\nThe next useful step.",
+      "footnote": "Supplemental actual read-only hold · same persisted learner · no state mutation"
+    }
+  ],
+  "supplementalHoldDuration": 5
+}

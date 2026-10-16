@@ -1,0 +1,90 @@
+{
+  "language": "en",
+  "learner": "demo",
+  "course": "FA-PH-01",
+  "recordedAt": "2026-10-14",
+  "segments": [
+    {
+      "source": "docs/frame/verification/website/handoff-en.webm",
+      "kind": "web",
+      "start": 0.48,
+      "end": 7.84,
+      "label": "Course selection \u2192 preview \u2192 confirmed enrolment \u2192 app open request"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 9.5,
+      "end": 13.0,
+      "label": "Composition Essentials.\n0 of 6 complete.",
+      "footnote": "Same demo learner \u00b7 actual native app"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 18,
+      "end": 24,
+      "label": "Play the authored lesson.\nCaptions beside the video.",
+      "footnote": "30 seconds of produced media \u00b7 8 minutes planned study"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 48.8,
+      "end": 50.6,
+      "label": "Save failed.\nThe note is still here.",
+      "footnote": "Controlled real service failure \u00b7 entered work retained"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 50.85,
+      "end": 52.5,
+      "speed": 0.66,
+      "label": "Retry confirmed.\nExercise draft saved.",
+      "footnote": "Actual saved state \u00b7 this short segment plays at 0.66\u00d7"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 53.2,
+      "end": 56.2,
+      "label": "Explicit completion.\n1 of 6 complete.",
+      "footnote": "Playing the lesson alone does not complete it"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 56.2,
+      "end": 71.2,
+      "speed": 5,
+      "label": "Terminate the app.\nLaunch it again.",
+      "footnote": "Actual cold launch \u00b7 waiting shown at 5\u00d7"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 71.2,
+      "end": 74.2,
+      "label": "Progress restored.\nContinue at lesson 02.",
+      "footnote": "Same learner \u00b7 stored exercise \u00b7 1 of 6 after restart"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 74.5,
+      "end": 77.2,
+      "label": "02 Find the subject.\nThe next useful step.",
+      "footnote": "Authored next lesson target \u00b7 later video is clearly unavailable"
+    }
+  ],
+  "output": "web/assets/selected-work/frame/demo-journey.mp4",
+  "duration": 32.84,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "sha256": "4519a7c62661f22bec0039216553762237b7b4c0289214bd83843914b3562a16",
+  "editTruth": "Cuts and stated speed changes use actual video frames. No screenshot animation, generated UI, synthetic event or fabricated saved state."
+}

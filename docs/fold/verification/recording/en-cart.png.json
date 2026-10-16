@@ -1,0 +1,8 @@
+{
+  "origin": "web/assets/selected-work/fold/shopping-flow-en.mp4",
+  "sourceSHA256": "9b81fc2d2b2942280137a8542ecb6611d11f8d837f302029371941f0964ead0a",
+  "seekSeconds": 6.73,
+  "prompt": "Origin: actual decoded browser video frame from shopping-flow-en.mp4 at 6.730s, source SHA256 9b81fc2d2b2942280137a8542ecb6611d11f8d837f302029371941f0964ead0a. Exact video pixels; no generated UI or compositing. Event checkpoints are relative to page creation and are retained separately.",
+  "kind": "actual decoded recording frame",
+  "provenanceStorage": "native image metadata"
+}

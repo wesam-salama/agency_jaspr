@@ -427,7 +427,7 @@ bool _hasWrappingLabel(Element control) {
 }
 
 void _assertLocalWebP(String source) {
-  expect(source, startsWith('assets/images/'));
+  expect(source, startsWith('assets/'));
   expect(source, endsWith('.webp'));
   final file = File('web/$source');
   expect(file.existsSync(), isTrue, reason: source);

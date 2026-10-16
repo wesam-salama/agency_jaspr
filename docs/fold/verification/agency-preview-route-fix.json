@@ -1,0 +1,34 @@
+{
+  "scope": "Local preview routing; compiled agency source and UI are unchanged",
+  "before": {
+    "url": "http://127.0.0.1:8804/agency_jaspr/",
+    "status": 200,
+    "title": "Fold Clothing — Everyday Structure",
+    "bodyCharacters": 1203,
+    "hasAgencyContactForm": false,
+    "hasFoldAgencyCard": false,
+    "actualBuildTitle": "Creative Media — Branding, Web & App Development",
+    "failedInitialChecks": [
+      "Agency EN/320 and EN/390 timed out waiting for the agency card",
+      "Enquiry smoke found no draftButton in the storefront document"
+    ],
+    "captures": [
+      "verification/agency/before-preview-route-fix/en-320-failure.png",
+      "verification/agency/before-preview-route-fix/en-390-failure.png"
+    ]
+  },
+  "cause": "After the agency prefix was removed, pathname was /. The unconditional root-to-Fold-store mapping then selected the store HTML inside the production build.",
+  "change": "Apply the root-to-Fold-store mapping only when the selected directory is web; /agency_jaspr/ retains the production agency index.",
+  "after": {
+    "checkedAt": "2026-10-15T13:43:05.119516+00:00",
+    "status": 200,
+    "title": "Creative Media — Branding, Web &amp; App Development",
+    "bodyCharacters": 42981,
+    "hasFoldAgencyCard": true,
+    "hasContactForm": true,
+    "agencyBrowserCases": "12 of 12 passed in agency-checks.json",
+    "enquiryLocales": "3 of 3 passed in agency-enquiry-checks.json; no submission",
+    "sourceUIChanged": false
+  },
+  "recordedAt": "2026-10-15T13:34:30.705036+00:00"
+}

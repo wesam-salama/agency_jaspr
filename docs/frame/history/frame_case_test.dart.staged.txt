@@ -1,0 +1,89 @@
+@TestOn('vm')
+library;
+
+import 'dart:io';
+import 'package:agency_jaspr/l10n/site_content.dart';
+import 'package:agency_jaspr/models/site_models.dart';
+import 'package:agency_jaspr/site_document.dart';
+import 'package:agency_jaspr/utils/image_assets.dart';
+import 'package:jaspr_test/server_test.dart';
+
+void main() {
+  test('Frame replaces only slot 03 with four evidenced journey chapters', () {
+    final content = siteContentFor(SiteLocale.en);
+    final frame = content.caseStudies[2];
+    final card = content.workProjects[2];
+    expect(content.caseStudies.map((s) => s.name), ['Sift Coffee', 'Form Architecture', 'Frame Academy', 'Northline']);
+    expect(frame.layout, CaseLayout.horizontalScroll);
+    expect(frame.transition, CaseTransition.accentCurtain);
+    expect(frame.isSelfInitiated, isTrue);
+    expect(frame.isIllustrative, isTrue);
+    expect(frame.quote, isNull);
+    expect(frame.metrics, isEmpty);
+    expect(frame.chapters.map((c) => c.number), ['01', '02', '03', '04']);
+    expect(frame.chapters.map((c) => c.title), ['Choose with clarity', 'Carry the identity', 'Keep the next step visible', 'Recover without losing work']);
+    expect(card.status, 'Studio concept');
+    expect(card.index, '03');
+    expect(card.year, '2026');
+    expect(content.caseStudies[0].layout, CaseLayout.stickyChapters);
+    expect(content.caseStudies[1].layout, CaseLayout.split);
+    expect(content.caseStudies[3].layout, CaseLayout.statistics);
+    expect(content.caseStudies[3].metrics, hasLength(3));
+  });
+
+  test('localized Frame preserves exact course fixtures and evidence destinations', () {
+    final source = siteContentFor(SiteLocale.en).caseStudies[2];
+    for (final locale in SiteLocale.values) {
+      final content = siteContentFor(locale);
+      final frame = content.caseStudies[2];
+      final copy = '${frame.paragraphs.join(' ')} ${frame.chapters.map((c) => c.body).join(' ')}';
+      for (final fixture in ['Composition Essentials', 'FA-PH-01', '62', '02', 'Find the subject']) {
+        expect(copy, contains(fixture), reason: locale.code);
+      }
+      expect(frame.chapters, hasLength(4));
+      expect(frame.chapters.map((c) => c.body), everyElement(isNotEmpty));
+      expect(frame.chapters.map((c) => c.image), source.chapters.map((c) => c.image));
+      expect(frame.downloads.map((d) => d.href), locale == SiteLocale.ar ? ['assets/selected-work/frame/site/index.html?lang=ar', 'assets/selected-work/frame/demo-journey-ar.mp4', 'assets/selected-work/frame/frame-source.zip'] : source.downloads.map((d) => d.href));
+      expect(frame.downloads.map((d) => d.isDownload), [false, false, true]);
+      expect(frame.heroAlt, isNotEmpty);
+      expect(content.workProjects[2].cardAlt, isNotEmpty);
+      expect(content.workProjects[2].status, isNotNull);
+      expect(copy, isNot(contains('Marrow')));
+      if (locale != SiteLocale.en) {
+        expect(frame.client, isNot(source.client));
+        expect(frame.paragraphs.first, isNot(source.paragraphs.first));
+        expect(frame.chapters.first.title, isNot(source.chapters.first.title));
+      }
+    }
+  });
+
+  test('each Frame case image and source/media destination exists', () {
+    final content = siteContentFor(SiteLocale.en);
+    final frame = content.caseStudies[2];
+    for (final source in [content.workProjects[2].cardImage, frame.heroImage, ...frame.chapters.map((c) => c.image)]) {
+      expect(imageAssetFor(source), isNotNull);
+      expect(File('web/$source').existsSync(), isTrue);
+    }
+    for (final destination in frame.downloads) {
+      expect(File('web/${Uri.parse(destination.href).path}').existsSync(), isTrue);
+    }
+    for (final name in ['see-the-edges.mp4', 'see-the-edges-ar.mp4', 'captions-en.vtt', 'captions-ar.vtt', 'transcript-en.txt', 'transcript-ar.txt']) {
+      expect(File('web/assets/selected-work/frame/media/$name').existsSync(), isTrue);
+    }
+  });
+
+  testServer('Frame card carries an honest localized label and preserves agency enquiry', (tester) async {
+    tester.pumpComponent(buildAgencyDocument());
+    for (final locale in SiteLocale.values) {
+      final content = siteContentFor(locale);
+      final path = locale == SiteLocale.en ? '/' : '/${locale.pathSegment}/';
+      final document = (await tester.request(path)).document!;
+      final card = document.querySelector('[data-case="Frame Academy"]')!;
+      expect(card.text, contains(content.workProjects[2].status!));
+      expect(card.querySelector('img')!.attributes['alt'], content.workProjects[2].cardAlt);
+      expect(document.querySelector('#contactForm'), isNotNull);
+      expect(document.querySelector('#message'), isNotNull);
+      expect(document.querySelectorAll('.work-item'), hasLength(4));
+    }
+  });
+}

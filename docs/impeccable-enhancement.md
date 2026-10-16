@@ -120,14 +120,14 @@ Impeccable's context classifier initially inferred Flutter from the Dart pubspec
 
 ## Evidence
 
-- [Desktop screenshot](/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/desktop.jpg)
-- [Mobile screenshot](/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/mobile.jpg)
-- [Mobile contact screenshot](/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/mobile-contact.jpg)
-- [Image-failure screenshot](/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/image-failure.jpg)
-- [Independent design assessment](/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/design-assessment.json)
-- [Confirmation measurements](/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/browser-confirmation.json)
-- [Detector JSON](/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/detector-final.json)
-- [Per-image optimization measurements](/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/verification/image-optimization.json)
+- [Desktop screenshot](verification/desktop.jpg)
+- [Mobile screenshot](verification/mobile.jpg)
+- [Mobile contact screenshot](verification/mobile-contact.jpg)
+- [Image-failure screenshot](verification/image-failure.jpg)
+- [Independent design assessment](verification/design-assessment.json)
+- [Confirmation measurements](verification/browser-confirmation.json)
+- [Detector JSON](verification/detector-final.json)
+- [Per-image optimization measurements](verification/image-optimization.json)
 
 Review-only tabs were closed and viewport overrides reset. Stale cached preview-origin evidence was discarded. Old preview and fixture servers were stopped; the final no-cache local delivery preview is separate. The critique target slug is `build-jaspr-index-html`; baseline fingerprint changes closed its old backlog while preserving trend history. No ignore list or global detector suppression was added.
 

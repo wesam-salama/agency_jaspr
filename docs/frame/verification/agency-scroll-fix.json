@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-14",
+  "cause": "User-agent figure margins interact with horizontal scroll-snap; Home snaps 40px from start and small-view End stops short.",
+  "sourceFix": "Frame-only .case-self-initiated .cm-hch margin:0",
+  "method": "Actual Chrome keyboard End/Home before and after temporary scoped CSS injection, width1440. Initial12-case packet retained separately; complete12-case confirmation follows.",
+  "observations": [
+    {
+      "figureMarginInlineStart": "40px",
+      "key": "End",
+      "offset": 1592,
+      "distance": 1592
+    },
+    {
+      "figureMarginInlineStart": "40px",
+      "key": "Home",
+      "offset": 40,
+      "distance": 1592
+    },
+    {
+      "figureMarginInlineStart": "0px",
+      "key": "End",
+      "offset": 1272,
+      "distance": 1272
+    },
+    {
+      "figureMarginInlineStart": "0px",
+      "key": "Home",
+      "offset": 0,
+      "distance": 1272
+    }
+  ],
+  "preservation": "Sift/Form do not use horizontal cm-hch figures; Northline is not self-initiated. Shared curtain/runtime/enquiry remain unchanged."
+}

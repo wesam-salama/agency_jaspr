@@ -103,6 +103,15 @@ class CaseMetric {
   final String label;
 }
 
+class CaseDownload {
+  const CaseDownload({required this.label, required this.href, required this.format, this.isDownload = true});
+
+  final String label;
+  final String href;
+  final String format;
+  final bool isDownload;
+}
+
 class CaseStudy {
   const CaseStudy({
     required this.name,
@@ -116,18 +125,23 @@ class CaseStudy {
     required this.deliverables,
     required this.layout,
     required this.lede,
+    this.heroAlt,
+    this.isSelfInitiated = false,
     this.paragraphs = const [],
     this.facts = const [],
     this.figures = const [],
     this.chapters = const [],
     this.metrics = const [],
     this.quote,
+    this.downloads = const [],
   });
 
   final String name;
   final bool isIllustrative;
+  final bool isSelfInitiated;
   final CaseTransition transition;
   final String heroImage;
+  final String? heroAlt;
   final String tag;
   final String client;
   final String role;
@@ -141,6 +155,7 @@ class CaseStudy {
   final List<CaseChapter> chapters;
   final List<CaseMetric> metrics;
   final CaseQuote? quote;
+  final List<CaseDownload> downloads;
 }
 
 class WorkProject {
@@ -152,13 +167,17 @@ class WorkProject {
     required this.category,
     required this.description,
     required this.caseStudy,
+    this.status,
+    this.cardAlt,
   });
 
   final String index;
   final String year;
   final String disciplines;
   final String cardImage;
+  final String? cardAlt;
   final String category;
   final String description;
   final CaseStudy caseStudy;
+  final String? status;
 }

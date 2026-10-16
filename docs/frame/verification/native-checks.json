@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-14",
+  "verifiedUTC": "2026-10-14T20:07:12.324126+00:00",
+  "target": {
+    "name": "iPhone17Pro iOS26.5 simulator",
+    "udid": "8BDFE212-1DE0-4F67-928E-65C3E9B24533",
+    "bundleId": "media.cr8.frameAcademy",
+    "screenshotPixels": [
+      1206,
+      2622
+    ]
+  },
+  "status": "passed",
+  "physicalDeviceCertification": false,
+  "focusedTests": {
+    "count": 11,
+    "passed": true,
+    "log": "app-tests.log",
+    "scope": [
+      "confirmed persistence",
+      "retained503/retry",
+      "explicit completion/restart",
+      "pending note edits remain unsaved",
+      "delayed resume vs linked learner",
+      "read before completion acknowledgement",
+      "read during pending completion acknowledgement",
+      "keyboard Tab/Enter/Back focus",
+      "English and Arabic 1.6x text scale with disableAnimations"
+    ]
+  },
+  "analysis": {
+    "passed": true,
+    "log": "app-analysis.log"
+  },
+  "simulatorBuild": {
+    "passed": true,
+    "log": "app-build.log"
+  },
+  "xctestRunnerBuild": {
+    "passed": true,
+    "log": "app-ui-build.log"
+  },
+  "requiredDebugReload": {
+    "passed": true,
+    "record": "verification/native/native-hot-reload.json"
+  },
+  "binaryAuthority": "verification/native/native-binary.json",
+  "finalArabicPreferences": "verification/native/native-preferences-final.json",
+  "sourceGuards": "app/lib/session.dart",
+  "journeys": [
+    {
+      "language": "en",
+      "learner": "demo",
+      "driver": "Native XCTest",
+      "coldWebsiteHandoff": {
+        "passed": true,
+        "durationSeconds": 26.551,
+        "record": "verification/native/native-handoff-en.json",
+        "log": "verification/native/native-handoff-en.log",
+        "recording": "verification/native/native-handoff-en-raw.mp4",
+        "websiteRequest": "verification/website/request-only-en.json",
+        "screens": [
+          "verification/native/course-overview-en.png",
+          "verification/native/handoff-confirmed-en.png"
+        ],
+        "states": [
+          "notRunning before actual website request",
+          "runningForeground after actual URL delivery",
+          "matching course overview FA-PH-01",
+          "prerequisite/equipment",
+          "expected language and0of6"
+        ]
+      },
+      "core": {
+        "passed": true,
+        "durationSeconds": 43.046,
+        "record": "verification/native/native-session-en.json",
+        "log": "verification/native/native-ui-en.log",
+        "recording": "verification/native/native-core-en-raw.mp4",
+        "metadata": "verification/native/native-video-en.json",
+        "PTSAnchors": "verification/native/native-pts-en.json",
+        "screens": [
+          "verification/native/course-zero-en.png",
+          "verification/native/lesson-player-en.png",
+          "verification/native/exercise-failed-en.png",
+          "verification/native/exercise-saved-en.png",
+          "verification/native/completed-en.png",
+          "verification/native/restarted-next-en.png",
+          "verification/native/lesson-02-en.png"
+        ],
+        "before": {
+          "learner": "demo",
+          "displayName": "Demo learner",
+          "enrolments": [
+            "FA-PH-01"
+          ],
+          "completed": [],
+          "drafts": {
+            "01": {
+              "note": "",
+              "attachment": false
+            }
+          },
+          "revision": 1
+        },
+        "after": {
+          "learner": "demo",
+          "displayName": "Demo learner",
+          "enrolments": [
+            "FA-PH-01"
+          ],
+          "completed": [
+            "01"
+          ],
+          "drafts": {
+            "01": {
+              "note": "Moving the object toward the edge made the surrounding space more visible. I kept the light the same in both photographs.",
+              "attachment": false
+            }
+          },
+          "revision": 3
+        },
+        "checks": [
+          "authored video with captions actually plays",
+          "controlled503 retains exact note without confirmed save",
+          "successful retry acknowledged beforecompletion",
+          "explicit completion1of6",
+          "real app terminate/launch",
+          "stored learner/language/note/progress retained",
+          "continue to lesson02 with honest video-unavailable state"
+        ]
+      }
+    },
+    {
+      "language": "ar",
+      "learner": "demo-ar",
+      "driver": "Native XCTest",
+      "coldWebsiteHandoff": {
+        "passed": true,
+        "durationSeconds": 27.34,
+        "record": "verification/native/native-handoff-ar.json",
+        "log": "verification/native/native-handoff-ar.log",
+        "recording": "verification/native/native-handoff-ar-raw.mp4",
+        "websiteRequest": "verification/website/request-only-ar.json",
+        "screens": [
+          "verification/native/course-overview-ar.png",
+          "verification/native/handoff-confirmed-ar.png"
+        ],
+        "states": [
+          "notRunning before actual website request",
+          "runningForeground after actual URL delivery",
+          "matching course overview FA-PH-01",
+          "prerequisite/equipment",
+          "expected language and0of6"
+        ]
+      },
+      "core": {
+        "passed": true,
+        "durationSeconds": 103.402,
+        "record": "verification/native/native-session-ar.json",
+        "log": "verification/native/native-ui-ar.log",
+        "recording": "verification/native/native-core-ar-raw.mp4",
+        "metadata": "verification/native/native-video-ar.json",
+        "PTSAnchors": "verification/native/native-pts-ar.json",
+        "screens": [
+          "verification/native/course-zero-ar.png",
+          "verification/native/lesson-player-ar.png",
+          "verification/native/exercise-failed-ar.png",
+          "verification/native/exercise-saved-ar.png",
+          "verification/native/completed-ar.png",
+          "verification/native/restarted-next-ar.png",
+          "verification/native/lesson-02-ar.png"
+        ],
+        "before": {
+          "learner": "demo-ar",
+          "displayName": "Demo learner",
+          "enrolments": [
+            "FA-PH-01"
+          ],
+          "completed": [],
+          "drafts": {
+            "01": {
+              "note": "",
+              "attachment": false
+            }
+          },
+          "revision": 1
+        },
+        "after": {
+          "learner": "demo-ar",
+          "displayName": "Demo learner",
+          "enrolments": [
+            "FA-PH-01"
+          ],
+          "completed": [
+            "01"
+          ],
+          "drafts": {
+            "01": {
+              "note": "عندما قرّبت العنصر من الحافة، أصبحت المساحة المجاورة أوضح. أبقيت الضوء نفسه في الصورتين.",
+              "attachment": false
+            }
+          },
+          "revision": 3
+        },
+        "checks": [
+          "authored video with captions actually plays",
+          "controlled503 retains exact note without confirmed save",
+          "successful retry acknowledged beforecompletion",
+          "explicit completion1of6",
+          "real app terminate/launch",
+          "stored learner/language/note/progress retained",
+          "continue to lesson02 with honest video-unavailable state"
+        ]
+      }
+    }
+  ],
+  "mediaTruth": {
+    "producedLessons": [
+      "01"
+    ],
+    "lesson01ActualSeconds": 30,
+    "lesson01PlannedStudyMinutes": 8,
+    "coursePlannedLessons": 6,
+    "coursePlannedStudyMinutes": 62,
+    "nextLesson02PlannedStudyMinutes": 10,
+    "laterVideoAvailable": false
+  },
+  "limits": [
+    "Native run verified on named iOS simulator only; Android/macOS source availability is not a verified native run.",
+    "Keyboard/focus,1.6x EN/AR text scale and disableAnimations are focused widget checks, not physical-device accessibility certification.",
+    "rawStartUTC is recorder invocation; native captureUTC is printed before XCUIScreen capture. Exact video cut anchors use decoded original frame PTS.",
+    "Canonical Flutter and Xcode test-build kernel variants share unchanged final source; initial and final parity observations are retained."
+  ],
+  "arabicReadableNext02Hold": {
+    "record": "verification/native/native-next02-ar.json",
+    "recording": "verification/native/native-next02-ar-raw.mp4",
+    "screenshot": "verification/native/lesson-02-ar-held.png",
+    "actualRawSeconds": 10.225,
+    "sharedRecordUnchanged": true,
+    "method": "Normal app launch plus actual Continue navigation to persisted lesson02; recorded separately after the continuous core, no reset/enrolment/save/completion."
+  }
+}

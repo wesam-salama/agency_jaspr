@@ -1,0 +1,13 @@
+{
+  "checkedUTC": "2026-10-14T15:21:51.044037+00:00",
+  "xctestrun": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/frame/app/tool/frame-ui-final.xctestrun",
+  "UITargetAppPath": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/frame/app/build/ios/Debug-iphonesimulator/Runner.app",
+  "installedAppPath": "/Users/wesamsalama/Library/Developer/CoreSimulator/Devices/8BDFE212-1DE0-4F67-928E-65C3E9B24533/data/Containers/Bundle/Application/ACAA1C39-7B71-4277-A274-33EE18266DFF/Runner.app",
+  "kernelSHA256": "c91aed06a5a855aa2fb1a066973aaf18afb6e8dd7adadb7d0ed26fb04e2e0e76",
+  "installedKernelSHA256": "c91aed06a5a855aa2fb1a066973aaf18afb6e8dd7adadb7d0ed26fb04e2e0e76",
+  "matching": true,
+  "finalCheckedUTC": "2026-10-14T15:55:48.720715+00:00",
+  "finalInstalledAppPath": "/Users/wesamsalama/Library/Developer/CoreSimulator/Devices/8BDFE212-1DE0-4F67-928E-65C3E9B24533/data/Containers/Bundle/Application/60A5E315-138C-4FD4-B8AD-7007AB6FF943/Runner.app",
+  "finalInstalledKernelSHA256": "bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b",
+  "finalMatching": false
+}

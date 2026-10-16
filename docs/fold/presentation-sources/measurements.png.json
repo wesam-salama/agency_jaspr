@@ -1,0 +1,36 @@
+{
+  "origin": "docs/fold/presentation-sources/measurements.html",
+  "operation": "Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "sourceFiles": [
+    "docs/fold/verification/store/measurements-en-1440.png",
+    "docs/fold/verification/store/measurements-ar-1440.png"
+  ],
+  "sourceFileChecksums": [
+    {
+      "file": "docs/fold/presentation-sources/measurements.html",
+      "sha256": "9f5cfd80eac042e36731f7f35ac831f35a5a12f46d9f40b4c4ef9d5d3d511ca8"
+    },
+    {
+      "file": "docs/fold/presentation-sources/boards.css",
+      "sha256": "c2ebd5e399f4649a65c2fc09354890e2d1432110d472f254aa94984741b5929d"
+    },
+    {
+      "file": "docs/fold/verification/store/measurements-en-1440.png",
+      "sha256": "f9a4d8d2902a6893f68e4c16ed6953612ee89dde565a75559e15f642be3a1dd6"
+    },
+    {
+      "file": "docs/fold/verification/store/measurements-ar-1440.png",
+      "sha256": "da67498a9cba68c39e6c4c94e266c7e38913de566ca133611c65f930498d96c5"
+    }
+  ],
+  "generatedImageReferences": [],
+  "created": "2026-10-15",
+  "capturedAt": "2026-10-15T12:59:55.503Z",
+  "creator": "CR8.Media / Codex authored presentation composition",
+  "file": "docs/fold/presentation-sources/measurements.png",
+  "width": 2000,
+  "height": 1500,
+  "sha256": "4868ac5140838ecead115d43134ec74f2f060ad69f7e936dd3091e98f1b218d5",
+  "prompt": "Origin: docs/fold/presentation-sources/measurements.html. Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "provenanceStorage": "native image metadata"
+}

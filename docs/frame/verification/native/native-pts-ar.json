@@ -1,0 +1,85 @@
+{
+  "language": "ar",
+  "source": "native-core-ar-raw.mp4",
+  "method": "Actual original decoded frames with original PTS (showinfo; fps_mode passthrough) compared against actual XCTest PNGs, status bar excluded, RGB MAE at120x260. No resampling or invocation-time assumptions.",
+  "frameCount": 1613,
+  "anchors": [
+    {
+      "name": "course-zero-ar",
+      "rawPTS": 31.116667,
+      "frameIndex": 2,
+      "matchMAE": 1.8925694227218628,
+      "nearMatchPTSRange": [
+        0.0,
+        31.703333
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "lesson-player-ar",
+      "rawPTS": 52.196667,
+      "frameIndex": 541,
+      "matchMAE": 2.0102083683013916,
+      "nearMatchPTSRange": [
+        50.55,
+        53.488333
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "exercise-failed-ar",
+      "rawPTS": 100.026667,
+      "frameIndex": 1294,
+      "matchMAE": 1.9403356313705444,
+      "nearMatchPTSRange": [
+        99.993333,
+        100.026667
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "exercise-saved-ar",
+      "rawPTS": 103.205,
+      "frameIndex": 1309,
+      "matchMAE": 1.8344444036483765,
+      "nearMatchPTSRange": [
+        101.545,
+        103.546667
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "completed-ar",
+      "rawPTS": 103.963333,
+      "frameIndex": 1335,
+      "matchMAE": 1.861354112625122,
+      "nearMatchPTSRange": [
+        103.926667,
+        103.963333
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "restarted-next-ar",
+      "rawPTS": 126.993333,
+      "frameIndex": 1607,
+      "matchMAE": 1.9017939567565918,
+      "nearMatchPTSRange": [
+        126.993333,
+        129.516667
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "lesson-02-ar",
+      "rawPTS": 129.581667,
+      "frameIndex": 1612,
+      "matchMAE": 1.7856944799423218,
+      "nearMatchPTSRange": [
+        129.581667,
+        129.581667
+      ],
+      "validatedMatch": true
+    }
+  ]
+}

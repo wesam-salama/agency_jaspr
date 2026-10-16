@@ -1,0 +1,54 @@
+{
+  "rawStartUTC": "2026-10-14T15:33:26.157Z",
+  "status": 0,
+  "date": "2026-10-14",
+  "learner": "demo-ar",
+  "language": "ar",
+  "before": {
+    "learner": "demo-ar",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [],
+    "drafts": {
+      "01": {
+        "note": "",
+        "attachment": false
+      }
+    },
+    "revision": 1
+  },
+  "events": [
+    {
+      "name": "handoff-waiting",
+      "utc": "2026-10-14T15:33:41Z"
+    },
+    {
+      "name": "course-overview-ar",
+      "utc": "2026-10-14T15:34:05Z"
+    },
+    {
+      "name": "handoff-confirmed",
+      "utc": "2026-10-14T15:34:06Z"
+    }
+  ],
+  "appStates": [
+    "FRAME_HANDOFF_APP_STATE_BEFORE_REQUEST notRunning",
+    "FRAME_HANDOFF_APP_STATE_AFTER_REQUEST runningForeground"
+  ],
+  "preferences": {
+    "flutter.frame.learner": "demo-ar",
+    "flutter.frame.arabic": false
+  },
+  "preferencesAfterCore": {
+    "capturedUTC": "2026-10-14T15:55:48.488961+00:00",
+    "source": "/Users/wesamsalama/Library/Developer/CoreSimulator/Devices/8BDFE212-1DE0-4F67-928E-65C3E9B24533/data/Containers/Data/Application/D88A77F3-6175-4D22-A10B-7167269356DF/Library/Preferences/media.cr8.frameAcademy.plist",
+    "preferences": {
+      "flutter.frame.learner": "demo-ar",
+      "flutter.frame.arabic": true
+    },
+    "verification": "Actual on-disk snapshot after final Arabic XCTest terminate/launch; earlier handoff snapshot retained unchanged."
+  },
+  "preferencesSnapshotNote": "The original preferences field was read immediately after handoff and can lag CFPreferences disk flush. This later actual read plus the final cold app restart confirm the selected Arabic locale."
+}

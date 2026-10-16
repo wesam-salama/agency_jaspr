@@ -1,0 +1,62 @@
+{
+  "checkedUTC": "2026-10-14T21:21:38.431Z",
+  "origin": "http://127.0.0.1:8803",
+  "resources": [
+    {
+      "path": "/agency_jaspr/",
+      "status": 200,
+      "bytes": 43041
+    },
+    {
+      "path": "/agency_jaspr/ar/",
+      "status": 200,
+      "bytes": 49800
+    },
+    {
+      "path": "/agency_jaspr/fr/",
+      "status": 200,
+      "bytes": 46708
+    },
+    {
+      "path": "/agency_jaspr/assets/selected-work/frame/site/index.html",
+      "status": 200,
+      "bytes": 1005
+    },
+    {
+      "path": "/agency_jaspr/assets/selected-work/frame/demo-journey.mp4",
+      "status": 200,
+      "bytes": 1173425
+    },
+    {
+      "path": "/agency_jaspr/assets/selected-work/frame/demo-journey-ar.mp4",
+      "status": 200,
+      "bytes": 1116258
+    },
+    {
+      "path": "/agency_jaspr/assets/selected-work/frame/frame-source.zip",
+      "status": 200,
+      "bytes": 193326812
+    }
+  ],
+  "learners": [
+    {
+      "learner": "demo",
+      "revision": 3,
+      "completed": [
+        "01"
+      ],
+      "noteSha256": "ab64aba2a34b5c7655f6de4bbcd7908a6d7b20ad79ba300c7e12e5add6ef6382",
+      "matchesRecordedNativeSession": true
+    },
+    {
+      "learner": "demo-ar",
+      "revision": 3,
+      "completed": [
+        "01"
+      ],
+      "noteSha256": "97127840ff9b3da556de8432e3035e235d1fece990d19719040854c05c024bcf",
+      "matchesRecordedNativeSession": true
+    }
+  ],
+  "scope": "Actual local HTTP HEAD destinations and exact saved-record equality after preview service restart; final ZIP bytes are checked separately against build/source."
+}

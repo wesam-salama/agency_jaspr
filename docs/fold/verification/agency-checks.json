@@ -1,0 +1,2072 @@
+{
+  "checkedAt": "2026-10-15T13:42:01.197Z",
+  "origin": "http://127.0.0.1:8804",
+  "base": "/agency_jaspr/",
+  "records": [
+    {
+      "locale": "en",
+      "width": 320,
+      "height": 1000,
+      "errors": [],
+      "captures": [],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-480.webp",
+            "loaded": true,
+            "alt": "Bespoke FOLD signature with a four-garment capsule, presented through generated garment concept imagery.",
+            "intrinsicWidth": 320
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: The authored FOLD identity: a cut in the wordmark, purposeful pattern lines, bilingual hierarchy and editable packaging artwork.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Generated garment concept imagery across front, back and construction detail, reviewed against the locked pattern and colour canon. These are not photographs of manufactured garments.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual size guidance makes the laid-flat method explicit. Chest and waist are half-widths; cm and inches stay associated with each size in English and Arabic.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual shopping screens connect explicit variant selection with the $240 basket and $252 demo total. Unavailable stock remains named and the checkout clearly explains its simulation.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual before/after maintenance evidence: quantity and size changes originally lost keyboard focus. Version 1.1 preserves cart order and restores the intended edited or next control, including after retry.",
+            "intrinsicWidth": 288
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Fold storeHTML",
+            "href": "assets/selected-work/fold/site/index.html",
+            "download": null,
+            "aria": "Open Explore Fold store (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "Watch the shopping flowHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html",
+            "download": null,
+            "aria": "Open Watch the shopping flow (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "Editable project sourcesZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "Download Editable project sources (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleStrategy, identity, garment art direction, UX/UI & store implementationFormatDesign & implementation studyDeliverablesEditable identity, packaging, garment imagery, EN/AR store & simulated checkout"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-390-top.png",
+        "verification/agency/en-390-middle.png",
+        "verification/agency/en-390-end.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-480.webp",
+            "loaded": true,
+            "alt": "Bespoke FOLD signature with a four-garment capsule, presented through generated garment concept imagery.",
+            "intrinsicWidth": 389
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: The authored FOLD identity: a cut in the wordmark, purposeful pattern lines, bilingual hierarchy and editable packaging artwork.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Generated garment concept imagery across front, back and construction detail, reviewed against the locked pattern and colour canon. These are not photographs of manufactured garments.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual size guidance makes the laid-flat method explicit. Chest and waist are half-widths; cm and inches stay associated with each size in English and Arabic.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual shopping screens connect explicit variant selection with the $240 basket and $252 demo total. Unavailable stock remains named and the checkout clearly explains its simulation.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual before/after maintenance evidence: quantity and size changes originally lost keyboard focus. Version 1.1 preserves cart order and restores the intended edited or next control, including after retry.",
+            "intrinsicWidth": 351
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Fold storeHTML",
+            "href": "assets/selected-work/fold/site/index.html",
+            "download": null,
+            "aria": "Open Explore Fold store (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "Watch the shopping flowHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html",
+            "download": null,
+            "aria": "Open Watch the shopping flow (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "Editable project sourcesZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "Download Editable project sources (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleStrategy, identity, garment art direction, UX/UI & store implementationFormatDesign & implementation studyDeliverablesEditable identity, packaging, garment imagery, EN/AR store & simulated checkout"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1000,
+      "errors": [],
+      "captures": [],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-960.webp",
+            "loaded": true,
+            "alt": "Bespoke FOLD signature with a four-garment capsule, presented through generated garment concept imagery.",
+            "intrinsicWidth": 768
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: The authored FOLD identity: a cut in the wordmark, purposeful pattern lines, bilingual hierarchy and editable packaging artwork.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Generated garment concept imagery across front, back and construction detail, reviewed against the locked pattern and colour canon. These are not photographs of manufactured garments.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual size guidance makes the laid-flat method explicit. Chest and waist are half-widths; cm and inches stay associated with each size in English and Arabic.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual shopping screens connect explicit variant selection with the $240 basket and $252 demo total. Unavailable stock remains named and the checkout clearly explains its simulation.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual before/after maintenance evidence: quantity and size changes originally lost keyboard focus. Version 1.1 preserves cart order and restores the intended edited or next control, including after retry.",
+            "intrinsicWidth": 691
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Fold storeHTML",
+            "href": "assets/selected-work/fold/site/index.html",
+            "download": null,
+            "aria": "Open Explore Fold store (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "Watch the shopping flowHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html",
+            "download": null,
+            "aria": "Open Watch the shopping flow (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "Editable project sourcesZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "Download Editable project sources (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleStrategy, identity, garment art direction, UX/UI & store implementationFormatDesign & implementation studyDeliverablesEditable identity, packaging, garment imagery, EN/AR store & simulated checkout"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-1440-top.png",
+        "verification/agency/en-1440-middle.png",
+        "verification/agency/en-1440-end.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero.webp",
+            "loaded": true,
+            "alt": "Bespoke FOLD signature with a four-garment capsule, presented through generated garment concept imagery.",
+            "intrinsicWidth": 1199
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: The authored FOLD identity: a cut in the wordmark, purposeful pattern lines, bilingual hierarchy and editable packaging artwork.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Generated garment concept imagery across front, back and construction detail, reviewed against the locked pattern and colour canon. These are not photographs of manufactured garments.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual size guidance makes the laid-flat method explicit. Chest and waist are half-widths; cm and inches stay associated with each size in English and Arabic.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual shopping screens connect explicit variant selection with the $240 basket and $252 demo total. Unavailable stock remains named and the checkout clearly explains its simulation.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Actual before/after maintenance evidence: quantity and size changes originally lost keyboard focus. Version 1.1 preserves cart order and restores the intended edited or next control, including after retry.",
+            "intrinsicWidth": 960
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Fold storeHTML",
+            "href": "assets/selected-work/fold/site/index.html",
+            "download": null,
+            "aria": "Open Explore Fold store (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "Watch the shopping flowHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html",
+            "download": null,
+            "aria": "Open Watch the shopping flow (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "Editable project sourcesZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "Download Editable project sources (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleStrategy, identity, garment art direction, UX/UI & store implementationFormatDesign & implementation studyDeliverablesEditable identity, packaging, garment imagery, EN/AR store & simulated checkout"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "height": 1000,
+      "errors": [],
+      "captures": [],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-480.webp",
+            "loaded": true,
+            "alt": "شعار FOLD المصمم خصيصًا مع مجموعة من أربع قطع، بصور مولّدة لتصوّر الملابس.",
+            "intrinsicWidth": 320
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: هوية FOLD المصممة للمشروع: قطع في الشعار، وخطوط باترون ذات وظيفة، وتسلسل معلومات باللغتين، وملفات تغليف قابلة للتعديل.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: صور مولّدة لتصوّر الملابس من الأمام والخلف وتفاصيل البناء، روجعت وفق الباترون والألوان المعتمدين. ليست صورًا لملابس مصنّعة.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: يوضّح دليل المقاسات الفعلي طريقة القياس والقطعة مفرودة. الصدر والخصر أنصاف عرض؛ وتبقى وحدتا cm والبوصة مرتبطتين بكل مقاس بالإنجليزية والعربية.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: تربط شاشات التسوق الفعلية اختيار القطعة صراحةً بسلة قيمتها $240 وإجمالي تجريبي قدره $252. يظهر المخزون غير المتاح بوضوح، ويشرح إتمام الشراء طبيعة المحاكاة.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: دليل صيانة فعلي قبل التعديل وبعده: كان تغيير الكمية أو المقاس يفقد تركيز لوحة المفاتيح. يحافظ الإصدار 1.1 على ترتيب السلة ويعيد التركيز إلى عنصر التحكّم المقصود، المعدّل أو التالي، بما في ذلك بعد إعادة المحاولة.",
+            "intrinsicWidth": 288
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف متجر FoldHTML",
+            "href": "assets/selected-work/fold/site/index.html?lang=ar",
+            "download": null,
+            "aria": "افتح استكشف متجر Fold (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "شاهد رحلة التسوقHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html?lang=ar",
+            "download": null,
+            "aria": "افتح شاهد رحلة التسوق (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورناالاستراتيجية والهوية والتوجيه الفني للملابس وتجربة المستخدم وتنفيذ المتجرالنوعدراسة تصميم وتنفيذالمخرجاتهوية وتغليف قابلان للتعديل، صور ملابس، متجر إنجليزي وعربي وإتمام شراء محاكى"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-390-top.png",
+        "verification/agency/ar-390-middle.png",
+        "verification/agency/ar-390-end.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-480.webp",
+            "loaded": true,
+            "alt": "شعار FOLD المصمم خصيصًا مع مجموعة من أربع قطع، بصور مولّدة لتصوّر الملابس.",
+            "intrinsicWidth": 389
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: هوية FOLD المصممة للمشروع: قطع في الشعار، وخطوط باترون ذات وظيفة، وتسلسل معلومات باللغتين، وملفات تغليف قابلة للتعديل.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: صور مولّدة لتصوّر الملابس من الأمام والخلف وتفاصيل البناء، روجعت وفق الباترون والألوان المعتمدين. ليست صورًا لملابس مصنّعة.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: يوضّح دليل المقاسات الفعلي طريقة القياس والقطعة مفرودة. الصدر والخصر أنصاف عرض؛ وتبقى وحدتا cm والبوصة مرتبطتين بكل مقاس بالإنجليزية والعربية.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: تربط شاشات التسوق الفعلية اختيار القطعة صراحةً بسلة قيمتها $240 وإجمالي تجريبي قدره $252. يظهر المخزون غير المتاح بوضوح، ويشرح إتمام الشراء طبيعة المحاكاة.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: دليل صيانة فعلي قبل التعديل وبعده: كان تغيير الكمية أو المقاس يفقد تركيز لوحة المفاتيح. يحافظ الإصدار 1.1 على ترتيب السلة ويعيد التركيز إلى عنصر التحكّم المقصود، المعدّل أو التالي، بما في ذلك بعد إعادة المحاولة.",
+            "intrinsicWidth": 351
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف متجر FoldHTML",
+            "href": "assets/selected-work/fold/site/index.html?lang=ar",
+            "download": null,
+            "aria": "افتح استكشف متجر Fold (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "شاهد رحلة التسوقHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html?lang=ar",
+            "download": null,
+            "aria": "افتح شاهد رحلة التسوق (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورناالاستراتيجية والهوية والتوجيه الفني للملابس وتجربة المستخدم وتنفيذ المتجرالنوعدراسة تصميم وتنفيذالمخرجاتهوية وتغليف قابلان للتعديل، صور ملابس، متجر إنجليزي وعربي وإتمام شراء محاكى"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "height": 1000,
+      "errors": [],
+      "captures": [],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-960.webp",
+            "loaded": true,
+            "alt": "شعار FOLD المصمم خصيصًا مع مجموعة من أربع قطع، بصور مولّدة لتصوّر الملابس.",
+            "intrinsicWidth": 768
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: هوية FOLD المصممة للمشروع: قطع في الشعار، وخطوط باترون ذات وظيفة، وتسلسل معلومات باللغتين، وملفات تغليف قابلة للتعديل.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: صور مولّدة لتصوّر الملابس من الأمام والخلف وتفاصيل البناء، روجعت وفق الباترون والألوان المعتمدين. ليست صورًا لملابس مصنّعة.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: يوضّح دليل المقاسات الفعلي طريقة القياس والقطعة مفرودة. الصدر والخصر أنصاف عرض؛ وتبقى وحدتا cm والبوصة مرتبطتين بكل مقاس بالإنجليزية والعربية.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: تربط شاشات التسوق الفعلية اختيار القطعة صراحةً بسلة قيمتها $240 وإجمالي تجريبي قدره $252. يظهر المخزون غير المتاح بوضوح، ويشرح إتمام الشراء طبيعة المحاكاة.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: دليل صيانة فعلي قبل التعديل وبعده: كان تغيير الكمية أو المقاس يفقد تركيز لوحة المفاتيح. يحافظ الإصدار 1.1 على ترتيب السلة ويعيد التركيز إلى عنصر التحكّم المقصود، المعدّل أو التالي، بما في ذلك بعد إعادة المحاولة.",
+            "intrinsicWidth": 691
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف متجر FoldHTML",
+            "href": "assets/selected-work/fold/site/index.html?lang=ar",
+            "download": null,
+            "aria": "افتح استكشف متجر Fold (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "شاهد رحلة التسوقHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html?lang=ar",
+            "download": null,
+            "aria": "افتح شاهد رحلة التسوق (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورناالاستراتيجية والهوية والتوجيه الفني للملابس وتجربة المستخدم وتنفيذ المتجرالنوعدراسة تصميم وتنفيذالمخرجاتهوية وتغليف قابلان للتعديل، صور ملابس، متجر إنجليزي وعربي وإتمام شراء محاكى"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-1440-top.png",
+        "verification/agency/ar-1440-middle.png",
+        "verification/agency/ar-1440-end.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero.webp",
+            "loaded": true,
+            "alt": "شعار FOLD المصمم خصيصًا مع مجموعة من أربع قطع، بصور مولّدة لتصوّر الملابس.",
+            "intrinsicWidth": 1199
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: هوية FOLD المصممة للمشروع: قطع في الشعار، وخطوط باترون ذات وظيفة، وتسلسل معلومات باللغتين، وملفات تغليف قابلة للتعديل.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: صور مولّدة لتصوّر الملابس من الأمام والخلف وتفاصيل البناء، روجعت وفق الباترون والألوان المعتمدين. ليست صورًا لملابس مصنّعة.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: يوضّح دليل المقاسات الفعلي طريقة القياس والقطعة مفرودة. الصدر والخصر أنصاف عرض؛ وتبقى وحدتا cm والبوصة مرتبطتين بكل مقاس بالإنجليزية والعربية.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: تربط شاشات التسوق الفعلية اختيار القطعة صراحةً بسلة قيمتها $240 وإجمالي تجريبي قدره $252. يظهر المخزون غير المتاح بوضوح، ويشرح إتمام الشراء طبيعة المحاكاة.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: دليل صيانة فعلي قبل التعديل وبعده: كان تغيير الكمية أو المقاس يفقد تركيز لوحة المفاتيح. يحافظ الإصدار 1.1 على ترتيب السلة ويعيد التركيز إلى عنصر التحكّم المقصود، المعدّل أو التالي، بما في ذلك بعد إعادة المحاولة.",
+            "intrinsicWidth": 960
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف متجر FoldHTML",
+            "href": "assets/selected-work/fold/site/index.html?lang=ar",
+            "download": null,
+            "aria": "افتح استكشف متجر Fold (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "شاهد رحلة التسوقHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html?lang=ar",
+            "download": null,
+            "aria": "افتح شاهد رحلة التسوق (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورناالاستراتيجية والهوية والتوجيه الفني للملابس وتجربة المستخدم وتنفيذ المتجرالنوعدراسة تصميم وتنفيذالمخرجاتهوية وتغليف قابلان للتعديل، صور ملابس، متجر إنجليزي وعربي وإتمام شراء محاكى"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "height": 1000,
+      "errors": [],
+      "captures": [],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-480.webp",
+            "loaded": true,
+            "alt": "Signature FOLD dessinée pour le projet avec une capsule de quatre vêtements, représentés par des images conceptuelles générées.",
+            "intrinsicWidth": 320
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: L’identité FOLD créée pour le projet : une découpe dans la signature, des lignes de patron utiles, une hiérarchie bilingue et un packaging modifiable.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Images conceptuelles générées de face, de dos et de construction, examinées selon le patron et les couleurs fixés. Ce ne sont pas des photographies de vêtements fabriqués.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Le véritable guide précise la mesure à plat. Poitrine et taille sont des demi-largeurs ; cm et pouces restent associés à chaque taille en anglais et en arabe.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Les véritables écrans relient la sélection explicite des variantes au panier de $240 et au total de démonstration de $252. Le stock indisponible est nommé et la simulation clairement expliquée.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Véritables preuves de maintenance avant et après : modifier quantité ou taille faisait perdre le focus clavier. La version 1.1 conserve l’ordre du panier et replace le focus sur la commande modifiée ou suivante prévue, y compris après un nouvel essai.",
+            "intrinsicWidth": 288
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorer la boutique FoldHTML",
+            "href": "assets/selected-work/fold/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorer la boutique Fold (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "Voir le parcours d’achatHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html",
+            "download": null,
+            "aria": "Ouvrir Voir le parcours d’achat (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "Sources modifiables du projetZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "Télécharger Sources modifiables du projet (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie, identité, direction artistique des vêtements, UX/UI et réalisation de la boutiqueFormatÉtude de design et de réalisationLivrablesIdentité et packaging modifiables, images de vêtements, boutique EN/AR et commande simulée"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-390-top.png",
+        "verification/agency/fr-390-middle.png",
+        "verification/agency/fr-390-end.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-480.webp",
+            "loaded": true,
+            "alt": "Signature FOLD dessinée pour le projet avec une capsule de quatre vêtements, représentés par des images conceptuelles générées.",
+            "intrinsicWidth": 389
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: L’identité FOLD créée pour le projet : une découpe dans la signature, des lignes de patron utiles, une hiérarchie bilingue et un packaging modifiable.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Images conceptuelles générées de face, de dos et de construction, examinées selon le patron et les couleurs fixés. Ce ne sont pas des photographies de vêtements fabriqués.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Le véritable guide précise la mesure à plat. Poitrine et taille sont des demi-largeurs ; cm et pouces restent associés à chaque taille en anglais et en arabe.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Les véritables écrans relient la sélection explicite des variantes au panier de $240 et au total de démonstration de $252. Le stock indisponible est nommé et la simulation clairement expliquée.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Véritables preuves de maintenance avant et après : modifier quantité ou taille faisait perdre le focus clavier. La version 1.1 conserve l’ordre du panier et replace le focus sur la commande modifiée ou suivante prévue, y compris après un nouvel essai.",
+            "intrinsicWidth": 351
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorer la boutique FoldHTML",
+            "href": "assets/selected-work/fold/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorer la boutique Fold (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "Voir le parcours d’achatHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html",
+            "download": null,
+            "aria": "Ouvrir Voir le parcours d’achat (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "Sources modifiables du projetZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "Télécharger Sources modifiables du projet (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie, identité, direction artistique des vêtements, UX/UI et réalisation de la boutiqueFormatÉtude de design et de réalisationLivrablesIdentité et packaging modifiables, images de vêtements, boutique EN/AR et commande simulée"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "height": 1000,
+      "errors": [],
+      "captures": [],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-960.webp",
+            "loaded": true,
+            "alt": "Signature FOLD dessinée pour le projet avec une capsule de quatre vêtements, représentés par des images conceptuelles générées.",
+            "intrinsicWidth": 768
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: L’identité FOLD créée pour le projet : une découpe dans la signature, des lignes de patron utiles, une hiérarchie bilingue et un packaging modifiable.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Images conceptuelles générées de face, de dos et de construction, examinées selon le patron et les couleurs fixés. Ce ne sont pas des photographies de vêtements fabriqués.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Le véritable guide précise la mesure à plat. Poitrine et taille sont des demi-largeurs ; cm et pouces restent associés à chaque taille en anglais et en arabe.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Les véritables écrans relient la sélection explicite des variantes au panier de $240 et au total de démonstration de $252. Le stock indisponible est nommé et la simulation clairement expliquée.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Véritables preuves de maintenance avant et après : modifier quantité ou taille faisait perdre le focus clavier. La version 1.1 conserve l’ordre du panier et replace le focus sur la commande modifiée ou suivante prévue, y compris après un nouvel essai.",
+            "intrinsicWidth": 691
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorer la boutique FoldHTML",
+            "href": "assets/selected-work/fold/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorer la boutique Fold (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "Voir le parcours d’achatHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html",
+            "download": null,
+            "aria": "Ouvrir Voir le parcours d’achat (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "Sources modifiables du projetZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "Télécharger Sources modifiables du projet (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie, identité, direction artistique des vêtements, UX/UI et réalisation de la boutiqueFormatÉtude de design et de réalisationLivrablesIdentité et packaging modifiables, images de vêtements, boutique EN/AR et commande simulée"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    },
+    {
+      "locale": "fr",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-1440-top.png",
+        "verification/agency/fr-1440-middle.png",
+        "verification/agency/fr-1440-end.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ]
+      },
+      "open": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "resultsStripCount": 0,
+        "resultsGroupCount": 0,
+        "figureCount": 5,
+        "images": [
+          {
+            "src": "assets/selected-work/fold/hero.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero.webp",
+            "loaded": true,
+            "alt": "Signature FOLD dessinée pour le projet avec une capsule de quatre vêtements, représentés par des images conceptuelles générées.",
+            "intrinsicWidth": 1199
+          },
+          {
+            "src": "assets/selected-work/fold/case/identity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: L’identité FOLD créée pour le projet : une découpe dans la signature, des lignes de patron utiles, une hiérarchie bilingue et un packaging modifiable.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/continuity.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Images conceptuelles générées de face, de dos et de construction, examinées selon le patron et les couleurs fixés. Ce ne sont pas des photographies de vêtements fabriqués.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/measurements.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Le véritable guide précise la mesure à plat. Poitrine et taille sont des demi-largeurs ; cm et pouces restent associés à chaque taille en anglais et en arabe.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/shopping.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Les véritables écrans relient la sélection explicite des variantes au panier de $240 et au total de démonstration de $252. Le stock indisponible est nommé et la simulation clairement expliquée.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/fold/case/maintenance.webp",
+            "currentSrc": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+            "loaded": true,
+            "alt": "Fold Clothing: Véritables preuves de maintenance avant et après : modifier quantité ou taille faisait perdre le focus clavier. La version 1.1 conserve l’ordre du panier et replace le focus sur la commande modifiée ou suivante prévue, y compris après un nouvel essai.",
+            "intrinsicWidth": 960
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorer la boutique FoldHTML",
+            "href": "assets/selected-work/fold/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorer la boutique Fold (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 1207
+          },
+          {
+            "label": "Voir le parcours d’achatHTML",
+            "href": "assets/selected-work/fold/shopping-flow.html",
+            "download": null,
+            "aria": "Ouvrir Voir le parcours d’achat (HTML)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "text/html; charset=utf-8",
+            "contentLength": 5438
+          },
+          {
+            "label": "Sources modifiables du projetZIP",
+            "href": "assets/selected-work/fold/fold-source.zip",
+            "download": "fold-source.zip",
+            "aria": "Télécharger Sources modifiables du projet (ZIP)",
+            "status": 200,
+            "method": "HEAD",
+            "contentType": "application/zip",
+            "contentLength": 51600053
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie, identité, direction artistique des vêtements, UX/UI et réalisation de la boutiqueFormatÉtude de design et de réalisationLivrablesIdentité et packaging modifiables, images de vêtements, boutique EN/AR et commande simulée"
+      },
+      "foldNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "restoredFocus": "Fold Clothing",
+      "frame": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "frameChapters": 4,
+      "frameNext": {
+        "name": "Fold Clothing",
+        "curtainSeen": true
+      },
+      "wrapNext": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "frameRestoredFocus": "Frame Academy",
+      "enquiryPreserved": true,
+      "result": "passed"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+"""Apply the approved slot-03 case only after local product evidence exists."""
+from pathlib import Path
+import json, sys
+
+ROOT = Path(__file__).resolve().parents[2]
+ASSETS = 'assets/selected-work/frame/'
+
+def q(s):
+    return "'" + s.replace('\\', '\\\\').replace("'", "\\'").replace('$', '\\$').replace('\n', '\\n') + "'"
+
+COPY = {
+ 'en': {
+  'tag':'Brand, Website & App · 2026', 'client':'Self-initiated studio project',
+  'role':'Strategy, identity, course artwork, web & Flutter mobile app',
+  'timeline':'Design & implementation study',
+  'deliverables':'Editable identity and workbooks, captioned lesson, EN/AR website, iOS demo & shared saved progress',
+  'heroAlt':'Frame Academy workbook artwork with actual course discovery and native app continuation screens.',
+  'lede':['A creative academy shaped around ', 'the next useful step', ', from choosing a course to returning to the lesson.'],
+  'paragraphs':[
+   'Frame Academy is a self-initiated learning brand for practical photography, filmmaking and visual design. Make your next idea is its invitation: a clear place to start, a small exercise to try and a useful next step. Composition Essentials connects the discovery website with a running Flutter learning app.',
+   'Two offset open corners give course artwork a point of view. Space Grotesk, Inter and naturally shaped IBM Plex Sans Arabic carry a bright canvas, midnight ink and crisp blue actions. The expressive workbook becomes a quieter learning surface, with course outcome and equipment visible before enrolment.',
+   'The recorded English and Arabic journeys start at 0 of 6. An authored lesson has captions and a transcript; its actual media duration is separate from the planned curriculum. A confirmed exercise save, explicit completion and app restart preserve 1 of 6 complete and continue at lesson 02, Find the subject. A controlled save failure keeps the note available for successful retry. This is a local demonstration, with no instructor-review or commercial-launch claim.'
+  ],
+  'titles':['Choose with clarity','Carry the identity','Keep the next step visible','Recover without losing work'],
+  'bodies':[
+   'Actual course detail puts the outcome, equipment and prerequisite beside the decision. Composition Essentials is FA-PH-01: six lessons and 62 planned study minutes. The first authored preview explains the exercise before the learner continues as Demo learner.',
+   'The custom wordmark, two displaced L corners, course covers and exercise sheets share one measured system. The mark keeps its orientation across locales; Arabic text shapes naturally and directional controls follow the reading direction.',
+   'The actual native app after restart shows 1 of 6 lessons complete beside the next action: 02 Find the subject. Enrolment, progress and exercise drafts use the same local demonstration record as the website. Opening the player alone never completes a lesson.',
+   'A controlled failed save leaves the practice note intact. Retry confirms persistence before saved feedback appears; completion remains a separate action. Actual English and Arabic captures show the retained work, saved exercise and useful next step.'
+  ],
+  'disciplines':'Strategy · Identity · Web · Mobile app', 'category':'Brand, Website & App',
+  'description':'A creative learning concept connecting course discovery with a clear, continuous learning experience.',
+  'status':'Studio concept', 'cardAlt':'Actual Composition Essentials website detail and Frame native app with saved 1-of-6 progress.',
+  'links':['Explore Frame Academy','Watch the recorded journey','Editable project sources'],
+ },
+ 'ar': {
+  'tag':'هوية وموقع وتطبيق · 2026','client':'مشروع ذاتي من الاستوديو',
+  'role':'الاستراتيجية والهوية وتصميم مواد الدورات والموقع وتطبيق Flutter للهاتف',
+  'timeline':'دراسة تصميم وتنفيذ',
+  'deliverables':'هوية وكراسات قابلة للتعديل، درس مع ترجمة نصية، موقع إنجليزي وعربي، تطبيق iOS تجريبي وتقدّم محفوظ مشترك',
+  'heroAlt':'تصميم كراسة Frame Academy بجانب شاشات فعلية لاستكشاف الدورة ومتابعتها في التطبيق الأصلي.',
+  'lede':['أكاديمية إبداعية تتمحور حول ', 'الخطوة التالية المفيدة', '، من اختيار الدورة إلى العودة للدرس.'],
+  'paragraphs':[
+   'Frame Academy علامة للتعلّم العملي في التصوير وصناعة الأفلام والتصميم البصري، أطلقها الاستوديو من تلقاء نفسه. دعوتها هي «اصنع فكرتك التالية»: بداية واضحة، وتمرين صغير، وخطوة مفيدة تليها. تربط دورة Composition Essentials موقع استكشاف الدورات بتطبيق تعلّم فعلي مبني باستخدام Flutter.',
+   'تمنح زاويتان مفتوحتان ومتزاحتان مواد الدورات وجهة نظر واضحة. تحمل خطوط Space Grotesk وInter وIBM Plex Sans Arabic بتشكيل عربي طبيعي ألوان السطح الفاتح والحبر الداكن والإجراءات الزرقاء. تتحول الكراسة المعبرة إلى واجهة تعلّم أهدأ، مع نتيجة الدورة والأدوات المطلوبة قبل التسجيل.',
+   'تبدأ الرحلتان المسجلتان بالإنجليزية والعربية من 0 من 6. للدرس المُنتج ترجمة نصية ونص مكتوب، وتظهر مدته الفعلية منفصلة عن وقت المنهج المخطط. يحفظ تأكيد التمرين وإكماله صراحةً ثم إعادة تشغيل التطبيق تقدّمًا قدره 1 من 6، مع متابعة الدرس 02، Find the subject. ويحافظ فشل حفظ متعمّد على الملاحظة حتى تنجح إعادة المحاولة. هذا عرض محلي تجريبي، بلا ادعاء مراجعة من مدرّس أو إطلاق تجاري.'
+  ],
+  'titles':['اختيار واضح','هوية تنتقل معك','خطوة تالية ظاهرة','استعادة الحفظ دون فقدان العمل'],
+  'bodies':[
+   'تعرض صفحة الدورة الفعلية النتيجة والأدوات والمتطلبات بجانب قرار التسجيل. دورة Composition Essentials، برمز FA-PH-01، تضم ستة دروس و62 دقيقة دراسة مخططة. تشرح معاينة الدرس المُنتجة التمرين قبل المتابعة بصفة المتعلّم التجريبي.',
+   'يتشارك الشعار المخصص وزاويتا L المتزاحتان وأغلفة الدورات وأوراق التمارين نظامًا واحدًا مضبوطًا. تبقى العلامة في اتجاهها الأصلي عبر اللغات؛ وتتشكل العربية طبيعيًا وتتبع عناصر التنقل اتجاه القراءة.',
+   'يعرض التطبيق الأصلي الفعلي بعد إعادة التشغيل إكمال 1 من 6 دروس بجانب الخطوة التالية: 02 Find the subject. يستخدم التسجيل والتقدّم ومسودات التمارين السجل التجريبي المحلي نفسه الذي يقرأه الموقع. فتح المشغّل وحده لا يُكمل الدرس.',
+   'يبقي فشل الحفظ المتعمّد ملاحظة التمرين كما هي. تؤكد إعادة المحاولة الحفظ قبل ظهور رسالة النجاح؛ ويبقى الإكمال إجراءً مستقلًا. توثّق الشاشات الفعلية بالإنجليزية والعربية العمل المحتفظ به والتمرين المحفوظ والخطوة التالية المفيدة.'
+  ],
+  'disciplines':'الاستراتيجية · الهوية · الويب · تطبيق الهاتف','category':'هوية وموقع وتطبيق',
+  'description':'تصوّر للتعلّم الإبداعي يربط استكشاف الدورات بتجربة تعلّم واضحة ومتواصلة.',
+  'status':'تصوّر من الاستوديو','cardAlt':'صفحة Composition Essentials الفعلية وتطبيق Frame الأصلي مع تقدّم محفوظ قدره 1 من 6.',
+  'links':['استكشف Frame Academy','شاهد الرحلة المسجّلة','الملفات المصدرية القابلة للتعديل'],
+ },
+ 'fr': {
+  'tag':'Marque, site et application · 2026','client':'Projet personnel du studio',
+  'role':'Stratégie, identité, supports de cours, web et application mobile Flutter',
+  'timeline':'Étude de design et de réalisation',
+  'deliverables':'Identité et cahiers modifiables, leçon sous-titrée, site EN/AR, démo iOS et progression partagée',
+  'heroAlt':'Cahier Frame Academy avec de véritables écrans de découverte du cours et de reprise dans l’application native.',
+  'lede':['Une académie créative organisée autour de ', 'la prochaine étape utile', ', du choix d’un cours au retour à la leçon.'],
+  'paragraphs':[
+   'Frame Academy est une marque d’apprentissage pratique en photographie, cinéma et design visuel, initiée par le studio. Make your next idea invite à trouver un point de départ clair, essayer un petit exercice et suivre une prochaine étape utile. Composition Essentials relie le site de découverte à une application Flutter en fonctionnement.',
+   'Deux angles ouverts et décalés donnent un point de vue aux supports de cours. Space Grotesk, Inter et IBM Plex Sans Arabic aux formes naturelles composent une surface claire, une encre sombre et des actions bleues précises. Le cahier expressif devient une interface d’apprentissage plus calme, avec résultat attendu et équipement visibles avant l’inscription.',
+   'Les parcours enregistrés en anglais et en arabe commencent à 0 sur 6. Une leçon produite dispose de sous-titres et d’une transcription ; sa durée réelle est distincte du temps prévu au programme. La sauvegarde confirmée, la validation explicite de l’exercice et le redémarrage conservent 1 leçon sur 6 terminée et reprennent à la leçon 02, Find the subject. Un échec de sauvegarde contrôlé préserve la note jusqu’à la réussite du nouvel essai. Cette démonstration locale ne revendique ni correction par un enseignant ni lancement commercial.'
+  ],
+  'titles':['Choisir en connaissance de cause','Une identité qui vous accompagne','Garder la suite visible','Réessayer sans perdre le travail'],
+  'bodies':[
+   'La véritable page du cours présente résultat, équipement et prérequis près de la décision. Composition Essentials, FA-PH-01, comprend six leçons et 62 minutes d’étude prévues. L’aperçu produit explique l’exercice avant de poursuivre comme Demo learner.',
+   'Signature personnalisée, deux angles en L décalés, couvertures et fiches d’exercice partagent un système mesuré. Le symbole conserve son orientation selon la langue ; les formes arabes restent naturelles et les contrôles directionnels suivent la lecture.',
+   'Après redémarrage, l’application native affiche 1 leçon sur 6 terminée et la prochaine action : 02 Find the subject. Inscription, progression et brouillons utilisent le même enregistrement local que le site. Ouvrir le lecteur ne termine jamais une leçon.',
+   'Un échec de sauvegarde contrôlé laisse la note intacte. Le nouvel essai confirme la persistance avant le message de sauvegarde ; la validation reste une action distincte. De véritables captures anglaises et arabes montrent le travail préservé, l’exercice sauvegardé et la prochaine étape utile.'
+  ],
+  'disciplines':'Stratégie · Identité · Web · Application mobile','category':'Marque, site et application',
+  'description':'Un concept d’apprentissage créatif reliant la découverte des cours à une expérience claire et continue.',
+  'status':'Concept du studio','cardAlt':'Page réelle Composition Essentials et application native Frame avec progression sauvegardée de 1 sur 6.',
+  'links':['Explorer Frame Academy','Voir le parcours enregistré','Sources modifiables du projet'],
+ }
+}
+
+def links(copy):
+    entries=[]
+    destinations = ['site/index.html?lang=ar','demo-journey-ar.mp4','frame-source.zip'] if copy is COPY['ar'] else ['site/index.html','demo-journey.mp4','frame-source.zip']
+    for label,href,fmt in zip(copy['links'],destinations,['HTML','MP4','ZIP']):
+        entries.append(f"      CaseDownload(label: {q(label)}, href: {q(ASSETS+href)}, format: {q(fmt)}" + (", isDownload: false" if fmt!='ZIP' else '') + '),')
+    return '    downloads: [\n'+'\n'.join(entries)+'\n    ],\n'
+
+def common(c):
+    fields=['tag','heroAlt','client','role','timeline','deliverables']
+    s=''.join(f'    {key}: {q(c[key])},\n' for key in fields)
+    s+='    lede: CaseLede('+', '.join(map(q,c['lede']))+'),\n'
+    s+='    paragraphs: [\n'+''.join('      '+q(p)+',\n' for p in c['paragraphs'])+'    ],\n'
+    return s
+
+def replace_between(file,start,end,new):
+    p=ROOT/file;t=p.read_text();a=t.index(start);b=t.index(end,a+len(start));p.write_text(t[:a]+new+t[b:])
+
+def apply():
+    if '--verified' not in sys.argv:sys.exit('Run only after Frame product evidence has been verified: --verified')
+    for name in ['card.webp','hero.webp','identity.webp','course-discovery.webp','lesson-continuation.webp','exercise-recovery.webp','arabic-journey.webp','demo-journey.mp4','demo-journey-ar.mp4','frame-source.zip']:
+        assert (ROOT/'web'/ASSETS/name).is_file(),name
+    c=COPY['en'];en="  CaseStudy(\n    name: 'Frame Academy',\n    isIllustrative: true,\n    isSelfInitiated: true,\n    transition: CaseTransition.accentCurtain,\n    heroImage: 'assets/selected-work/frame/hero.webp',\n    layout: CaseLayout.horizontalScroll,\n"+common(c)
+    en+='    chapters: [\n'
+    for i,(title,body,image) in enumerate(zip(c['titles'],c['bodies'],['course-discovery','identity','lesson-continuation','exercise-recovery'])):
+        en+=f"      CaseChapter(number: '{i+1:02}', title: {q(title)}, body: {q(body)}, image: {q(ASSETS+image+'.webp')}),\n"
+    en+='    ],\n'+links(c)+'  ),\n'
+    replace_between('lib/data/site_data.dart',"  CaseStudy(\n    name: 'Marrow',","  CaseStudy(\n    name: 'Northline',",en)
+    work="  WorkProject(\n    index: '03',\n    year: '2026',\n"+''.join(f'    {key}: {q(c[key])},\n' for key in ['disciplines','category','description','status','cardAlt'])+"    cardImage: 'assets/selected-work/frame/card.webp',\n    caseStudy: caseStudies[2],\n  ),\n"
+    replace_between('lib/data/site_data.dart',"  WorkProject(\n    index: '03',","  WorkProject(\n    index: '04',",work)
+    for lang,oldtag in [('ar','الهوية والاستشارات · 2024'),('fr','Marque et conseil · 2024')]:
+        c=COPY[lang];localized='  _CaseCopy(\n'+common(c)+'    chapterTitles: ['+', '.join(map(q,c['titles']))+'],\n    chapterBodies: [\n'+''.join('      '+q(p)+',\n' for p in c['bodies'])+'    ],\n'+links(c)+'  ),'
+        file='lib/l10n/'+('arabic' if lang=='ar' else 'french')+'_content.dart'
+        replace_between(file,"  _CaseCopy(\n    tag: "+q(oldtag)+',', '\n  _CaseCopy(',localized)
+        # Work-copy order is invariant; replace the third block only.
+        p=ROOT/file;t=p.read_text();start=t.index('    _WorkCopy(',t.index('workProjects:'));start=t.index('    _WorkCopy(',start+1);start=t.index('    _WorkCopy(',start+1);end=t.index('    _WorkCopy(',start+1)
+        block='    _WorkCopy(\n'+''.join('      '+q(c[key])+',\n' for key in ['disciplines','category','description'])+f"      status: {q(c['status'])},\n      cardAlt: {q(c['cardAlt'])},\n    ),\n"
+        p.write_text(t[:start]+block+t[end:])
+    p=ROOT/'lib/utils/image_assets.dart';t=p.read_text();key='const Map<String, ImageAsset> _imageAssets = {\n';entries=''
+    for name,w,h in [('card',1600,1000),('hero',2560,1600),('identity',2000,1500),('course-discovery',2000,1500),('lesson-continuation',2000,1500),('exercise-recovery',2000,1500),('arabic-journey',2400,1600)]:
+        widths=[480,960] if name in ['card','hero'] else [960]
+        src=ASSETS+name+'.webp';srcset=', '.join([f'{ASSETS}{name}-{s}.webp {s}w' for s in widths]+[f'{src} {w}w'])
+        entries+=f"  {q(src)}: ImageAsset(src: {q(src)}, srcSet: {q(srcset)}, width: {w}, height: {h}),\n"
+    p.write_text(t.replace(key,key+entries,1))
+    p=ROOT/'web/assets/styles.css';t=p.read_text();t+='\n/* Frame preserves complete, typeset chapter boards within its horizontal case. */\n.case-self-initiated .cm-hch{margin:0}\n.case-self-initiated .cm-hch img{aspect-ratio:4/3;object-fit:contain}\n';p.write_text(t)
+    print('Frame slot03 applied; Sift, Form, Northline and shared case runtime retained.')
+
+if __name__=='__main__':apply()

@@ -1,0 +1,83 @@
+{
+  "created": "2026-10-15",
+  "fontCssRequest": "https://fonts.googleapis.com/css2?family=Archivo:wght@400..700&family=DM+Sans:wght@400..700&display=swap",
+  "files": [
+    {
+      "file": "fonts/Archivo-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/OFL.txt",
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "bytes": 4388,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/Archivo.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/Archivo%5Bwdth,wght%5D.ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "bytes": 658596,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/Archivo.woff2",
+      "source": "https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxI.woff2",
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967",
+      "bytes": 34928,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/DM-Sans-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "bytes": 4482,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/DMSans.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans%5Bopsz,wght%5D.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "bytes": 240164,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/DMSans.woff2",
+      "source": "https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2",
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+      "bytes": 36932,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/IBM-Plex-Sans-Arabic-OFL.txt",
+      "source": "Locally licensed agency/Frame IBM Plex Sans Arabic source cache, byte-identical copy",
+      "sha256": "91c25c350d3cac39da2736d74f7ba37ef648f5237a4e330a240615bc8d8c4360",
+      "bytes": 4360,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/IBMPlexSansArabic-Regular.ttf",
+      "source": "Locally licensed agency/Frame IBM Plex Sans Arabic source cache, byte-identical copy",
+      "sha256": "6f611412270a132bbac838da9259d4c68569b4175f3b3b8fa3fa36a30b56dab9",
+      "bytes": 235924,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/IBMPlexSansArabic-Regular.woff2",
+      "source": "Locally licensed agency/Frame IBM Plex Sans Arabic source cache, byte-identical copy",
+      "sha256": "74112e1b7bf2e2c547989a4e947a60cba6cd1f9156e0065670134636e717199d",
+      "bytes": 71904,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/IBMPlexSansArabic-SemiBold.ttf",
+      "source": "Locally licensed agency/Frame IBM Plex Sans Arabic source cache, byte-identical copy",
+      "sha256": "597bd5502e5997be4414e4c9c88834b30ff3784250c84f20bce2b20e53ebd467",
+      "bytes": 244616,
+      "licence": "SIL OFL 1.1"
+    },
+    {
+      "file": "fonts/IBMPlexSansArabic-SemiBold.woff2",
+      "source": "Locally licensed agency/Frame IBM Plex Sans Arabic source cache, byte-identical copy",
+      "sha256": "869b2acd0a9660607a2025f0fe1c640110bf23d33417509328f07722922b8063",
+      "bytes": 76408,
+      "licence": "SIL OFL 1.1"
+    }
+  ]
+}

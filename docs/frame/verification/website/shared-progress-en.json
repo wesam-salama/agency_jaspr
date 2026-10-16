@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-14",
+  "capturedAtUTC": "2026-10-14T15:32:25.248Z",
+  "method": "Read-only website/API/native-record comparison after the actual native exercise and cold restart; state unchanged by capture",
+  "learner": "demo",
+  "course": "FA-PH-01",
+  "completed": [
+    "01"
+  ],
+  "note": "Moving the object toward the edge made the surrounding space more visible. I kept the light the same in both photographs.",
+  "attachment": false,
+  "revision": 3,
+  "nextLesson": "02",
+  "nativeProof": "docs/frame/verification/native/native-session-en.json",
+  "nativeProofRawStartUTC": "2026-10-14T15:30:53.204Z",
+  "apiRequests": [
+    {
+      "method": "GET",
+      "path": "/api/catalogue"
+    },
+    {
+      "method": "GET",
+      "path": "/api/session"
+    }
+  ],
+  "pageErrors": [],
+  "screenshots": [
+    "shared-progress-en.png",
+    "shared-progress-mobile-en.png",
+    "saved-record-desktop-en.png",
+    "saved-record-mobile-en.png"
+  ]
+}

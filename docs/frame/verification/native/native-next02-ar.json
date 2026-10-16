@@ -1,0 +1,100 @@
+{
+  "capturedUTC": "2026-10-14T20:15:01.693Z",
+  "rawStartUTC": "2026-10-14T20:14:49.256Z",
+  "learner": "demo-ar",
+  "language": "ar",
+  "recording": "native-next02-ar-raw.mp4",
+  "screenshot": "lesson-02-ar-held.png",
+  "sourceKernelSHA256": "bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b",
+  "sourceCodeHashes": {
+    "app/lib/session.dart": "da688e10648af259999530e33f32ad07f9a6aab7f2d2e27896f46a8827416a35",
+    "app/lib/main.dart": "6491a93add304db3bf9539324636c3eecb73074dfc2b97606aa54522fae4ad80",
+    "app/ios/Runner/SceneDelegate.swift": "a2c68cad549fcd9195dfa39f1f937cffb56d846dd96038c6a4e8a0367dae3692",
+    "app/test/session_race_test.dart": "d05d8cf719bd0c84f7786831e909f51a5fca55982dec94ce868e13bd8b2242bf",
+    "app/test/widget_test.dart": "147648ac8f77d150c480fe2c78e33d78574234ea83131735c9b95128eef1993f"
+  },
+  "nativeState": {
+    "learner": "demo-ar",
+    "record": {
+      "learner": "demo-ar",
+      "displayName": "Demo learner",
+      "enrolments": [
+        "FA-PH-01"
+      ],
+      "completed": [
+        "01"
+      ],
+      "drafts": {
+        "01": {
+          "note": "عندما قرّبت العنصر من الحافة، أصبحت المساحة المجاورة أوضح. أبقيت الضوء نفسه في الصورتين.",
+          "attachment": false
+        }
+      },
+      "revision": 3
+    },
+    "note": "عندما قرّبت العنصر من الحافة، أصبحت المساحة المجاورة أوضح. أبقيت الضوء نفسه في الصورتين.",
+    "confirmed": true,
+    "pending": false,
+    "error": null,
+    "arabic": true,
+    "latestLink": null,
+    "type": "_extensionType",
+    "method": "ext.flutter.frameState",
+    "status": "Success"
+  },
+  "lessonTitle": "حدّد موضوع الصورة",
+  "before": {
+    "learner": "demo-ar",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [
+      "01"
+    ],
+    "drafts": {
+      "01": {
+        "note": "عندما قرّبت العنصر من الحافة، أصبحت المساحة المجاورة أوضح. أبقيت الضوء نفسه في الصورتين.",
+        "attachment": false
+      }
+    },
+    "revision": 3
+  },
+  "after": {
+    "learner": "demo-ar",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [
+      "01"
+    ],
+    "drafts": {
+      "01": {
+        "note": "عندما قرّبت العنصر من الحافة، أصبحت المساحة المجاورة أوضح. أبقيت الضوء نفسه في الصورتين.",
+        "attachment": false
+      }
+    },
+    "revision": 3
+  },
+  "unchanged": true,
+  "recorderLog": "Note: No display specified. Defaulting to display: 9C616743-B5B5-485F-84F2-050915759A47 (screenID: 1, name: LCD)\nRecording started\nRecording completed. Writing to disk.\n\nWrote video to: /Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/frame/verification/native/native-next02-ar-raw.mp4\n",
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1206,
+        "height": 2622,
+        "start_time": "0.000000",
+        "duration": "10.225000"
+      }
+    ],
+    "format": {
+      "start_time": "0.000000",
+      "duration": "10.225000"
+    }
+  },
+  "method": "Supplemental real simulator hold after normal app launch and actual Continue navigation to the persisted lesson02; read-only shared record, no reset, enrolment, save or completion."
+}

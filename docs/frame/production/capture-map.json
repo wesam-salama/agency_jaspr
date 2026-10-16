@@ -1,0 +1,10 @@
+{
+  "restartEn": "docs/frame/verification/native/restarted-next-en.png",
+  "lesson02En": "docs/frame/verification/native/lesson-02-en.png",
+  "failureEn": "docs/frame/verification/native/exercise-failed-en.png",
+  "savedEn": "docs/frame/verification/native/exercise-saved-en.png",
+  "completedEn": "docs/frame/verification/native/completed-en.png",
+  "playerAr": "docs/frame/verification/native/lesson-player-ar.png",
+  "savedAr": "docs/frame/verification/native/exercise-saved-ar.png",
+  "restartAr": "docs/frame/verification/native/restarted-next-ar.png"
+}

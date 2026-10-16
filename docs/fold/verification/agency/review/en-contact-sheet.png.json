@@ -1,0 +1,7 @@
+{
+  "origin": "docs/fold/verification/agency/*.png",
+  "creator": "Reproducible review-agency-captures.py",
+  "operation": "Labelled contact sheet of actual screenshot thumbnails; no generated software imagery",
+  "prompt": "Origin: docs/fold/verification/agency/*.png. Labelled contact sheet of actual screenshot thumbnails; no generated software imagery",
+  "provenanceStorage": "native image metadata"
+}

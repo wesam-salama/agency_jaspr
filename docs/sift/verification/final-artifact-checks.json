@@ -1,0 +1,11 @@
+{
+  "pdf_pages": 12,
+  "portable_links": 14,
+  "zip_svg_masters": 40,
+  "zip_integrity": "pass",
+  "build_assets_match": true,
+  "locale_builds": 3,
+  "responsive_cases": 12,
+  "overflow_failures": 0,
+  "pdf_sha256": "ad6e756d0643ff8bffebbc1114219b58f76b360259d1e4629b2043c404aa658c"
+}

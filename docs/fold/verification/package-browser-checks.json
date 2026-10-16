@@ -1,0 +1,430 @@
+{
+  "checkedAt": "2026-10-15T14:23:14.440Z",
+  "scope": "Actual extracted-archive smoke check in local Chrome: English collection, Arabic explicit-size add-to-cart, and editable brand guide at 390/1440. This does not rerun the full canonical two-product checkout or replace the main store verification.",
+  "archive": {
+    "file": "web/assets/selected-work/fold/fold-source.zip",
+    "root": "Fold-Clothing",
+    "servedRoot": "Fold-Clothing/web",
+    "sha256": "5e6612ef8e5c8d7fe167f390f91b1d5b3b2d2148f79917f039dff1d72ddc86a4",
+    "bytes": 59763178,
+    "fileCount": 448,
+    "relativePathsPreserved": true,
+    "requiredEntries": [
+      "web/assets/selected-work/fold/site/index.html",
+      "web/assets/selected-work/fold/site/app.mjs",
+      "web/assets/selected-work/fold/site/data.mjs",
+      "web/assets/selected-work/fold/site/style.css",
+      "web/assets/selected-work/fold/source/fold-brand-guide.html",
+      "web/assets/selected-work/fold/source/identity.css",
+      "web/assets/selected-work/fold/fonts/Archivo.woff2",
+      "web/assets/selected-work/fold/fonts/DMSans.woff2",
+      "web/assets/selected-work/fold/fonts/IBMPlexSansArabic-Regular.woff2",
+      "web/assets/selected-work/fold/fonts/IBMPlexSansArabic-SemiBold.woff2",
+      "web/assets/selected-work/fold/products/fl01-chalk-front.webp",
+      "web/assets/selected-work/fold/identity/fold-wordmark-ink.svg"
+    ],
+    "sha256AfterCheck": "5e6612ef8e5c8d7fe167f390f91b1d5b3b2d2148f79917f039dff1d72ddc86a4",
+    "unchangedDuringCheck": true
+  },
+  "checks": [
+    {
+      "name": "English collection",
+      "width": 1440,
+      "height": 1000,
+      "state": {
+        "lang": "en",
+        "direction": "ltr",
+        "documentOverflow": 0,
+        "bodyOverflow": 0,
+        "fonts": [
+          {
+            "family": "Archivo",
+            "status": "loaded"
+          },
+          {
+            "family": "DM Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Plex Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "Plex Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "images": [
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          },
+          {
+            "source": "/assets/selected-work/fold/editorial/capsule.webp",
+            "loaded": true,
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "source": "/assets/selected-work/fold/products/fl01-chalk-front.webp",
+            "loaded": true,
+            "width": 665,
+            "height": 887
+          },
+          {
+            "source": "/assets/selected-work/fold/products/fl02-ink-front.webp",
+            "loaded": true,
+            "width": 768,
+            "height": 1024
+          },
+          {
+            "source": "/assets/selected-work/fold/products/fl03-stone-front.webp",
+            "loaded": true,
+            "width": 768,
+            "height": 1024
+          },
+          {
+            "source": "/assets/selected-work/fold/products/fl04-olive-front.webp",
+            "loaded": true,
+            "width": 768,
+            "height": 1024
+          },
+          {
+            "source": "/assets/selected-work/fold/editorial/fabric.webp",
+            "loaded": true,
+            "width": 1448,
+            "height": 1086
+          },
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          }
+        ]
+      },
+      "productCards": 4,
+      "result": "passed"
+    },
+    {
+      "name": "Arabic product M selection and cart",
+      "width": 390,
+      "height": 1000,
+      "productState": {
+        "lang": "ar",
+        "direction": "rtl",
+        "documentOverflow": 0,
+        "bodyOverflow": 0,
+        "fonts": [
+          {
+            "family": "Archivo",
+            "status": "unloaded"
+          },
+          {
+            "family": "DM Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Plex Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "Plex Arabic",
+            "status": "loaded"
+          }
+        ],
+        "images": [
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          },
+          {
+            "source": "/assets/selected-work/fold/products/fl01-chalk-front.webp",
+            "loaded": true,
+            "width": 665,
+            "height": 887
+          },
+          {
+            "source": "/assets/selected-work/fold/products/fl01-chalk-front.webp",
+            "loaded": true,
+            "width": 665,
+            "height": 887
+          },
+          {
+            "source": "/assets/selected-work/fold/products/fl01-chalk-back.webp",
+            "loaded": true,
+            "width": 665,
+            "height": 887
+          },
+          {
+            "source": "/assets/selected-work/fold/products/fl01-chalk-detail.webp",
+            "loaded": true,
+            "width": 581,
+            "height": 887
+          },
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          }
+        ]
+      },
+      "cartState": {
+        "lang": "ar",
+        "direction": "rtl",
+        "documentOverflow": 0,
+        "bodyOverflow": 0,
+        "fonts": [
+          {
+            "family": "Archivo",
+            "status": "unloaded"
+          },
+          {
+            "family": "DM Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "Plex Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "Plex Arabic",
+            "status": "loaded"
+          }
+        ],
+        "images": [
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          },
+          {
+            "source": "/assets/selected-work/fold/products/fl01-chalk-front.webp",
+            "loaded": true,
+            "width": 665,
+            "height": 887
+          },
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          }
+        ]
+      },
+      "savedCart": {
+        "version": 1,
+        "lines": [
+          {
+            "id": "FL01",
+            "color": "chalk",
+            "size": "M",
+            "quantity": 1
+          }
+        ]
+      },
+      "explicitSizeSelected": "M",
+      "cartSKU": "FL01-CHK-M",
+      "result": "passed"
+    },
+    {
+      "name": "Editable brand guide 390",
+      "width": 390,
+      "height": 1000,
+      "state": {
+        "lang": "en",
+        "direction": "ltr",
+        "documentOverflow": 0,
+        "bodyOverflow": 0,
+        "fonts": [
+          {
+            "family": "Archivo",
+            "status": "loaded"
+          },
+          {
+            "family": "DM Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "PlexArabic",
+            "status": "loaded"
+          },
+          {
+            "family": "PlexArabic",
+            "status": "unloaded"
+          }
+        ],
+        "images": [
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          },
+          {
+            "source": "/assets/selected-work/fold/identity/fold-clear-space.svg",
+            "loaded": true,
+            "width": 1400,
+            "height": 1000
+          },
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ivory.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          },
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-black.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          },
+          {
+            "source": "/assets/selected-work/fold/source/garment-construction.svg",
+            "loaded": true,
+            "width": 1500,
+            "height": 1230
+          },
+          {
+            "source": "/assets/selected-work/fold/packaging/hangtag-front.svg",
+            "loaded": true,
+            "width": 480,
+            "height": 760
+          },
+          {
+            "source": "/assets/selected-work/fold/packaging/hangtag-back.svg",
+            "loaded": true,
+            "width": 480,
+            "height": 760
+          },
+          {
+            "source": "/assets/selected-work/fold/packaging/care-label.svg",
+            "loaded": true,
+            "width": 320,
+            "height": 720
+          },
+          {
+            "source": "/assets/selected-work/fold/packaging/mailer-face.svg",
+            "loaded": true,
+            "width": 1200,
+            "height": 800
+          }
+        ]
+      },
+      "title": "Fold Clothing — editable brand guide",
+      "result": "passed"
+    },
+    {
+      "name": "Editable brand guide 1440",
+      "width": 1440,
+      "height": 1000,
+      "state": {
+        "lang": "en",
+        "direction": "ltr",
+        "documentOverflow": 0,
+        "bodyOverflow": 0,
+        "fonts": [
+          {
+            "family": "Archivo",
+            "status": "loaded"
+          },
+          {
+            "family": "DM Sans",
+            "status": "loaded"
+          },
+          {
+            "family": "PlexArabic",
+            "status": "loaded"
+          },
+          {
+            "family": "PlexArabic",
+            "status": "unloaded"
+          }
+        ],
+        "images": [
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          },
+          {
+            "source": "/assets/selected-work/fold/identity/fold-clear-space.svg",
+            "loaded": true,
+            "width": 1400,
+            "height": 1000
+          },
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-ivory.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          },
+          {
+            "source": "/assets/selected-work/fold/identity/fold-wordmark-black.svg",
+            "loaded": true,
+            "width": 550,
+            "height": 164
+          },
+          {
+            "source": "/assets/selected-work/fold/source/garment-construction.svg",
+            "loaded": true,
+            "width": 1500,
+            "height": 1230
+          },
+          {
+            "source": "/assets/selected-work/fold/packaging/hangtag-front.svg",
+            "loaded": true,
+            "width": 480,
+            "height": 760
+          },
+          {
+            "source": "/assets/selected-work/fold/packaging/hangtag-back.svg",
+            "loaded": true,
+            "width": 480,
+            "height": 760
+          },
+          {
+            "source": "/assets/selected-work/fold/packaging/care-label.svg",
+            "loaded": true,
+            "width": 320,
+            "height": 720
+          },
+          {
+            "source": "/assets/selected-work/fold/packaging/mailer-face.svg",
+            "loaded": true,
+            "width": 1200,
+            "height": 800
+          }
+        ]
+      },
+      "title": "Fold Clothing — editable brand guide",
+      "result": "passed"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "missingAssets": [],
+  "externalRequests": [],
+  "failedRequests": [],
+  "nonReadRequests": [],
+  "failures": [],
+  "server": {
+    "binding": "127.0.0.1",
+    "port": 62549,
+    "automaticFavicon": "204 No Content for the browser implicit /favicon.ico request; no referenced package asset is replaced or synthesized",
+    "origin": "http://127.0.0.1:62549"
+  },
+  "cleanup": {
+    "browserClosed": true,
+    "serverClosed": true,
+    "temporaryFilesRemoved": true
+  },
+  "result": "passed"
+}

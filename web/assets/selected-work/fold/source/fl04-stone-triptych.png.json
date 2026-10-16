@@ -1,0 +1,6 @@
+{
+  "prompt": "Use case: precise-object-edit. This reference is the approved Fold Clothing garment canon. Make an EXACT colourway derivative. Change ONLY the garment fabric and matching buttons to Stone pale grey-green #D8DDD3. Keep the background, lighting, identical crop, THREE equal-width panel triptych layout (front/back/construction macro), silhouette, material texture, all seam locations, hems, all pocket shapes and positions, ALL button counts precisely unchanged. Front/back/detail must remain the SAME GARMENT and same colour. Do not add features, text, labels, logos, decorations, watermarks, hardware, buttonholes or buttons. This is product art for a fictional studio concept. Preserve full garments in first2 panels. Output high resolution landscape with same aspect as reference.",
+  "origin": "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-aaeafd4c-ad45-445c-9ff5-2b4450852439.png",
+  "kind": "generated colorway derivative from inspected locked pattern",
+  "provenanceStorage": "native image metadata"
+}

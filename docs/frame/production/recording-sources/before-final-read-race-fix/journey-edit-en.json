@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "learner": "demo",
+  "course": "FA-PH-01",
+  "recordedAt": "2026-10-14",
+  "segments": [
+    {"source":"docs/frame/verification/website/handoff-en.webm","kind":"web","start":0.48,"end":7.84,"label":"Course selection → preview → confirmed enrolment → app open request"},
+    {"source":"docs/frame/verification/native/native-core-en-raw.mp4","kind":"native","start":9.5,"end":13.0,"label":"Composition Essentials.\n0 of 6 complete.","footnote":"Same demo learner · actual native app"},
+    {"source":"docs/frame/verification/native/native-core-en-raw.mp4","kind":"native","start":18,"end":24,"label":"Play the authored lesson.\nCaptions beside the video.","footnote":"30 seconds of produced media · 8 minutes planned study"},
+    {"source":"docs/frame/verification/native/native-core-en-raw.mp4","kind":"native","start":48.8,"end":50.6,"label":"Save failed.\nThe note is still here.","footnote":"Controlled real service failure · entered work retained"},
+    {"source":"docs/frame/verification/native/native-core-en-raw.mp4","kind":"native","start":50.85,"end":52.5,"speed":0.66,"label":"Retry confirmed.\nExercise draft saved.","footnote":"Actual saved state · this short segment plays at 0.66×"},
+    {"source":"docs/frame/verification/native/native-core-en-raw.mp4","kind":"native","start":53.2,"end":56.2,"label":"Explicit completion.\n1 of 6 complete.","footnote":"Playing the lesson alone does not complete it"},
+    {"source":"docs/frame/verification/native/native-core-en-raw.mp4","kind":"native","start":56.2,"end":71.2,"speed":5,"label":"Terminate the app.\nLaunch it again.","footnote":"Actual cold launch · waiting shown at 5×"},
+    {"source":"docs/frame/verification/native/native-core-en-raw.mp4","kind":"native","start":71.2,"end":74.2,"label":"Progress restored.\nContinue at lesson 02.","footnote":"Same learner · stored exercise · 1 of 6 after restart"},
+    {"source":"docs/frame/verification/native/native-core-en-raw.mp4","kind":"native","start":74.5,"end":77.2,"label":"02 Find the subject.\nThe next useful step.","footnote":"Authored next lesson target · later video is clearly unavailable"}
+  ]
+}

@@ -44,12 +44,11 @@ void main() {
       (SiteLocale.fr, '0,4s', '0,4 seconde'),
     ]) {
       final content = siteContentFor(locale);
-      final metrics = content.caseStudies.last.metrics;
-      final seconds = metrics.last;
+      final seconds = CaseMetric(.4, locale == SiteLocale.ar ? 'ث' : 's', 1, 'Fixture seconds');
       expect(seconds.target, .4);
       expect('${content.formatMetric(seconds.target, seconds.decimals)}${seconds.suffix}', visual);
       expect(content.spokenMetricValue(seconds), spoken);
-      expect(content.spokenMetricValue(metrics.first), '68%');
+      expect(content.spokenMetricValue(const CaseMetric(68, '%', 0, 'Fixture percentage')), '68%');
     }
   });
 
@@ -77,14 +76,20 @@ void main() {
       );
     });
 
-    test('preserves four case layouts with a shared reference curtain entrance', () {
+    test('keeps all four renderer families and the shared curtain for the authored studies', () {
       expect(caseStudies, hasLength(4));
-      expect(caseStudies.map((study) => study.layout).toSet(), CaseLayout.values.toSet());
+      expect(caseStudies.map((study) => study.layout), [
+        CaseLayout.stickyChapters,
+        CaseLayout.split,
+        CaseLayout.horizontalScroll,
+        CaseLayout.statistics,
+      ]);
       expect(caseStudies.map((study) => study.transition), everyElement(CaseTransition.accentCurtain));
-      expect(caseStudies[0].figures, hasLength(2));
-      expect(caseStudies[1].chapters, hasLength(4));
-      expect(caseStudies[2].chapters, hasLength(3));
-      expect(caseStudies[3].metrics, hasLength(3));
+      expect(caseStudies[0].chapters, hasLength(4));
+      expect(caseStudies[1].figures, hasLength(10));
+      expect(caseStudies[1].chapters, isEmpty);
+      expect(caseStudies[2].chapters, hasLength(4));
+      expect(caseStudies[3].metrics, isEmpty);
     });
 
     test('labels every sample case study as illustrative', () {
@@ -103,7 +108,7 @@ void main() {
       ];
 
       expect(paths, isNotEmpty);
-      expect(paths, everyElement(startsWith('assets/images/')));
+      expect(paths, everyElement(startsWith('assets/')));
       expect(paths, everyElement(isNot(contains('://'))));
       expect(paths.toSet(), hasLength(paths.length));
     });

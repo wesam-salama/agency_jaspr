@@ -1,0 +1,9 @@
+{
+  "capturedUTC": "2026-10-14T15:55:48.488961+00:00",
+  "source": "/Users/wesamsalama/Library/Developer/CoreSimulator/Devices/8BDFE212-1DE0-4F67-928E-65C3E9B24533/data/Containers/Data/Application/D88A77F3-6175-4D22-A10B-7167269356DF/Library/Preferences/media.cr8.frameAcademy.plist",
+  "preferences": {
+    "flutter.frame.learner": "demo-ar",
+    "flutter.frame.arabic": true
+  },
+  "verification": "Actual on-disk snapshot after final Arabic XCTest terminate/launch; earlier handoff snapshot retained unchanged."
+}

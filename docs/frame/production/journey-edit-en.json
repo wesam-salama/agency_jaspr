@@ -1,0 +1,126 @@
+{
+  "language": "en",
+  "learner": "demo",
+  "course": "FA-PH-01",
+  "recordedAt": "2026-10-14",
+  "annotationLanguage": "en",
+  "nativeKernelSHA256": "bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b",
+  "nativeBinaryAuthority": "docs/frame/verification/native/native-binary.json",
+  "nativePTSAuthority": "docs/frame/verification/native/native-pts-en.json",
+  "webDiscoveryRecord": "docs/frame/verification/website/capture-record-en.json",
+  "finalRequestRecord": "docs/frame/verification/website/request-only-en.json",
+  "nativeColdHandoffRecord": "docs/frame/verification/native/native-handoff-en.json",
+  "nativeSessionRecord": "docs/frame/verification/native/native-session-en.json",
+  "sharedConsistencyRecord": "docs/frame/verification/website/shared-progress-en.json",
+  "sourceSHA256": {
+    "docs/frame/verification/website/handoff-en.webm": "467bd1294a5dbf9f421646901652270cc4d24a6b96491923a06551731bc4e78b",
+    "docs/frame/verification/website/request-only-en.webm": "790d43804f429c8367ce40f30a8f50f16f4f06afae05c40b4f90eb4679fdc3d5",
+    "docs/frame/verification/native/native-core-en-raw.mp4": "caf8451e146854ab6acf09db1724c2e11fd40dc75defff1bd9e19521d6f7f3f9"
+  },
+  "editScope": "An edited highlight sequence of actual separate browser discovery, final browser handoff request and native exercise/cold-restart recordings for the same stored demo learner. Original sources retained; cuts and speed changes are explicit.",
+  "segments": [
+    {
+      "source": "docs/frame/verification/website/handoff-en.webm",
+      "kind": "web",
+      "start": 0.25,
+      "end": 1.85,
+      "label": "Choose Composition Essentials.",
+      "footnote": "Actual course catalogue · authored studio fixture"
+    },
+    {
+      "source": "docs/frame/verification/website/handoff-en.webm",
+      "kind": "web",
+      "start": 4.1,
+      "end": 6.6,
+      "label": "Preview lesson 01. Viewing does not complete it.",
+      "footnote": "Actual authored video and captions · 30 seconds of produced media"
+    },
+    {
+      "source": "docs/frame/verification/website/handoff-en.webm",
+      "kind": "web",
+      "start": 12.05,
+      "end": 13.1,
+      "label": "Demo enrolment confirmed.",
+      "footnote": "Same demo learner · free local demonstration"
+    },
+    {
+      "source": "docs/frame/verification/website/request-only-en.webm",
+      "kind": "web",
+      "start": 6.7,
+      "end": 7.28,
+      "speed": 0.25,
+      "label": "Real local app-open request acknowledged.",
+      "footnote": "Actual final helper readiness · HTTP 200 acknowledgement · this segment 0.25×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 12,
+      "end": 13.8,
+      "label": "Matching course.\n0 of 6 complete.",
+      "footnote": "FA-PH-01 · same demo learner · actual native app"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 22.16,
+      "end": 23.9,
+      "speed": 0.75,
+      "label": "Play the authored lesson.\nCaptions beside the video.",
+      "footnote": "30-second produced lesson · 8 minutes planned study · this segment 0.75×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 34.2,
+      "end": 35.4,
+      "speed": 0.5,
+      "label": "Save failed.\nThe note stays in place.",
+      "footnote": "Controlled real service failure · entered work retained · this segment 0.5×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 35.9,
+      "end": 37.3,
+      "speed": 0.5,
+      "label": "Retry confirmed.\nExercise draft saved.",
+      "footnote": "The complete stored note is visible · this segment 0.5×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 37.9,
+      "end": 39.1,
+      "label": "Explicit completion.\n1 of 6 complete.",
+      "footnote": "Playing the lesson alone never writes completion"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 39.1,
+      "end": 51.9,
+      "speed": 5,
+      "label": "Terminate the app.\nLaunch it again.",
+      "footnote": "Actual cold launch · waiting shown at 5×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 52,
+      "end": 54.2,
+      "speed": 0.8,
+      "label": "Progress restored.\nContinue at lesson 02.",
+      "footnote": "Same learner · 1 of 6 after restart · this segment 0.8×"
+    },
+    {
+      "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+      "kind": "native",
+      "start": 55,
+      "end": 57,
+      "label": "02 Find the subject.\nThe next useful step.",
+      "footnote": "Actual next lesson · later lesson media is clearly unavailable"
+    }
+  ],
+  "exportCleanup": "The request acknowledgement interval ends before the original Playwright full-page screenshot temporarily resized its recorded viewport. Actual request and native acceptance authorities are unchanged. The final lesson02 interval ends before XCTest teardown returns to the iOS home screen, so the closing labelled state remains the actual lesson."
+}

@@ -1,0 +1,470 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 2,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 3,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 4,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 5,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 6,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 7,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 8,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 9,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 10,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 11,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    },
+    {
+      "page": 12,
+      "width": 793.6875,
+      "height": 1122.515625,
+      "contentOverlapsFooter": []
+    }
+  ],
+  "images": [
+    {
+      "src": "source/sift-wordmark-horizontal.svg",
+      "loaded": true,
+      "naturalWidth": 700
+    },
+    {
+      "src": "source/sift-selected-line.svg",
+      "loaded": true,
+      "naturalWidth": 260
+    },
+    {
+      "src": "source/sift-wordmark-horizontal.svg",
+      "loaded": true,
+      "naturalWidth": 700
+    },
+    {
+      "src": "source/sift-wordmark-stacked.svg",
+      "loaded": true,
+      "naturalWidth": 500
+    },
+    {
+      "src": "source/sift-wordmark-reverse.svg",
+      "loaded": true,
+      "naturalWidth": 500
+    },
+    {
+      "src": "source/sift-clearspace.svg",
+      "loaded": true,
+      "naturalWidth": 850
+    },
+    {
+      "src": "source/sift-wordmark-mono.svg",
+      "loaded": true,
+      "naturalWidth": 500
+    },
+    {
+      "src": "source/sift-wordmark-small.svg",
+      "loaded": true,
+      "naturalWidth": 380
+    },
+    {
+      "src": "source/sift-selected-line.svg",
+      "loaded": true,
+      "naturalWidth": 260
+    },
+    {
+      "src": "source/sift-selected-line.svg",
+      "loaded": true,
+      "naturalWidth": 260
+    },
+    {
+      "src": "source/sift-selected-line.svg",
+      "loaded": true,
+      "naturalWidth": 260
+    },
+    {
+      "src": "source/sift-selected-line.svg",
+      "loaded": true,
+      "naturalWidth": 260
+    },
+    {
+      "src": "source/label-front-sheet.svg",
+      "loaded": true,
+      "naturalWidth": 1800
+    },
+    {
+      "src": "source/sift-detail-bilingual.svg",
+      "loaded": true,
+      "naturalWidth": 2000
+    },
+    {
+      "src": "source/pack-everyday-250g-front.svg",
+      "loaded": true,
+      "naturalWidth": 480
+    },
+    {
+      "src": "source/pack-everyday-1kg-front.svg",
+      "loaded": true,
+      "naturalWidth": 680
+    },
+    {
+      "src": "source/sift-brewing-cards.svg",
+      "loaded": true,
+      "naturalWidth": 2000
+    },
+    {
+      "src": "source/sift-shipping-carton.svg",
+      "loaded": true,
+      "naturalWidth": 2000
+    }
+  ],
+  "links": [
+    {
+      "href": "source/sift-wordmark-system.svg",
+      "status": 200
+    },
+    {
+      "href": "source/label-front-sheet.svg",
+      "status": 200
+    },
+    {
+      "href": "source/sift-selected-line.svg",
+      "status": 200
+    },
+    {
+      "href": "source/sift-clearspace.svg",
+      "status": 200
+    },
+    {
+      "href": "source/sift-detail-bilingual.svg",
+      "status": 200
+    },
+    {
+      "href": "source/sift-brewing-cards.svg",
+      "status": 200
+    },
+    {
+      "href": "source/sift-shipping-carton.svg",
+      "status": 200
+    },
+    {
+      "href": "source/sift-sample-box.svg",
+      "status": 200
+    },
+    {
+      "href": "source/sift-wholesale-sheet.svg",
+      "status": 200
+    },
+    {
+      "href": "source/sift-social-templates.svg",
+      "status": 200
+    },
+    {
+      "href": "source/sift-counter-display.svg",
+      "status": 200
+    },
+    {
+      "href": "fonts/Fraunces-OFL.txt",
+      "status": 200
+    },
+    {
+      "href": "fonts/Manrope-OFL.txt",
+      "status": 200
+    },
+    {
+      "href": "source/fonts/IBM-Plex-Sans-Arabic-OFL.txt",
+      "status": 200
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Fraunces",
+      "weight": "100 900",
+      "status": "loaded"
+    },
+    {
+      "family": "Manrope",
+      "weight": "200 800",
+      "status": "loaded"
+    },
+    {
+      "family": "PlexArabic",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "PlexArabic",
+      "weight": "600",
+      "status": "loaded"
+    }
+  ],
+  "contrast": [
+    {
+      "name": "Ink / Paper",
+      "foreground": "#28221F",
+      "background": "#F4EBDD",
+      "ratio": 13.275901889004166,
+      "ordinaryText": true,
+      "largeText": true
+    },
+    {
+      "name": "Paper / Cobalt",
+      "foreground": "#F4EBDD",
+      "background": "#3047D9",
+      "ratio": 5.8681090343094455,
+      "ordinaryText": true,
+      "largeText": true
+    },
+    {
+      "name": "Ink / Mist",
+      "foreground": "#28221F",
+      "background": "#D9D9D0",
+      "ratio": 11.044275916691657,
+      "ordinaryText": true,
+      "largeText": true
+    },
+    {
+      "name": "Ink / White",
+      "foreground": "#28221F",
+      "background": "#FFFFFF",
+      "ratio": 15.685454117034995,
+      "ordinaryText": true,
+      "largeText": true
+    },
+    {
+      "name": "Ink / Roast",
+      "foreground": "#28221F",
+      "background": "#C56339",
+      "ratio": 3.89737297036225,
+      "ordinaryText": false,
+      "largeText": true
+    },
+    {
+      "name": "Roast / Paper",
+      "foreground": "#C56339",
+      "background": "#F4EBDD",
+      "ratio": 3.4063719305186764,
+      "ordinaryText": false,
+      "largeText": true
+    }
+  ],
+  "requestFailures": [],
+  "source": "web/assets/selected-work/sift/sift-brand-guide.html",
+  "pdf": "web/assets/selected-work/sift/sift-brand-guide.pdf",
+  "proofScope": "Digital artifact only. No physical print, supplier, brewing, independent translation or commercial launch verification.",
+  "verifiedPDFPageCount": 12,
+  "digitalSizeProofs": [
+    {
+      "filename": "docs/sift/guide/proofs/lockup-visible-320px.png",
+      "source": "sift-wordmark-mono.svg",
+      "requestedCSSContainerWidth": 516.13,
+      "actualCSSContainerWidth": 516.125,
+      "nominalVisibleArtworkWidth": 319.9975,
+      "devicePixelRatio": 1
+    },
+    {
+      "filename": "docs/sift/guide/proofs/lockup-visible-176px.png",
+      "source": "sift-wordmark-mono.svg",
+      "requestedCSSContainerWidth": 284,
+      "actualCSSContainerWidth": 284,
+      "nominalVisibleArtworkWidth": 176.08,
+      "devicePixelRatio": 1
+    },
+    {
+      "filename": "docs/sift/guide/proofs/wordmark-small-visible-64px.png",
+      "source": "sift-wordmark-small.svg",
+      "requestedCSSContainerWidth": 79,
+      "actualCSSContainerWidth": 79,
+      "nominalVisibleArtworkWidth": 64.44736842105263,
+      "devicePixelRatio": 1
+    },
+    {
+      "filename": "docs/sift/guide/proofs/selected-line-48px.png",
+      "source": "sift-selected-line.svg",
+      "requestedCSSContainerWidth": 48,
+      "actualCSSContainerWidth": 48,
+      "nominalVisibleArtworkWidth": 22.153846153846153,
+      "devicePixelRatio": 1
+    },
+    {
+      "filename": "docs/sift/guide/proofs/selected-line-24px.png",
+      "source": "sift-selected-line.svg",
+      "requestedCSSContainerWidth": 24,
+      "actualCSSContainerWidth": 24,
+      "nominalVisibleArtworkWidth": 11.076923076923077,
+      "devicePixelRatio": 1
+    }
+  ],
+  "pageProofFiles": [
+    "docs/sift/guide/proofs/guide-01.png",
+    "docs/sift/guide/proofs/guide-02.png",
+    "docs/sift/guide/proofs/guide-03.png",
+    "docs/sift/guide/proofs/guide-04.png",
+    "docs/sift/guide/proofs/guide-05.png",
+    "docs/sift/guide/proofs/guide-06.png",
+    "docs/sift/guide/proofs/guide-07.png",
+    "docs/sift/guide/proofs/guide-08.png",
+    "docs/sift/guide/proofs/guide-09.png",
+    "docs/sift/guide/proofs/guide-10.png",
+    "docs/sift/guide/proofs/guide-11.png",
+    "docs/sift/guide/proofs/guide-12.png"
+  ],
+  "visualReview": {
+    "date": "2026-10-13",
+    "inspectedPDFPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "confirmingChangedPagesInspected": [
+      4,
+      11
+    ],
+    "unchangedPageRastersByteIdentical": 10,
+    "digitalProofCapturesInspected": 5,
+    "defectsObserved": [],
+    "physicalProof": false,
+    "independentTranslationApproval": false
+  },
+  "portablePDFLinks": {
+    "annotationCount": 14,
+    "updatedAnnotationCount": 14,
+    "containsTemporaryOrigin": false,
+    "allRelativeFilesExist": true,
+    "annotations": [
+      {
+        "page": 12,
+        "uri": "source/sift-wordmark-system.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/label-front-sheet.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/sift-selected-line.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/sift-clearspace.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/sift-detail-bilingual.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/sift-brewing-cards.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/sift-shipping-carton.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/sift-sample-box.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/sift-wholesale-sheet.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/sift-social-templates.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/sift-counter-display.svg",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "fonts/Fraunces-OFL.txt",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "fonts/Manrope-OFL.txt",
+        "relativeFileExists": true
+      },
+      {
+        "page": 12,
+        "uri": "source/fonts/IBM-Plex-Sans-Arabic-OFL.txt",
+        "relativeFileExists": true
+      }
+    ],
+    "modificationScope": "URI annotation values only; authored HTML hrefs and page content unchanged",
+    "focusedVisualIntegrity": {
+      "page": 12,
+      "rasterByteIdentical": true,
+      "sha256": "4fdbd0c3be3c19d7ad2864530cb8859cfe6b851efe413fc97ec84ab35940e347",
+      "method": "Same Poppler 110 dpi PNG rendering before and after annotation-only correction"
+    }
+  }
+}

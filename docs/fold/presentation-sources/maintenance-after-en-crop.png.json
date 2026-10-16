@@ -1,0 +1,12 @@
+{
+  "origin": "docs/fold/verification/store/maintenance-after-en.png",
+  "operation": "Same exact browser screenshot crop to cart controls in both captures; no UI alteration",
+  "region": {
+    "left": 150,
+    "top": 318,
+    "width": 420,
+    "height": 285
+  },
+  "prompt": "Origin: docs/fold/verification/store/maintenance-after-en.png. Same exact browser screenshot crop to cart controls in both captures; no UI alteration",
+  "provenanceStorage": "native image metadata"
+}

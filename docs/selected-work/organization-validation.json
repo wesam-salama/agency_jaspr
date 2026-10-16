@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-16",
+  "scope": "Physical folder organization and current local verification; no publication",
+  "movedFiles": 886,
+  "movedEvidencePreservedExactly": 522,
+  "protectedRuntimeSourceAndArtworkFiles": 566,
+  "localLinksChecked": 354,
+  "scriptsChecked": {
+    "python": 21,
+    "node": 47
+  },
+  "manifestAssetsChecked": {
+    "sift": 40,
+    "form": 54,
+    "frame": 88,
+    "fold": 192
+  },
+  "publicFilesMatchingProductionBuild": 563,
+  "sourceArchives": [
+    {
+      "project": "sift",
+      "file": "web/assets/selected-work/sift/sift-artwork.zip",
+      "entries": 60,
+      "integrity": "passed",
+      "sha256": "3d6affe66ae18b28f8ee4865913162454632f1066076b1291e861951b6329e92"
+    },
+    {
+      "project": "form",
+      "file": "web/assets/selected-work/form/form-source.zip",
+      "entries": 273,
+      "integrity": "passed",
+      "sha256": "2d638cad9396e96d95f791cde25789be9e5ccecf617f9d7cb13edc449ccafb81"
+    },
+    {
+      "project": "frame",
+      "file": "web/assets/selected-work/frame/frame-source.zip",
+      "entries": 703,
+      "integrity": "passed",
+      "sha256": "70f49e45ffcf9ef64fba049537606fa6c78e739fa2b697cc71286f68499f241e"
+    },
+    {
+      "project": "frame",
+      "file": "web/assets/selected-work/frame/frame-recordings.zip",
+      "entries": 41,
+      "integrity": "passed",
+      "sha256": "e5fecc87a6760191547dec129c2d47b8d74f3809e8715166c548c814d9a418b4"
+    },
+    {
+      "project": "fold",
+      "file": "web/assets/selected-work/fold/fold-source.zip",
+      "entries": 450,
+      "integrity": "passed",
+      "sha256": "78273d07250e96b5ab75bf0d8c906b53ad5f329340552dcb4dd576532db77f28"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-15",
+  "scope": "Actual headless Chrome, local Fold source; sample fixtures only",
+  "mode": "failure-focus-after",
+  "checks": [
+    {
+      "name": "Recoverable failure focus (en/after)",
+      "status": "passed",
+      "detail": {
+        "scenarios": 3,
+        "cartRetained": true,
+        "shippingRetained": true
+      }
+    },
+    {
+      "name": "Recoverable failure focus (ar/after)",
+      "status": "passed",
+      "detail": {
+        "scenarios": 3,
+        "cartRetained": true,
+        "shippingRetained": true
+      }
+    }
+  ],
+  "responsive": [],
+  "screens": [],
+  "recordings": [],
+  "pageErrors": [],
+  "externalRequests": [],
+  "targetObservations": [],
+  "failureFocus": [
+    {
+      "locale": "en",
+      "kind": "cart-save",
+      "scrollY": 0,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "active": {
+        "tag": "BUTTON",
+        "action": "retry",
+        "change": null
+      },
+      "error": {
+        "top": 168.5,
+        "bottom": 287.59375,
+        "left": 63.359375,
+        "right": 1376.625,
+        "text": "We couldn’t update the demo cart. Your previous cart is saved.\n\nTry againDismiss"
+      },
+      "retry": {
+        "top": 221.59375,
+        "bottom": 265.59375,
+        "left": 85.359375,
+        "right": 151.390625
+      },
+      "errorInViewport": true,
+      "retryInViewport": true
+    },
+    {
+      "locale": "en",
+      "kind": "checkout",
+      "scrollY": 0,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "active": {
+        "tag": "BUTTON",
+        "action": "retry",
+        "change": null
+      },
+      "error": {
+        "top": 168.5,
+        "bottom": 287.59375,
+        "left": 63.359375,
+        "right": 1376.625,
+        "text": "We couldn’t complete the demo checkout. Your cart is saved.\n\nTry againDismiss"
+      },
+      "retry": {
+        "top": 221.59375,
+        "bottom": 265.59375,
+        "left": 85.359375,
+        "right": 151.390625
+      },
+      "errorInViewport": true,
+      "retryInViewport": true
+    },
+    {
+      "locale": "en",
+      "kind": "storage-quota",
+      "scrollY": 0,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "active": {
+        "tag": "BUTTON",
+        "action": "retry",
+        "change": null
+      },
+      "error": {
+        "top": 168.5,
+        "bottom": 287.59375,
+        "left": 63.359375,
+        "right": 1376.625,
+        "text": "We couldn’t update the demo cart. Your previous cart is saved.\n\nTry againDismiss"
+      },
+      "retry": {
+        "top": 221.59375,
+        "bottom": 265.59375,
+        "left": 85.359375,
+        "right": 151.390625
+      },
+      "errorInViewport": true,
+      "retryInViewport": true
+    },
+    {
+      "locale": "ar",
+      "kind": "cart-save",
+      "scrollY": 0,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "active": {
+        "tag": "BUTTON",
+        "action": "retry",
+        "change": null
+      },
+      "error": {
+        "top": 167.5,
+        "bottom": 283.296875,
+        "left": 24,
+        "right": 366,
+        "text": "تعذّر تحديث السلة التجريبية. سلتك السابقة محفوظة.\n\nحاول مرة أخرىإغلاق"
+      },
+      "retry": {
+        "top": 217.296875,
+        "bottom": 261.296875,
+        "left": 258.6875,
+        "right": 344
+      },
+      "errorInViewport": true,
+      "retryInViewport": true
+    },
+    {
+      "locale": "ar",
+      "kind": "checkout",
+      "scrollY": 0,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "active": {
+        "tag": "BUTTON",
+        "action": "retry",
+        "change": null
+      },
+      "error": {
+        "top": 167.5,
+        "bottom": 283.296875,
+        "left": 24,
+        "right": 366,
+        "text": "تعذّر إتمام الدفع التجريبي. سلتك محفوظة.\n\nحاول مرة أخرىإغلاق"
+      },
+      "retry": {
+        "top": 217.296875,
+        "bottom": 261.296875,
+        "left": 258.6875,
+        "right": 344
+      },
+      "errorInViewport": true,
+      "retryInViewport": true
+    },
+    {
+      "locale": "ar",
+      "kind": "storage-quota",
+      "scrollY": 0,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "active": {
+        "tag": "BUTTON",
+        "action": "retry",
+        "change": null
+      },
+      "error": {
+        "top": 167.5,
+        "bottom": 283.296875,
+        "left": 24,
+        "right": 366,
+        "text": "تعذّر تحديث السلة التجريبية. سلتك السابقة محفوظة.\n\nحاول مرة أخرىإغلاق"
+      },
+      "retry": {
+        "top": 217.296875,
+        "bottom": 261.296875,
+        "left": 258.6875,
+        "right": 344
+      },
+      "errorInViewport": true,
+      "retryInViewport": true
+    }
+  ],
+  "implementation": "Reveal the in-flow error region and focus Try again after render. Recoverable save failure skips normal cart-control restoration; cart focus helper refuses to override an active recovery control."
+}

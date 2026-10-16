@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-14",
+  "capturedAtUTC": "2026-10-14T15:32:47.579Z",
+  "scope": "One explicitly coordinated reset of demo-ar after preserving its prior proof packet, followed by demo enrolment for the final installed native app handoff; other learners preserved",
+  "before": {
+    "learner": "demo-ar",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [
+      "01"
+    ],
+    "drafts": {
+      "01": {
+        "note": "عندما قرّبت العنصر من الحافة، أصبحت المساحة المجاورة أوضح. أبقيت الضوء نفسه في الصورتين.",
+        "attachment": false
+      }
+    },
+    "revision": 3
+  },
+  "after": {
+    "learner": "demo-ar",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [],
+    "drafts": {
+      "01": {
+        "note": "",
+        "attachment": false
+      }
+    },
+    "revision": 1
+  }
+}

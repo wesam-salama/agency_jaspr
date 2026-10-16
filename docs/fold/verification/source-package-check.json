@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-15",
+  "path": "web/assets/selected-work/fold/fold-source.zip",
+  "files": 450,
+  "bytes": 59772860,
+  "sha256": "78273d07250e96b5ab75bf0d8c906b53ad5f329340552dcb4dd576532db77f28",
+  "integrity": "passed",
+  "allPackagedSourceBytesMatch": true,
+  "layout": "Fold-Clothing/web and Fold-Clothing/docs retain portable relative paths",
+  "exclusions": [
+    "source ZIP itself",
+    "ephemeral preview state/logs",
+    "redundant recorder page@ copies",
+    "historical first finish captures (retained in repository)",
+    "build caches and browser-local cart state"
+  ]
+}

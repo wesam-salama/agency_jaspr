@@ -1,0 +1,1695 @@
+{
+  "checkedAt": "2026-10-14T20:31:35.719Z",
+  "origin": "http://127.0.0.1:8803",
+  "base": "/agency_jaspr/",
+  "records": [
+    {
+      "locale": "en",
+      "width": 320,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-320-failure.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero-480.webp",
+            "loaded": true,
+            "alt": "Frame Academy workbook artwork with actual course discovery and native app continuation screens.",
+            "intrinsicWidth": 320
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Choose with clarity",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Carry the identity",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Keep the next step visible",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Recover without losing work",
+            "intrinsicWidth": 288
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html",
+            "download": null,
+            "aria": "Open Explore Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Watch the recorded journeyMP4",
+            "href": "assets/selected-work/frame/demo-journey.mp4",
+            "download": null,
+            "aria": "Open Watch the recorded journey (MP4)",
+            "status": 200
+          },
+          {
+            "label": "Editable project sourcesZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "Download Editable project sources (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleStrategy, identity, course artwork, web & Flutter mobile appFormatDesign & implementation studyDeliverablesEditable identity and workbooks, captioned lesson, EN/AR website, iOS demo & shared saved progress"
+      },
+      "horizontalEnd": {
+        "offset": 1125,
+        "distance": 1142
+      },
+      "result": "failed",
+      "failure": "End did not expose final chapter"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-390-failure.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero-480.webp",
+            "loaded": true,
+            "alt": "Frame Academy workbook artwork with actual course discovery and native app continuation screens.",
+            "intrinsicWidth": 389
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Choose with clarity",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Carry the identity",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Keep the next step visible",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Recover without losing work",
+            "intrinsicWidth": 351
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html",
+            "download": null,
+            "aria": "Open Explore Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Watch the recorded journeyMP4",
+            "href": "assets/selected-work/frame/demo-journey.mp4",
+            "download": null,
+            "aria": "Open Watch the recorded journey (MP4)",
+            "status": 200
+          },
+          {
+            "label": "Editable project sourcesZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "Download Editable project sources (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleStrategy, identity, course artwork, web & Flutter mobile appFormatDesign & implementation studyDeliverablesEditable identity and workbooks, captioned lesson, EN/AR website, iOS demo & shared saved progress"
+      },
+      "horizontalEnd": {
+        "offset": 1318,
+        "distance": 1330
+      },
+      "result": "failed",
+      "failure": "End did not expose final chapter"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-768-failure.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy workbook artwork with actual course discovery and native app continuation screens.",
+            "intrinsicWidth": 768
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Choose with clarity",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Carry the identity",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Keep the next step visible",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Recover without losing work",
+            "intrinsicWidth": 691
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html",
+            "download": null,
+            "aria": "Open Explore Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Watch the recorded journeyMP4",
+            "href": "assets/selected-work/frame/demo-journey.mp4",
+            "download": null,
+            "aria": "Open Watch the recorded journey (MP4)",
+            "status": 200
+          },
+          {
+            "label": "Editable project sourcesZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "Download Editable project sources (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleStrategy, identity, course artwork, web & Flutter mobile appFormatDesign & implementation studyDeliverablesEditable identity and workbooks, captioned lesson, EN/AR website, iOS demo & shared saved progress"
+      },
+      "horizontalEnd": {
+        "offset": 1928,
+        "distance": 1928
+      },
+      "horizontalHome": 40,
+      "result": "failed",
+      "failure": "Home did not restore first chapter"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-1440-failure.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero.webp",
+            "loaded": true,
+            "alt": "Frame Academy workbook artwork with actual course discovery and native app continuation screens.",
+            "intrinsicWidth": 1199
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Choose with clarity",
+            "intrinsicWidth": 520
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Carry the identity",
+            "intrinsicWidth": 520
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Keep the next step visible",
+            "intrinsicWidth": 520
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Recover without losing work",
+            "intrinsicWidth": 520
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html",
+            "download": null,
+            "aria": "Open Explore Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Watch the recorded journeyMP4",
+            "href": "assets/selected-work/frame/demo-journey.mp4",
+            "download": null,
+            "aria": "Open Watch the recorded journey (MP4)",
+            "status": 200
+          },
+          {
+            "label": "Editable project sourcesZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "Download Editable project sources (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleStrategy, identity, course artwork, web & Flutter mobile appFormatDesign & implementation studyDeliverablesEditable identity and workbooks, captioned lesson, EN/AR website, iOS demo & shared saved progress"
+      },
+      "horizontalEnd": {
+        "offset": 1592,
+        "distance": 1592
+      },
+      "horizontalHome": 40,
+      "result": "failed",
+      "failure": "Home did not restore first chapter"
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-320-failure.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero-480.webp",
+            "loaded": true,
+            "alt": "تصميم كراسة Frame Academy بجانب شاشات فعلية لاستكشاف الدورة ومتابعتها في التطبيق الأصلي.",
+            "intrinsicWidth": 320
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: اختيار واضح",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: هوية تنتقل معك",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: خطوة تالية ظاهرة",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: استعادة الحفظ دون فقدان العمل",
+            "intrinsicWidth": 288
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html?lang=ar",
+            "download": null,
+            "aria": "افتح استكشف Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "شاهد الرحلة المسجّلةMP4",
+            "href": "assets/selected-work/frame/demo-journey-ar.mp4",
+            "download": null,
+            "aria": "افتح شاهد الرحلة المسجّلة (MP4)",
+            "status": 200
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورناالاستراتيجية والهوية وتصميم مواد الدورات والموقع وتطبيق Flutter للهاتفالنوعدراسة تصميم وتنفيذالمخرجاتهوية وكراسات قابلة للتعديل، درس مع ترجمة نصية، موقع إنجليزي وعربي، تطبيق iOS تجريبي وتقدّم محفوظ مشترك"
+      },
+      "horizontalEnd": {
+        "offset": -1125,
+        "distance": 1142
+      },
+      "result": "failed",
+      "failure": "End did not expose final chapter"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-390-failure.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero-480.webp",
+            "loaded": true,
+            "alt": "تصميم كراسة Frame Academy بجانب شاشات فعلية لاستكشاف الدورة ومتابعتها في التطبيق الأصلي.",
+            "intrinsicWidth": 389
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: اختيار واضح",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: هوية تنتقل معك",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: خطوة تالية ظاهرة",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: استعادة الحفظ دون فقدان العمل",
+            "intrinsicWidth": 351
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html?lang=ar",
+            "download": null,
+            "aria": "افتح استكشف Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "شاهد الرحلة المسجّلةMP4",
+            "href": "assets/selected-work/frame/demo-journey-ar.mp4",
+            "download": null,
+            "aria": "افتح شاهد الرحلة المسجّلة (MP4)",
+            "status": 200
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورناالاستراتيجية والهوية وتصميم مواد الدورات والموقع وتطبيق Flutter للهاتفالنوعدراسة تصميم وتنفيذالمخرجاتهوية وكراسات قابلة للتعديل، درس مع ترجمة نصية، موقع إنجليزي وعربي، تطبيق iOS تجريبي وتقدّم محفوظ مشترك"
+      },
+      "horizontalEnd": {
+        "offset": -1318,
+        "distance": 1330
+      },
+      "result": "failed",
+      "failure": "End did not expose final chapter"
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-768-failure.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero-960.webp",
+            "loaded": true,
+            "alt": "تصميم كراسة Frame Academy بجانب شاشات فعلية لاستكشاف الدورة ومتابعتها في التطبيق الأصلي.",
+            "intrinsicWidth": 768
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: اختيار واضح",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: هوية تنتقل معك",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: خطوة تالية ظاهرة",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: استعادة الحفظ دون فقدان العمل",
+            "intrinsicWidth": 691
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html?lang=ar",
+            "download": null,
+            "aria": "افتح استكشف Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "شاهد الرحلة المسجّلةMP4",
+            "href": "assets/selected-work/frame/demo-journey-ar.mp4",
+            "download": null,
+            "aria": "افتح شاهد الرحلة المسجّلة (MP4)",
+            "status": 200
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورناالاستراتيجية والهوية وتصميم مواد الدورات والموقع وتطبيق Flutter للهاتفالنوعدراسة تصميم وتنفيذالمخرجاتهوية وكراسات قابلة للتعديل، درس مع ترجمة نصية، موقع إنجليزي وعربي، تطبيق iOS تجريبي وتقدّم محفوظ مشترك"
+      },
+      "horizontalEnd": {
+        "offset": -1928,
+        "distance": 1928
+      },
+      "horizontalHome": -40,
+      "result": "failed",
+      "failure": "Home did not restore first chapter"
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-1440-failure.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero.webp",
+            "loaded": true,
+            "alt": "تصميم كراسة Frame Academy بجانب شاشات فعلية لاستكشاف الدورة ومتابعتها في التطبيق الأصلي.",
+            "intrinsicWidth": 1199
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: اختيار واضح",
+            "intrinsicWidth": 520
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: هوية تنتقل معك",
+            "intrinsicWidth": 520
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: خطوة تالية ظاهرة",
+            "intrinsicWidth": 520
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: استعادة الحفظ دون فقدان العمل",
+            "intrinsicWidth": 520
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html?lang=ar",
+            "download": null,
+            "aria": "افتح استكشف Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "شاهد الرحلة المسجّلةMP4",
+            "href": "assets/selected-work/frame/demo-journey-ar.mp4",
+            "download": null,
+            "aria": "افتح شاهد الرحلة المسجّلة (MP4)",
+            "status": 200
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورناالاستراتيجية والهوية وتصميم مواد الدورات والموقع وتطبيق Flutter للهاتفالنوعدراسة تصميم وتنفيذالمخرجاتهوية وكراسات قابلة للتعديل، درس مع ترجمة نصية، موقع إنجليزي وعربي، تطبيق iOS تجريبي وتقدّم محفوظ مشترك"
+      },
+      "horizontalEnd": {
+        "offset": -1592,
+        "distance": 1592
+      },
+      "horizontalHome": -40,
+      "result": "failed",
+      "failure": "Home did not restore first chapter"
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-320-failure.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero-480.webp",
+            "loaded": true,
+            "alt": "Cahier Frame Academy avec de véritables écrans de découverte du cours et de reprise dans l’application native.",
+            "intrinsicWidth": 320
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Choisir en connaissance de cause",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Une identité qui vous accompagne",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Garder la suite visible",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Réessayer sans perdre le travail",
+            "intrinsicWidth": 288
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorer Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorer Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Voir le parcours enregistréMP4",
+            "href": "assets/selected-work/frame/demo-journey.mp4",
+            "download": null,
+            "aria": "Ouvrir Voir le parcours enregistré (MP4)",
+            "status": 200
+          },
+          {
+            "label": "Sources modifiables du projetZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "Télécharger Sources modifiables du projet (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie, identité, supports de cours, web et application mobile FlutterFormatÉtude de design et de réalisationLivrablesIdentité et cahiers modifiables, leçon sous-titrée, site EN/AR, démo iOS et progression partagée"
+      },
+      "horizontalEnd": {
+        "offset": 1125,
+        "distance": 1142
+      },
+      "result": "failed",
+      "failure": "End did not expose final chapter"
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-390-failure.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero-480.webp",
+            "loaded": true,
+            "alt": "Cahier Frame Academy avec de véritables écrans de découverte du cours et de reprise dans l’application native.",
+            "intrinsicWidth": 389
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Choisir en connaissance de cause",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Une identité qui vous accompagne",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Garder la suite visible",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Réessayer sans perdre le travail",
+            "intrinsicWidth": 351
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorer Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorer Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Voir le parcours enregistréMP4",
+            "href": "assets/selected-work/frame/demo-journey.mp4",
+            "download": null,
+            "aria": "Ouvrir Voir le parcours enregistré (MP4)",
+            "status": 200
+          },
+          {
+            "label": "Sources modifiables du projetZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "Télécharger Sources modifiables du projet (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie, identité, supports de cours, web et application mobile FlutterFormatÉtude de design et de réalisationLivrablesIdentité et cahiers modifiables, leçon sous-titrée, site EN/AR, démo iOS et progression partagée"
+      },
+      "horizontalEnd": {
+        "offset": 1318,
+        "distance": 1330
+      },
+      "result": "failed",
+      "failure": "End did not expose final chapter"
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-768-failure.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero-960.webp",
+            "loaded": true,
+            "alt": "Cahier Frame Academy avec de véritables écrans de découverte du cours et de reprise dans l’application native.",
+            "intrinsicWidth": 768
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Choisir en connaissance de cause",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Une identité qui vous accompagne",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Garder la suite visible",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Réessayer sans perdre le travail",
+            "intrinsicWidth": 691
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorer Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorer Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Voir le parcours enregistréMP4",
+            "href": "assets/selected-work/frame/demo-journey.mp4",
+            "download": null,
+            "aria": "Ouvrir Voir le parcours enregistré (MP4)",
+            "status": 200
+          },
+          {
+            "label": "Sources modifiables du projetZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "Télécharger Sources modifiables du projet (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie, identité, supports de cours, web et application mobile FlutterFormatÉtude de design et de réalisationLivrablesIdentité et cahiers modifiables, leçon sous-titrée, site EN/AR, démo iOS et progression partagée"
+      },
+      "horizontalEnd": {
+        "offset": 1928,
+        "distance": 1928
+      },
+      "horizontalHome": 40,
+      "result": "failed",
+      "failure": "Home did not restore first chapter"
+    },
+    {
+      "locale": "fr",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-1440-failure.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Frame Academy",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "horizontal": true,
+        "figureCount": 4,
+        "images": [
+          {
+            "src": "assets/selected-work/frame/hero.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/hero.webp",
+            "loaded": true,
+            "alt": "Cahier Frame Academy avec de véritables écrans de découverte du cours et de reprise dans l’application native.",
+            "intrinsicWidth": 1199
+          },
+          {
+            "src": "assets/selected-work/frame/course-discovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Choisir en connaissance de cause",
+            "intrinsicWidth": 520
+          },
+          {
+            "src": "assets/selected-work/frame/identity.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Une identité qui vous accompagne",
+            "intrinsicWidth": 520
+          },
+          {
+            "src": "assets/selected-work/frame/lesson-continuation.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Garder la suite visible",
+            "intrinsicWidth": 520
+          },
+          {
+            "src": "assets/selected-work/frame/exercise-recovery.webp",
+            "currentSrc": "http://127.0.0.1:8803/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+            "loaded": true,
+            "alt": "Frame Academy: Réessayer sans perdre le travail",
+            "intrinsicWidth": 520
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorer Frame AcademyHTML",
+            "href": "assets/selected-work/frame/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorer Frame Academy (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Voir le parcours enregistréMP4",
+            "href": "assets/selected-work/frame/demo-journey.mp4",
+            "download": null,
+            "aria": "Ouvrir Voir le parcours enregistré (MP4)",
+            "status": 200
+          },
+          {
+            "label": "Sources modifiables du projetZIP",
+            "href": "assets/selected-work/frame/frame-source.zip",
+            "download": "frame-source.zip",
+            "aria": "Télécharger Sources modifiables du projet (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie, identité, supports de cours, web et application mobile FlutterFormatÉtude de design et de réalisationLivrablesIdentité et cahiers modifiables, leçon sous-titrée, site EN/AR, démo iOS et progression partagée"
+      },
+      "horizontalEnd": {
+        "offset": 1592,
+        "distance": 1592
+      },
+      "horizontalHome": 40,
+      "result": "failed",
+      "failure": "Home did not restore first chapter"
+    }
+  ],
+  "failures": [
+    "en/320: End did not expose final chapter",
+    "en/390: End did not expose final chapter",
+    "en/768: Home did not restore first chapter",
+    "en/1440: Home did not restore first chapter",
+    "ar/320: End did not expose final chapter",
+    "ar/390: End did not expose final chapter",
+    "ar/768: Home did not restore first chapter",
+    "ar/1440: Home did not restore first chapter",
+    "fr/320: End did not expose final chapter",
+    "fr/390: End did not expose final chapter",
+    "fr/768: Home did not restore first chapter",
+    "fr/1440: Home did not restore first chapter"
+  ]
+}

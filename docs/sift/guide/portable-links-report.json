@@ -1,0 +1,85 @@
+{
+  "annotationCount": 14,
+  "updatedAnnotationCount": 14,
+  "containsTemporaryOrigin": false,
+  "allRelativeFilesExist": true,
+  "annotations": [
+    {
+      "page": 12,
+      "uri": "source/sift-wordmark-system.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/label-front-sheet.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/sift-selected-line.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/sift-clearspace.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/sift-detail-bilingual.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/sift-brewing-cards.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/sift-shipping-carton.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/sift-sample-box.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/sift-wholesale-sheet.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/sift-social-templates.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/sift-counter-display.svg",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "fonts/Fraunces-OFL.txt",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "fonts/Manrope-OFL.txt",
+      "relativeFileExists": true
+    },
+    {
+      "page": 12,
+      "uri": "source/fonts/IBM-Plex-Sans-Arabic-OFL.txt",
+      "relativeFileExists": true
+    }
+  ],
+  "modificationScope": "URI annotation values only; authored HTML hrefs and page content unchanged",
+  "focusedVisualIntegrity": {
+    "page": 12,
+    "rasterByteIdentical": true,
+    "sha256": "4fdbd0c3be3c19d7ad2864530cb8859cfe6b851efe413fc97ec84ab35940e347",
+    "method": "Same Poppler 110 dpi PNG rendering before and after annotation-only correction"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "file": "web/assets/selected-work/frame/frame-source.zip",
+  "files": 702,
+  "bytes": 81216456,
+  "sha256": "70f49e45ffcf9ef64fba049537606fa6c78e739fa2b697cc71286f68499f241e",
+  "cache_and_learner_state_excluded": true,
+  "companions": [
+    {
+      "file": "web/assets/selected-work/frame/frame-recordings.zip",
+      "files": 40,
+      "bytes": 82633405,
+      "sha256": "e5fecc87a6760191547dec129c2d47b8d74f3809e8715166c548c814d9a418b4"
+    }
+  ],
+  "combined_files": 742,
+  "recordings_preserved_exactly": 40,
+  "max_archive_bytes": 104857600
+}

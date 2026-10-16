@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-14",
+  "target": "Owned Jaspr development server at localhost:8804",
+  "appUri": "ws://127.0.0.1:8181/4nPk3PFcTEc=/ws",
+  "method": "Dart MCP VM service reloadSources, main isolate, force true",
+  "success": true,
+  "receivedLibraryCount": 0,
+  "finalLibraryCount": 594,
+  "precededBy": "Jaspr watch rebuilt web assets after integration; final production build verifies the complete static output.",
+  "actualJasprWatchServerReloadObserved": true,
+  "serverMessage": "[SERVER] [INFO] Server application reloaded."
+}

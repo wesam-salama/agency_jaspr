@@ -168,6 +168,8 @@ class _CaseCopy {
     required this.timeline,
     required this.deliverables,
     required this.lede,
+    this.client,
+    this.heroAlt,
     this.paragraphs = const [],
     this.facts = const [],
     this.figureCaptions = const [],
@@ -176,9 +178,12 @@ class _CaseCopy {
     this.metricLabels = const [],
     this.metricSuffixes = const [],
     this.quote,
+    this.downloads = const [],
   });
 
   final String tag;
+  final String? client;
+  final String? heroAlt;
   final String role;
   final String timeline;
   final String deliverables;
@@ -191,6 +196,7 @@ class _CaseCopy {
   final List<String> metricLabels;
   final List<String> metricSuffixes;
   final CaseQuote? quote;
+  final List<CaseDownload> downloads;
 }
 
 List<CaseStudy> _localizedCases(List<_CaseCopy> copies) {
@@ -206,13 +212,16 @@ CaseStudy _localizedCase(CaseStudy base, _CaseCopy copy) {
   assert(copy.chapterBodies.length == base.chapters.length);
   assert(copy.metricLabels.length == base.metrics.length);
   assert(copy.metricSuffixes.length == base.metrics.length);
+  assert(copy.downloads.length == base.downloads.length);
   return CaseStudy(
     name: base.name,
     isIllustrative: base.isIllustrative,
+    isSelfInitiated: base.isSelfInitiated,
     transition: base.transition,
     heroImage: base.heroImage,
+    heroAlt: copy.heroAlt ?? base.heroAlt,
     tag: copy.tag,
-    client: base.client,
+    client: copy.client ?? base.client,
     role: copy.role,
     timeline: copy.timeline,
     deliverables: copy.deliverables,
@@ -237,14 +246,17 @@ CaseStudy _localizedCase(CaseStudy base, _CaseCopy copy) {
         CaseMetric(base.metrics[i].target, copy.metricSuffixes[i], base.metrics[i].decimals, copy.metricLabels[i]),
     ],
     quote: copy.quote,
+    downloads: copy.downloads,
   );
 }
 
 class _WorkCopy {
-  const _WorkCopy(this.disciplines, this.category, this.description);
+  const _WorkCopy(this.disciplines, this.category, this.description, {this.status, this.cardAlt});
   final String disciplines;
   final String category;
   final String description;
+  final String? status;
+  final String? cardAlt;
 }
 
 List<WorkProject> _localizedWork(List<CaseStudy> cases, List<_WorkCopy> copies) {
@@ -256,8 +268,10 @@ List<WorkProject> _localizedWork(List<CaseStudy> cases, List<_WorkCopy> copies) 
         year: source.workProjects[i].year,
         disciplines: copies[i].disciplines,
         cardImage: source.workProjects[i].cardImage,
+        cardAlt: copies[i].cardAlt ?? source.workProjects[i].cardAlt,
         category: copies[i].category,
         description: copies[i].description,
+        status: copies[i].status,
         caseStudy: cases[i],
       ),
   ]);

@@ -2,27 +2,73 @@
 **/doc/api/
 .dart_tool/
 .packages
+.pub/
+.pub-cache/
 
-# Conventional directory for build output.
-/build/
+# Build output and test coverage, including nested Flutter projects.
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+.widget_preview/
+
+# Local JavaScript dependencies, Python environments, and tool caches.
+node_modules/
+.venv/
+.cache/
+
+# Local environment values; keep shareable configuration templates.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.*.example
+
+# Private keys, signing identities, and provisioning profiles.
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+key.properties
 
 # Firebase Hosting deployment cache.
 .firebase/
 
 # Local Impeccable installation consent and developer overrides.
-.impeccable/config.local.json
+**/.impeccable/config.local.json
 
 # Miscellaneous
 *.class
 *.log
-*.pyc
+*.py[cod]
+*.pid
+*.pid.lock
 *.swp
+*.swo
+*~
 .DS_Store
+._*
+Thumbs.db
+Desktop.ini
 .atom/
 .buildlog/
 .history
 .svn/
 migrate_working_dir/
+
+# Selected Work execution output; keep authored sources and named proof records.
+__pycache__/
+/docs/frame/preview-service.json
+/docs/fold/preview.json
+/docs/frame/web-proofs/page@*.webm
+/docs/fold/recordings/page@*.webm
+
+# Machine-generated Xcode runners; keep the authored test helpers.
+/docs/frame/app/tool/*.xctestrun
 
 # IntelliJ related
 *.iml
@@ -34,3 +80,9 @@ migrate_working_dir/
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
 #.vscode/
+
+# Organized Selected Work workspaces: transient preview/recorder output.
+/docs/frame/verification/logs/preview-service.json
+/docs/fold/verification/logs/preview.json
+/docs/frame/verification/website/page@*.webm
+/docs/fold/production/recordings/page@*.webm

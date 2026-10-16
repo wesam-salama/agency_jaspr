@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-14",
+  "platform": "Actual headless Chrome with real locally served website and acknowledged xcrun iPhone simulator request",
+  "records": [
+    {
+      "lang": "en",
+      "learner": "demo",
+      "course": "FA-PH-01",
+      "title": "Composition Essentials",
+      "initialComplete": 0,
+      "link": "frameacademy://course/FA-PH-01?learner=demo&lang=en",
+      "media": {
+        "duration": 30,
+        "autoplay": false,
+        "tracks": 2
+      },
+      "requestSent": true,
+      "nativeConfirmation": "If iOS requests confirmation, the learner chooses Open; native acceptance is recorded separately."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "created": "2026-10-15",
+  "method": "Pure Python SFNT table-bound, names, cmap 4/12 and fvar inspection; WOFF2 container length; shaping visually checked in Chrome",
+  "checks": [
+    {
+      "filename": "Archivo.ttf",
+      "family": "Archivo SemiBold",
+      "subfamily": "Regular",
+      "postscriptName": "Archivo-SemiBold",
+      "bytes": 658596,
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "variableAxes": [
+        {
+          "axis": "wght",
+          "min": 100.0,
+          "default": 600.0,
+          "max": 900.0
+        },
+        {
+          "axis": "wdth",
+          "min": 62.0,
+          "default": 100.0,
+          "max": 125.0
+        }
+      ],
+      "gsub": true,
+      "gpos": true,
+      "sample": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789$—– /:,.%+-()éèàçœ",
+      "missingGlyphs": []
+    },
+    {
+      "filename": "DMSans.ttf",
+      "family": "DM Sans 9pt",
+      "subfamily": "Regular",
+      "postscriptName": "DMSans-9ptRegular",
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "variableAxes": [
+        {
+          "axis": "opsz",
+          "min": 9.0,
+          "default": 9.0,
+          "max": 40.0
+        },
+        {
+          "axis": "wght",
+          "min": 100.0,
+          "default": 400.0,
+          "max": 1000.0
+        }
+      ],
+      "gsub": true,
+      "gpos": true,
+      "sample": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789$—– /:,.%+-()éèàçœ",
+      "missingGlyphs": []
+    },
+    {
+      "filename": "IBMPlexSansArabic-Regular.ttf",
+      "family": "IBM Plex Sans Arabic",
+      "subfamily": "Regular",
+      "postscriptName": "IBMPlexSansArabic-Regular",
+      "bytes": 235924,
+      "sha256": "6f611412270a132bbac838da9259d4c68569b4175f3b3b8fa3fa36a30b56dab9",
+      "variableAxes": [],
+      "gsub": true,
+      "gpos": true,
+      "sample": "ملابس تمنح يومك مساحة بوبلين قطني تعليمات عناية تجريبية عينة تصميم وليست بطاقة إنتاج ١٠٠٪",
+      "missingGlyphs": []
+    },
+    {
+      "filename": "IBMPlexSansArabic-SemiBold.ttf",
+      "family": "IBM Plex Sans Arabic SemiBold",
+      "subfamily": "Regular",
+      "postscriptName": "IBMPlexSansArabic-SemiBold",
+      "bytes": 244616,
+      "sha256": "597bd5502e5997be4414e4c9c88834b30ff3784250c84f20bce2b20e53ebd467",
+      "variableAxes": [],
+      "gsub": true,
+      "gpos": true,
+      "sample": "ملابس تمنح يومك مساحة بوبلين قطني تعليمات عناية تجريبية عينة تصميم وليست بطاقة إنتاج ١٠٠٪",
+      "missingGlyphs": []
+    },
+    {
+      "filename": "IBMPlexSansArabic-SemiBold.woff2",
+      "format": "woff2",
+      "bytes": 76408,
+      "headerLengthMatches": true,
+      "sha256": "869b2acd0a9660607a2025f0fe1c640110bf23d33417509328f07722922b8063"
+    },
+    {
+      "filename": "Archivo.woff2",
+      "format": "woff2",
+      "bytes": 34928,
+      "headerLengthMatches": true,
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967"
+    },
+    {
+      "filename": "DMSans.woff2",
+      "format": "woff2",
+      "bytes": 36932,
+      "headerLengthMatches": true,
+      "sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+    },
+    {
+      "filename": "IBMPlexSansArabic-Regular.woff2",
+      "format": "woff2",
+      "bytes": 71904,
+      "headerLengthMatches": true,
+      "sha256": "74112e1b7bf2e2c547989a4e947a60cba6cd1f9156e0065670134636e717199d"
+    }
+  ]
+}

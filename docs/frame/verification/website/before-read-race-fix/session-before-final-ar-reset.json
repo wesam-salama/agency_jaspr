@@ -1,0 +1,21 @@
+{
+  "capturedAtUTC": "2026-10-14T15:32:47.561Z",
+  "method": "Read-only saved record immediately before explicitly coordinated final Arabic native proof reset",
+  "session": {
+    "learner": "demo-ar",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [
+      "01"
+    ],
+    "drafts": {
+      "01": {
+        "note": "عندما قرّبت العنصر من الحافة، أصبحت المساحة المجاورة أوضح. أبقيت الضوء نفسه في الصورتين.",
+        "attachment": false
+      }
+    },
+    "revision": 3
+  }
+}

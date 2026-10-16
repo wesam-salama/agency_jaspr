@@ -1,0 +1,71 @@
+{
+  "name": "Sift Coffee",
+  "tagline": "Good coffee. Clearly chosen.",
+  "supporting_line": "Three coffees. Three clear starting points.",
+  "status": "Fictional studio-concept product fixtures",
+  "products": [
+    {
+      "id": "everyday",
+      "name": "Everyday",
+      "role": "Rounded & familiar",
+      "notes": "Cocoa · almond · brown sugar",
+      "origin": "Brazil / Colombia blend",
+      "process": "Natural / washed blend",
+      "roast": "Medium",
+      "method": "Espresso or moka pot",
+      "color": "#C56339",
+      "description": "A rounded starting point for your daily cup, with cocoa, almond and brown sugar notes. Begin with espresso or a moka pot, then adjust to your taste.",
+      "arabic": [
+        "بداية متوازنة لكوبك اليومي، مع نكهات الكاكاو",
+        "واللوز والسكر البني. ابدأ بالإسبريسو أو إبريق",
+        "الموكا، ثم اضبط التحضير وفق ذوقك."
+      ],
+      "ar_method": [
+        "إسبريسو أو",
+        "إبريق الموكا"
+      ]
+    },
+    {
+      "id": "daybreak",
+      "name": "Daybreak",
+      "role": "Bright & exploratory",
+      "notes": "Apricot · citrus · floral",
+      "origin": "Ethiopia single origin",
+      "process": "Washed",
+      "roast": "Light",
+      "method": "Pour-over",
+      "color": "#3047D9",
+      "description": "A brighter direction, with apricot, citrus and floral notes. Start with a pour-over to explore its lighter character.",
+      "arabic": [
+        "اتجاه أكثر إشراقاً، مع نكهات المشمش",
+        "والحمضيات والزهور. ابدأ بالترشيح لاستكشاف",
+        "طابع القهوة الأخف."
+      ],
+      "ar_method": [
+        "قهوة",
+        "مرشّحة"
+      ]
+    },
+    {
+      "id": "after-hours",
+      "name": "After Hours",
+      "role": "Deep & full",
+      "notes": "Dark chocolate · plum · caramel",
+      "origin": "Colombia single origin",
+      "process": "Washed",
+      "roast": "Medium-dark",
+      "method": "Espresso or French press",
+      "color": "#28221F",
+      "description": "A deeper cup with dark chocolate, plum and caramel notes. Try espresso or French press for a fuller starting point.",
+      "arabic": [
+        "كوب أعمق مع نكهات الشوكولاتة الداكنة",
+        "والبرقوق والكراميل. جرّب الإسبريسو أو",
+        "المكبس الفرنسي لبداية أكثر امتلاءً."
+      ],
+      "ar_method": [
+        "إسبريسو أو",
+        "مكبس فرنسي"
+      ]
+    }
+  ]
+}

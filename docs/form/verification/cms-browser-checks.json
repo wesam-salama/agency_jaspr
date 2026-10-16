@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-13",
+  "scope": "Working local CMS; isolated browser context, no server publication",
+  "base": "http://127.0.0.1:8798/agency_jaspr/assets/selected-work/form/site/",
+  "checks": [
+    {
+      "name": "Required field blocks publishing and focuses first invalid input",
+      "result": "passed",
+      "detail": "The English title was cleared; publishing preserved the other input and focused the invalid title."
+    },
+    {
+      "name": "Preview is required before publication",
+      "result": "passed",
+      "detail": "An unpreviewed changed draft did not reach the published local store."
+    },
+    {
+      "name": "Actual implementation preview reads the edited draft",
+      "result": "passed",
+      "detail": "The public project template rendered the amended English summary from the separate session preview store."
+    },
+    {
+      "name": "Publish changes is read by the public website",
+      "result": "passed",
+      "detail": "A separate public page in this browser rendered the published summary. No external destination received data."
+    },
+    {
+      "name": "Draft persists after reload",
+      "result": "passed",
+      "detail": "The changed summary and selected project were recovered from the separate draft store."
+    },
+    {
+      "name": "Separate focal controls update the live project-page crop",
+      "result": "passed",
+      "detail": "Desktop horizontal focal point changed to 36%; the mobile point retained its original value. The opening image uses 16:9 desktop / 4:3 mobile, other story images 4:3, material details 16:7 desktop / 4:3 mobile, and diagrams show the full 8:5 drawing without cropping."
+    },
+    {
+      "name": "Keyboard-capable story reorder retains text and image relation",
+      "result": "passed",
+      "detail": "Moving the first story down kept its English/Arabic record and exterior image together and restored focus to the moved control."
+    },
+    {
+      "name": "Removed imagery blocks a missing relation without erasing story text",
+      "result": "passed",
+      "detail": "Removing the linked exterior image retained the moved chapter and its explanation; the missing chapter image was identified."
+    },
+    {
+      "name": "Arabic editor preserves values and has no mobile overflow",
+      "result": "passed",
+      "detail": "At 390 px the interface switched to RTL, retained the long English draft title and absent optional area, and measured zero horizontal overflow."
+    },
+    {
+      "name": "Long permitted title and absent optional area publish successfully",
+      "result": "passed",
+      "detail": "The bilingual draft was previewed and locally published with a long English title and an empty optional area."
+    },
+    {
+      "name": "Storage failure preserves draft and offers retry",
+      "result": "passed",
+      "detail": "A controlled SecurityError left the typed draft intact and announced that browser storage must be enabled before retrying."
+    }
+  ],
+  "screenshots": [
+    "verification/website/cms-validation-desktop.png",
+    "verification/website/cms-edit-desktop.png",
+    "verification/website/cms-published-project.png",
+    "verification/website/cms-published-project-excerpt.png",
+    "verification/website/cms-focal-desktop.png",
+    "verification/website/cms-arabic-mobile.png"
+  ],
+  "consoleErrors": [],
+  "status": "passed"
+}

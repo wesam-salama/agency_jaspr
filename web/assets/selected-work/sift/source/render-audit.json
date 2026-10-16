@@ -1,0 +1,482 @@
+[
+  {
+    "file": "brew-card-daybreak-front.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/brew-card-daybreak-front.png",
+    "width": 600,
+    "height": 840,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "brew-card-daybreak-reverse.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/brew-card-daybreak-reverse.png",
+    "width": 600,
+    "height": 840,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "label-front-sheet.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/label-front-sheet.png",
+    "width": 1800,
+    "height": 1000,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-after-hours-250g-front.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-after-hours-250g-front.png",
+    "width": 480,
+    "height": 720,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-after-hours-250g-reverse.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-after-hours-250g-reverse.png",
+    "width": 480,
+    "height": 720,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-after-hours-250g-side.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-after-hours-250g-side.png",
+    "width": 180,
+    "height": 720,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-daybreak-250g-front.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-daybreak-250g-front.png",
+    "width": 480,
+    "height": 720,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-daybreak-250g-reverse.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-daybreak-250g-reverse.png",
+    "width": 480,
+    "height": 720,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-daybreak-250g-side.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-daybreak-250g-side.png",
+    "width": 180,
+    "height": 720,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-everyday-1kg-front.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-everyday-1kg-front.png",
+    "width": 680,
+    "height": 840,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-everyday-1kg-reverse.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-everyday-1kg-reverse.png",
+    "width": 680,
+    "height": 840,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-everyday-1kg-side.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-everyday-1kg-side.png",
+    "width": 220,
+    "height": 840,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-everyday-250g-front.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-everyday-250g-front.png",
+    "width": 480,
+    "height": 720,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-everyday-250g-reverse.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-everyday-250g-reverse.png",
+    "width": 480,
+    "height": 720,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "pack-everyday-250g-side.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/pack-everyday-250g-side.png",
+    "width": 180,
+    "height": 720,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sample-box-insert.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sample-box-insert.png",
+    "width": 1000,
+    "height": 680,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sample-box-lid.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sample-box-lid.png",
+    "width": 1000,
+    "height": 740,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "shipping-carton-panel.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/shipping-carton-panel.png",
+    "width": 1000,
+    "height": 650,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "shipping-tape-repeat.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/shipping-tape-repeat.png",
+    "width": 1260,
+    "height": 230,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-applications-board.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-applications-board.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-brewing-cards.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-brewing-cards.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-clearspace.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-clearspace.png",
+    "width": 850,
+    "height": 640,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-counter-display.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-counter-display.png",
+    "width": 1000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-detail-bilingual.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-detail-bilingual.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-detail-information.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-detail-information.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-identity-board.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-identity-board.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-range-board.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-range-board.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-sample-box.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-sample-box.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-selected-line.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-selected-line.png",
+    "width": 260,
+    "height": 240,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-shipping-carton.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-shipping-carton.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-social-templates.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-social-templates.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-wholesale-sheet.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-wholesale-sheet.png",
+    "width": 1200,
+    "height": 1600,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-wordmark-horizontal.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-wordmark-horizontal.png",
+    "width": 700,
+    "height": 390,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-wordmark-mono.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-wordmark-mono.png",
+    "width": 500,
+    "height": 390,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-wordmark-reverse.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-wordmark-reverse.png",
+    "width": 500,
+    "height": 390,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-wordmark-small.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-wordmark-small.png",
+    "width": 380,
+    "height": 230,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-wordmark-stacked.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-wordmark-stacked.png",
+    "width": 500,
+    "height": 500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "sift-wordmark-system.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/sift-wordmark-system.png",
+    "width": 2000,
+    "height": 1500,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "social-launch-template.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/social-launch-template.png",
+    "width": 1080,
+    "height": 1350,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  },
+  {
+    "file": "social-product-template.svg",
+    "output": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/web/assets/selected-work/sift/source/social-product-template.png",
+    "width": 1080,
+    "height": 1350,
+    "fontStatus": {
+      "fraunces": true,
+      "manrope": true,
+      "arabic": true
+    },
+    "overflow": []
+  }
+]

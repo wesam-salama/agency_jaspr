@@ -1,0 +1,21 @@
+{
+  "origin": "docs/fold/presentation-sources/identity.html",
+  "operation": "Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "sourceFiles": [
+    "web/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+    "web/assets/selected-work/fold/identity/fold-monogram-ink.svg",
+    "web/assets/selected-work/fold/packaging/hangtag-front.svg",
+    "web/assets/selected-work/fold/packaging/hangtag-back.svg",
+    "web/assets/selected-work/fold/packaging/care-label.svg",
+    "web/assets/selected-work/fold/packaging/mailer-face.svg"
+  ],
+  "generatedImageReferences": [],
+  "created": "2026-10-15",
+  "creator": "CR8.Media / Codex authored presentation composition",
+  "file": "web/assets/selected-work/fold/case/identity.webp",
+  "width": 2000,
+  "height": 1500,
+  "sha256": "c484c56db75d5ebb927813d4fae7150f858132d4b58686b9b1f63095b9378a8c",
+  "prompt": "Origin: docs/fold/presentation-sources/identity.html. Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "provenanceStorage": "installed tool sidecar fallback for this format"
+}

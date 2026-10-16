@@ -1,0 +1,44 @@
+[
+  {
+    "path": "",
+    "status": 200,
+    "bytes": 42589
+  },
+  {
+    "path": "ar/",
+    "status": 200,
+    "bytes": 49239
+  },
+  {
+    "path": "fr/",
+    "status": 200,
+    "bytes": 46287
+  },
+  {
+    "path": "main.client.dart.js",
+    "status": 200,
+    "bytes": 163041
+  },
+  {
+    "path": "assets/styles.css",
+    "status": 200,
+    "bytes": 40620
+  },
+  {
+    "path": "assets/selected-work/sift/hero.webp",
+    "status": 200,
+    "bytes": 174374
+  },
+  {
+    "path": "assets/selected-work/sift/sift-brand-guide.pdf",
+    "status": 200,
+    "bytes": 1391164,
+    "matches_source": true
+  },
+  {
+    "path": "assets/selected-work/sift/sift-artwork.zip",
+    "status": 200,
+    "bytes": 22819382,
+    "matches_source": true
+  }
+]

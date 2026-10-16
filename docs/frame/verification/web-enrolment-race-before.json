@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-13",
+  "scenario": "An initial zero-progress session response is delayed until after confirmed enrolment.",
+  "websiteRetainedConfirmedEnrolment": false,
+  "backendEnrolled": true
+}

@@ -1,0 +1,1568 @@
+[
+  {
+    "id": "baseline-960.webp",
+    "runtime_filename": "baseline-960.webp",
+    "source": "docs/form/presentation-sources/baseline.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture baseline 960; self-initiated studio project.",
+    "alt": "Form Architecture baseline 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "9a0991338c35cbbcd3ad0cf1ec082fc5cdd24573cf68f073858e9adbd1ccba4b",
+    "bytes": 52330
+  },
+  {
+    "id": "baseline.webp",
+    "runtime_filename": "baseline.webp",
+    "source": "docs/form/presentation-sources/baseline.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture baseline; self-initiated studio project.",
+    "alt": "Form Architecture baseline; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "e5312efa1b8863518f9a051ee0b631a5ed30c1bc88063cdad8c249668355f7fc",
+    "bytes": 165122
+  },
+  {
+    "id": "card-480.webp",
+    "runtime_filename": "card-480.webp",
+    "source": "docs/form/presentation-sources/card.webp.html",
+    "dimensions": [
+      480,
+      300
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture card 480; self-initiated studio project.",
+    "alt": "Form Architecture card 480; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "20941401a302edfaab54b94af830910da34e3e868883fbf1ff0181511f4cdc27",
+    "bytes": 16380
+  },
+  {
+    "id": "card-960.webp",
+    "runtime_filename": "card-960.webp",
+    "source": "docs/form/presentation-sources/card.webp.html",
+    "dimensions": [
+      960,
+      600
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture card 960; self-initiated studio project.",
+    "alt": "Form Architecture card 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "6b27da63d0a06afe9b2af58a9f03e1cda186d2b09bb160d27f703a62ca3cd7d1",
+    "bytes": 49352
+  },
+  {
+    "id": "card.webp",
+    "runtime_filename": "card.webp",
+    "source": "docs/form/presentation-sources/card.webp.html",
+    "dimensions": [
+      1600,
+      1000
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture card; self-initiated studio project.",
+    "alt": "Form Architecture card; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "4a553d5e9f9de6d97b9944ab614b720874f0437d52de1db843db92fa2712ca6e",
+    "bytes": 134908
+  },
+  {
+    "id": "cms-edit-960.webp",
+    "runtime_filename": "cms-edit-960.webp",
+    "source": "docs/form/presentation-sources/cms-edit.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture cms edit 960; self-initiated studio project.",
+    "alt": "Form Architecture cms edit 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "ddc256dae094e57b7f8feb4d5880863806bf445a4049c86445f234f14eac6634",
+    "bytes": 34578
+  },
+  {
+    "id": "cms-edit.webp",
+    "runtime_filename": "cms-edit.webp",
+    "source": "docs/form/presentation-sources/cms-edit.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture cms edit; self-initiated studio project.",
+    "alt": "Form Architecture cms edit; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "e79ce83404dc482e9aaf9e40e600ba99fe8a263bba911c6b04bc8895b64bbb65",
+    "bytes": 100922
+  },
+  {
+    "id": "details-image-crop-960.webp",
+    "runtime_filename": "details/image-crop-960.webp",
+    "source": "docs/form/presentation-sources/details-image-crop.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture image crop 960; self-initiated studio project.",
+    "alt": "Form Architecture image crop 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "7871ff7053a54e71ab5fb4997ad1317fb5667c8efe73c64a1c1ba8d1e3986ebf",
+    "bytes": 43974
+  },
+  {
+    "id": "details-image-crop.webp",
+    "runtime_filename": "details/image-crop.webp",
+    "source": "docs/form/presentation-sources/details-image-crop.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture image crop; self-initiated studio project.",
+    "alt": "Form Architecture image crop; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "cfd311002709b3e7de9d3ac3f0ee3aa994e582a01f3bb039b26e61a60dad7f03",
+    "bytes": 144262
+  },
+  {
+    "id": "details-project-facts-960.webp",
+    "runtime_filename": "details/project-facts-960.webp",
+    "source": "docs/form/presentation-sources/details-project-facts.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture project facts 960; self-initiated studio project.",
+    "alt": "Form Architecture project facts 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "feaf162adaceb224fc3bdfd74bca18bf085d51fae615ba885924e8597f01a2f8",
+    "bytes": 31574
+  },
+  {
+    "id": "details-project-facts.webp",
+    "runtime_filename": "details/project-facts.webp",
+    "source": "docs/form/presentation-sources/details-project-facts.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture project facts; self-initiated studio project.",
+    "alt": "Form Architecture project facts; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "b3c2d1c481eea32f78c29455e011663872ebe520d0f9e505a01e0aab399a4df9",
+    "bytes": 112482
+  },
+  {
+    "id": "details-wordmark-960.webp",
+    "runtime_filename": "details/wordmark-960.webp",
+    "source": "docs/form/presentation-sources/details-wordmark.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture wordmark 960; self-initiated studio project.",
+    "alt": "Form Architecture wordmark 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "9e6c0dce1fa910c6a4cc0146126d9e85741e78016813ac503c27414629a46545",
+    "bytes": 25950
+  },
+  {
+    "id": "details-wordmark.webp",
+    "runtime_filename": "details/wordmark.webp",
+    "source": "docs/form/presentation-sources/details-wordmark.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture wordmark; self-initiated studio project.",
+    "alt": "Form Architecture wordmark; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "66101c527b9e801fe7f3a3e579ef38ccf17909257832d926f45dd859f3ba9727",
+    "bytes": 73802
+  },
+  {
+    "id": "enquiry-states-960.webp",
+    "runtime_filename": "enquiry-states-960.webp",
+    "source": "docs/form/presentation-sources/enquiry-states.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture enquiry states 960; self-initiated studio project.",
+    "alt": "Form Architecture enquiry states 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "afb325580d15fb475fffd12d28f642500a1db62dc3e2ff693b55fd537eb93382",
+    "bytes": 37650
+  },
+  {
+    "id": "enquiry-states.webp",
+    "runtime_filename": "enquiry-states.webp",
+    "source": "docs/form/presentation-sources/enquiry-states.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture enquiry states; self-initiated studio project.",
+    "alt": "Form Architecture enquiry states; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "b215edb00d705a71119fb31c1b53261f139d03346791e904a22e10aba41acfca",
+    "bytes": 112238
+  },
+  {
+    "id": "hero-480.webp",
+    "runtime_filename": "hero-480.webp",
+    "source": "docs/form/presentation-sources/hero.webp.html",
+    "dimensions": [
+      480,
+      300
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture hero 480; self-initiated studio project.",
+    "alt": "Form Architecture hero 480; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "9396625fa35d9d8c9e3c12da625edb51af452401adb698e337eef4d2c97cfac4",
+    "bytes": 14706
+  },
+  {
+    "id": "hero-960.webp",
+    "runtime_filename": "hero-960.webp",
+    "source": "docs/form/presentation-sources/hero.webp.html",
+    "dimensions": [
+      960,
+      600
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture hero 960; self-initiated studio project.",
+    "alt": "Form Architecture hero 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "296e6f8ce72b5cd174153ff04d3e84d700334bce8c5cb22972de5d491770f09a",
+    "bytes": 47222
+  },
+  {
+    "id": "hero.webp",
+    "runtime_filename": "hero.webp",
+    "source": "docs/form/presentation-sources/hero.webp.html",
+    "dimensions": [
+      2560,
+      1600
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture hero; self-initiated studio project.",
+    "alt": "Form Architecture hero; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "67cb728b79502fee63a0e7dcf2934b7b0a855d46c4ca9884d9426e919c009034",
+    "bytes": 271152
+  },
+  {
+    "id": "identity-system-960.webp",
+    "runtime_filename": "identity-system-960.webp",
+    "source": "docs/form/presentation-sources/identity-system.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture identity system 960; self-initiated studio project.",
+    "alt": "Form Architecture identity system 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "bc0fc6548e6786dde34147c46bb21e8dc5aa82f06f43f2d420c6a427f0a17db0",
+    "bytes": 24298
+  },
+  {
+    "id": "identity-system.webp",
+    "runtime_filename": "identity-system.webp",
+    "source": "docs/form/presentation-sources/identity-system.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture identity system; self-initiated studio project.",
+    "alt": "Form Architecture identity system; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "e387fcba36e1b1d91c60caeff325176a18f97af958b119193fe92cae430215ae",
+    "bytes": 61152
+  },
+  {
+    "id": "project-desktop-960.webp",
+    "runtime_filename": "project-desktop-960.webp",
+    "source": "docs/form/presentation-sources/project-desktop.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture project desktop 960; self-initiated studio project.",
+    "alt": "Form Architecture project desktop 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "6cefcfbcc3997c870c5b6da5d87afe05d6ef32e9fb2d1c7ff1ab3200b1014844",
+    "bytes": 54240
+  },
+  {
+    "id": "project-desktop.webp",
+    "runtime_filename": "project-desktop.webp",
+    "source": "docs/form/presentation-sources/project-desktop.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture project desktop; self-initiated studio project.",
+    "alt": "Form Architecture project desktop; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "5017560ccae5ae647147241afb17e9101805ca6d3af7df13feaa08c1a9186a70",
+    "bytes": 169350
+  },
+  {
+    "id": "project-mobile-960.webp",
+    "runtime_filename": "project-mobile-960.webp",
+    "source": "docs/form/presentation-sources/project-mobile.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture project mobile 960; self-initiated studio project.",
+    "alt": "Form Architecture project mobile 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "e07501441da3b40df7d365a58ff6da310bea079cc2a9f88291022f9bfa8d0c28",
+    "bytes": 33952
+  },
+  {
+    "id": "project-mobile.webp",
+    "runtime_filename": "project-mobile.webp",
+    "source": "docs/form/presentation-sources/project-mobile.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture project mobile; self-initiated studio project.",
+    "alt": "Form Architecture project mobile; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "b9158b91c4684209c408c7c434ee8789193c6c8bb91f5d77b96ba389cd363b20",
+    "bytes": 103368
+  },
+  {
+    "id": "redesign-960.webp",
+    "runtime_filename": "redesign-960.webp",
+    "source": "docs/form/presentation-sources/redesign.webp.html",
+    "dimensions": [
+      960,
+      720
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture redesign 960; self-initiated studio project.",
+    "alt": "Form Architecture redesign 960; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "00f58d508bfaeefd5dfe42412df4ae0a433f502759693db17517d1bd325df5c9",
+    "bytes": 48990
+  },
+  {
+    "id": "redesign.webp",
+    "runtime_filename": "redesign.webp",
+    "source": "docs/form/presentation-sources/redesign.webp.html",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "implementation capture / designed presentation",
+    "caption": "Form Architecture redesign; self-initiated studio project.",
+    "alt": "Form Architecture redesign; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "edf753d04dfefcc654969af872d421e712143726196e4e2145992bd21e275e04",
+    "bytes": 153554
+  },
+  {
+    "id": "source-clear-space.png",
+    "runtime_filename": "source/clear-space.png",
+    "source": "web/assets/selected-work/form/source/clear-space.svg",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture clear space; self-initiated studio project.",
+    "alt": "Form Architecture clear space; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "8db900c759f8d556ee90d0e5427d9608a2f7feeb7b884e98d03c72a72e5cb62a",
+    "bytes": 100075
+  },
+  {
+    "id": "source-frame-mark.png",
+    "runtime_filename": "source/frame-mark.png",
+    "source": "web/assets/selected-work/form/source/frame-mark.svg",
+    "dimensions": [
+      96,
+      128
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture frame mark; self-initiated studio project.",
+    "alt": "Form Architecture frame mark; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "a9101ce8d270fa38fb2eb746c8b46d6d40a402c45979b441e32357114290c259",
+    "bytes": 971
+  },
+  {
+    "id": "source-identity-system.png",
+    "runtime_filename": "source/identity-system.png",
+    "source": "web/assets/selected-work/form/source/identity-system.svg",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture identity system; self-initiated studio project.",
+    "alt": "Form Architecture identity system; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "82fff253453c6a3b81d363609cc392d03cc3064ee0f7612eee9175ceb9f4648b",
+    "bytes": 117699
+  },
+  {
+    "id": "source-small-size-proof.png",
+    "runtime_filename": "source/small-size-proof.png",
+    "source": "docs/form/tools/render-identity.cjs",
+    "dimensions": [
+      700,
+      260
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture small size proof; self-initiated studio project.",
+    "alt": "Form Architecture small size proof; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "95445b40c8649563aad9620ff307e999334751e59b4c2dd3abc2f89499bc3103",
+    "bytes": 12326
+  },
+  {
+    "id": "source-starting-brochure.png",
+    "runtime_filename": "source/starting-brochure.png",
+    "source": "web/assets/selected-work/form/source/starting-brochure.svg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture starting brochure; self-initiated studio project.",
+    "alt": "Form Architecture starting brochure; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "1ee6b9e950b43fc5c8c7010144d861dec67ca330bef337be8dd55bd4599ab222",
+    "bytes": 1224159
+  },
+  {
+    "id": "source-starting-identity.png",
+    "runtime_filename": "source/starting-identity.png",
+    "source": "web/assets/selected-work/form/source/starting-identity.svg",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture starting identity; self-initiated studio project.",
+    "alt": "Form Architecture starting identity; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "50209c24194e2b7cd5a9ed7e86590499b70b420c32fa9db6fa7aefc5a5cac26a",
+    "bytes": 127848
+  },
+  {
+    "id": "source-stationery-cover.png",
+    "runtime_filename": "source/stationery-cover.png",
+    "source": "web/assets/selected-work/form/source/stationery-cover.svg",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture stationery cover; self-initiated studio project.",
+    "alt": "Form Architecture stationery cover; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "a617ef260815ef46156306a3f8ef9705fbf960b019af6ceb3a4c9ebfb06c3f75",
+    "bytes": 119223
+  },
+  {
+    "id": "source-wordmark-dark.png",
+    "runtime_filename": "source/wordmark-dark.png",
+    "source": "web/assets/selected-work/form/source/wordmark-dark.svg",
+    "dimensions": [
+      760,
+      240
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture wordmark dark; self-initiated studio project.",
+    "alt": "Form Architecture wordmark dark; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "761ee698c88a7178236754700327804045e0ad897ddc810df257168d29ea19af",
+    "bytes": 9739
+  },
+  {
+    "id": "source-wordmark-mono.png",
+    "runtime_filename": "source/wordmark-mono.png",
+    "source": "web/assets/selected-work/form/source/wordmark-mono.svg",
+    "dimensions": [
+      760,
+      240
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture wordmark mono; self-initiated studio project.",
+    "alt": "Form Architecture wordmark mono; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "495c0da35603c4325b16c4ee3f847a9d3544399ccfe4a46da64fa3b810116cc5",
+    "bytes": 9391
+  },
+  {
+    "id": "source-wordmark.png",
+    "runtime_filename": "source/wordmark.png",
+    "source": "web/assets/selected-work/form/source/wordmark.svg",
+    "dimensions": [
+      760,
+      240
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Original editable vector render or actual implementation screenshot composition.",
+    "rights_status": "Original authored digital presentation. Bundled fonts retain their SIL OFL licences; generated studies retain separate provenance.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Form Architecture wordmark; self-initiated studio project.",
+    "alt": "Form Architecture wordmark; self-initiated studio project.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "fdf3c6783990ad70fda49593bea022e654f102f85941dff19bcf8996fdaa0298",
+    "bytes": 10820
+  },
+  {
+    "id": "studies-courtyard-house-detail-source.png",
+    "runtime_filename": "studies/courtyard-house-detail-source.png",
+    "source": "studies/courtyard-house-detail-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: courtyard house detail.",
+    "alt": "Architectural concept study: courtyard house detail.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "c325cbc6b8b2f9dda28be6677ef0dcf8c579e13378f1d400f298cd1e0d8325b4",
+    "bytes": 2614149
+  },
+  {
+    "id": "studies-courtyard-house-detail.webp",
+    "runtime_filename": "studies/courtyard-house-detail.webp",
+    "source": "studies/courtyard-house-detail-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: courtyard house detail.",
+    "alt": "Architectural concept study: courtyard house detail.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "928d5d943e0f93847f3fd564b4fa67a6a71fb1e9b7ab042b3f645d83663eb65b",
+    "bytes": 281776
+  },
+  {
+    "id": "studies-courtyard-house-exterior-source.png",
+    "runtime_filename": "studies/courtyard-house-exterior-source.png",
+    "source": "studies/courtyard-house-exterior-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: courtyard house exterior.",
+    "alt": "Architectural concept study: courtyard house exterior.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "457520f22dde9f68a6736cdefd1d352015df7d28152d13db196e6c7970825830",
+    "bytes": 3651637
+  },
+  {
+    "id": "studies-courtyard-house-exterior.webp",
+    "runtime_filename": "studies/courtyard-house-exterior.webp",
+    "source": "studies/courtyard-house-exterior-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: courtyard house exterior.",
+    "alt": "Architectural concept study: courtyard house exterior.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "bf551eb271fb5ccefa71ea50ec316ca4236289e444f5d56225da7cc9faacb7b6",
+    "bytes": 551992
+  },
+  {
+    "id": "studies-courtyard-house-source.png",
+    "runtime_filename": "studies/courtyard-house-source.png",
+    "source": "studies/courtyard-house-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: courtyard house.",
+    "alt": "Architectural concept study: courtyard house.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "6f2f8c3882c2c03fb0f16ed814a7c0ed3b102576142a58a554765b8edaec4559",
+    "bytes": 2842539
+  },
+  {
+    "id": "studies-courtyard-house.webp",
+    "runtime_filename": "studies/courtyard-house.webp",
+    "source": "studies/courtyard-house-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: courtyard house.",
+    "alt": "Architectural concept study: courtyard house.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "8acb5ec288ef8af79e91b836da985c66ef9c32f8f0157d399754b28e49e5cd7e",
+    "bytes": 320348
+  },
+  {
+    "id": "studies-line-studio-detail-source.png",
+    "runtime_filename": "studies/line-studio-detail-source.png",
+    "source": "studies/line-studio-detail-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: line studio detail.",
+    "alt": "Architectural concept study: line studio detail.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "558ef1df573e7cd919135a8346d77de3c84a95f57ece33a9f258c88e9d0d3d61",
+    "bytes": 2271253
+  },
+  {
+    "id": "studies-line-studio-detail.webp",
+    "runtime_filename": "studies/line-studio-detail.webp",
+    "source": "studies/line-studio-detail-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: line studio detail.",
+    "alt": "Architectural concept study: line studio detail.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "e803ebb9de2a997ef7dd6cf6984d70097ced5d7948b8e11e51eae9e293bcf3d3",
+    "bytes": 186086
+  },
+  {
+    "id": "studies-line-studio-exterior-source.png",
+    "runtime_filename": "studies/line-studio-exterior-source.png",
+    "source": "studies/line-studio-exterior-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: line studio exterior.",
+    "alt": "Architectural concept study: line studio exterior.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "0aa1004ab67022580fa839365ec7f67e5c2834cf5c8a0219e02f8368a247733b",
+    "bytes": 3594797
+  },
+  {
+    "id": "studies-line-studio-exterior.webp",
+    "runtime_filename": "studies/line-studio-exterior.webp",
+    "source": "studies/line-studio-exterior-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: line studio exterior.",
+    "alt": "Architectural concept study: line studio exterior.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "ccd88be9222e12e4cfe0c38049686c8a0b2f448423d045ff59a6df7d0b586335",
+    "bytes": 572190
+  },
+  {
+    "id": "studies-line-studio-source.png",
+    "runtime_filename": "studies/line-studio-source.png",
+    "source": "studies/line-studio-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: line studio.",
+    "alt": "Architectural concept study: line studio.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "69aa68496e41b77d33e71c76b20001a73bf826805c9a7b8738827bdba808842b",
+    "bytes": 2389685
+  },
+  {
+    "id": "studies-line-studio.webp",
+    "runtime_filename": "studies/line-studio.webp",
+    "source": "studies/line-studio-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: line studio.",
+    "alt": "Architectural concept study: line studio.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "1c556c98f58b1d23c0eaa032f19704ef2094106b5bc10e9559eef54c5c2e5f50",
+    "bytes": 217024
+  },
+  {
+    "id": "studies-shore-library-detail-source.png",
+    "runtime_filename": "studies/shore-library-detail-source.png",
+    "source": "studies/shore-library-detail-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: shore library detail.",
+    "alt": "Architectural concept study: shore library detail.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "71578b2cbb4dd012c4e5bb22747e64051e292b974af077ae2f566cc1e92a0dfe",
+    "bytes": 2401941
+  },
+  {
+    "id": "studies-shore-library-detail.webp",
+    "runtime_filename": "studies/shore-library-detail.webp",
+    "source": "studies/shore-library-detail-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: shore library detail.",
+    "alt": "Architectural concept study: shore library detail.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "a433b0a2275f20c1b56fa97787f51535763a1c692959e72bdd58dc6b2c7efb6a",
+    "bytes": 221540
+  },
+  {
+    "id": "studies-shore-library-exterior-source.png",
+    "runtime_filename": "studies/shore-library-exterior-source.png",
+    "source": "studies/shore-library-exterior-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: shore library exterior.",
+    "alt": "Architectural concept study: shore library exterior.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "547fd22aaa078f16ad5e458bca2e2806a69a08bee15ec6824f3677d31c369234",
+    "bytes": 2961016
+  },
+  {
+    "id": "studies-shore-library-exterior.webp",
+    "runtime_filename": "studies/shore-library-exterior.webp",
+    "source": "studies/shore-library-exterior-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Approved primary study supplied as reference. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: shore library exterior.",
+    "alt": "Architectural concept study: shore library exterior.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "f0031950b32110f0c56c976b6dd6d5dfc3efbae71b9b04122e794568812352d1",
+    "bytes": 401708
+  },
+  {
+    "id": "studies-shore-library-source.png",
+    "runtime_filename": "studies/shore-library-source.png",
+    "source": "studies/shore-library-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: shore library.",
+    "alt": "Architectural concept study: shore library.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "e566d0600c59320eb3a8424efeeadd6a267ec57fa07bb6a8994642316a87c63e",
+    "bytes": 2659561
+  },
+  {
+    "id": "studies-shore-library.webp",
+    "runtime_filename": "studies/shore-library.webp",
+    "source": "studies/shore-library-source.png",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "creator": "Creative Media studio concept, authored with Codex",
+    "provenance": "Generated with built-in ImageGen on 2026-10-13. Synthetic architectural study imagery; no real building, architect or commission attribution.",
+    "rights_status": "Generated concept asset; no sourced photography. No trademark, client, construction or design-clearance claim.",
+    "truth_label": "Self-initiated studio project; fictional architectural studies",
+    "status": "designed",
+    "caption": "Architectural concept study: shore library.",
+    "alt": "Architectural concept study: shore library.",
+    "crop": {
+      "focal_desktop": [
+        50,
+        50
+      ],
+      "focal_mobile": [
+        53,
+        50
+      ],
+      "instruction": "Public per-image focal points are authoritative in site/data.js; full-image links remain available. Preserve whole presentation board for exact typography."
+    },
+    "sha256": "f723e8c0d53f5e2be4df7b55df1ad82e6be2606461ba51de4728f949c0d9b686",
+    "bytes": 294230
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "created_on": "2026-10-13",
+  "method": "built-in image_gen",
+  "project": "Frame Academy",
+  "brief": "docs/selected-work-context.md shared sections 1–7 and Frame chapter",
+  "prompt": "Use case: Frame Academy authored photographic lesson example, for an international Arabic-ready self-initiated studio concept.\nAsset type: high-quality horizontal still-life source photograph, no text.\nScene: one simple coral-orange ceramic sphere resting on a clean matte pale blue-grey tabletop, available window light from the upper left, restrained soft shadow, quiet studio-white background, no props. Image is a deliberate photography composition lesson about the edges of a frame.\nComposition: wide 3:2 landscape, sphere centered horizontally and slightly below centre, relatively small at about 16 percent of image width; abundant clean tabletop surrounds it so a second editorial crop can move the very same object toward a frame edge. Show true ceramic surface and a believable soft shadow. Contemporary practical creative workbook aesthetic, calm and precise, crisp natural photographic detail, not a rendered UI.\nPalette context: Frame Canvas #F7F9FC, Ink #18243D, Blue #244CCD, Mint #A7E3CE, Coral #FF8A6C. This photo should remain neutral pale studio-white and coral rather than introduce other saturated hues.\nConstraints: exactly one object, no logo, no lettering, no camera icons, no person, no hands, no graduation cap, no arrows, no diagram. No fake app or website screens. Final source should be usable as owned generated concept imagery beneath editable lesson typesetting.",
+  "output_original": "/Users/wesamsalama/.codex/generated_images/01a136cc-1c5a-71a1-ae98-9cde857d65ad/exec-89881d67-49f7-471a-ab41-b7221199449e.png",
+  "output_project": "web/assets/selected-work/frame/media/composition-source.png",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "status": "Designed generated concept photograph; not learner work or interface evidence",
+  "rights": "Generated in this task; no external photograph or likeness. Commercial brand-name and trademark clearance are unverified.",
+  "audit": "Used the approved Frame palette and teaching task. Did not typeset text, draw identity, invent an instructor or create software evidence. Lesson reframes the same source at equal scale for centre/edge comparison.",
+  "verified_on": "2026-10-14"
+}

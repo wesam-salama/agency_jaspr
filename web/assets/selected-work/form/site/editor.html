@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A working local project editor for the self-initiated Form Architecture website concept.">
+  <title>Project editor — Form Architecture</title>
+  <link rel="stylesheet" href="cms.css">
+  <script type="module" src="cms.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#project-editor">Skip to project fields</a>
+  <header class="editor-header">
+    <a class="editor-brand" href="index.html" aria-label="Form Architecture public website"><svg width="26" height="34" viewBox="0 0 26 34" aria-hidden="true"><path d="M24 24V2H2V32H16" fill="none" stroke="currentColor" stroke-width="2"/></svg><span>Form<span class="brand-sub">Architecture</span></span></a>
+    <div class="header-links"><a href="index.html" id="public-link">View published website</a><label class="language-label"><span id="language-label">Editor language</span><select id="editor-language"><option value="en">English</option><option value="ar">العربية</option></select></label></div>
+  </header>
+  <main>
+    <div class="editor-intro"><h1 id="editor-title">Project editor</h1><p id="editor-description">Shape the project story, inspect its crops, then preview and publish.</p><p class="demo-note" id="demo-note">Local CMS demonstration. Changes stay in this browser; there is no connected account or receiving server.</p></div>
+    <p id="storage-warning" class="warning" role="status" hidden></p>
+    <div class="editor-shell">
+      <aside class="project-list" aria-labelledby="projects-heading"><h2 id="projects-heading">Architectural studies</h2><nav id="project-nav" aria-label="Choose a project"></nav><p id="canonical-note">These are fictional architectural studies. Their original study facts remain available through Discard changes.</p></aside>
+      <div class="editing-area">
+        <div class="action-bar"><p id="draft-status" role="status" aria-live="polite">Draft ready</p><div class="actions"><button type="button" id="discard">Discard changes</button><button type="button" id="preview">Preview changes</button><button type="button" id="publish" class="primary">Publish changes</button></div></div>
+        <div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
+        <div id="error-summary" class="error-summary" tabindex="-1" role="alert" hidden></div>
+        <div class="edit-preview-grid">
+          <form id="project-editor" novalidate aria-label="Edit project"></form>
+          <section id="preview-panel" class="preview-panel" aria-labelledby="preview-heading" hidden><div class="preview-toolbar"><h2 id="preview-heading">Draft preview</h2><button type="button" id="close-preview">Close preview</button></div><p id="preview-explanation">This is the implemented website with your draft. It is not published yet.</p><div class="preview-links"><a id="open-preview" href="#" target="_blank" rel="noopener">Open full preview</a><label><span id="viewport-label">Viewport</span><select id="preview-viewport"><option value="desktop">Fit panel</option><option value="mobile">Mobile · 390 px</option></select></label></div><div class="iframe-wrap"><iframe id="site-preview" title="Form Architecture draft project preview"></iframe></div></section>
+        </div>
+      </div>
+    </div>
+    <noscript><p class="warning">The local editor needs JavaScript to preserve, preview and publish projects. The public website remains available through the header link.</p></noscript>
+  </main>
+</body>
+</html>

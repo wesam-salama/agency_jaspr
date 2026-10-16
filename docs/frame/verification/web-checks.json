@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-14",
+  "platform": "Chromium local desktop browser",
+  "learner": "demo-web-test",
+  "checks": [
+    {
+      "check": "Catalogue loading is visible until response; filters preserve an empty result and clear restores three",
+      "result": "passed"
+    },
+    {
+      "check": "Catalogue failure keeps filters and retry restores content",
+      "result": "passed"
+    },
+    {
+      "check": "Course decision exposes outcome, prerequisite and equipment before enrolment",
+      "result": "passed"
+    },
+    {
+      "check": "Preview closes with Escape to origin; no viewing completion or autoplay",
+      "result": "passed"
+    },
+    {
+      "check": "Enrolment confirms shared persistence and language switching preserves learner",
+      "result": "passed"
+    },
+    {
+      "check": "Confirmed exercise draft and explicit completion appear on website; refreshed record points to02",
+      "result": "passed"
+    },
+    {
+      "check": "Missing preview is readable and Retry restores the actual player",
+      "result": "passed"
+    },
+    {
+      "check": "Local app handoff confirms its response and retains URL/code after controlled failure",
+      "result": "passed"
+    },
+    {
+      "check": "Responsive EN/AR five-view layouts at320/390/768/1440 with readable mixed scripts",
+      "result": "passed"
+    },
+    {
+      "check": "Text expansion and reduced motion maintain actions and natural wrapping",
+      "result": "passed"
+    }
+  ],
+  "pageErrors": [],
+  "scope": "Final confirmation after responsive poster sizing, corrected EN/AR media, stale-read guard and local simulator bridge. Handoff UI failure/success uses controlled responses; actual bridge execution is recorded separately."
+}

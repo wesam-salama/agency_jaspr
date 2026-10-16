@@ -1,0 +1,222 @@
+[
+  {
+    "id": "en-390-collection",
+    "source": "docs/fold/verification/store/en-390-collection.png",
+    "path": "screens/en-390-collection.webp",
+    "width": 390,
+    "height": 3015,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?"
+  },
+  {
+    "id": "en-390-product",
+    "source": "docs/fold/verification/store/en-390-product.png",
+    "path": "screens/en-390-product.webp",
+    "width": 390,
+    "height": 2665,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?id=FL01&colour=chalk&page=product"
+  },
+  {
+    "id": "en-390-cart",
+    "source": "docs/fold/verification/store/en-390-cart.png",
+    "path": "screens/en-390-cart.webp",
+    "width": 390,
+    "height": 1819,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=cart"
+  },
+  {
+    "id": "en-390-checkout",
+    "source": "docs/fold/verification/store/en-390-checkout.png",
+    "path": "screens/en-390-checkout.webp",
+    "width": 390,
+    "height": 2222,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=checkout"
+  },
+  {
+    "id": "en-390-confirmation",
+    "source": "docs/fold/verification/store/en-390-confirmation.png",
+    "path": "screens/en-390-confirmation.webp",
+    "width": 390,
+    "height": 1559,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=confirmation"
+  },
+  {
+    "id": "en-1440-collection",
+    "source": "docs/fold/verification/store/en-1440-collection.png",
+    "path": "screens/en-1440-collection.webp",
+    "width": 1440,
+    "height": 2846,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?"
+  },
+  {
+    "id": "en-1440-product",
+    "source": "docs/fold/verification/store/en-1440-product.png",
+    "path": "screens/en-1440-product.webp",
+    "width": 1440,
+    "height": 2200,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?id=FL01&colour=chalk&page=product"
+  },
+  {
+    "id": "en-1440-cart",
+    "source": "docs/fold/verification/store/en-1440-cart.png",
+    "path": "screens/en-1440-cart.webp",
+    "width": 1440,
+    "height": 1415,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=cart"
+  },
+  {
+    "id": "en-1440-checkout",
+    "source": "docs/fold/verification/store/en-1440-checkout.png",
+    "path": "screens/en-1440-checkout.webp",
+    "width": 1440,
+    "height": 1687,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=checkout"
+  },
+  {
+    "id": "en-1440-confirmation",
+    "source": "docs/fold/verification/store/en-1440-confirmation.png",
+    "path": "screens/en-1440-confirmation.webp",
+    "width": 1440,
+    "height": 1342,
+    "kind": "Actual implemented store screenshot",
+    "locale": "en",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=confirmation"
+  },
+  {
+    "id": "ar-390-collection",
+    "source": "docs/fold/verification/store/ar-390-collection.png",
+    "path": "screens/ar-390-collection.webp",
+    "width": 390,
+    "height": 2932,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?lang=ar"
+  },
+  {
+    "id": "ar-390-product",
+    "source": "docs/fold/verification/store/ar-390-product.png",
+    "path": "screens/ar-390-product.webp",
+    "width": 390,
+    "height": 2589,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?id=FL01&colour=chalk&page=product&lang=ar"
+  },
+  {
+    "id": "ar-390-cart",
+    "source": "docs/fold/verification/store/ar-390-cart.png",
+    "path": "screens/ar-390-cart.webp",
+    "width": 390,
+    "height": 1817,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=cart&lang=ar"
+  },
+  {
+    "id": "ar-390-checkout",
+    "source": "docs/fold/verification/store/ar-390-checkout.png",
+    "path": "screens/ar-390-checkout.webp",
+    "width": 390,
+    "height": 2202,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=checkout&lang=ar"
+  },
+  {
+    "id": "ar-390-confirmation",
+    "source": "docs/fold/verification/store/ar-390-confirmation.png",
+    "path": "screens/ar-390-confirmation.webp",
+    "width": 390,
+    "height": 1498,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 390,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=confirmation&lang=ar"
+  },
+  {
+    "id": "ar-1440-collection",
+    "source": "docs/fold/verification/store/ar-1440-collection.png",
+    "path": "screens/ar-1440-collection.webp",
+    "width": 1440,
+    "height": 2870,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?lang=ar"
+  },
+  {
+    "id": "ar-1440-product",
+    "source": "docs/fold/verification/store/ar-1440-product.png",
+    "path": "screens/ar-1440-product.webp",
+    "width": 1440,
+    "height": 2187,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?id=FL01&colour=chalk&page=product&lang=ar"
+  },
+  {
+    "id": "ar-1440-cart",
+    "source": "docs/fold/verification/store/ar-1440-cart.png",
+    "path": "screens/ar-1440-cart.webp",
+    "width": 1440,
+    "height": 1458,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=cart&lang=ar"
+  },
+  {
+    "id": "ar-1440-checkout",
+    "source": "docs/fold/verification/store/ar-1440-checkout.png",
+    "path": "screens/ar-1440-checkout.webp",
+    "width": 1440,
+    "height": 1738,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=checkout&lang=ar"
+  },
+  {
+    "id": "ar-1440-confirmation",
+    "source": "docs/fold/verification/store/ar-1440-confirmation.png",
+    "path": "screens/ar-1440-confirmation.webp",
+    "width": 1440,
+    "height": 1352,
+    "kind": "Actual implemented store screenshot",
+    "locale": "ar",
+    "viewport": 1440,
+    "origin": "http://127.0.0.1:8804/assets/selected-work/fold/site/?page=confirmation&lang=ar"
+  }
+]
