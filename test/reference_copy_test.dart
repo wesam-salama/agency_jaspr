@@ -57,13 +57,13 @@ void main() {
       expect(texts(services[i], 'li'), expected['deliverables']);
     }
     final work = document.querySelectorAll('#work .work-item');
-    for (var i = 0; i < work.length; i++) {
-      final expected = reference['work'][i];
-      expect(text(work[i].querySelector('h3')), expected['name']);
-      expect(text(work[i].querySelector('.work-category')), expected['category']);
-      expect(text(work[i].querySelector('.work-description')), expected['description']);
-      expect(text(work[i].querySelector('.work-disciplines')), contains(expected['disciplines']));
-    }
+    // All four slots are now authorised studio studies. Section and shell copy remain reference-owned.
+    expect(work.map((card) => card.attributes['data-case']), [
+      'Sift Coffee',
+      'Form Architecture',
+      'Frame Academy',
+      'Fold Clothing',
+    ]);
     final rows = document.querySelectorAll('.process-step');
     expect(rows, hasLength(6));
     for (var i = 0; i < rows.length; i++) {
@@ -106,38 +106,19 @@ void main() {
     expect(text(document.querySelector('#cmNext')), 'Next project →');
   });
 
-  test('all four case studies retain reference text, figures, quotes, chapters and metrics', () {
+  test('authored cases replace every original example without carrying its commercial claims', () {
+    expect(caseStudies.map((study) => study.name), [
+      'Sift Coffee',
+      'Form Architecture',
+      'Frame Academy',
+      'Fold Clothing',
+    ]);
     for (final study in caseStudies) {
-      final expected = reference['cases'][study.name];
-      expect(study.tag, expected['tag']);
-      expect(study.client, expected['client']);
-      expect(study.role, expected['role']);
-      expect(study.timeline, expected['timeline']);
-      expect(study.deliverables, expected['deliver']);
-      expect('${study.lede.before}${study.lede.emphasis}${study.lede.after}', parseFragment(expected['lede']).text);
-      expect(study.paragraphs, expected['paras'] ?? []);
-      expect(study.facts.map((fact) => [fact.label, fact.value]).toList(), expected['side'] ?? []);
-      expect(study.figures.map((figure) => figure.caption).toList(), [
-        for (final figure in expected['figs'] ?? []) figure[1],
-      ]);
-      if (study.quote case final quote?) {
-        expect([quote.text, quote.attribution], expected['quote']);
-      }
-      final chapters = expected['chapters'] ?? [];
-      for (var i = 0; i < study.chapters.length; i++) {
-        final chapter = study.chapters[i];
-        if (chapter.body == null) {
-          expect('${chapter.number} ${chapter.title}', chapters[i][0]);
-        } else {
-          expect([chapter.number, chapter.title, chapter.body], chapters[i].take(3).toList());
-        }
-      }
-      expect(
-        study.metrics.map((metric) => [metric.target, metric.suffix, metric.decimals, metric.label]).toList(),
-        expected['stats'] ?? [],
-      );
-      // Copy restoration does not turn example claims into verified evidence.
+      expect(study.isSelfInitiated, isTrue);
       expect(study.isIllustrative, isTrue);
+      expect(study.quote, isNull);
+      expect(study.metrics, isEmpty);
+      expect((reference['cases'] as Map).containsKey(study.name), isFalse);
     }
   });
 }

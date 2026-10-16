@@ -1,0 +1,44 @@
+{
+  "rawStartUTC": "2026-10-14T15:29:58.102Z",
+  "status": 0,
+  "date": "2026-10-14",
+  "learner": "demo",
+  "language": "en",
+  "before": {
+    "learner": "demo",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [],
+    "drafts": {
+      "01": {
+        "note": "",
+        "attachment": false
+      }
+    },
+    "revision": 1
+  },
+  "events": [
+    {
+      "name": "handoff-waiting",
+      "utc": "2026-10-14T15:30:12Z"
+    },
+    {
+      "name": "course-overview-en",
+      "utc": "2026-10-14T15:30:37Z"
+    },
+    {
+      "name": "handoff-confirmed",
+      "utc": "2026-10-14T15:30:38Z"
+    }
+  ],
+  "appStates": [
+    "FRAME_HANDOFF_APP_STATE_BEFORE_REQUEST notRunning",
+    "FRAME_HANDOFF_APP_STATE_AFTER_REQUEST runningForeground"
+  ],
+  "preferences": {
+    "flutter.frame.learner": "demo",
+    "flutter.frame.arabic": false
+  }
+}

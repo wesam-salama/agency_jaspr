@@ -1,0 +1,23 @@
+[
+  {
+    "id": "capsule",
+    "prompt": "Use case: product-mockup. Fold Clothing Collection 01: Everyday Structure, self-initiated fictional studio capsule. No text, logos, labels, models, people, claims or decorative objects. Neutral daylight, honest fine tactile textile realism, quiet editorial art direction with pale warm-grey ground. This is generated concept artwork, not a photograph of manufactured clothes. Input images are garment-pattern and colour authorities. Create ONE cohesive overhead editorial group flatlay, 3:2 landscape aspect. Four garments arranged with considered generous spacing on one continuous stone-grey studio table, fully visible, not overlapping, slightly angled as a capsule editorial. Box Shirt Chalk from reference1 with FIVE buttons and ONE viewer-right chest pocket; Pleat Trouser Ink from reference2 with ONE pleat each leg, straight hems and NO back pockets; Layer Vest Stone from reference3 with FOUR buttons and TWO lower patch pockets; Field Overshirt Olive from reference4 with SIX buttons and TWO open chest pockets (no flaps/pocket buttons). Preserve exact materials, shapes, pockets, stitch positions, silhouettes. Do not invent hardware, extra button, flap, pocket or garment. Avoid triptych panels; this is one stilllife of four distinct exact garments. Keep full silhouettes within an 8% margin.",
+    "referenceImages": [
+      "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-b5066053-9c2a-4e01-bef3-fd49e0d7eb24.png",
+      "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-66e1460a-16bf-4225-b25c-979c63335298.png",
+      "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-80a7e312-fdee-4133-8a34-a4cfa631d1fe.png",
+      "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-5b8b6b11-2410-4e74-a2bf-1cfa93a3378b.png"
+    ],
+    "original": "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-5a7fbeeb-584e-4cff-9746-7e72eafb0e27.png",
+    "kind": "generated editorial concept",
+    "status": "visually inspected; no text/logos; capsule garment feature continuity checked"
+  },
+  {
+    "id": "fabric",
+    "prompt": "Use case: photorealistic-natural. Fold Clothing Collection 01: Everyday Structure, self-initiated fictional studio capsule. No text, logos, labels, models, people, claims or decorative objects. Neutral daylight, honest fine tactile textile realism, quiet editorial art direction with pale warm-grey ground. This is generated concept artwork, not a photograph of manufactured clothes. One tight macro editorial stilllife in landscape4:3 of four plain fabric swatches held in natural soft folds on a pale worktable: ivory cotton poplin #F6F3EC, Ink near-black cotton-linen twill #161A18, Stone pale grey-green cotton canvas #D8DDD3, deep olive cotton twill #3C4A3E. Show distinct weave and one restrained stitched edge; material tactility is the focal point, no fashion silhouette. Neutral daylight side light, subtle paper pattern corner may sit at far edge without text/marks. No graphic overlays, needle, pins, rulers, branded products or impossible fabric geometry.",
+    "referenceImages": [],
+    "original": "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-a9ee85c9-d74c-4f41-b9f9-2578027da666.png",
+    "kind": "generated editorial concept",
+    "status": "visually inspected; no text/logos; capsule garment feature continuity checked"
+  }
+]

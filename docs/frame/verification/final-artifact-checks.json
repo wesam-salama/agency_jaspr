@@ -1,0 +1,47 @@
+{
+  "preservedExistingFiles": 243,
+  "changedExistingFiles": [],
+  "media": [
+    {
+      "file": "see-the-edges.mp4",
+      "actualSeconds": 30.0,
+      "plannedLessonMinutes": 8,
+      "plannedCurriculumMinutes": 62,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "29cd39f2e42de1af0e818174d3ead7e9d9405d1ff18b3fb4b541d3ae946aac59"
+    },
+    {
+      "file": "see-the-edges-ar.mp4",
+      "actualSeconds": 30.0,
+      "plannedLessonMinutes": 8,
+      "plannedCurriculumMinutes": 62,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "sha256": "1f91ff1d5ca861f253771894773d64204691c0f42f1e39deaa8b9d6ef72d2123"
+    }
+  ],
+  "sourcePackage": {
+    "files": 745,
+    "bytes": 163863939,
+    "sha256": "7a33306c2a07139c71067bd6538d9551dff8356b1088cd447f40a279ebf982d6"
+  },
+  "matchingBuiltFrameFiles": 132,
+  "organizationRefresh": {
+    "date": "2026-10-16",
+    "scope": "Source archive and source README refreshed after documented cleanup. Existing application/media verification fields retain their original scope; no native recapture or application rebuild was performed.",
+    "previousSourcePackage": {
+      "files": 783,
+      "bytes": 193326812,
+      "sha256": "af521cd759c7c053457ca141fa76aaff0aff661d8f67d54a6202223161fad5c8"
+    },
+    "sourcePackageReductionBytes": 29462873,
+    "archiveIntegrity": "passed",
+    "staticBuildCopiesSynchronized": true,
+    "matchingBuiltFrameFiles": 132
+  }
+}

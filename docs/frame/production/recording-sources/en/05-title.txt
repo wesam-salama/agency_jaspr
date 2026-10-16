@@ -1,0 +1,2 @@
+Play the authored lesson.
+Captions beside the video.

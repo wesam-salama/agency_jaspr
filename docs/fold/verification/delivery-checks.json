@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-15",
+  "viewer": [
+    {
+      "locale": "en",
+      "videoMetadata": true,
+      "viewerOverflow": 0,
+      "autoplay": false,
+      "transcriptItems": 5,
+      "productionStoreLink": true
+    },
+    {
+      "locale": "ar",
+      "videoMetadata": true,
+      "viewerOverflow": 0,
+      "autoplay": false,
+      "transcriptItems": 5,
+      "productionStoreLink": true
+    }
+  ],
+  "http": [
+    {
+      "pathname": "/agency_jaspr/",
+      "status": 200
+    },
+    {
+      "pathname": "/agency_jaspr/ar/",
+      "status": 200
+    },
+    {
+      "pathname": "/agency_jaspr/fr/",
+      "status": 200
+    },
+    {
+      "pathname": "/agency_jaspr/main.client.dart.js",
+      "status": 200
+    },
+    {
+      "pathname": "/agency_jaspr/assets/styles.css",
+      "status": 200
+    },
+    {
+      "pathname": "/agency_jaspr/assets/selected-work/fold/fold-source.zip",
+      "status": 200
+    },
+    {
+      "pathname": "/agency_jaspr/assets/selected-work/fold/site/index.html?lang=ar",
+      "status": 200
+    },
+    {
+      "pathname": "/agency_jaspr/assets/selected-work/fold/hero.webp",
+      "status": 200
+    },
+    {
+      "pathname": "/agency_jaspr/assets/selected-work/fold/products/fl04-stone-back.webp",
+      "status": 200
+    },
+    {
+      "pathname": "/agency_jaspr/assets/selected-work/fold/fonts/IBMPlexSansArabic-Regular.woff2",
+      "status": 200
+    }
+  ],
+  "rangeMP4": 206,
+  "pageErrors": []
+}

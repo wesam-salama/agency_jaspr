@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-14",
+  "capturedAtUTC": "2026-10-14T15:57:34.062Z",
+  "records": [
+    {
+      "lang": "en",
+      "learner": "demo",
+      "route": "course/FA-PH-01",
+      "selector": ".detail-head",
+      "file": "course-decision-desktop-en.png",
+      "width": 1440,
+      "scope": "Complete course decision section through its enrolment action; adjacent curriculum is outside the screenshot.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sectionSize": {
+        "width": 1160,
+        "height": 677.6875
+      },
+      "captureSize": {
+        "width": 1200,
+        "height": 717.6875
+      },
+      "method": "Actual Chrome section pixels with surrounding page margin; no hidden, altered or reconstructed interface content."
+    },
+    {
+      "lang": "ar",
+      "learner": "demo-ar",
+      "route": "home",
+      "selector": ".hero",
+      "file": "home-hero-desktop-ar.png",
+      "width": 1440,
+      "scope": "Complete Arabic home hero; adjacent course catalogue is outside the screenshot.",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sectionSize": {
+        "width": 1160,
+        "height": 510
+      },
+      "captureSize": {
+        "width": 1200,
+        "height": 550
+      },
+      "method": "Actual Chrome section pixels with surrounding page margin; no hidden, altered or reconstructed interface content."
+    },
+    {
+      "lang": "ar",
+      "learner": "demo-ar",
+      "route": "course/FA-PH-01",
+      "selector": ".detail-copy",
+      "file": "course-decision-mobile-ar.png",
+      "width": 390,
+      "scope": "Complete Arabic mobile decision copy, prerequisite, equipment and action; ends in whitespace before the poster panel.",
+      "viewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "sectionSize": {
+        "width": 350,
+        "height": 571.953125
+      },
+      "captureSize": {
+        "width": 390,
+        "height": 611.953125
+      },
+      "method": "Actual Chrome section pixels with surrounding page margin; no hidden, altered or reconstructed interface content."
+    }
+  ],
+  "apiRequests": [
+    {
+      "method": "GET",
+      "path": "/api/catalogue"
+    },
+    {
+      "method": "GET",
+      "path": "/api/session"
+    },
+    {
+      "method": "GET",
+      "path": "/api/catalogue"
+    },
+    {
+      "method": "GET",
+      "path": "/api/session"
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,526 @@
+[
+  {
+    "file": "web/assets/selected-work/frame/card.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/card.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/website/course-decision-desktop-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/card-480.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/card.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/website/course-decision-desktop-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/card-960.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/card.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/website/course-decision-desktop-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "docs/frame/presentation-sources/card.webp.png",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/card.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/website/course-decision-desktop-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/hero.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/hero.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/website/course-decision-desktop-en.png, web/assets/selected-work/frame/source/composition-cover.svg. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/hero-480.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/hero.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/website/course-decision-desktop-en.png, web/assets/selected-work/frame/source/composition-cover.svg. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/hero-960.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/hero.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/website/course-decision-desktop-en.png, web/assets/selected-work/frame/source/composition-cover.svg. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "docs/frame/presentation-sources/hero.webp.png",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/hero.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/website/course-decision-desktop-en.png, web/assets/selected-work/frame/source/composition-cover.svg. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/identity.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/identity.webp.html. Uses approved editable artwork and actual implementation captures: web/assets/selected-work/frame/source/identity-system.svg. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/identity-960.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/identity.webp.html. Uses approved editable artwork and actual implementation captures: web/assets/selected-work/frame/source/identity-system.svg. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "docs/frame/presentation-sources/identity.webp.png",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/identity.webp.html. Uses approved editable artwork and actual implementation captures: web/assets/selected-work/frame/source/identity-system.svg. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/course-discovery.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/course-discovery.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/website/course-detail-mobile-en.png, docs/frame/verification/website/course-decision-desktop-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/course-discovery-960.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/course-discovery.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/website/course-detail-mobile-en.png, docs/frame/verification/website/course-decision-desktop-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "docs/frame/presentation-sources/course-discovery.webp.png",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/course-discovery.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/website/course-detail-mobile-en.png, docs/frame/verification/website/course-decision-desktop-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/lesson-continuation.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/lesson-continuation.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/native/lesson-02-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/lesson-continuation-960.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/lesson-continuation.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/native/lesson-02-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "docs/frame/presentation-sources/lesson-continuation.webp.png",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/lesson-continuation.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/restarted-next-en.png, docs/frame/verification/native/lesson-02-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/exercise-recovery.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/exercise-recovery.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/exercise-failed-en.png, docs/frame/verification/native/exercise-saved-en.png, docs/frame/verification/native/completed-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/exercise-recovery-960.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/exercise-recovery.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/exercise-failed-en.png, docs/frame/verification/native/exercise-saved-en.png, docs/frame/verification/native/completed-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "docs/frame/presentation-sources/exercise-recovery.webp.png",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/exercise-recovery.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/native/exercise-failed-en.png, docs/frame/verification/native/exercise-saved-en.png, docs/frame/verification/native/completed-en.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/arabic-journey.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/arabic-journey.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/website/course-decision-mobile-ar.png, docs/frame/verification/native/lesson-player-ar.png, docs/frame/verification/native/exercise-saved-ar.png, docs/frame/verification/native/restarted-next-ar.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "web/assets/selected-work/frame/arabic-journey-960.webp",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/arabic-journey.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/website/course-decision-mobile-ar.png, docs/frame/verification/native/lesson-player-ar.png, docs/frame/verification/native/exercise-saved-ar.png, docs/frame/verification/native/restarted-next-ar.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "docs/frame/presentation-sources/arabic-journey.webp.png",
+    "origin": "Authored Frame Academy case presentation. Actual browser render of docs/frame/presentation-sources/arabic-journey.webp.html. Uses approved editable artwork and actual implementation captures: docs/frame/verification/website/course-decision-mobile-ar.png, docs/frame/verification/native/lesson-player-ar.png, docs/frame/verification/native/exercise-saved-ar.png, docs/frame/verification/native/restarted-next-ar.png. Layout labels are presentation annotations; no generated interface, fabricated learner result or physical device mockup. Original sources and full captures are retained in the editable project package."
+  },
+  {
+    "file": "docs/frame/verification/website/catalogue-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: catalogue-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/catalogue-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: catalogue-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/catalogue-mobile-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: catalogue-mobile-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/course-decision-desktop-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: course-decision-desktop-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/course-decision-mobile-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: course-decision-mobile-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/course-detail-desktop-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: course-detail-desktop-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/course-detail-desktop-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: course-detail-desktop-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/course-detail-mobile-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: course-detail-mobile-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/course-detail-mobile-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: course-detail-mobile-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/desktop-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: desktop-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/desktop-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: desktop-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/enrolment-zero-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: enrolment-zero-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/enrolment-zero-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: enrolment-zero-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/handoff-request-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: handoff-request-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/handoff-request-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: handoff-request-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/home-hero-desktop-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: home-hero-desktop-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/lesson-preview-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: lesson-preview-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/lesson-preview-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: lesson-preview-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/mobile-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: mobile-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/mobile-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: mobile-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/saved-record-desktop-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: saved-record-desktop-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/saved-record-desktop-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: saved-record-desktop-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/saved-record-mobile-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: saved-record-mobile-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/saved-record-mobile-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: saved-record-mobile-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/shared-progress-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: shared-progress-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/shared-progress-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: shared-progress-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/shared-progress-mobile-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: shared-progress-mobile-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/website/shared-progress-mobile-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual local Chrome website. Capture file: shared-progress-mobile-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/after-ui-test.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: after-ui-test.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/cold-debug-diagnosis.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: cold-debug-diagnosis.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/completed-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: completed-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/completed-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: completed-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/course-overview-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: course-overview-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/course-overview-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: course-overview-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/course-zero-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: course-zero-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/course-zero-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: course-zero-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/exercise-failed-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: exercise-failed-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/exercise-failed-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: exercise-failed-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/exercise-saved-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: exercise-saved-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/exercise-saved-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: exercise-saved-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/final-build-home-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: final-build-home-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/foreground-after-open.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: foreground-after-open.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/frame-completed-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: frame-completed-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/frame-course-zero-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: frame-course-zero-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/frame-exercise-failed-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: frame-exercise-failed-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/frame-exercise-saved-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: frame-exercise-saved-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/frame-lesson-02-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: frame-lesson-02-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/frame-lesson-player-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: frame-lesson-player-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/frame-restarted-next-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: frame-restarted-next-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/handoff-confirmed-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: handoff-confirmed-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/handoff-confirmed-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: handoff-confirmed-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/initial-native.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: initial-native.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/lesson-02-ar-held.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: lesson-02-ar-held.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/lesson-02-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: lesson-02-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/lesson-02-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: lesson-02-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/lesson-player-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: lesson-player-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/lesson-player-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: lesson-player-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/qa-course-zero.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: qa-course-zero.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/restarted-next-ar.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: restarted-next-ar.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/native/restarted-next-en.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual running iPhone simulator app. Capture file: restarted-next-en.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-1440-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-1440-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-1440-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-1440-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-1440-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-1440-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-1440-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-1440-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-320-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-320-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-320-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-320-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-320-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-320-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-320-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-320-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-390-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-390-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-390-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-390-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-390-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-390-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-390-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-390-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-768-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-768-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-768-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-768-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-768-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-768-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/ar-768-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: ar-768-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-1440-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-1440-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-1440-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-1440-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-1440-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-1440-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-1440-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-1440-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-320-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-320-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-320-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-320-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-320-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-320-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-320-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-320-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-390-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-390-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-390-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-390-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-390-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-390-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-390-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-390-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-768-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-768-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-768-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-768-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-768-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-768-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/en-768-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: en-768-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-1440-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-1440-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-1440-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-1440-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-1440-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-1440-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-1440-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-1440-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-320-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-320-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-320-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-320-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-320-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-320-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-320-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-320-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-390-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-390-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-390-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-390-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-390-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-390-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-390-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-390-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-768-end.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-768-end.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-768-failure.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-768-failure.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-768-middle.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-768-middle.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  },
+  {
+    "file": "docs/frame/verification/agency/fr-768-top.png",
+    "origin": "Frame Academy implementation evidence: screenshot of actual locally built multilingual CR8.Media agency case. Capture file: fr-768-top.png. Recorded alongside the corresponding verification report in docs/frame. This is captured software, not generated interface artwork. Older diagnosis captures are labelled by their filename and are not final journey proof."
+  }
+]

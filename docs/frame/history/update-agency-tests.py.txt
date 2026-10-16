@@ -1,0 +1,17 @@
+from pathlib import Path
+root=Path(__file__).resolve().parents[2]
+for name in ['sift_case_test.dart','form_case_test.dart']:
+ p=root/'test'/name
+ t=p.read_text().replace("'Marrow'", "'Frame Academy'")
+ if name=='sift_case_test.dart':
+  t=t.replace('caseStudies.skip(2)', 'caseStudies.skip(3)').replace('Slots 01–02 are the user-approved Sift and Form studies. Preserve the remaining reference cards.', "Slots 01–03 are the approved Sift, Form and Frame studies. Preserve Northline's reference card.").replace('for (var i = 2; i < work.length; i++)', 'for (var i = 3; i < work.length; i++)').replace('workProjects.skip(2)', 'workProjects.skip(3)').replace("querySelectorAll('.work-status'), hasLength(2)","querySelectorAll('.work-status'), hasLength(3)")
+ else:
+  t=t.replace('content.caseStudies[2].layout, CaseLayout.stickyChapters','content.caseStudies[2].layout, CaseLayout.horizontalScroll')
+ p.write_text(t)
+p=root/'test/content_data_test.dart'
+t=p.read_text().replace('authored Sift and Form cases','authored Sift, Form and Frame cases').replace('CaseLayout.split,\n        CaseLayout.stickyChapters','CaseLayout.split,\n        CaseLayout.horizontalScroll').replace('caseStudies[2].chapters, hasLength(3)','caseStudies[2].chapters, hasLength(4)')
+p.write_text(t)
+p=root/'test/reference_copy_test.dart'
+t=p.read_text().replace('the two remaining case studies retain reference text, figures, quotes, chapters and metrics','the remaining Northline case retains reference text, figures, quotes, chapters and metrics').replace('caseStudies.skip(2)', 'caseStudies.skip(3)').replace('Slots 01–02 are the user-approved Sift and Form studies. Preserve the remaining reference cards.', "Slots 01–03 are the approved Sift, Form and Frame studies. Preserve Northline's reference card.").replace('for (var i = 2; i < work.length; i++)', 'for (var i = 3; i < work.length; i++)')
+p.write_text(t)
+(root/'test/frame_case_test.dart').write_text((root/'docs/frame/frame_case_test.dart.staged').read_text())

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "clear-space.svg",
+    "width": 2000,
+    "height": 1500,
+    "overflow": []
+  },
+  {
+    "file": "frame-mark.svg",
+    "width": 96,
+    "height": 128,
+    "overflow": []
+  },
+  {
+    "file": "identity-system.svg",
+    "width": 2000,
+    "height": 1500,
+    "overflow": []
+  },
+  {
+    "file": "starting-brochure.svg",
+    "width": 1200,
+    "height": 1600,
+    "overflow": []
+  },
+  {
+    "file": "starting-identity.svg",
+    "width": 2000,
+    "height": 1500,
+    "overflow": []
+  },
+  {
+    "file": "stationery-cover.svg",
+    "width": 2000,
+    "height": 1500,
+    "overflow": []
+  },
+  {
+    "file": "wordmark-dark.svg",
+    "width": 760,
+    "height": 240,
+    "overflow": []
+  },
+  {
+    "file": "wordmark-mono.svg",
+    "width": 760,
+    "height": 240,
+    "overflow": []
+  },
+  {
+    "file": "wordmark.svg",
+    "width": 760,
+    "height": 240,
+    "overflow": []
+  }
+]

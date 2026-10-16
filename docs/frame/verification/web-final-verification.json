@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-14",
+  "verifiedAtUTC": "2026-10-14T15:58:55.596Z",
+  "origin": "http://127.0.0.1:8803",
+  "scope": "Final current native-code cold handoff and read-only website/API/native-record consistency. Existing browser, HTTP and Node checks retain their original scopes. The agency preview root is reachable; final agency asset/build validation is separate.",
+  "browserRecord": "docs/frame/verification/web-checks.json",
+  "browserGroups": 10,
+  "layoutCombinations": 40,
+  "nodeTests": 12,
+  "httpRecord": "docs/frame/service/http-checks.json",
+  "realHTTPChecks": 6,
+  "handoffs": [
+    {
+      "language": "en",
+      "learner": "demo",
+      "requestRecord": "docs/frame/verification/website/request-only-en.json",
+      "nativeProof": "docs/frame/verification/native/native-handoff-en.json",
+      "nativeReadyUTC": "2026-10-14T15:30:12.917Z",
+      "requestCapturedAtUTC": "2026-10-14T15:30:28.435Z",
+      "requestAcknowledged": true,
+      "nativeStateBefore": "notRunning",
+      "nativeStateAfter": "runningForeground",
+      "course": "FA-PH-01",
+      "completedAtHandoff": 0
+    },
+    {
+      "language": "ar",
+      "learner": "demo-ar",
+      "requestRecord": "docs/frame/verification/website/request-only-ar.json",
+      "nativeProof": "docs/frame/verification/native/native-handoff-ar.json",
+      "nativeReadyUTC": "2026-10-14T15:33:41.675Z",
+      "requestCapturedAtUTC": "2026-10-14T15:33:54.889Z",
+      "requestAcknowledged": true,
+      "nativeStateBefore": "notRunning",
+      "nativeStateAfter": "runningForeground",
+      "course": "FA-PH-01",
+      "completedAtHandoff": 0
+    }
+  ],
+  "consistency": [
+    {
+      "language": "en",
+      "learner": "demo",
+      "revision": 3,
+      "completed": [
+        "01"
+      ],
+      "nextLesson": "02",
+      "exactNote": "Moving the object toward the edge made the surrounding space more visible. I kept the light the same in both photographs.",
+      "nativeProof": "docs/frame/verification/native/native-session-en.json",
+      "nativeRawStartUTC": "2026-10-14T15:30:53.204Z",
+      "webRecord": "docs/frame/verification/website/shared-progress-en.json",
+      "webCapturedAtUTC": "2026-10-14T15:32:25.248Z",
+      "stateUnchangedByReadOnlyCapture": true
+    },
+    {
+      "language": "ar",
+      "learner": "demo-ar",
+      "revision": 3,
+      "completed": [
+        "01"
+      ],
+      "nextLesson": "02",
+      "exactNote": "عندما قرّبت العنصر من الحافة، أصبحت المساحة المجاورة أوضح. أبقيت الضوء نفسه في الصورتين.",
+      "nativeProof": "docs/frame/verification/native/native-session-ar.json",
+      "nativeRawStartUTC": "2026-10-14T15:47:04.142Z",
+      "webRecord": "docs/frame/verification/website/shared-progress-ar.json",
+      "webCapturedAtUTC": "2026-10-14T15:53:49.376Z",
+      "stateUnchangedByReadOnlyCapture": true
+    }
+  ],
+  "routes": [
+    {
+      "path": "/assets/selected-work/frame/site/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/assets/selected-work/frame/source/composition-cover-ar.webp",
+      "status": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "/assets/selected-work/frame/media/see-the-edges.mp4",
+      "status": 200,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "/assets/selected-work/frame/media/see-the-edges-ar.mp4",
+      "status": 200,
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "/agency_jaspr/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "presentationExcerpts": [
+    {
+      "file": "docs/frame/verification/website/course-decision-desktop-en.png",
+      "scope": "Complete course decision section through its enrolment action; adjacent curriculum is outside the screenshot.",
+      "captureSize": {
+        "width": 1200,
+        "height": 717.6875
+      }
+    },
+    {
+      "file": "docs/frame/verification/website/home-hero-desktop-ar.png",
+      "scope": "Complete Arabic home hero; adjacent course catalogue is outside the screenshot.",
+      "captureSize": {
+        "width": 1200,
+        "height": 550
+      }
+    },
+    {
+      "file": "docs/frame/verification/website/course-decision-mobile-ar.png",
+      "scope": "Complete Arabic mobile decision copy, prerequisite, equipment and action; ends in whitespace before the poster panel.",
+      "captureSize": {
+        "width": 390,
+        "height": 611.953125
+      }
+    }
+  ],
+  "preservedEarlierPacket": "docs/frame/verification/website/before-read-race-fix/",
+  "coordinatedArabicResetRecord": "docs/frame/verification/website/coordinated-restart-ar.json"
+}

@@ -1,0 +1,17 @@
+import {createRequire} from 'node:module';
+import {writeFile} from 'node:fs/promises';
+const require=createRequire(import.meta.url);
+const {chromium}=require('/Users/wesamsalama/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const origin='http://127.0.0.1:8803';const learner='demo-race-test';
+const browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
+const page=await browser.newPage();
+await page.request.post(origin+'/api/test/reset',{data:{learner}});
+let release;const held=new Promise(resolve=>release=resolve);
+await page.route('**/api/session?*',async route=>{const response=await route.fetch();const body=await response.text();await held;await route.fulfill({response,body});});
+await page.goto(origin+`/assets/selected-work/frame/site/?learner=${learner}#enrol`,{waitUntil:'commit'});
+await page.locator('[data-action="enrol"]').waitFor();await page.locator('[data-action="enrol"]').click();
+await page.locator('.handoff .button').waitFor();release();
+await page.waitForTimeout(800);
+const result={date:'2026-10-13',scenario:'An initial zero-progress session response is delayed until after confirmed enrolment.',websiteRetainedConfirmedEnrolment:await page.locator('.handoff .button').count()===1,backendEnrolled:(await (await page.request.get(origin+'/api/session?learner='+learner)).json()).enrolments.includes('FA-PH-01')};
+await writeFile(process.argv[2]||'docs/frame/verification/web-enrolment-race.json',JSON.stringify(result,null,2)+'\n');
+await browser.close();process.stdout.write(JSON.stringify(result)+'\n');

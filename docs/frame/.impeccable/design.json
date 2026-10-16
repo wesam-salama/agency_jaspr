@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-14T08:54:09.703305Z",
+  "title": "Design System: Frame Academy",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Studio White",
+        "canonical": "#F7F9FC",
+        "tonalRamp": [
+          "oklch(15% 0.00453 258.32)",
+          "oklch(27% 0.00453 258.32)",
+          "oklch(38% 0.00453 258.32)",
+          "oklch(49% 0.00453 258.32)",
+          "oklch(60% 0.00453 258.32)",
+          "oklch(71% 0.00453 258.32)",
+          "oklch(82% 0.00453 258.32)",
+          "oklch(95% 0.00453 258.32)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Midnight Ink",
+        "canonical": "#18243D",
+        "tonalRamp": [
+          "oklch(15% 0.05006 263.83)",
+          "oklch(27% 0.05006 263.83)",
+          "oklch(38% 0.05006 263.83)",
+          "oklch(49% 0.05006 263.83)",
+          "oklch(60% 0.05006 263.83)",
+          "oklch(71% 0.05006 263.83)",
+          "oklch(82% 0.05006 263.83)",
+          "oklch(95% 0.05006 263.83)"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Frame Blue",
+        "canonical": "#244CCD",
+        "tonalRamp": [
+          "oklch(15% 0.20416 265.51)",
+          "oklch(27% 0.20416 265.51)",
+          "oklch(38% 0.20416 265.51)",
+          "oklch(49% 0.20416 265.51)",
+          "oklch(60% 0.20416 265.51)",
+          "oklch(71% 0.20416 265.51)",
+          "oklch(82% 0.20416 265.51)",
+          "oklch(95% 0.20416 265.51)"
+        ]
+      },
+      "mint": {
+        "role": "secondary",
+        "displayName": "Practice Mint",
+        "canonical": "#A7E3CE",
+        "tonalRamp": [
+          "oklch(15% 0.06774 171.05)",
+          "oklch(27% 0.06774 171.05)",
+          "oklch(38% 0.06774 171.05)",
+          "oklch(49% 0.06774 171.05)",
+          "oklch(60% 0.06774 171.05)",
+          "oklch(71% 0.06774 171.05)",
+          "oklch(82% 0.06774 171.05)",
+          "oklch(95% 0.06774 171.05)"
+        ]
+      },
+      "coral": {
+        "role": "tertiary",
+        "displayName": "Sketch Coral",
+        "canonical": "#FF8A6C",
+        "tonalRamp": [
+          "oklch(15% 0.14880 35.38)",
+          "oklch(27% 0.14880 35.38)",
+          "oklch(38% 0.14880 35.38)",
+          "oklch(49% 0.14880 35.38)",
+          "oklch(60% 0.14880 35.38)",
+          "oklch(71% 0.14880 35.38)",
+          "oklch(82% 0.14880 35.38)",
+          "oklch(95% 0.14880 35.38)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate Text",
+        "canonical": "#52627B",
+        "tonalRamp": [
+          "oklch(15% 0.04483 259.21)",
+          "oklch(27% 0.04483 259.21)",
+          "oklch(38% 0.04483 259.21)",
+          "oklch(49% 0.04483 259.21)",
+          "oklch(60% 0.04483 259.21)",
+          "oklch(71% 0.04483 259.21)",
+          "oklch(82% 0.04483 259.21)",
+          "oklch(95% 0.04483 259.21)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Blueprint Rule",
+        "canonical": "#CBD4E2",
+        "tonalRamp": [
+          "oklch(15% 0.02170 259.19)",
+          "oklch(27% 0.02170 259.19)",
+          "oklch(38% 0.02170 259.19)",
+          "oklch(49% 0.02170 259.19)",
+          "oklch(60% 0.02170 259.19)",
+          "oklch(71% 0.02170 259.19)",
+          "oklch(82% 0.02170 259.19)",
+          "oklch(95% 0.02170 259.19)"
+        ]
+      },
+      "success": {
+        "role": "neutral",
+        "displayName": "Progress Green",
+        "canonical": "#225C47",
+        "tonalRamp": [
+          "oklch(15% 0.07030 166.23)",
+          "oklch(27% 0.07030 166.23)",
+          "oklch(38% 0.07030 166.23)",
+          "oklch(49% 0.07030 166.23)",
+          "oklch(60% 0.07030 166.23)",
+          "oklch(71% 0.07030 166.23)",
+          "oklch(82% 0.07030 166.23)",
+          "oklch(95% 0.07030 166.23)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Recovery Red",
+        "canonical": "#A92F33",
+        "tonalRamp": [
+          "oklch(15% 0.15817 23.45)",
+          "oklch(27% 0.15817 23.45)",
+          "oklch(38% 0.15817 23.45)",
+          "oklch(49% 0.15817 23.45)",
+          "oklch(60% 0.15817 23.45)",
+          "oklch(71% 0.15817 23.45)",
+          "oklch(82% 0.15817 23.45)",
+          "oklch(95% 0.15817 23.45)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(27% 0.00000 0.00)",
+          "oklch(38% 0.00000 0.00)",
+          "oklch(49% 0.00000 0.00)",
+          "oklch(60% 0.00000 0.00)",
+          "oklch(71% 0.00000 0.00)",
+          "oklch(82% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "blue-hover": {
+        "role": "primary",
+        "displayName": "Blue Hover",
+        "canonical": "#1739AC",
+        "tonalRamp": [
+          "oklch(15% 0.18677 265.34)",
+          "oklch(27% 0.18677 265.34)",
+          "oklch(38% 0.18677 265.34)",
+          "oklch(49% 0.18677 265.34)",
+          "oklch(60% 0.18677 265.34)",
+          "oklch(71% 0.18677 265.34)",
+          "oklch(82% 0.18677 265.34)",
+          "oklch(95% 0.18677 265.34)"
+        ]
+      },
+      "artwork-blue": {
+        "role": "neutral",
+        "displayName": "Artwork Blue",
+        "canonical": "#E9EEF9",
+        "tonalRamp": [
+          "oklch(15% 0.01574 266.28)",
+          "oklch(27% 0.01574 266.28)",
+          "oklch(38% 0.01574 266.28)",
+          "oklch(49% 0.01574 266.28)",
+          "oklch(60% 0.01574 266.28)",
+          "oklch(71% 0.01574 266.28)",
+          "oklch(82% 0.01574 266.28)",
+          "oklch(95% 0.01574 266.28)"
+        ]
+      },
+      "artwork-coral": {
+        "role": "tertiary",
+        "displayName": "Artwork Coral",
+        "canonical": "#FBEDE9",
+        "tonalRamp": [
+          "oklch(15% 0.01616 36.53)",
+          "oklch(27% 0.01616 36.53)",
+          "oklch(38% 0.01616 36.53)",
+          "oklch(49% 0.01616 36.53)",
+          "oklch(60% 0.01616 36.53)",
+          "oklch(71% 0.01616 36.53)",
+          "oklch(82% 0.01616 36.53)",
+          "oklch(95% 0.01616 36.53)"
+        ]
+      },
+      "artwork-mint": {
+        "role": "secondary",
+        "displayName": "Artwork Mint",
+        "canonical": "#E2F3EC",
+        "tonalRamp": [
+          "oklch(15% 0.02019 169.33)",
+          "oklch(27% 0.02019 169.33)",
+          "oklch(38% 0.02019 169.33)",
+          "oklch(49% 0.02019 169.33)",
+          "oklch(60% 0.02019 169.33)",
+          "oklch(71% 0.02019 169.33)",
+          "oklch(82% 0.02019 169.33)",
+          "oklch(95% 0.02019 169.33)"
+        ]
+      },
+      "progress-web": {
+        "role": "neutral",
+        "displayName": "Web Progress Track",
+        "canonical": "#DDE4F2",
+        "tonalRamp": [
+          "oklch(15% 0.02048 264.47)",
+          "oklch(27% 0.02048 264.47)",
+          "oklch(38% 0.02048 264.47)",
+          "oklch(49% 0.02048 264.47)",
+          "oklch(60% 0.02048 264.47)",
+          "oklch(71% 0.02048 264.47)",
+          "oklch(82% 0.02048 264.47)",
+          "oklch(95% 0.02048 264.47)"
+        ]
+      },
+      "progress-native": {
+        "role": "neutral",
+        "displayName": "Native Progress Track",
+        "canonical": "#E0E6F1",
+        "tonalRamp": [
+          "oklch(15% 0.01626 262.75)",
+          "oklch(27% 0.01626 262.75)",
+          "oklch(38% 0.01626 262.75)",
+          "oklch(49% 0.01626 262.75)",
+          "oklch(60% 0.01626 262.75)",
+          "oklch(71% 0.01626 262.75)",
+          "oklch(82% 0.01626 262.75)",
+          "oklch(95% 0.01626 262.75)"
+        ]
+      },
+      "recovery-surface": {
+        "role": "neutral",
+        "displayName": "Recovery Surface",
+        "canonical": "#FFF1EF",
+        "tonalRamp": [
+          "oklch(15% 0.01541 27.28)",
+          "oklch(27% 0.01541 27.28)",
+          "oklch(38% 0.01541 27.28)",
+          "oklch(49% 0.01541 27.28)",
+          "oklch(60% 0.01541 27.28)",
+          "oklch(71% 0.01541 27.28)",
+          "oklch(82% 0.01541 27.28)",
+          "oklch(95% 0.01541 27.28)"
+        ]
+      },
+      "workbook-ground": {
+        "role": "neutral",
+        "displayName": "Workbook Ground",
+        "canonical": "#E9EDF4",
+        "tonalRamp": [
+          "oklch(15% 0.01036 261.79)",
+          "oklch(27% 0.01036 261.79)",
+          "oklch(38% 0.01036 261.79)",
+          "oklch(49% 0.01036 261.79)",
+          "oklch(60% 0.01036 261.79)",
+          "oklch(71% 0.01036 261.79)",
+          "oklch(82% 0.01036 261.79)",
+          "oklch(95% 0.01036 261.79)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Website hero",
+        "purpose": "Large Latin discovery headline; responsive sizes remain in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Website section",
+        "purpose": "Latin section hierarchy."
+      },
+      "title": {
+        "displayName": "Website title",
+        "purpose": "General Latin title; course captions have a documented 25px override."
+      },
+      "body": {
+        "displayName": "Website reading",
+        "purpose": "Latin prose and decision information."
+      },
+      "label": {
+        "displayName": "Website metadata",
+        "purpose": "Canonical IDs and secondary information."
+      },
+      "control": {
+        "displayName": "Website action",
+        "purpose": "Semibold actions with persistent written labels."
+      },
+      "filter-label": {
+        "displayName": "Catalogue label",
+        "purpose": "Persistent filter label and inherited select typography."
+      },
+      "arabic-display": {
+        "displayName": "Arabic website heading",
+        "purpose": "Locally shaped Arabic headings, normal tracking and 1.35 line height."
+      },
+      "arabic-body": {
+        "displayName": "Arabic website reading",
+        "purpose": "Locally shaped Arabic prose; mobile size follows the body breakpoint."
+      },
+      "native-display": {
+        "displayName": "Native destination",
+        "purpose": "My learning and Progress headings."
+      },
+      "native-headline": {
+        "displayName": "Native course and lesson",
+        "purpose": "Named course and main task heading."
+      },
+      "native-title": {
+        "displayName": "Native next lesson",
+        "purpose": "Next lesson and supporting title."
+      },
+      "native-body": {
+        "displayName": "Native reading",
+        "purpose": "Lesson, exercise and facts; device scaling remains enabled."
+      },
+      "native-body-medium": {
+        "displayName": "Native secondary reading",
+        "purpose": "Progress, state and metadata information."
+      },
+      "native-control": {
+        "displayName": "Native filled action",
+        "purpose": "Explicit native action role; Arabic substitutes its family."
+      },
+      "workbook-display": {
+        "displayName": "Workbook title",
+        "purpose": "Reading-page title; print and narrow overrides are separate."
+      },
+      "workbook-headline": {
+        "displayName": "Workbook section",
+        "purpose": "Instruction and practice heading."
+      },
+      "workbook-body": {
+        "displayName": "Workbook reading",
+        "purpose": "Instruction and practice prose with a comfortable leading."
+      }
+    },
+    "shadows": [
+      {
+        "name": "hero-cover-object",
+        "value": "drop-shadow(5px 12px 15px #18243d18)",
+        "purpose": "Contained hero/detail workbook cover."
+      },
+      {
+        "name": "course-cover-object",
+        "value": "drop-shadow(4px 9px 9px #18243d15)",
+        "purpose": "Catalogue cover object."
+      },
+      {
+        "name": "preview-dialog",
+        "value": "0 16px 80px #18243d35",
+        "purpose": "Web modal layer."
+      },
+      {
+        "name": "preview-backdrop",
+        "value": "#18243dd0",
+        "purpose": "Web dialog backdrop color, not a surface token."
+      }
+    ],
+    "motion": [
+      {
+        "name": "action-feedback",
+        "value": "background 180ms ease, transform 180ms ease; active translateY(1px)",
+        "purpose": "User-operated primary web action."
+      },
+      {
+        "name": "cover-inspection",
+        "value": "transform 350ms cubic-bezier(.16,1,.3,1); hero translateY(-4px); course translateY(-5px)",
+        "purpose": "User-triggered cover lift."
+      },
+      {
+        "name": "shared-progress",
+        "value": "width 200ms ease",
+        "purpose": "Confirmed web progress-track update."
+      },
+      {
+        "name": "web-reduced-motion",
+        "value": "transition:none!important; animation:none!important; scroll-behavior:auto; cover transform:none",
+        "purpose": "Device motion preference."
+      },
+      {
+        "name": "native-navigation",
+        "value": "CupertinoPageTransitionsBuilder (iOS); FadeForwardsPageTransitionsBuilder (Android)",
+        "purpose": "Implemented platform route builders. Native device-reduction evidence is scoped to the native check record."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "website-compact-columns",
+        "value": "980px"
+      },
+      {
+        "name": "website-linear-sections",
+        "value": "760px"
+      },
+      {
+        "name": "website-stacked-cards",
+        "value": "440px"
+      },
+      {
+        "name": "workbook-linear-examples",
+        "value": "700px"
+      }
+    ],
+    "nativeImplementation": {
+      "arabicLetterSpacing": 0,
+      "arabicRoles": "Heading/title/body/label roles remove inherited Latin tracking while retaining natural shaping, wrapping and device text scaling.",
+      "courseArt": "Text-free composition-source.png with BoxFit.cover at1.65:1/2.4:1 and separate localized title overlay.",
+      "courseHandoff": "SceneDelegate forwards cold/warm UIScene links; Dart validates exact course URI and coalesces duplicates within1second.",
+      "persistence": "Requested learner/read-generation guard; outstanding reads invalidated before and after enrol/save; newer pending edits remain unsaved.",
+      "evidence": "../native-verification.md",
+      "verificationScope": "Named iOS simulator actual EN/AR native journeys; keyboard/focus,1.6x text scale and disableAnimations are widget checks, not physical-device certification."
+    }
+  },
+  "components": [
+    {
+      "name": "Website Primary Action",
+      "kind": "button",
+      "description": "Explicit web action with pending/disabled treatment and device motion reduction.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Explore courses<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:20px;min-height:48px;padding:14px 22px;border:0;border-radius:8px;background:var(--blue,#244CCD);color:var(--white,#fff);font:600 16px/1.5 Inter,sans-serif;cursor:pointer;transition:background 180ms ease,transform 180ms ease}.ds-primary:hover{background:var(--blue-hover,#1739AC)}.ds-primary:active{transform:translateY(1px)}.ds-primary:focus-visible{outline:3px solid var(--blue,#244CCD);outline-offset:5px}.ds-primary:disabled{cursor:wait;opacity:.68}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Website Secondary Action",
+      "kind": "button",
+      "description": "Quiet transparent action with the necessary Slate Text boundary.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">See what you’ll make<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:20px;min-height:48px;padding:14px 22px;border:1px solid var(--border,#52627B);border-radius:8px;background:transparent;color:var(--ink,#18243D);font:600 16px/1.5 Inter,sans-serif;cursor:pointer;transition:background 180ms ease,transform 180ms ease}.ds-secondary:hover{background:transparent}.ds-secondary:active{transform:translateY(1px)}.ds-secondary:focus-visible{outline:3px solid var(--blue,#244CCD);outline-offset:5px}.ds-secondary:disabled{cursor:wait;opacity:.68}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Underlined Text Action",
+      "kind": "button",
+      "description": "Blue action with a persistent underline and language-directed arrow.",
+      "html": "<a class=\"ds-text-action\" href=\"#courses\">See course<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-text-action{display:inline-flex;align-items:center;gap:12px;padding:8px 0;min-height:44px;background:none;border:0;color:var(--blue,#244CCD);font:600 16px/1.5 Inter,sans-serif;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}.ds-text-action:hover{text-decoration-thickness:2px}.ds-text-action:focus-visible{outline:3px solid var(--blue,#244CCD);outline-offset:5px}[dir=rtl] .ds-text-action{font-family:'IBM Plex Sans Arabic',sans-serif}[dir=rtl] .ds-text-action svg{transform:rotate(180deg)}",
+      "refersTo": "text-action"
+    },
+    {
+      "name": "Catalogue Select",
+      "kind": "input",
+      "description": "Labelled native select. Active filters remain visible through empty/error states.",
+      "html": "<label class=\"ds-filter\">Discipline<select name=\"discipline\"><option>All disciplines</option><option>Photography</option><option>Filmmaking</option><option>Visual design</option></select></label>",
+      "css": ".ds-filter{display:flex;flex-direction:column;gap:8px;min-width:220px;color:var(--ink,#18243D);font:600 14px/1.55 Inter,sans-serif}.ds-filter select{font:inherit;min-height:48px;width:100%;padding:12px 16px;border:1px solid var(--border,#52627B);border-radius:8px;background:var(--canvas,#F7F9FC);color:var(--ink,#18243D);caret-color:var(--blue,#244CCD)}.ds-filter select:focus-visible{outline:3px solid var(--blue,#244CCD);outline-offset:5px}[dir=rtl] .ds-filter{font-family:'IBM Plex Sans Arabic',sans-serif}",
+      "refersTo": "filter-select"
+    },
+    {
+      "name": "Native Practice Field",
+      "kind": "input",
+      "description": "Framework-free preview of the explicit Flutter fill, outline, radius and focused border. Floating-label layout, keyboard and text metrics remain Flutter-owned.",
+      "html": "<label class=\"ds-native-field\">Practice note<textarea rows=\"4\" maxlength=\"2000\" placeholder=\"What changed when you moved the object?\"></textarea></label>",
+      "css": ".ds-native-field{display:flex;flex-direction:column;gap:8px;color:var(--ink,#18243D);font-family:Inter,sans-serif}.ds-native-field textarea{color:var(--ink,#18243D);background:var(--white,#fff);border:1px solid var(--muted,#52627B);border-radius:8px;font-family:inherit;caret-color:var(--blue,#244CCD);resize:vertical}.ds-native-field textarea:focus{border:2px solid var(--blue,#244CCD);outline:none}[dir=rtl] .ds-native-field{font-family:'IBM Plex Sans Arabic',sans-serif}",
+      "refersTo": "native-practice-field"
+    },
+    {
+      "name": "Website Navigation",
+      "kind": "nav",
+      "description": "Visible navigation; current/hover state is a blue underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Course navigation\"><a href=\"#courses\" aria-current=\"page\">Courses</a><a href=\"#how\">How learning works</a><a href=\"#enrol\">Demo enrolment</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:24px;flex-wrap:wrap;color:var(--ink,#18243D);font:600 14px/1.55 Inter,sans-serif}.ds-nav a{display:flex;align-items:center;min-height:44px;color:inherit;text-decoration:none;border-bottom:2px solid transparent}.ds-nav a:hover,.ds-nav a[aria-current]{border-color:var(--blue,#244CCD);color:var(--blue,#244CCD)}.ds-nav a:focus-visible{outline:3px solid var(--blue,#244CCD);outline-offset:5px}@media(max-width:760px){.ds-nav a{font-size:13px;min-height:36px}}[dir=rtl] .ds-nav{font-family:'IBM Plex Sans Arabic',sans-serif}"
+    },
+    {
+      "name": "Course Caption",
+      "kind": "card",
+      "description": "Actual caption portion of a course card. Bundled 4:5 course artwork remains a separate supplied asset, omitted from this small preview.",
+      "html": "<article class=\"ds-course\"><p class=\"ds-discipline\">Photography · Beginner</p><h3><a href=\"#course/FA-PH-01\">Composition Essentials</a></h3><p class=\"ds-canonical\"><bdi dir=\"ltr\">FA-PH-01</bdi></p><p class=\"ds-course-time\">6 lessons · 62 minutes planned study</p><p class=\"ds-availability\">Free demo course</p><a class=\"ds-course-action\" href=\"#course/FA-PH-01\">See course<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a></article>",
+      "css": ".ds-course{max-width:360px;color:var(--ink,#18243D);font:18px/1.55 Inter,sans-serif}.ds-course p{margin:0}.ds-discipline,.ds-canonical,.ds-course-time{font-size:14px;color:var(--muted,#52627B)}.ds-course h3{margin:8px 0 0;font:600 25px/1.12 'Space Grotesk',sans-serif;letter-spacing:-.02em}.ds-course h3 a{color:inherit;text-decoration:none}.ds-course h3 a:hover{text-decoration:underline}.ds-course .ds-canonical,.ds-course .ds-course-time{margin-top:12px}.ds-course .ds-availability{font-size:14px;color:var(--success,#225C47);margin-top:8px}.ds-course-action{display:inline-flex;align-items:center;gap:12px;min-height:44px;padding:8px 0;margin-top:12px;color:var(--blue,#244CCD);font-size:16px;font-weight:600;text-decoration:underline;text-underline-offset:5px}.ds-course-action:hover{text-decoration-thickness:2px}.ds-course a:focus-visible{outline:3px solid var(--blue,#244CCD);outline-offset:5px}[dir=rtl] .ds-course,[dir=rtl] .ds-course h3{font-family:'IBM Plex Sans Arabic',sans-serif;letter-spacing:0}[dir=rtl] .ds-course h3{line-height:1.35}[dir=rtl] .ds-course-action svg{transform:rotate(180deg)}"
+    },
+    {
+      "name": "Preview Dialog Header",
+      "kind": "custom",
+      "description": "Actual dialog shell/header; playable media, caption tracks and focus transaction belong to the application.",
+      "html": "<section class=\"ds-dialog\" aria-labelledby=\"ds-preview-title\"><div class=\"ds-dialog-head\"><h2 id=\"ds-preview-title\">See the edges</h2><button class=\"ds-close\" type=\"button\" aria-label=\"Close preview\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><path d=\"m6 6 12 12M18 6 6 18\"/></svg></button></div><p class=\"ds-media-time\">Produced preview: 30 seconds</p></section>",
+      "css": ".ds-dialog{width:min(860px,calc(100% - 32px));max-height:calc(100% - 32px);padding:28px;border:0;border-radius:12px;background:var(--canvas,#F7F9FC);color:var(--ink,#18243D);box-shadow:0 16px 80px #18243d35;font-family:Inter,sans-serif}.ds-dialog-head{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:24px}.ds-dialog h2{margin:0;font:600 28px/1.12 'Space Grotesk',sans-serif;letter-spacing:-.025em}.ds-close{display:grid;place-items:center;width:48px;height:48px;border:1px solid var(--border,#52627B);border-radius:8px;background:none;color:inherit;flex:none;cursor:pointer}.ds-close:focus-visible{outline:3px solid var(--blue,#244CCD);outline-offset:5px}.ds-media-time{font-size:14px;margin:16px 0 0}@media(max-width:760px){.ds-dialog{padding:20px}.ds-dialog h2{font-size:24px}}[dir=rtl] .ds-dialog,[dir=rtl] .ds-dialog h2{font-family:'IBM Plex Sans Arabic',sans-serif;letter-spacing:0}[dir=rtl] .ds-dialog h2{line-height:1.35}",
+      "refersTo": "preview-dialog"
+    },
+    {
+      "name": "Shared Progress and Next Lesson",
+      "kind": "custom",
+      "description": "Textual progress accompanies the track and a named next lesson; completion is an acknowledged state.",
+      "html": "<section class=\"ds-record\"><div><p class=\"ds-count\"><bdi dir=\"ltr\">1</bdi> <span>of <bdi dir=\"ltr\">6</bdi></span></p><p class=\"ds-complete\">lessons complete</p><div class=\"ds-track\" role=\"progressbar\" aria-label=\"Lessons complete\" aria-valuemin=\"0\" aria-valuemax=\"6\" aria-valuenow=\"1\"><span></span></div></div><div class=\"ds-next\"><p>Next lesson</p><h3><bdi dir=\"ltr\">02</bdi> Find the subject</h3><p>10 planned minutes</p></div></section>",
+      "css": ".ds-record{display:grid;grid-template-columns:1fr 1fr;gap:32px;max-width:660px;color:var(--ink,#18243D);font-family:Inter,sans-serif}.ds-record p{margin:0}.ds-count{font:600 60px/1.1 'Space Grotesk',sans-serif;letter-spacing:-.03em;color:var(--blue,#244CCD)}.ds-count>span{font-size:26px;color:var(--muted,#52627B)}.ds-record .ds-complete{font-size:16px;margin-top:12px}.ds-track{height:8px;margin-top:20px;border-radius:8px;background:var(--progress-web,#DDE4F2);overflow:hidden}.ds-track span{display:block;width:16.6666667%;height:100%;background:var(--blue,#244CCD);transition:width 200ms ease}.ds-next{border-inline-start:1px solid var(--rule,#CBD4E2);padding-inline-start:32px}.ds-next p{font-size:14px;color:var(--muted,#52627B)}.ds-next h3{margin:12px 0;font:600 24px/1.12 'Space Grotesk',sans-serif;letter-spacing:-.02em}@media(max-width:760px){.ds-record{grid-template-columns:1fr}.ds-next{border-inline-start:0;padding-inline-start:0;border-top:1px solid var(--rule,#CBD4E2);padding-top:28px}}@media(prefers-reduced-motion:reduce){.ds-track span{transition:none}}[dir=rtl] .ds-record,[dir=rtl] .ds-count,[dir=rtl] .ds-next h3{font-family:'IBM Plex Sans Arabic',sans-serif;letter-spacing:0}"
+    },
+    {
+      "name": "Offset Open Corners",
+      "kind": "custom",
+      "description": "Original identity paths, butt endpoints and miter joins. The drawing stays fixed in RTL.",
+      "html": "<div class=\"ds-mark\"><svg width=\"32\" height=\"32\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Frame Academy offset open corners\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\"><path d=\"M14 60 V14 H62\"/><path d=\"M40 86 H86 V38\"/></g></svg><span dir=\"ltr\">Frame Academy</span></div>",
+      "css": ".ds-mark{display:inline-flex;align-items:center;gap:10px;color:var(--blue,#244CCD)}.ds-mark svg{flex:none;display:block}.ds-mark span{font:600 25px/1.55 'Space Grotesk',sans-serif;letter-spacing:-.03em;color:var(--ink,#18243D)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The next frame",
+    "overview": "The next frame identifies a course or a useful next step. Bright reading surfaces, precise blue actions and two offset open corners give practical creative learning a clear, active identity. Authored examples lead the discovery experience; the learning interface gives the lesson, practice note and next action more room than decoration.\n\nThis is the implemented Frame system, extracted on 14 October 2026 from the responsive website, Flutter app, editable identity masters and workbook stylesheet. The approved language comes from [direction-contract.md](direction-contract.md) and [identity-spec.md](identity-spec.md). Frame Academy is the full brand; Frame is its compact app name. The identity remains scoped to this project. The agency root `DESIGN.md` and `.impeccable/design.json` continue to own the CR8.Media shell.\n\nFinal native source recheck records explicit zero Arabic tracking, photograph/title separation, UIScene course delivery and guarded refreshes. The native verification record names actual English/Arabic simulator journeys and separates widget accessibility checks from physical-device certification.",
+    "keyCharacteristics": [
+      "Bright canvas, dark reading text, blue actions and limited mint/coral teaching artwork.",
+      "A custom vector wordmark and two offset L corners with a fixed orientation.",
+      "Different density for discovery, learning and workbook reading, with a shared hierarchy.",
+      "Textual progress and a named next lesson beside the primary action.",
+      "Natural Arabic shaping, readable Latin records and equivalent recovery actions."
+    ],
+    "rules": [
+      {
+        "name": "The Confirmed State Rule",
+        "body": "A saved color or completion icon accompanies a confirmed operation and written status. Color alone never asserts saved progress.",
+        "section": "colors"
+      },
+      {
+        "name": "The Arabic Shaping Rule",
+        "body": "Arabic uses its local family and natural spacing. Keep identity geometry fixed, isolate Latin records, and let translated labels wrap rather than shrinking them to match English.",
+        "section": "typography"
+      },
+      {
+        "name": "The Immediate Reduction Rule",
+        "body": "Device reduced motion removes the website's transitions, animations, smooth scrolling and artwork lift. Native route motion follows Flutter's platform transition behavior and device accessibility preference; verification claims must point to the native record.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Fixed Mark Rule",
+        "body": "Preserve the two offset L paths and their orientation. Mirror directional interface cues independently; do not borrow Form's single architectural frame or close the Frame window.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do retain Studio White, Midnight Ink, Frame Blue and the approved limited Mint/Coral roles.",
+      "Do keep the custom identity masters, two offset L paths, butt endpoints and fixed orientation.",
+      "Do place course decision facts before commitment and the named next lesson beside textual progress.",
+      "Do use actual course artwork, media and implementation captures with their recorded provenance.",
+      "Do preserve entered work through failure and wait for acknowledged persistence before saved feedback.",
+      "Do shape Arabic naturally, isolate Latin records and allow text expansion and device scaling.",
+      "Do keep the Frame world scoped separately from the CR8.Media shell and Form Architecture."
+    ],
+    "donts": [
+      "Don't use small White functional text on Mint or Coral, or Blueprint Rule as a necessary field boundary.",
+      "Don't mirror the identity mark or the authored photographic comparison with the interface.",
+      "Don't complete a lesson when it is opened or played, or describe a saved draft as completion.",
+      "Don't autoplay media or make hover the only way to reveal a course or action.",
+      "Don't turn planned curriculum durations into produced-video claims.",
+      "Don't add instructors, reviews, credentials, learner counts, client history or business outcomes without evidence."
+    ]
+  },
+  "recheckedAt": "2026-10-14T20:10:11.217414+00:00"
+}

@@ -1,0 +1,469 @@
+{
+  "date": "2026-10-15",
+  "scope": "Actual headless Chrome, local Fold source; sample fixtures only",
+  "mode": "functional",
+  "checks": [
+    {
+      "name": "URL filters, reload, clear and empty results (en)",
+      "status": "passed",
+      "detail": {
+        "queryRestored": true,
+        "zeroResults": true,
+        "unavailableFiltered": true
+      }
+    },
+    {
+      "name": "Stock, keyboard quantity/size, restore, Undo and clear (en)",
+      "status": "passed",
+      "detail": {
+        "reloaded": true,
+        "limits": true,
+        "focus": true,
+        "undo": true,
+        "clear": true,
+        "stoneXSDisabled": true,
+        "keyboardRadio": true
+      }
+    },
+    {
+      "name": "Shipping validation, language transfer, cancellation and real storage failure (en)",
+      "status": "passed",
+      "detail": {
+        "requiredValidation": true,
+        "localeTransfer": true,
+        "cancellationPreservesCart": true,
+        "realStorageFailurePreservesCart": true,
+        "retry": true
+      }
+    },
+    {
+      "name": "Reduced motion and malformed stored cart (en)",
+      "status": "passed",
+      "detail": {
+        "reduced": {
+          "matches": true,
+          "transition": "0s"
+        },
+        "unknownVersionSafelyRejected": true
+      }
+    },
+    {
+      "name": "URL filters, reload, clear and empty results (ar)",
+      "status": "passed",
+      "detail": {
+        "queryRestored": true,
+        "zeroResults": true,
+        "unavailableFiltered": true
+      }
+    },
+    {
+      "name": "Stock, keyboard quantity/size, restore, Undo and clear (ar)",
+      "status": "passed",
+      "detail": {
+        "reloaded": true,
+        "limits": true,
+        "focus": true,
+        "undo": true,
+        "clear": true,
+        "stoneXSDisabled": true,
+        "keyboardRadio": true
+      }
+    },
+    {
+      "name": "Shipping validation, language transfer, cancellation and real storage failure (ar)",
+      "status": "passed",
+      "detail": {
+        "requiredValidation": true,
+        "localeTransfer": true,
+        "cancellationPreservesCart": true,
+        "realStorageFailurePreservesCart": true,
+        "retry": true
+      }
+    },
+    {
+      "name": "Reduced motion and malformed stored cart (ar)",
+      "status": "passed",
+      "detail": {
+        "reduced": {
+          "matches": true,
+          "transition": "0s"
+        },
+        "unknownVersionSafelyRejected": true
+      }
+    },
+    {
+      "name": "All eight variants synchronize colour, image views and SKU",
+      "status": "passed",
+      "detail": [
+        {
+          "id": "FL01",
+          "color": "chalk",
+          "view": "front"
+        },
+        {
+          "id": "FL01",
+          "color": "chalk",
+          "view": "back"
+        },
+        {
+          "id": "FL01",
+          "color": "chalk",
+          "view": "detail"
+        },
+        {
+          "id": "FL01",
+          "color": "ink",
+          "view": "front"
+        },
+        {
+          "id": "FL01",
+          "color": "ink",
+          "view": "back"
+        },
+        {
+          "id": "FL01",
+          "color": "ink",
+          "view": "detail"
+        },
+        {
+          "id": "FL02",
+          "color": "ink",
+          "view": "front"
+        },
+        {
+          "id": "FL02",
+          "color": "ink",
+          "view": "back"
+        },
+        {
+          "id": "FL02",
+          "color": "ink",
+          "view": "detail"
+        },
+        {
+          "id": "FL02",
+          "color": "olive",
+          "view": "front"
+        },
+        {
+          "id": "FL02",
+          "color": "olive",
+          "view": "back"
+        },
+        {
+          "id": "FL02",
+          "color": "olive",
+          "view": "detail"
+        },
+        {
+          "id": "FL03",
+          "color": "stone",
+          "view": "front"
+        },
+        {
+          "id": "FL03",
+          "color": "stone",
+          "view": "back"
+        },
+        {
+          "id": "FL03",
+          "color": "stone",
+          "view": "detail"
+        },
+        {
+          "id": "FL03",
+          "color": "olive",
+          "view": "front"
+        },
+        {
+          "id": "FL03",
+          "color": "olive",
+          "view": "back"
+        },
+        {
+          "id": "FL03",
+          "color": "olive",
+          "view": "detail"
+        },
+        {
+          "id": "FL04",
+          "color": "olive",
+          "view": "front"
+        },
+        {
+          "id": "FL04",
+          "color": "olive",
+          "view": "back"
+        },
+        {
+          "id": "FL04",
+          "color": "olive",
+          "view": "detail"
+        },
+        {
+          "id": "FL04",
+          "color": "stone",
+          "view": "front"
+        },
+        {
+          "id": "FL04",
+          "color": "stone",
+          "view": "back"
+        },
+        {
+          "id": "FL04",
+          "color": "stone",
+          "view": "detail"
+        }
+      ]
+    },
+    {
+      "name": "Canonical $252 journey with controlled recovery (en)",
+      "status": "passed",
+      "detail": {
+        "locale": "en",
+        "viewport": 1440,
+        "basket": "FL01-CHK-M + FL02-INK-M",
+        "subtotal": 24000,
+        "shipping": 1200,
+        "tax": 0,
+        "total": 25200,
+        "reference": "FOLD-DEMO-76895E88",
+        "cartSaveFailure": "Retained previous empty cart; retry added chosen SKU",
+        "checkoutFailure": "Retained two cart lines and every shipping input; retry confirmed",
+        "language": "en"
+      }
+    },
+    {
+      "name": "Canonical $252 journey with controlled recovery (ar)",
+      "status": "passed",
+      "detail": {
+        "locale": "ar",
+        "viewport": 390,
+        "basket": "FL01-CHK-M + FL02-INK-M",
+        "subtotal": 24000,
+        "shipping": 1200,
+        "tax": 0,
+        "total": 25200,
+        "reference": "FOLD-DEMO-76895E88",
+        "cartSaveFailure": "Retained previous empty cart; retry added chosen SKU",
+        "checkoutFailure": "Retained two cart lines and every shipping input; retry confirmed",
+        "language": "ar"
+      }
+    }
+  ],
+  "responsive": [],
+  "screens": [],
+  "recordings": [],
+  "pageErrors": [],
+  "externalRequests": [],
+  "targetObservations": [
+    {
+      "label": "en/filtered",
+      "items": [
+        {
+          "label": "Fold Clothing — Collection",
+          "width": 164,
+          "height": 48.890625
+        },
+        {
+          "label": "Collection",
+          "width": 65.546875,
+          "height": 44
+        },
+        {
+          "label": "About Fold",
+          "width": 71,
+          "height": 44
+        },
+        {
+          "label": "Delivery & returns",
+          "width": 116.125,
+          "height": 44
+        },
+        {
+          "label": "العربية",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Cart 0",
+          "width": 60.328125,
+          "height": 44
+        },
+        {
+          "label": "Remove Shirts",
+          "width": 79.921875,
+          "height": 44
+        },
+        {
+          "label": "Remove Chalk",
+          "width": 78.765625,
+          "height": 44
+        },
+        {
+          "label": "Box Shirt",
+          "width": 64,
+          "height": 44
+        },
+        {
+          "label": "Box Shirt — Chalk",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Box Shirt — Ink",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Size & fit",
+          "width": 44.75,
+          "height": 44
+        },
+        {
+          "label": "Delivery & returns",
+          "width": 91.234375,
+          "height": 44
+        },
+        {
+          "label": "About Fold",
+          "width": 55.78125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "label": "ar/filtered",
+      "items": [
+        {
+          "label": "Fold Clothing — المجموعة",
+          "width": 128,
+          "height": 44
+        },
+        {
+          "label": "المجموعة",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "عن Fold",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "English",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "السلة 0",
+          "width": 57.328125,
+          "height": 44
+        },
+        {
+          "label": "إزالة القمصان",
+          "width": 83.734375,
+          "height": 44
+        },
+        {
+          "label": "إزالة طباشيري",
+          "width": 84.4375,
+          "height": 44
+        },
+        {
+          "label": "قميص بقصّة صندوقية",
+          "width": 109.640625,
+          "height": 44
+        },
+        {
+          "label": "قميص بقصّة صندوقية — طباشيري",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "قميص بقصّة صندوقية — حبري",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "المقاسات والقصّة",
+          "width": 65.515625,
+          "height": 44
+        },
+        {
+          "label": "التوصيل والإرجاع",
+          "width": 62.78125,
+          "height": 44
+        },
+        {
+          "label": "عن Fold",
+          "width": 44,
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "recoveryObservations": [
+    {
+      "label": "en real storage quota",
+      "activeAction": "retry",
+      "errorTop": 168.5,
+      "errorBottom": 287.59375,
+      "retryTop": 221.59375,
+      "retryBottom": 265.59375,
+      "viewportHeight": 1000,
+      "scrollY": 0
+    },
+    {
+      "label": "ar real storage quota",
+      "activeAction": "retry",
+      "errorTop": 168.5,
+      "errorBottom": 287.59375,
+      "retryTop": 221.59375,
+      "retryBottom": 265.59375,
+      "viewportHeight": 1000,
+      "scrollY": 0
+    },
+    {
+      "label": "en controlled cart save",
+      "activeAction": "retry",
+      "errorTop": 168.5,
+      "errorBottom": 287.59375,
+      "retryTop": 221.59375,
+      "retryBottom": 265.59375,
+      "viewportHeight": 1000,
+      "scrollY": 0
+    },
+    {
+      "label": "en controlled checkout",
+      "activeAction": "retry",
+      "errorTop": 168.5,
+      "errorBottom": 287.59375,
+      "retryTop": 221.59375,
+      "retryBottom": 265.59375,
+      "viewportHeight": 1000,
+      "scrollY": 0
+    },
+    {
+      "label": "ar controlled cart save",
+      "activeAction": "retry",
+      "errorTop": 167.5,
+      "errorBottom": 283.296875,
+      "retryTop": 217.296875,
+      "retryBottom": 261.296875,
+      "viewportHeight": 844,
+      "scrollY": 0
+    },
+    {
+      "label": "ar controlled checkout",
+      "activeAction": "retry",
+      "errorTop": 167.5,
+      "errorBottom": 283.296875,
+      "retryTop": 217.296875,
+      "retryBottom": 261.296875,
+      "viewportHeight": 844,
+      "scrollY": 0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "checkedUTC": "2026-10-14T16:05:23.967685+00:00",
+  "xctestrun": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/frame/app/tool/frame-ui-final.xctestrun",
+  "UITargetAppPath": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/frame/app/build/ios/iphonesimulator/Runner.app",
+  "installedAppPath": "/Users/wesamsalama/Library/Developer/CoreSimulator/Devices/8BDFE212-1DE0-4F67-928E-65C3E9B24533/data/Containers/Bundle/Application/60A5E315-138C-4FD4-B8AD-7007AB6FF943/Runner.app",
+  "kernelSHA256": "bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b",
+  "installedKernelSHA256": "bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b",
+  "matching": true,
+  "initialParity": {
+    "checkedUTC": "2026-10-14T15:21:51.044037+00:00",
+    "xctestrun": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/frame/app/tool/frame-ui-final.xctestrun",
+    "UITargetAppPath": "/Users/wesamsalama/Desktop/Agency/website/agency_jaspr/docs/frame/app/build/ios/Debug-iphonesimulator/Runner.app",
+    "installedAppPath": "/Users/wesamsalama/Library/Developer/CoreSimulator/Devices/8BDFE212-1DE0-4F67-928E-65C3E9B24533/data/Containers/Bundle/Application/ACAA1C39-7B71-4277-A274-33EE18266DFF/Runner.app",
+    "kernelSHA256": "c91aed06a5a855aa2fb1a066973aaf18afb6e8dd7adadb7d0ed26fb04e2e0e76",
+    "installedKernelSHA256": "c91aed06a5a855aa2fb1a066973aaf18afb6e8dd7adadb7d0ed26fb04e2e0e76",
+    "matching": true
+  },
+  "preCanonicalObservation": {
+    "finalCheckedUTC": "2026-10-14T15:55:48.720715+00:00",
+    "finalInstalledAppPath": "/Users/wesamsalama/Library/Developer/CoreSimulator/Devices/8BDFE212-1DE0-4F67-928E-65C3E9B24533/data/Containers/Bundle/Application/60A5E315-138C-4FD4-B8AD-7007AB6FF943/Runner.app",
+    "finalInstalledKernelSHA256": "bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b",
+    "finalMatching": false
+  },
+  "finalMatching": true,
+  "captureKernelAuthority": {
+    "canonicalBuildLog": "../app-build.log",
+    "runnerBuildLog": "../app-ui-build.log",
+    "sourceHashes": {
+      "app/lib/session.dart": "da688e10648af259999530e33f32ad07f9a6aab7f2d2e27896f46a8827416a35",
+      "app/lib/main.dart": "6491a93add304db3bf9539324636c3eecb73074dfc2b97606aa54522fae4ad80",
+      "app/ios/Runner/SceneDelegate.swift": "a2c68cad549fcd9195dfa39f1f937cffb56d846dd96038c6a4e8a0367dae3692",
+      "app/test/session_race_test.dart": "d05d8cf719bd0c84f7786831e909f51a5fca55982dec94ce868e13bd8b2242bf",
+      "app/test/widget_test.dart": "147648ac8f77d150c480fe2c78e33d78574234ea83131735c9b95128eef1993f"
+    },
+    "raceGuardStringsPresent": {
+      "canonicalFlutterKernel": true,
+      "initialXcodeKernel": true,
+      "installedKernel": true
+    },
+    "explanation": "The final Flutter build produced canonical kernel bf80950a. Xcode test building produced c91aed06 from the same unchanged Dart source. The pre-attach installation matched c91aed06; Flutter attach synchronized the canonical Flutter kernel before the final journeys. The final installed kernel matches the canonical final Flutter build, contains the generation/learner/save guards, and the xctestrun now names that canonical AUT. The earlier comparisons are retained rather than overwritten."
+  }
+}

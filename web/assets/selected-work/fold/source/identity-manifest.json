@@ -1,0 +1,124 @@
+{
+  "version": "1.0",
+  "created": "2026-10-15",
+  "artworkOnly": true,
+  "assets": [
+    {
+      "id": "fold-clear-space",
+      "file": "identity/fold-clear-space.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "92791439184c3793426d0a68527650b7467dedb7332c7f6c52ab6b85589bcdca"
+    },
+    {
+      "id": "fold-monogram-black",
+      "file": "identity/fold-monogram-black.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "a511c09f0b09577cc301b2a59a77b93734919ca2f4bdbc80d81447d05244cbb2"
+    },
+    {
+      "id": "fold-monogram-ink",
+      "file": "identity/fold-monogram-ink.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "b4d6a3e5fa443a13095605bd22bc0357363653e5fc45fa63cced24a46254beea"
+    },
+    {
+      "id": "fold-monogram-ivory",
+      "file": "identity/fold-monogram-ivory.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "532ed29d6a46e85fab21b635f4eef6d2d94337a41db3ab15dc9c0d3be047641a"
+    },
+    {
+      "id": "fold-monogram-white",
+      "file": "identity/fold-monogram-white.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "1d4cdeb3c25d319ef8a7442ef724205684e3781df5c35a391079f8f5e5e369bc"
+    },
+    {
+      "id": "fold-wordmark-black",
+      "file": "identity/fold-wordmark-black.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "96b143db3e69e02d09e4e408fb5bd109df94dd4661bafeee377dcf89cfacfc00"
+    },
+    {
+      "id": "fold-wordmark-ink",
+      "file": "identity/fold-wordmark-ink.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "34b5bcca0f845073668c5ca5600ddae00ec38e7e49c7e1c1661b36d003332188"
+    },
+    {
+      "id": "fold-wordmark-ivory",
+      "file": "identity/fold-wordmark-ivory.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "328178a9b925ee4a9f2b578aeb492dbae95f77cc4c6433cd2df3d94d6990bbf6"
+    },
+    {
+      "id": "fold-wordmark-white",
+      "file": "identity/fold-wordmark-white.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "15b834d107f8fc90e1e8741cfa3972f261a521ffac6cf090252bd55bc3352055"
+    },
+    {
+      "id": "care-label",
+      "file": "packaging/care-label.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "bfd7aebe008546f927d6138dc302796b66db71c9e4cf6d3bd969d7543236b540"
+    },
+    {
+      "id": "hangtag-back",
+      "file": "packaging/hangtag-back.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "53a03b072cc337a5b3c1996d671c8c1e59874841f0feefaf68d6d9be0b039aaa"
+    },
+    {
+      "id": "hangtag-front",
+      "file": "packaging/hangtag-front.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "ac1002e8087f4cc2912c6144d0659d22ff094dd3d64f006cd3435f5f29fcb79e"
+    },
+    {
+      "id": "mailer-face",
+      "file": "packaging/mailer-face.svg",
+      "source": "source/build-identity.py",
+      "creator": "CR8.Media / Codex authored vector geometry and typesetting",
+      "status": "designed digital artwork",
+      "rights": "Authored studio-concept artwork; included fonts retain OFL licences",
+      "sha256": "6d5488ebe2913801899697ee0ce175b01b93070c09eefa563a31cc7ffbe6cd96"
+    }
+  ]
+}

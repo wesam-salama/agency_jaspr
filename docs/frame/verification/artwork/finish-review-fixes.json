@@ -1,0 +1,19 @@
+{
+  "covers": [
+    "composition-cover-ar",
+    "light-cover-ar",
+    "grids-cover-ar"
+  ],
+  "workbooks": [
+    "composition-workbook-ar",
+    "light-workbook-en",
+    "light-workbook-ar",
+    "grids-workbook-en",
+    "grids-workbook-ar"
+  ],
+  "corrections": [
+    "Explicit RTL metadata embedding with the original right safe edge",
+    "Preview-only companion prompt footers no longer imply app completion"
+  ],
+  "boundaries": "English course fixtures, identity geometry and Composition completion instruction retained"
+}

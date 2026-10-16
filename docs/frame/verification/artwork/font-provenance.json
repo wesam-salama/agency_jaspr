@@ -1,0 +1,101 @@
+[
+  {
+    "filename": "fonts/IBM-Plex-Sans-Arabic-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/OFL.txt",
+    "downloaded_on": "2026-10-13",
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 4360,
+    "sha256": "91c25c350d3cac39da2736d74f7ba37ef648f5237a4e330a240615bc8d8c4360",
+    "purpose": "Preserved licence"
+  },
+  {
+    "filename": "fonts/Inter-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+    "downloaded_on": "2026-10-13",
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "purpose": "Preserved licence"
+  },
+  {
+    "filename": "fonts/Space-Grotesk-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt",
+    "downloaded_on": "2026-10-13",
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 4495,
+    "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+    "purpose": "Preserved licence"
+  },
+  {
+    "filename": "fonts/ibm-plex-sans-arabic-regular.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-Regular.ttf",
+    "downloaded_on": "2026-10-13",
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 235924,
+    "sha256": "6f611412270a132bbac838da9259d4c68569b4175f3b3b8fa3fa36a30b56dab9",
+    "purpose": "Native TTF original"
+  },
+  {
+    "filename": "fonts/ibm-plex-sans-arabic-regular.woff2",
+    "source": "Existing project web/assets/fonts/ibm-plex-sans-arabic-regular.woff2",
+    "downloaded_on": null,
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 71904,
+    "sha256": "74112e1b7bf2e2c547989a4e947a60cba6cd1f9156e0065670134636e717199d",
+    "purpose": "Standalone artwork/browser font"
+  },
+  {
+    "filename": "fonts/ibm-plex-sans-arabic-semibold.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsansarabic/IBMPlexSansArabic-SemiBold.ttf",
+    "downloaded_on": "2026-10-13",
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 244616,
+    "sha256": "597bd5502e5997be4414e4c9c88834b30ff3784250c84f20bce2b20e53ebd467",
+    "purpose": "Native TTF original"
+  },
+  {
+    "filename": "fonts/ibm-plex-sans-arabic-semibold.woff2",
+    "source": "Existing project web/assets/fonts/ibm-plex-sans-arabic-semibold.woff2",
+    "downloaded_on": null,
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 76408,
+    "sha256": "869b2acd0a9660607a2025f0fe1c640110bf23d33417509328f07722922b8063",
+    "purpose": "Standalone artwork/browser font"
+  },
+  {
+    "filename": "fonts/inter-latin.woff2",
+    "source": "Existing project web/assets/fonts/inter-latin.woff2",
+    "downloaded_on": null,
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 48432,
+    "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+    "purpose": "Standalone artwork/browser font"
+  },
+  {
+    "filename": "fonts/inter-variable.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+    "downloaded_on": "2026-10-13",
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 876576,
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "purpose": "Native TTF original"
+  },
+  {
+    "filename": "fonts/space-grotesk-latin.woff2",
+    "source": "Existing project web/assets/fonts/space-grotesk-latin.woff2",
+    "downloaded_on": null,
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 22320,
+    "sha256": "a0d054c4af557de20afd6ca59f47ab353bcaec49c63ff04b6c9d39d0f8910557",
+    "purpose": "Standalone artwork/browser font"
+  },
+  {
+    "filename": "fonts/space-grotesk-variable.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/SpaceGrotesk%5Bwght%5D.ttf",
+    "downloaded_on": "2026-10-13",
+    "licence": "SIL Open Font License 1.1",
+    "bytes": 136676,
+    "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+    "purpose": "Native TTF original"
+  }
+]

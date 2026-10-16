@@ -1,0 +1,16 @@
+{
+  "file": "docs/fold/verification/identity/packaging-board.png",
+  "source": "web/assets/selected-work/fold/source/packaging-board.html",
+  "dimensions": [
+    2000,
+    1500
+  ],
+  "creator": "Authored SVG/HTML board rendered in local headless Google Chrome using Playwright",
+  "origin": "Digital source artwork capture; no image generation",
+  "status": "Designed digital artwork and guide verification",
+  "sha256": "2a9761cf3899b4ced48623626059792b48db269ab8b889ad29844962ffca3601",
+  "created": "2026-10-15",
+  "caption": "Fold Clothing packaging board; authored studio concept",
+  "prompt": "Origin: Digital source artwork capture; no image generation. Actual local authored capture; not generated software imagery.",
+  "provenanceStorage": "native image metadata"
+}

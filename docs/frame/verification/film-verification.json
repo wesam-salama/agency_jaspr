@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-14",
+  "verifiedAtUTC": "2026-10-14T20:24:20.186Z",
+  "scope": "Final stable edited highlights of actual browser and simulator recordings; complete decode and joined semantic-frame inspection. Native lifecycle and exact shared records have independent successful proofs. No new UI flow, appearance edit or state mutation occurred while editing.",
+  "annotationLanguage": "en",
+  "actualInterfaceLanguages": [
+    "en",
+    "ar"
+  ],
+  "films": [
+    {
+      "language": "en",
+      "learner": "demo",
+      "course": "FA-PH-01",
+      "output": "web/assets/selected-work/frame/demo-journey.mp4",
+      "duration": 25.2,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 25,
+      "sha256": "27f296891cf95ffcb89df7d2c908ae71a211944d22814912e1451c16ae998c87",
+      "editDecision": "docs/frame/production/journey-edit-en.json",
+      "record": "docs/frame/production/journey-record-en.json",
+      "segmentCount": 12,
+      "speeds": [
+        {
+          "source": "docs/frame/verification/website/request-only-en.webm",
+          "start": 6.7,
+          "end": 7.28,
+          "speed": 0.25
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "start": 22.16,
+          "end": 23.9,
+          "speed": 0.75
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "start": 34.2,
+          "end": 35.4,
+          "speed": 0.5
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "start": 35.9,
+          "end": 37.3,
+          "speed": 0.5
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "start": 39.1,
+          "end": 51.9,
+          "speed": 5
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "start": 52,
+          "end": 54.2,
+          "speed": 0.8
+        }
+      ],
+      "verification": {
+        "completeDecode": "Passed: editor executed ffmpeg -v error -i output -f null -",
+        "decodedOutput": true,
+        "frameInspection": "Final joined one-frame-per-second contact and full-resolution semantic frames visually inspected. Exact source PTS supplied by native owner; selected intervals checked directly rather than inferred from invocation UTC.",
+        "contact": "docs/frame/production/recording-sources/qa/journey-en-contact.png",
+        "checkedFrames": [
+          {
+            "state": "request",
+            "time": 6.8,
+            "path": "docs/frame/production/recording-sources/qa/journey-en-request.png"
+          },
+          {
+            "state": "saved",
+            "time": 15.3,
+            "path": "docs/frame/production/recording-sources/qa/journey-en-saved.png"
+          },
+          {
+            "state": "restored",
+            "time": 21.9,
+            "path": "docs/frame/production/recording-sources/qa/journey-en-restored.png"
+          },
+          {
+            "state": "next",
+            "time": 24.5,
+            "path": "docs/frame/production/recording-sources/qa/journey-en-next.png"
+          }
+        ],
+        "timelineStates": [
+          "course choice",
+          "authored preview",
+          "confirmed demo enrolment",
+          "acknowledged final local Open request",
+          "matching native course at 0 of 6",
+          "captioned authored playback",
+          "controlled failure retains full note",
+          "retry confirms stored draft",
+          "explicit completion at 1 of 6",
+          "actual terminate/launch",
+          "1 of 6 and next 02 after restart",
+          "actual lesson 02"
+        ],
+        "stableRequestAcknowledgement": true,
+        "originalRecordingsRetained": true,
+        "priorEditPreserved": "docs/frame/production/recording-sources/before-final-read-race-fix/",
+        "closingFrame": {
+          "time": 25.1,
+          "path": "docs/frame/production/recording-sources/qa/journey-en-final.png",
+          "state": "Actual lesson 02; XCTest teardown home screen excluded"
+        }
+      }
+    },
+    {
+      "language": "ar",
+      "learner": "demo-ar",
+      "course": "FA-PH-01",
+      "output": "web/assets/selected-work/frame/demo-journey-ar.mp4",
+      "duration": 28.6,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 25,
+      "sha256": "1f725b8159a2bd7f84c8a6acf1708047c6e0c985bdd38b0f676755a471d9383c",
+      "editDecision": "docs/frame/production/journey-edit-ar.json",
+      "record": "docs/frame/production/journey-record-ar.json",
+      "segmentCount": 12,
+      "speeds": [
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "start": 100.08,
+          "end": 101.3,
+          "speed": 0.5
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "start": 101.65,
+          "end": 103.35,
+          "speed": 0.6
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "start": 105.5,
+          "end": 126.9,
+          "speed": 8
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "start": 127,
+          "end": 129.3,
+          "speed": 0.8
+        }
+      ],
+      "verification": {
+        "completeDecode": "Passed: editor executed ffmpeg -v error -i output -f null -",
+        "decodedOutput": true,
+        "frameInspection": "Final joined one-frame-per-second contact and full-resolution semantic frames visually inspected. Exact source PTS supplied by native owner; selected intervals checked directly rather than inferred from invocation UTC.",
+        "contact": "docs/frame/production/recording-sources/qa/journey-ar-contact.png",
+        "checkedFrames": [
+          {
+            "state": "request",
+            "time": 6,
+            "path": "docs/frame/production/recording-sources/qa/journey-ar-request.png"
+          },
+          {
+            "state": "saved",
+            "time": 15.1,
+            "path": "docs/frame/production/recording-sources/qa/journey-ar-saved.png"
+          },
+          {
+            "state": "restored",
+            "time": 22,
+            "path": "docs/frame/production/recording-sources/qa/journey-ar-restored.png"
+          },
+          {
+            "state": "next",
+            "time": 26,
+            "path": "docs/frame/production/recording-sources/qa/journey-ar-next.png"
+          }
+        ],
+        "timelineStates": [
+          "course choice",
+          "authored preview",
+          "confirmed demo enrolment",
+          "acknowledged final local Open request",
+          "matching native course at 0 of 6",
+          "captioned authored playback",
+          "controlled failure retains full note",
+          "retry confirms stored draft",
+          "explicit completion at 1 of 6",
+          "actual terminate/launch",
+          "1 of 6 and next 02 after restart",
+          "actual lesson 02"
+        ],
+        "stableRequestAcknowledgement": true,
+        "originalRecordingsRetained": true,
+        "priorEditPreserved": null,
+        "supplementalEnding": {
+          "source": "docs/frame/verification/native/native-next02-ar-raw.mp4",
+          "start": 1,
+          "end": 6,
+          "normalSpeedDuration": 5,
+          "authority": "docs/frame/verification/native/native-next02-ar.json",
+          "scope": "Later real read-only hold of persisted Arabic lesson02; source/API unchanged, same learner and canonical guarded code. No screenshot animation or frame fabrication."
+        }
+      }
+    }
+  ],
+  "nativeBinaryAuthority": "docs/frame/verification/native/native-binary.json",
+  "nativePTSAuthorities": [
+    "docs/frame/verification/native/native-pts-en.json",
+    "docs/frame/verification/native/native-pts-ar.json"
+  ],
+  "sourceIntegrity": "Each edit record contains SHA256 for all actual original sources and final output. Source originals remain intact.",
+  "arabicSourceNote": "Original catalogue source contains unloaded thumbnails; the canonical course text, preview and confirmed enrolment are actual captured content. Corrected covers are verified in final website screenshots. The genuine supplementary02 hold is an explicit later cut."
+}

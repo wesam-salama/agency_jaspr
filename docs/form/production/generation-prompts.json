@@ -1,0 +1,53 @@
+[
+  {
+    "id": "courtyard-house",
+    "path": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-c146430b-3e32-43c4-a33d-d6a19ca72df0.png",
+    "prompt": "Use case: photorealistic-natural. Asset: canonical architectural concept imagery for Form Architecture, a self-initiated rebrand study; no built-project or client claim.\nCreate an editorial eye-level architectural spatial photograph of an authored fictional Courtyard House residential study, Mediterranean setting, conceptual 240 square metre compact single-storey home. One planted rectangular courtyard with a small olive tree organizes daily movement, privacy and light. View from a shaded limestone threshold through a calm pale mineral-walled living space toward the planted open courtyard. Warm timber door frames, pale stone floor, coherent simple geometry, slender deep reveals, realistic buildable joins, restrained furnishings. Afternoon natural light, quiet tonal texture. Material-led palette chalk, charcoal, sage foliage, small clay accents. Wide landscape 16:10 composition, generous architecture fills view, no border, no text, no logos, no watermarks, no people. Not a generic luxury mansion, no ornate design. Render at the largest useful native landscape resolution. Exact geometry is a conceptual visual study, not construction documentation."
+  },
+  {
+    "id": "line-studio",
+    "path": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-af0cb6e7-644c-45b5-a4af-9435041ae4c9.png",
+    "prompt": "Use case: photorealistic-natural. Asset: canonical architectural concept imagery for Form Architecture, a self-initiated rebrand study.\nCreate a natural editorial eye-level photograph-like architectural render of Line Studio, fictional 180 square metre workplace in an international urban setting. The study has two connected zones: a bright shared workspace with a single long warm timber worktable, and a quiet concentration room separated by a glazed oak partition and pale mineral wall. Show the relationship clearly through the interior; daylight from tall rectangular industrial windows at one end, grey-green storage, chalk plaster, exposed honest warm timber ceiling beams, charcoal slim structural columns. Calm disciplined contemporary architecture, believable small workplace scale, exact coherent joins, no extravagant luxury. Wide landscape 16:10 composition, soft cool morning daylight, detailed material texture, no people, no visible computers with text, no logos, no watermarks. Authored synthetic concept, no real building attribution. Largest useful native landscape resolution."
+  },
+  {
+    "id": "shore-library",
+    "path": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-993d0fbd-c5ca-420c-8380-322d62c30f86.png",
+    "prompt": "Use case: photorealistic-natural. Asset: canonical architectural concept imagery for Form Architecture, a self-initiated rebrand study.\nCreate a natural editorial eye-level photograph-like architectural render of Shore Library, a fictional cultural-space study in a coastal setting, conceptual 620 square metres. A deep shaded pale stone threshold joins a public gathering terrace to quieter reading areas. View obliquely from inside a double-height reading room toward the sea through the wide shaded opening. Low warm timber shelving and a modest long reading table sit in the foreground; thick chalk mineral walls, sage-toned coastal planting, stone columns and timber slatted shading cast clear soft shadows. Human-scale calm public architecture, coherent believable roof/columns/joins, soft coastal daylight and sea haze, no luxury resort cues. Wide landscape 16:10 composition. No people, no text, no logos, no watermarks. Authored fictional concept imagery, not a real built Form commission. Largest useful native landscape resolution."
+  },
+  {
+    "id": "courtyard-house-exterior",
+    "path": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-c908ab95-2f69-4fae-b747-cba5410e0882.png",
+    "prompt": "Use case: identity-preserve / architectural spatial continuation. Supporting reference image: the approved synthetic courtyard-house architectural study. Produce one coherent exterior/context photograph-like architectural render of this same fictional study in wide 16:10 landscape. Preserve its exact material vocabulary, simple architectural language, opening proportions and small human-scale character. A single-storey chalk mineral and warm timber home in a modest Mediterranean olive garden, with the visible planted central courtyard and shaded limestone arrival threshold. Eye-level editorial architecture, believable joins, natural daylight. No people, logos, text, watermarks, awards, commercial or built-project claims. No new design unrelated to the reference. This is an AI-generated conceptual alternate view, not surveyed continuity.",
+    "reference": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-c146430b-3e32-43c4-a33d-d6a19ca72df0.png"
+  },
+  {
+    "id": "courtyard-house-detail",
+    "path": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-61203af4-8651-4fae-b17c-6f3ab2a2dcaa.png",
+    "prompt": "Use case: identity-preserve / architectural material study. Reference image: the approved synthetic courtyard-house architectural study. Produce one close eye-level editorial material-detail photograph-like render within this same fictional scene. Focus on the pale mineral wall, warm timber sliding jamb and shaded limestone threshold adjacent to the olive courtyard, with a soft shadow and a sliver of foliage. Match reference materials, restrained colors, natural lighting and architectural geometry. Wide 16:10 landscape, no people, text, logos, watermark. Concept material study, not construction documentation.",
+    "reference": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-c146430b-3e32-43c4-a33d-d6a19ca72df0.png"
+  },
+  {
+    "id": "line-studio-exterior",
+    "path": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-630f5494-2f08-49a4-86b3-ae2fdaae9901.png",
+    "prompt": "Use case: identity-preserve / architectural spatial continuation. Supporting reference image: the approved synthetic line-studio architectural study. Produce one coherent exterior/context photograph-like architectural render of this same fictional study in wide 16:10 landscape. Preserve its exact material vocabulary, simple architectural language, opening proportions and small human-scale character. An unbranded urban brick industrial building showing the tall rectangular windows and modest timber entrance to the 180 square metre workplace. Eye-level editorial architecture, believable joins, natural daylight. No people, logos, text, watermarks, awards, commercial or built-project claims. No new design unrelated to the reference. This is an AI-generated conceptual alternate view, not surveyed continuity.",
+    "reference": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-af0cb6e7-644c-45b5-a4af-9435041ae4c9.png"
+  },
+  {
+    "id": "line-studio-detail",
+    "path": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-86a99f67-6ea4-46b0-8568-7c8df8e28cd0.png",
+    "prompt": "Use case: identity-preserve / architectural material study. Reference image: the approved synthetic line-studio architectural study. Produce one close eye-level editorial material-detail photograph-like render within this same fictional scene. Focus on the warm oak glazed partition jamb meeting pale mineral wall and smooth floor between shared work and the quiet focus zone, believable join, glass edge and daylight. Match reference materials, restrained colors, natural lighting and architectural geometry. Wide 16:10 landscape, no people, text, logos, watermark. Concept material study, not construction documentation.",
+    "reference": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-af0cb6e7-644c-45b5-a4af-9435041ae4c9.png"
+  },
+  {
+    "id": "shore-library-exterior",
+    "path": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-d64f5742-d5d3-4c63-be30-004182cd28e8.png",
+    "prompt": "Use case: identity-preserve / architectural spatial continuation. Supporting reference image: the approved synthetic shore-library architectural study. Produce one coherent exterior/context photograph-like architectural render of this same fictional study in wide 16:10 landscape. Preserve its exact material vocabulary, simple architectural language, opening proportions and small human-scale character. A low coastal stone public library, with a deep timber-slatted shaded public terrace linking the reading room to a gathering threshold, sea beyond. Eye-level editorial architecture, believable joins, natural daylight. No people, logos, text, watermarks, awards, commercial or built-project claims. No new design unrelated to the reference. This is an AI-generated conceptual alternate view, not surveyed continuity.",
+    "reference": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-993d0fbd-c5ca-420c-8380-322d62c30f86.png"
+  },
+  {
+    "id": "shore-library-detail",
+    "path": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-30340a2c-3fa8-49ab-9620-354b78502770.png",
+    "prompt": "Use case: identity-preserve / architectural material study. Reference image: the approved synthetic shore-library architectural study. Produce one close eye-level editorial material-detail photograph-like render within this same fictional scene. Focus on pale stone column and timber slatted shade casting shadow on the public threshold, a warm timber shelf edge and soft sea glimpse beyond. Match reference materials, restrained colors, natural lighting and architectural geometry. Wide 16:10 landscape, no people, text, logos, watermark. Concept material study, not construction documentation.",
+    "reference": "/Users/wesamsalama/.codex/generated_images/01a13597-a2c8-7ce0-9a92-9f1705ee5c25/exec-993d0fbd-c5ca-420c-8380-322d62c30f86.png"
+  }
+]

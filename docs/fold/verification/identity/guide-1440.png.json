@@ -1,0 +1,16 @@
+{
+  "file": "docs/fold/verification/identity/guide-1440.png",
+  "source": "web/assets/selected-work/fold/source/fold-brand-guide.html",
+  "dimensions": [
+    1440,
+    6971
+  ],
+  "creator": "Authored SVG/HTML board rendered in local headless Google Chrome using Playwright",
+  "origin": "Digital source artwork capture; no image generation",
+  "status": "Designed digital artwork and guide verification",
+  "sha256": "41290b64c30a1fe4e84eba856f5cfc2497a91b41e610caee6cbeb007077fb80c",
+  "created": "2026-10-15",
+  "caption": "Fold Clothing guide 1440; authored studio concept",
+  "prompt": "Origin: Digital source artwork capture; no image generation. Actual local authored capture; not generated software imagery.",
+  "provenanceStorage": "native image metadata"
+}

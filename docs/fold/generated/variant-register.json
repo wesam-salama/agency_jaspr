@@ -1,0 +1,30 @@
+[
+  {
+    "id": "fl01-ink",
+    "prompt": "Use case: precise-object-edit. This reference is the approved Fold Clothing garment canon. Make an EXACT colourway derivative. Change ONLY the garment fabric and matching buttons to Ink near-black green #161A18. Keep the background, lighting, identical crop, THREE equal-width panel triptych layout (front/back/construction macro), silhouette, material texture, all seam locations, hems, all pocket shapes and positions, ALL button counts precisely unchanged. Front/back/detail must remain the SAME GARMENT and same colour. Do not add features, text, labels, logos, decorations, watermarks, hardware, buttonholes or buttons. This is product art for a fictional studio concept. Preserve full garments in first2 panels. Output high resolution landscape with same aspect as reference.",
+    "original": "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-f734858c-b718-492e-9118-ff3574bf26b2.png",
+    "kind": "generated colorway derivative from inspected locked pattern",
+    "status": "visually inspected; geometry matches same-product primary"
+  },
+  {
+    "id": "fl02-olive",
+    "prompt": "Use case: precise-object-edit. This reference is the approved Fold Clothing garment canon. Make an EXACT colourway derivative. Change ONLY the garment fabric and matching buttons to Olive deep olive #3C4A3E. Keep the background, lighting, identical crop, THREE equal-width panel triptych layout (front/back/construction macro), silhouette, material texture, all seam locations, hems, all pocket shapes and positions, ALL button counts precisely unchanged. Front/back/detail must remain the SAME GARMENT and same colour. Do not add features, text, labels, logos, decorations, watermarks, hardware, buttonholes or buttons. This is product art for a fictional studio concept. Preserve full garments in first2 panels. Output high resolution landscape with same aspect as reference.",
+    "original": "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-77ca2e08-c847-4d4a-b2ae-17afa779e2ec.png",
+    "kind": "generated colorway derivative from inspected locked pattern",
+    "status": "visually inspected; geometry matches same-product primary"
+  },
+  {
+    "id": "fl03-olive",
+    "prompt": "Use case: precise-object-edit. This reference is the approved Fold Clothing garment canon. Make an EXACT colourway derivative. Change ONLY the garment fabric and matching buttons to Olive deep olive #3C4A3E. Keep the background, lighting, identical crop, THREE equal-width panel triptych layout (front/back/construction macro), silhouette, material texture, all seam locations, hems, all pocket shapes and positions, ALL button counts precisely unchanged. Front/back/detail must remain the SAME GARMENT and same colour. Do not add features, text, labels, logos, decorations, watermarks, hardware, buttonholes or buttons. This is product art for a fictional studio concept. Preserve full garments in first2 panels. Output high resolution landscape with same aspect as reference.",
+    "original": "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-64497ea6-2a08-4945-b9e2-98b367a23e43.png",
+    "kind": "generated colorway derivative from inspected locked pattern",
+    "status": "visually inspected; geometry matches same-product primary"
+  },
+  {
+    "id": "fl04-stone",
+    "prompt": "Use case: precise-object-edit. This reference is the approved Fold Clothing garment canon. Make an EXACT colourway derivative. Change ONLY the garment fabric and matching buttons to Stone pale grey-green #D8DDD3. Keep the background, lighting, identical crop, THREE equal-width panel triptych layout (front/back/construction macro), silhouette, material texture, all seam locations, hems, all pocket shapes and positions, ALL button counts precisely unchanged. Front/back/detail must remain the SAME GARMENT and same colour. Do not add features, text, labels, logos, decorations, watermarks, hardware, buttonholes or buttons. This is product art for a fictional studio concept. Preserve full garments in first2 panels. Output high resolution landscape with same aspect as reference.",
+    "original": "/Users/wesamsalama/.codex/generated_images/01a13e67-f34a-74d0-9498-63e85bdcdc78/exec-aaeafd4c-ad45-445c-9ff5-2b4450852439.png",
+    "kind": "generated colorway derivative from inspected locked pattern",
+    "status": "visually inspected; geometry matches same-product primary"
+  }
+]

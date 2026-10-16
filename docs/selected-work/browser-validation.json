@@ -1,0 +1,2295 @@
+{
+  "startedAt": "2026-10-16T13:48:25.031Z",
+  "scope": "Fresh browser checks of the reorganized current source and current compiled agency; no earlier reports are reused.",
+  "origin": "http://127.0.0.1:8804",
+  "frameOrigin": "http://127.0.0.1:8803",
+  "agencyBase": "/agency_jaspr/",
+  "widths": [
+    390,
+    1440
+  ],
+  "agencyLocales": [
+    "en",
+    "ar",
+    "fr"
+  ],
+  "standaloneLocales": [
+    "en",
+    "ar"
+  ],
+  "protections": "Fresh browser contexts; GET/HEAD/OPTIONS only; no enquiry submission, CMS publication, learner mutation, app handoff or replacement of original captures.",
+  "records": [
+    {
+      "name": "agency-en-390",
+      "viewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "startedAt": "2026-10-16T13:48:28.242Z",
+      "detail": {
+        "locale": "en",
+        "width": 390,
+        "order": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ],
+        "layout": {
+          "locale": "en",
+          "direction": "ltr",
+          "overflow": 0
+        },
+        "cases": [
+          {
+            "name": "Sift Coffee",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/hero-480.webp",
+                "width": 389,
+                "height": 244
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/identity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/range-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/bilingual-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/applications-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-brand-guide.pdf",
+                "download": "sift-brand-guide.pdf",
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-artwork.zip",
+                "download": "sift-artwork.zip",
+                "status": 200
+              }
+            ],
+            "next": "Form Architecture",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Form Architecture",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/hero-480.webp",
+                "width": 389,
+                "height": 243
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/editor.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/form-source.zip",
+                "download": "form-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Frame Academy",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          },
+          {
+            "name": "Frame Academy",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/hero-480.webp",
+                "width": 389,
+                "height": 243
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/demo-journey.mp4",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/frame-source.zip",
+                "download": "frame-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Fold Clothing",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Fold Clothing",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-480.webp",
+                "width": 389,
+                "height": 243
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/shopping-flow.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/fold-source.zip",
+                "download": "fold-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Sift Coffee",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          }
+        ]
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:29.842Z"
+    },
+    {
+      "name": "agency-en-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "startedAt": "2026-10-16T13:48:30.504Z",
+      "detail": {
+        "locale": "en",
+        "width": 1440,
+        "order": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ],
+        "layout": {
+          "locale": "en",
+          "direction": "ltr",
+          "overflow": 0
+        },
+        "cases": [
+          {
+            "name": "Sift Coffee",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/hero.webp",
+                "width": 1200,
+                "height": 750
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/identity-960.webp",
+                "width": 680,
+                "height": 510
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/range-960.webp",
+                "width": 680,
+                "height": 510
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/bilingual-960.webp",
+                "width": 680,
+                "height": 510
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/applications-960.webp",
+                "width": 680,
+                "height": 510
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-brand-guide.pdf",
+                "download": "sift-brand-guide.pdf",
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-artwork.zip",
+                "download": "sift-artwork.zip",
+                "status": 200
+              }
+            ],
+            "next": "Form Architecture",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Form Architecture",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/hero.webp",
+                "width": 1199,
+                "height": 749
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+                "width": 960,
+                "height": 720
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/editor.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/form-source.zip",
+                "download": "form-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Frame Academy",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          },
+          {
+            "name": "Frame Academy",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/hero.webp",
+                "width": 1199,
+                "height": 749
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+                "width": 520,
+                "height": 390
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+                "width": 520,
+                "height": 390
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+                "width": 520,
+                "height": 390
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+                "width": 520,
+                "height": 390
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/demo-journey.mp4",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/frame-source.zip",
+                "download": "frame-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Fold Clothing",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Fold Clothing",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero.webp",
+                "width": 1199,
+                "height": 749
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+                "width": 960,
+                "height": 720
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/shopping-flow.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/fold-source.zip",
+                "download": "fold-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Sift Coffee",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          }
+        ]
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:32.102Z"
+    },
+    {
+      "name": "agency-ar-390",
+      "viewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "startedAt": "2026-10-16T13:48:32.459Z",
+      "detail": {
+        "locale": "ar",
+        "width": 390,
+        "order": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ],
+        "layout": {
+          "locale": "ar",
+          "direction": "rtl",
+          "overflow": 0
+        },
+        "cases": [
+          {
+            "name": "Sift Coffee",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/hero-480.webp",
+                "width": 389,
+                "height": 244
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/identity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/range-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/bilingual-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/applications-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-brand-guide.pdf",
+                "download": "sift-brand-guide.pdf",
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-artwork.zip",
+                "download": "sift-artwork.zip",
+                "status": 200
+              }
+            ],
+            "next": "Form Architecture",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Form Architecture",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/hero-480.webp",
+                "width": 389,
+                "height": 243
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/editor.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/form-source.zip",
+                "download": "form-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Frame Academy",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          },
+          {
+            "name": "Frame Academy",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/hero-480.webp",
+                "width": 389,
+                "height": 243
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/site/index.html?lang=ar",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/demo-journey-ar.mp4",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/frame-source.zip",
+                "download": "frame-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Fold Clothing",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Fold Clothing",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-480.webp",
+                "width": 389,
+                "height": 243
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/site/index.html?lang=ar",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/shopping-flow.html?lang=ar",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/fold-source.zip",
+                "download": "fold-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Sift Coffee",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          }
+        ]
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:34.187Z"
+    },
+    {
+      "name": "agency-ar-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "startedAt": "2026-10-16T13:48:34.477Z",
+      "detail": {
+        "locale": "ar",
+        "width": 1440,
+        "order": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ],
+        "layout": {
+          "locale": "ar",
+          "direction": "rtl",
+          "overflow": 0
+        },
+        "cases": [
+          {
+            "name": "Sift Coffee",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/hero.webp",
+                "width": 1200,
+                "height": 750
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/identity-960.webp",
+                "width": 680,
+                "height": 510
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/range-960.webp",
+                "width": 680,
+                "height": 510
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/bilingual-960.webp",
+                "width": 680,
+                "height": 510
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/applications-960.webp",
+                "width": 680,
+                "height": 510
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-brand-guide.pdf",
+                "download": "sift-brand-guide.pdf",
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-artwork.zip",
+                "download": "sift-artwork.zip",
+                "status": 200
+              }
+            ],
+            "next": "Form Architecture",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Form Architecture",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/hero.webp",
+                "width": 1199,
+                "height": 749
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+                "width": 960,
+                "height": 720
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/editor.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/form-source.zip",
+                "download": "form-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Frame Academy",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          },
+          {
+            "name": "Frame Academy",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/hero.webp",
+                "width": 1199,
+                "height": 749
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+                "width": 520,
+                "height": 390
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+                "width": 520,
+                "height": 390
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+                "width": 520,
+                "height": 390
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+                "width": 520,
+                "height": 390
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/site/index.html?lang=ar",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/demo-journey-ar.mp4",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/frame-source.zip",
+                "download": "frame-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Fold Clothing",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Fold Clothing",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero.webp",
+                "width": 1199,
+                "height": 749
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+                "width": 960,
+                "height": 720
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/site/index.html?lang=ar",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/shopping-flow.html?lang=ar",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/fold-source.zip",
+                "download": "fold-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Sift Coffee",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          }
+        ]
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:36.252Z"
+    },
+    {
+      "name": "agency-fr-390",
+      "viewport": {
+        "width": 390,
+        "height": 1000
+      },
+      "startedAt": "2026-10-16T13:48:36.450Z",
+      "detail": {
+        "locale": "fr",
+        "width": 390,
+        "order": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ],
+        "layout": {
+          "locale": "fr",
+          "direction": "ltr",
+          "overflow": 0
+        },
+        "cases": [
+          {
+            "name": "Sift Coffee",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/hero-480.webp",
+                "width": 389,
+                "height": 244
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/identity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/range-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/bilingual-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/applications-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-brand-guide.pdf",
+                "download": "sift-brand-guide.pdf",
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-artwork.zip",
+                "download": "sift-artwork.zip",
+                "status": 200
+              }
+            ],
+            "next": "Form Architecture",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Form Architecture",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/hero-480.webp",
+                "width": 389,
+                "height": 243
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/editor.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/form-source.zip",
+                "download": "form-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Frame Academy",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          },
+          {
+            "name": "Frame Academy",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/hero-480.webp",
+                "width": 389,
+                "height": 243
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/demo-journey.mp4",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/frame-source.zip",
+                "download": "frame-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Fold Clothing",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Fold Clothing",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero-480.webp",
+                "width": 389,
+                "height": 243
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+                "width": 351,
+                "height": 263
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+                "width": 351,
+                "height": 263
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/shopping-flow.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/fold-source.zip",
+                "download": "fold-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Sift Coffee",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          }
+        ]
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:37.417Z"
+    },
+    {
+      "name": "agency-fr-1440",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "startedAt": "2026-10-16T13:48:37.654Z",
+      "detail": {
+        "locale": "fr",
+        "width": 1440,
+        "order": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Frame Academy",
+          "Fold Clothing"
+        ],
+        "layout": {
+          "locale": "fr",
+          "direction": "ltr",
+          "overflow": 0
+        },
+        "cases": [
+          {
+            "name": "Sift Coffee",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/hero.webp",
+                "width": 1200,
+                "height": 750
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/identity-960.webp",
+                "width": 680,
+                "height": 510
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/range-960.webp",
+                "width": 680,
+                "height": 510
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/bilingual-960.webp",
+                "width": 680,
+                "height": 510
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/applications-960.webp",
+                "width": 680,
+                "height": 510
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-brand-guide.pdf",
+                "download": "sift-brand-guide.pdf",
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/sift/sift-artwork.zip",
+                "download": "sift-artwork.zip",
+                "status": 200
+              }
+            ],
+            "next": "Form Architecture",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Form Architecture",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/hero.webp",
+                "width": 1199,
+                "height": 749
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+                "width": 960,
+                "height": 720
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/site/editor.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/form/form-source.zip",
+                "download": "form-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Frame Academy",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          },
+          {
+            "name": "Frame Academy",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/hero.webp",
+                "width": 1199,
+                "height": 749
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/course-discovery-960.webp",
+                "width": 520,
+                "height": 390
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/identity-960.webp",
+                "width": 520,
+                "height": 390
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/lesson-continuation-960.webp",
+                "width": 520,
+                "height": 390
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/exercise-recovery-960.webp",
+                "width": 520,
+                "height": 390
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/demo-journey.mp4",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/frame/frame-source.zip",
+                "download": "frame-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Fold Clothing",
+            "navigation": "passed",
+            "close": "button",
+            "focusRestored": true
+          },
+          {
+            "name": "Fold Clothing",
+            "images": [
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/hero.webp",
+                "width": 1199,
+                "height": 749
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/identity-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/continuity-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/measurements-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/shopping-960.webp",
+                "width": 960,
+                "height": 720
+              },
+              {
+                "src": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/case/maintenance-960.webp",
+                "width": 960,
+                "height": 720
+              }
+            ],
+            "links": [
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/site/index.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/shopping-flow.html",
+                "download": null,
+                "status": 200
+              },
+              {
+                "href": "http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/fold-source.zip",
+                "download": "fold-source.zip",
+                "status": 200
+              }
+            ],
+            "next": "Sift Coffee",
+            "navigation": "passed",
+            "close": "Escape",
+            "focusRestored": true
+          }
+        ]
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:38.646Z"
+    },
+    {
+      "name": "form-en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "startedAt": "2026-10-16T13:48:38.873Z",
+      "detail": {
+        "locale": "en",
+        "home": {
+          "layout": {
+            "locale": "en",
+            "direction": "ltr",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/source/wordmark.svg",
+              "width": 760,
+              "height": 240
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/line-studio.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/shore-library.webp",
+              "width": 1586,
+              "height": 992
+            }
+          ]
+        },
+        "project": {
+          "layout": {
+            "locale": "en",
+            "direction": "ltr",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/source/wordmark.svg",
+              "width": 760,
+              "height": 240
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-exterior.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-diagram.svg",
+              "width": 1200,
+              "height": 750
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-detail.webp",
+              "width": 1586,
+              "height": 992
+            }
+          ],
+          "route": "#project/courtyard-house"
+        },
+        "editor": {
+          "layout": {
+            "locale": "en",
+            "direction": "ltr",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-exterior.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-exterior.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-detail.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-detail.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-diagram.svg",
+              "width": 1200,
+              "height": 750
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-diagram.svg",
+              "width": 1200,
+              "height": 750
+            }
+          ],
+          "title": "Courtyard House",
+          "actualPreviewLoaded": true,
+          "publicationActivated": false
+        }
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:39.661Z"
+    },
+    {
+      "name": "frame-en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "startedAt": "2026-10-16T13:48:39.974Z",
+      "detail": {
+        "locale": "en",
+        "home": {
+          "layout": {
+            "locale": "en",
+            "direction": "ltr",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/frame-symbol.svg",
+              "width": 100,
+              "height": 100
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/composition-cover.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/composition-cover.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/light-cover.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/grids-cover.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/media/poster.webp",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/frame-symbol.svg",
+              "width": 100,
+              "height": 100
+            }
+          ]
+        },
+        "course": {
+          "layout": {
+            "locale": "en",
+            "direction": "ltr",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/frame-symbol.svg",
+              "width": 100,
+              "height": 100
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/composition-cover.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/frame-symbol.svg",
+              "width": 100,
+              "height": 100
+            }
+          ],
+          "filteredCourses": 1,
+          "previewDuration": 30
+        },
+        "learnerStateUnchanged": true
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:40.638Z"
+    },
+    {
+      "name": "fold-en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "startedAt": "2026-10-16T13:48:41.058Z",
+      "detail": {
+        "locale": "en",
+        "collection": {
+          "layout": {
+            "locale": "en",
+            "direction": "ltr",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+              "width": 550,
+              "height": 164
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/editorial/capsule.webp",
+              "width": 1536,
+              "height": 1024
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-front.webp",
+              "width": 665,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl02-ink-front.webp",
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl03-stone-front.webp",
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl04-olive-front.webp",
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/editorial/fabric.webp",
+              "width": 1448,
+              "height": 1086
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+              "width": 550,
+              "height": 164
+            }
+          ]
+        },
+        "product": {
+          "layout": {
+            "locale": "en",
+            "direction": "ltr",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+              "width": 550,
+              "height": 164
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-front.webp",
+              "width": 665,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-front.webp",
+              "width": 665,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-back.webp",
+              "width": 665,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-detail.webp",
+              "width": 581,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+              "width": 550,
+              "height": 164
+            }
+          ],
+          "filteredCount": 1,
+          "selectedSize": "M"
+        },
+        "viewer": {
+          "layout": {
+            "locale": "en",
+            "direction": "ltr",
+            "overflow": 0
+          },
+          "transcriptItems": 5,
+          "duration": 15.166667,
+          "storeLinkFollowed": true
+        },
+        "checkoutActivated": false
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:41.783Z"
+    },
+    {
+      "name": "form-ar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "startedAt": "2026-10-16T13:48:42.168Z",
+      "detail": {
+        "locale": "ar",
+        "home": {
+          "layout": {
+            "locale": "ar",
+            "direction": "rtl",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/source/wordmark.svg",
+              "width": 760,
+              "height": 240
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/line-studio.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/shore-library.webp",
+              "width": 1586,
+              "height": 992
+            }
+          ]
+        },
+        "project": {
+          "layout": {
+            "locale": "ar",
+            "direction": "rtl",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/source/wordmark.svg",
+              "width": 760,
+              "height": 240
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-exterior.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-diagram.svg",
+              "width": 1200,
+              "height": 750
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-detail.webp",
+              "width": 1586,
+              "height": 992
+            }
+          ],
+          "route": "#project/courtyard-house"
+        },
+        "editor": {
+          "layout": {
+            "locale": "ar",
+            "direction": "rtl",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-exterior.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-exterior.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-detail.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-detail.webp",
+              "width": 1586,
+              "height": 992
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-diagram.svg",
+              "width": 1200,
+              "height": 750
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/form/studies/courtyard-house-diagram.svg",
+              "width": 1200,
+              "height": 750
+            }
+          ],
+          "title": "Courtyard House",
+          "actualPreviewLoaded": true,
+          "publicationActivated": false
+        }
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:43.132Z"
+    },
+    {
+      "name": "frame-ar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "startedAt": "2026-10-16T13:48:43.455Z",
+      "detail": {
+        "locale": "ar",
+        "home": {
+          "layout": {
+            "locale": "ar",
+            "direction": "rtl",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/frame-symbol.svg",
+              "width": 100,
+              "height": 100
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/composition-cover-ar.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/composition-cover-ar.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/light-cover-ar.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/grids-cover-ar.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/media/poster-ar.webp",
+              "width": 1920,
+              "height": 1080
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/frame-symbol.svg",
+              "width": 100,
+              "height": 100
+            }
+          ]
+        },
+        "course": {
+          "layout": {
+            "locale": "ar",
+            "direction": "rtl",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/frame-symbol.svg",
+              "width": 100,
+              "height": 100
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/composition-cover-ar.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "http://127.0.0.1:8803/assets/selected-work/frame/source/frame-symbol.svg",
+              "width": 100,
+              "height": 100
+            }
+          ],
+          "filteredCourses": 1,
+          "previewDuration": 30
+        },
+        "learnerStateUnchanged": true
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:44.072Z"
+    },
+    {
+      "name": "fold-ar",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "startedAt": "2026-10-16T13:48:44.323Z",
+      "detail": {
+        "locale": "ar",
+        "collection": {
+          "layout": {
+            "locale": "ar",
+            "direction": "rtl",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+              "width": 550,
+              "height": 164
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/editorial/capsule.webp",
+              "width": 1536,
+              "height": 1024
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-front.webp",
+              "width": 665,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl02-ink-front.webp",
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl03-stone-front.webp",
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl04-olive-front.webp",
+              "width": 768,
+              "height": 1024
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/editorial/fabric.webp",
+              "width": 1448,
+              "height": 1086
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+              "width": 550,
+              "height": 164
+            }
+          ]
+        },
+        "product": {
+          "layout": {
+            "locale": "ar",
+            "direction": "rtl",
+            "overflow": 0
+          },
+          "images": [
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+              "width": 550,
+              "height": 164
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-front.webp",
+              "width": 665,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-front.webp",
+              "width": 665,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-back.webp",
+              "width": 665,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/products/fl01-chalk-detail.webp",
+              "width": 581,
+              "height": 887
+            },
+            {
+              "src": "http://127.0.0.1:8804/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+              "width": 550,
+              "height": 164
+            }
+          ],
+          "filteredCount": 1,
+          "selectedSize": "M"
+        },
+        "viewer": {
+          "layout": {
+            "locale": "ar",
+            "direction": "rtl",
+            "overflow": 0
+          },
+          "transcriptItems": 5,
+          "duration": 12.583333,
+          "storeLinkFollowed": true
+        },
+        "checkoutActivated": false
+      },
+      "result": "passed",
+      "errors": [],
+      "blockedRequests": [],
+      "finishedAt": "2026-10-16T13:48:45.023Z"
+    }
+  ],
+  "failures": [],
+  "screenshots": [],
+  "finishedAt": "2026-10-16T13:48:45.413Z",
+  "summary": {
+    "records": 12,
+    "passed": 12,
+    "failures": 0
+  }
+}

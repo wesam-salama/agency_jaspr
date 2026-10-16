@@ -1,0 +1,468 @@
+{
+  "source": "Unmodified screenshots captured by docs/fold/tools/check-agency.cjs from the compiled local agency",
+  "captureCount": 18,
+  "expectedDimensionsAndNonblankCheck": "passed",
+  "records": [
+    {
+      "file": "verification/agency/en-1440-top.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "fef857a7de072204be8d851fe945b8659bb942a4a5b13971dd81eb11ceda2f9f",
+      "pixelExtrema": [
+        [
+          3,
+          255
+        ],
+        [
+          5,
+          248
+        ],
+        [
+          2,
+          244
+        ]
+      ],
+      "pixelMean": [
+        119.80813263888889,
+        118.54975763888889,
+        114.92397708333333
+      ]
+    },
+    {
+      "file": "verification/agency/en-390-top.png",
+      "width": 390,
+      "height": 1000,
+      "sha256": "1c952a2ffc9801e382b2543a2b657d7aebc6aa947c0dd8a15f68483eb1c0845f",
+      "pixelExtrema": [
+        [
+          5,
+          255
+        ],
+        [
+          8,
+          255
+        ],
+        [
+          1,
+          255
+        ]
+      ],
+      "pixelMean": [
+        68.29398717948717,
+        66.94637435897435,
+        65.75861794871795
+      ]
+    },
+    {
+      "file": "verification/agency/en-1440-middle.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "fda1585140b32680d5e01439fe22b4eb9b7de1e7b0cecce335fe3b50a9352f88",
+      "pixelExtrema": [
+        [
+          3,
+          255
+        ],
+        [
+          5,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "pixelMean": [
+        145.84884583333334,
+        143.89247083333333,
+        138.71806388888888
+      ]
+    },
+    {
+      "file": "verification/agency/en-390-middle.png",
+      "width": 390,
+      "height": 1000,
+      "sha256": "06abd0df953efdb8e3e1c59f607cf6ee7d33c4219bba9e27beccf668497009f5",
+      "pixelExtrema": [
+        [
+          11,
+          255
+        ],
+        [
+          11,
+          243
+        ],
+        [
+          12,
+          240
+        ]
+      ],
+      "pixelMean": [
+        24.265882051282052,
+        23.858748717948718,
+        25.205964102564103
+      ]
+    },
+    {
+      "file": "verification/agency/en-1440-end.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "6ed8d675e564f6b1c9d5fb1db37b0a22d1c55fbe0f0222afa204ab044a3e76b8",
+      "pixelExtrema": [
+        [
+          2,
+          255
+        ],
+        [
+          3,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "pixelMean": [
+        124.10537222222223,
+        122.21662847222223,
+        118.83851597222223
+      ]
+    },
+    {
+      "file": "verification/agency/en-390-end.png",
+      "width": 390,
+      "height": 1000,
+      "sha256": "e5b4a1cb34b9eff011ac536c870a26b7703807cca8a892f7d00d85b9386bafea",
+      "pixelExtrema": [
+        [
+          11,
+          255
+        ],
+        [
+          11,
+          251
+        ],
+        [
+          12,
+          245
+        ]
+      ],
+      "pixelMean": [
+        119.00024615384615,
+        117.22701025641025,
+        114.2776076923077
+      ]
+    },
+    {
+      "file": "verification/agency/ar-1440-top.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "071111cd3c60d4aba120935d741299bce9c4a1d2ce2d3788aae054c537f84bad",
+      "pixelExtrema": [
+        [
+          3,
+          255
+        ],
+        [
+          5,
+          248
+        ],
+        [
+          2,
+          244
+        ]
+      ],
+      "pixelMean": [
+        119.81487013888889,
+        118.56222291666667,
+        114.93627152777778
+      ]
+    },
+    {
+      "file": "verification/agency/ar-390-top.png",
+      "width": 390,
+      "height": 1000,
+      "sha256": "96c5f8bca73430bef9555dd9c9ffddd7f3baf43d357cd99079f7d5c3e2b72a01",
+      "pixelExtrema": [
+        [
+          4,
+          255
+        ],
+        [
+          5,
+          255
+        ],
+        [
+          0,
+          254
+        ]
+      ],
+      "pixelMean": [
+        65.98555897435898,
+        64.71902820512821,
+        63.57013333333333
+      ]
+    },
+    {
+      "file": "verification/agency/ar-1440-middle.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "de79202e8eaad824d9fd8f97f72f6819174d2cdb38b452de31a9c11b7acef870",
+      "pixelExtrema": [
+        [
+          3,
+          255
+        ],
+        [
+          5,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "pixelMean": [
+        146.73987708333334,
+        144.5588138888889,
+        139.6905326388889
+      ]
+    },
+    {
+      "file": "verification/agency/ar-390-middle.png",
+      "width": 390,
+      "height": 1000,
+      "sha256": "323e4dc7a3f4614dfee992f360e252af944b5b9cee7fa0e4083d9439a2465b17",
+      "pixelExtrema": [
+        [
+          11,
+          255
+        ],
+        [
+          11,
+          254
+        ],
+        [
+          12,
+          248
+        ]
+      ],
+      "pixelMean": [
+        50.19887179487179,
+        49.43842564102564,
+        49.51576923076923
+      ]
+    },
+    {
+      "file": "verification/agency/ar-1440-end.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "4a338c09305eebb797b8166b5235bbd01071ff75ee125131ae0ca61712276aff",
+      "pixelExtrema": [
+        [
+          2,
+          255
+        ],
+        [
+          3,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "pixelMean": [
+        126.69778680555555,
+        124.77788194444445,
+        121.28881666666666
+      ]
+    },
+    {
+      "file": "verification/agency/ar-390-end.png",
+      "width": 390,
+      "height": 1000,
+      "sha256": "1f765d2185cb3344df13e5e71d9a730480518a446f7185b03fafd7a7fa4f3413",
+      "pixelExtrema": [
+        [
+          11,
+          255
+        ],
+        [
+          11,
+          250
+        ],
+        [
+          12,
+          244
+        ]
+      ],
+      "pixelMean": [
+        121.44303589743589,
+        119.63096153846153,
+        116.5127435897436
+      ]
+    },
+    {
+      "file": "verification/agency/fr-1440-top.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "da29f2b8d486b86aaac86542ef89cc3c605616fa0d48a331b19ac03148dff7b3",
+      "pixelExtrema": [
+        [
+          3,
+          255
+        ],
+        [
+          5,
+          248
+        ],
+        [
+          2,
+          244
+        ]
+      ],
+      "pixelMean": [
+        119.84173611111112,
+        118.574975,
+        114.94888611111111
+      ]
+    },
+    {
+      "file": "verification/agency/fr-390-top.png",
+      "width": 390,
+      "height": 1000,
+      "sha256": "d99519d4351a0136d43fb132c9f86abf4bf8466164866e8fc6513c958765f053",
+      "pixelExtrema": [
+        [
+          5,
+          255
+        ],
+        [
+          8,
+          255
+        ],
+        [
+          1,
+          255
+        ]
+      ],
+      "pixelMean": [
+        68.25928461538462,
+        66.84841538461538,
+        65.62551282051282
+      ]
+    },
+    {
+      "file": "verification/agency/fr-1440-middle.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "1a62b56053e5801d082299167feb7b6c897bc7d9f377cfcad4804d0be15e90ba",
+      "pixelExtrema": [
+        [
+          3,
+          255
+        ],
+        [
+          5,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "pixelMean": [
+        145.33515,
+        143.46970972222223,
+        138.28391527777777
+      ]
+    },
+    {
+      "file": "verification/agency/fr-390-middle.png",
+      "width": 390,
+      "height": 1000,
+      "sha256": "eaf77580cbeb019c9e06a31ba9b5e1aeca80180412d11857751d2702d17fc585",
+      "pixelExtrema": [
+        [
+          11,
+          255
+        ],
+        [
+          11,
+          243
+        ],
+        [
+          12,
+          240
+        ]
+      ],
+      "pixelMean": [
+        23.673820512820512,
+        23.23791794871795,
+        24.563761538461538
+      ]
+    },
+    {
+      "file": "verification/agency/fr-1440-end.png",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "539b7cb5cf1e55c2026cd3380896f89cef4ce4fc257abe6e670b37db1aa520af",
+      "pixelExtrema": [
+        [
+          2,
+          255
+        ],
+        [
+          3,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "pixelMean": [
+        124.23052638888889,
+        122.33396458333333,
+        118.95823055555556
+      ]
+    },
+    {
+      "file": "verification/agency/fr-390-end.png",
+      "width": 390,
+      "height": 1000,
+      "sha256": "c6a92a5acf6511cbfad9199e449653ec5425526d832c7c3d9f6ad3b9c4eeb57c",
+      "pixelExtrema": [
+        [
+          11,
+          255
+        ],
+        [
+          11,
+          250
+        ],
+        [
+          12,
+          244
+        ]
+      ],
+      "pixelMean": [
+        115.02490769230769,
+        113.28134871794872,
+        110.51634358974358
+      ]
+    }
+  ],
+  "contactSheets": [
+    "verification/agency/review/en-contact-sheet.png",
+    "verification/agency/review/ar-contact-sheet.png",
+    "verification/agency/review/fr-contact-sheet.png"
+  ],
+  "reviewScope": "Contact sheets support capture validity and bounded desktop/mobile layout review; this is not a claim that eighteen independent full-resolution visual reviews were performed.",
+  "visualReview": {
+    "method": "Opened all three language contact sheets containing all eighteen desktop/mobile captures",
+    "result": "All named top/middle/end captures show the intended Fold case, loaded content and the expected locale; no blank or wrong-surface capture found",
+    "scope": "Capture validity and bounded layout review, not eighteen separate full-resolution reviews"
+  }
+}

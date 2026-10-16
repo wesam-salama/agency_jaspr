@@ -1,0 +1,53 @@
+{
+  "origin": "docs/fold/presentation-sources/hero.html",
+  "operation": "Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "sourceFiles": [
+    "web/assets/selected-work/fold/identity/fold-wordmark-ink.svg",
+    "web/assets/selected-work/fold/products/fl01-chalk-front.webp",
+    "web/assets/selected-work/fold/products/fl02-ink-front.webp",
+    "web/assets/selected-work/fold/products/fl03-stone-front.webp",
+    "web/assets/selected-work/fold/products/fl04-olive-front.webp"
+  ],
+  "generatedImageReferences": [
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-chalk-front.webp",
+      "provenance": {
+        "prompt": "Use case: product-mockup. Asset: Fold Clothing authored fictional capsule product imagery, NOT software evidence or a real manufactured garment. Produce one very high-resolution wide 2:1 catalog triptych, exactly THREE EQUAL WIDTH vertical panels, each 2:3 aspect. Left panel full straight FRONT flatlay, middle full straight BACK flatlay of EXACT SAME garment, right panel macro construction detail of the front. Neutral warm light-grey matte background #E8E7E1 across all panels. Neutral daylight, textile tactile realism, overhead camera, subtle natural shadow only, exact coherent patterns and materials. Garments centered and entire silhouette contained in each left/middle panel with 10% breathing room, no overlap between panels. No text, labels, logos, numbers, rulers, hands, models, decorations, watermarks. Button counts and pockets must be EXACT. No additional seams or trims. Colour uniform across ALL views. This is locked source art direction for Collection 01: Everyday Structure.\nBOX SHIRT in Chalk (warm ivory #F6F3EC), 100% cotton poplin, short drop-shoulder sleeves, compact point collar, exactly FIVE evenly spaced visible ivory front placket buttons from below collar to hem, exactly ONE rectangular wearer-left (viewer RIGHT) chest patch pocket with open top, no pocket button. Boxy relaxed M proportion 58cm laid-flat half chest to70cm body length. Straight hem. Back has one horizontal upper shoulder-blade yoke, plain below, no pleat, no pockets, no buttons. Right macro shows SAME single pocket, nearby placket and fine cotton poplin seam stitching.",
+        "origin": "source/fl01-chalk-triptych.png",
+        "operation": "Equal-panel crop; front/back canvas padded to 3:4 without altering garment geometry; native-height export. Generated artwork, not software evidence."
+      }
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl02-ink-front.webp",
+      "provenance": {
+        "prompt": "Use case: product-mockup. Asset: Fold Clothing authored fictional capsule product imagery, NOT software evidence or a real manufactured garment. Produce one very high-resolution wide 2:1 catalog triptych, exactly THREE EQUAL WIDTH vertical panels, each 2:3 aspect. Left panel full straight FRONT flatlay, middle full straight BACK flatlay of EXACT SAME garment, right panel macro construction detail of the front. Neutral warm light-grey matte background #E8E7E1 across all panels. Neutral daylight, textile tactile realism, overhead camera, subtle natural shadow only, exact coherent patterns and materials. Garments centered and entire silhouette contained in each left/middle panel with 10% breathing room, no overlap between panels. No text, labels, logos, numbers, rulers, hands, models, decorations, watermarks. Button counts and pockets must be EXACT. No additional seams or trims. Colour uniform across ALL views. This is locked source art direction for Collection 01: Everyday Structure.\nPLEAT TROUSER in Ink (near-black green #161A18), 65% cotton35% linen twill, full length broad straight legs, exactly ONE forward pleat per leg (TWO total), two side-entry pockets ONLY, fixed waistband with ONE centered dark closure button and concealed fly, five belt loops total. M laid-flat waistband half-width40cm, inseam76cm. Straight hems without turn-ups. Back has plain seat with NO BACK POCKETS, one center-back seam, normal side/inner leg seams. Right macro shows waistband, closure, ONE of the forward pleats and twill weave matching front.",
+        "origin": "source/fl02-ink-triptych.png",
+        "operation": "Equal-panel crop; front/back canvas padded to 3:4 without altering garment geometry; native-height export. Generated artwork, not software evidence."
+      }
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl03-stone-front.webp",
+      "provenance": {
+        "prompt": "Use case: product-mockup. Asset: Fold Clothing authored fictional capsule product imagery, NOT software evidence or a real manufactured garment. Produce one very high-resolution wide 2:1 catalog triptych, exactly THREE EQUAL WIDTH vertical panels, each 2:3 aspect. Left panel full straight FRONT flatlay, middle full straight BACK flatlay of EXACT SAME garment, right panel macro construction detail of the front. Neutral warm light-grey matte background #E8E7E1 across all panels. Neutral daylight, textile tactile realism, overhead camera, subtle natural shadow only, exact coherent patterns and materials. Garments centered and entire silhouette contained in each left/middle panel with 10% breathing room, no overlap between panels. No text, labels, logos, numbers, rulers, hands, models, decorations, watermarks. Button counts and pockets must be EXACT. No additional seams or trims. Colour uniform across ALL views. This is locked source art direction for Collection 01: Everyday Structure.\nLAYER VEST in Stone (pale grey-green #D8DDD3),100% cotton canvas, sleeveless V-neck, exactly FOUR centered front opening buttons, exactly TWO equal rectangular LOWER FRONT PATCH POCKETS open tops no flaps or buttons, straight hem, boxy M laid-flat half chest55cm to length62cm, clean armholes. Plain unpanelled BACK with side seams only NO yoke NO strap NO back pocket NO center back seam. Right macro shows lower-front patch-pocket corner with visible canvas weave and seam, matching front exactly.",
+        "origin": "source/fl03-stone-triptych.png",
+        "operation": "Equal-panel crop; front/back canvas padded to 3:4 without altering garment geometry; native-height export. Generated artwork, not software evidence."
+      }
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl04-olive-front.webp",
+      "provenance": {
+        "prompt": "Use case: product-mockup. Asset: Fold Clothing authored fictional capsule product imagery, NOT software evidence or a real manufactured garment. Produce one very high-resolution wide 2:1 catalog triptych, exactly THREE EQUAL WIDTH vertical panels, each 2:3 aspect. Left panel full straight FRONT flatlay, middle full straight BACK flatlay of EXACT SAME garment, right panel macro construction detail of the front. Neutral warm light-grey matte background #E8E7E1 across all panels. Neutral daylight, textile tactile realism, overhead camera, subtle natural shadow only, exact coherent patterns and materials. Garments centered and entire silhouette contained in each left/middle panel with 10% breathing room, no overlap between panels. No text, labels, logos, numbers, rulers, hands, models, decorations, watermarks. Button counts and pockets must be EXACT. No additional seams or trims. Colour uniform across ALL views. This is locked source art direction for Collection 01: Everyday Structure.\nFIELD OVERSHIRT in Olive (deep olive #3C4A3E),100% cotton twill, point collar, exactly SIX centered front opening buttons, exactly TWO equal chest patch pockets with OPEN TOPS, NO flaps NO pocket buttons. Long sleeves, plain narrow buttonless cuffs. Straight hem, relaxed M laid-flat half chest61cm to body length73cm. Back one upper horizontal shoulder-blade yoke, no center pleat, no pockets, normal sleeve/side seams. Right macro shows one open chest-pocket edge and twill texture, matching front exactly.",
+        "origin": "source/fl04-olive-triptych.png",
+        "operation": "Equal-panel crop; front/back canvas padded to 3:4 without altering garment geometry; native-height export. Generated artwork, not software evidence."
+      }
+    }
+  ],
+  "created": "2026-10-15",
+  "creator": "CR8.Media / Codex authored presentation composition",
+  "file": "docs/fold/presentation-sources/hero.png",
+  "width": 2560,
+  "height": 1600,
+  "sha256": "881b0e8b022af7017c3e9761ed1f978e4b980148dd52e5c6f9bb9cafb06e0bce",
+  "prompt": "Origin: docs/fold/presentation-sources/hero.html. Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "provenanceStorage": "native image metadata"
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "file": "card.webp",
+    "width": 1600,
+    "height": 1000,
+    "source": "docs/frame/presentation-sources/card.webp.html",
+    "captures": [
+      "docs/frame/verification/native/restarted-next-en.png",
+      "docs/frame/verification/website/course-decision-desktop-en.png"
+    ],
+    "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+    "status": "designed presentation / verified implementation evidence"
+  },
+  {
+    "file": "hero.webp",
+    "width": 2560,
+    "height": 1600,
+    "source": "docs/frame/presentation-sources/hero.webp.html",
+    "captures": [
+      "docs/frame/verification/native/restarted-next-en.png",
+      "docs/frame/verification/website/course-decision-desktop-en.png",
+      "web/assets/selected-work/frame/source/composition-cover.svg"
+    ],
+    "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+    "status": "designed presentation / verified implementation evidence"
+  },
+  {
+    "file": "identity.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/frame/presentation-sources/identity.webp.html",
+    "captures": [
+      "web/assets/selected-work/frame/source/identity-system.svg"
+    ],
+    "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+    "status": "designed presentation / verified implementation evidence"
+  },
+  {
+    "file": "course-discovery.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/frame/presentation-sources/course-discovery.webp.html",
+    "captures": [
+      "docs/frame/verification/website/course-detail-mobile-en.png",
+      "docs/frame/verification/website/course-decision-desktop-en.png"
+    ],
+    "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+    "status": "designed presentation / verified implementation evidence"
+  },
+  {
+    "file": "lesson-continuation.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/frame/presentation-sources/lesson-continuation.webp.html",
+    "captures": [
+      "docs/frame/verification/native/restarted-next-en.png",
+      "docs/frame/verification/native/lesson-02-en.png"
+    ],
+    "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+    "status": "designed presentation / verified implementation evidence"
+  },
+  {
+    "file": "exercise-recovery.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/frame/presentation-sources/exercise-recovery.webp.html",
+    "captures": [
+      "docs/frame/verification/native/exercise-failed-en.png",
+      "docs/frame/verification/native/exercise-saved-en.png",
+      "docs/frame/verification/native/completed-en.png"
+    ],
+    "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+    "status": "designed presentation / verified implementation evidence"
+  },
+  {
+    "file": "arabic-journey.webp",
+    "width": 2400,
+    "height": 1600,
+    "source": "docs/frame/presentation-sources/arabic-journey.webp.html",
+    "captures": [
+      "docs/frame/verification/website/course-decision-mobile-ar.png",
+      "docs/frame/verification/native/lesson-player-ar.png",
+      "docs/frame/verification/native/exercise-saved-ar.png",
+      "docs/frame/verification/native/restarted-next-ar.png"
+    ],
+    "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+    "status": "designed presentation / verified implementation evidence"
+  }
+]

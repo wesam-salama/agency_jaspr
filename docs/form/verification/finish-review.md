@@ -1,0 +1,35 @@
+## Disposition
+
+**fix** — three narrow material corrections remain. The approved visual direction does not require rebuilding. Review date: 13 October 2026.
+
+## Scope and verdict
+
+Fresh independent review of the approved shared sections 1–7 and full Form chapter in `docs/selected-work-context.md`, the pinned code-led contract in `docs/form/design/direction.md`, the Impeccable craft floor, Form's public/editor source, current implementation proofs, and all twelve presentation boards. A separate read-only evidence spot-check verified generated-source continuity and export references. No source code was edited by the reviewers.
+
+The material-led world holds: Chalk/Charcoal, restrained functional Sage, Cormorant Garamond editorial type, Instrument Sans controls, shaped IBM Plex Sans Arabic, the custom wordmark and 3:4 frame with a lower-right opening. The current home proof preserves the exact positioning in whole words. Desktop asymmetry becomes a sensible linear mobile reading order; navigation, facts, captions and enquiry actions remain legible. The same three canonical studies, years, settings and areas recur in source and proofs. Images relate to the light/material/movement/use explanation, and the conceptual diagrams do not claim construction documentation. The enquiry and local editor look usable and communicate their demonstration scope honestly.
+
+The verdict is limited to Form's supplied implementation, assets and evidence. CR8.Media production integration, preservation of Sift and the remaining agency shell, and external deployment were not certified in this review.
+
+## Material findings
+
+1. **P2 — Crop previews do not match the public crop they are meant to predict.** `web/assets/selected-work/form/site/cms.js:99` labels all image previews Desktop 16:10 / Mobile 4:5; `cms.css:4` applies those ratios. The public primary project image is 16:9 on desktop and 4:3 on mobile in `style.css:6` and `style.css:10`. `docs/form/verification/website/cms-focal-desktop.png` therefore shows a portrait mobile view while `ar-courtyard-390.png` shows a landscape view. Independent focal values work, but an editor can approve a composition that the public page does not use. Align the primary previews to the actual usage, or explicitly offer labelled usage ratios. Recapture the affected focal proof and re-export `details/image-crop.webp` after the source correction.
+
+2. **P2 — The CMS board cuts off the corresponding published change.** The right panel of `docs/form/presentation-sources/cms-edit.webp.png`, exported as `web/assets/selected-work/form/cms-edit.webp`, clips the project title to “d House” and cuts the amended summary horizontally. Its purpose is to show that an edit reached the public page; the relevant words must remain readable. Use an actual focused crop containing the complete title/changed summary, or preserve the complete screenshot with containment. Correct the composition in `docs/form/tools/compose-exports.cjs` and re-export this board; the original implementation screenshot can be reused.
+
+3. **P2 — One Arabic alt text changes the material meaning.** The Courtyard House detail's Arabic description in `web/assets/selected-work/form/site/data.js:18` still says “الجدران المعدنية الفاتحة” (light metal walls). Its visible Arabic caption already describes natural finishes, and `docs/form/design/public-site-notes.md` records that intended distinction. Change the alt text to the same natural-finish wording. No visual recapture is needed for this source correction.
+
+## Evidence validity and checks
+
+The dated JSON records support a local implemented demonstration: `public-checks.json` contains 56 EN/AR route views at 320, 390, 768 and 1440 px, plus eight separate functional/fallback checks (nine named checks total including the aggregate responsive check). Recorded results include no document overflow, no broken images, contextual enquiry routing, draft preservation through invalid input/language/reload, retry, an over-limit outline, reduced motion, no-script guidance and unavailable-storage recovery. `cms-browser-checks.json` records eleven passing scenarios covering edit → actual preview → browser-local publish, validation, persistence, separate focal coordinates, story/image relation preservation, long content, absent area and Arabic mobile operation. Both records report no page JavaScript errors. These records were examined; their flows were not independently rerun here.
+
+The supplied home/project/work/studio, enquiry and CMS captures are genuine implementation evidence consistent with their source. The entered and invalid enquiry proofs retain identical email/outline data; the receipt clearly says the enquiry has not been sent. Generated architectural scenes remain concept/art-direction evidence, not proof of a built building or software behavior. All nine generated-source copies match the tool-output image data; the Courtyard source's differing file bytes are an added provenance text chunk only. The alternate views remain conceptual continuity, not surveyed views.
+
+All twelve primary runtime WebPs exist and their dimensions match their PNG presentation sources and `export-record.json`: card 1600 × 1000, hero 2560 × 1600, ten boards 2000 × 1500. The supplied eight-vector `identity-render-audit.json` reports no text overflow, and the actual 192 px wordmark / 24 px frame proof is readable at its stated digital scale. No invalid evidence requires wholesale recapture; findings 1–2 concern actual crop behavior/composition.
+
+A scoped Impeccable detector run returned 77 findings: 60 concern comparing Form fonts, colors and type sizes with the agency's current `DESIGN.md`; ten flag the approved Instrument Sans/Chalk direction; two mistake the exact geometric open frame for an organic contour. The remaining baseline descriptor/section-padding findings do not establish a material failure in the inspected output. These signals do not justify replacing the pinned Form system. No browser overlay or new live capture was used for this review.
+
+## Risks/limits
+
+Final per-raster provenance and production/verification documentation were still being assembled at review time. `docs/form/tools/finalize-assets.py:31` needed source-path derivation corrected before use: the authored HTML filenames include `.webp` and flattened detail prefixes, and responsive variants must point to their parent source. Assert every recorded source exists before calling the asset register complete. The current export record and generation notes are usable evidence but do not substitute for that completed register.
+
+Browser-local storage and preview/publish behavior are the demonstrated fidelity; there is no authenticated/hosted CMS or receiving service. Arabic is an authored translation and RTL trial, with independent commercial-language review still outside this evidence. Physical printing, architectural construction, trademark/domain clearance, user research, commercial outcomes and a real client launch are unclaimed. Whole-site production/browser checks remain the integrating agent's next gate.

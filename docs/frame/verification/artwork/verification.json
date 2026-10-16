@@ -1,0 +1,164 @@
+{
+  "version": "1.0.2",
+  "created_on": "2026-10-13",
+  "verified_on": "2026-10-14",
+  "pdf_count": 8,
+  "pdf_pages": 40,
+  "svg_count": 16,
+  "media": [
+    {
+      "id": "frame-media-see-the-edges-ar-mp4",
+      "runtime_filename": "assets/selected-work/frame/media/see-the-edges-ar.mp4",
+      "source_filename": "source/lesson-film.html",
+      "project": "frame",
+      "content_record": "FA-PH-01",
+      "content_title": "Composition Essentials / 01 See the edges",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "pages": null,
+      "actual_media_seconds": 30.0,
+      "creator": "Codex-authored Frame lesson; built-in ImageGen photographic source",
+      "created_on": "2026-10-13",
+      "verified_on": "2026-10-14",
+      "status": "Verified produced lesson media/caption/transcript",
+      "rights": "Authored in this task; generated photographic source credited separately. No learner work or instructor review is represented.",
+      "caption": "A centre/edge placement lesson authored in Arabic. 30-second media; eight-minute planned study target.",
+      "alt": "The same coral ceramic sphere is shown first at the centre, then toward one edge, with instructional text.",
+      "crop": {
+        "mode": "centre-source-then-author-selected-edge",
+        "focal_point": {
+          "x": 0.5,
+          "y": 0.55
+        },
+        "safe_margin": "8% for critical mark/text; inspect full image when the course metadata would crop"
+      },
+      "bytes": 854473,
+      "sha256": "1f91ff1d5ca861f253771894773d64204691c0f42f1e39deaa8b9d6ef72d2123"
+    },
+    {
+      "id": "frame-media-see-the-edges-mp4",
+      "runtime_filename": "assets/selected-work/frame/media/see-the-edges.mp4",
+      "source_filename": "source/lesson-film.html",
+      "project": "frame",
+      "content_record": "FA-PH-01",
+      "content_title": "Composition Essentials / 01 See the edges",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "pages": null,
+      "actual_media_seconds": 30.0,
+      "creator": "Codex-authored Frame lesson; built-in ImageGen photographic source",
+      "created_on": "2026-10-13",
+      "verified_on": "2026-10-14",
+      "status": "Verified produced lesson media/caption/transcript",
+      "rights": "Authored in this task; generated photographic source credited separately. No learner work or instructor review is represented.",
+      "caption": "A centre/edge placement lesson authored in English. 30-second media; eight-minute planned study target.",
+      "alt": "The same coral ceramic sphere is shown first at the centre, then toward one edge, with instructional text.",
+      "crop": {
+        "mode": "centre-source-then-author-selected-edge",
+        "focal_point": {
+          "x": 0.5,
+          "y": 0.55
+        },
+        "safe_margin": "8% for critical mark/text; inspect full image when the course metadata would crop"
+      },
+      "bytes": 930777,
+      "sha256": "29cd39f2e42de1af0e818174d3ead7e9d9405d1ff18b3fb4b541d3ae946aac59"
+    }
+  ],
+  "caption_cues_per_language": 6,
+  "caption_coverage_seconds": 30,
+  "planned_lesson_study_minutes": 8,
+  "planned_course_study_minutes": 62,
+  "provenance_scan": {
+    "rasters": 28,
+    "missing": 0
+  },
+  "contrast_pairs": [
+    {
+      "foreground": "#F7F9FC",
+      "background": "#244CCD",
+      "role": "Primary action text",
+      "contrast_ratio": 6.66,
+      "normal_text_4_5_pass": true
+    },
+    {
+      "foreground": "#18243D",
+      "background": "#F7F9FC",
+      "role": "Body text",
+      "contrast_ratio": 14.66,
+      "normal_text_4_5_pass": true
+    },
+    {
+      "foreground": "#52627B",
+      "background": "#F7F9FC",
+      "role": "Secondary text",
+      "contrast_ratio": 5.87,
+      "normal_text_4_5_pass": true
+    },
+    {
+      "foreground": "#18243D",
+      "background": "#A7E3CE",
+      "role": "Exercise text",
+      "contrast_ratio": 10.69,
+      "normal_text_4_5_pass": true
+    },
+    {
+      "foreground": "#18243D",
+      "background": "#FF8A6C",
+      "role": "Artwork text",
+      "contrast_ratio": 6.7,
+      "normal_text_4_5_pass": true
+    },
+    {
+      "foreground": "#225C47",
+      "background": "#A7E3CE",
+      "role": "Confirmed-save text",
+      "contrast_ratio": 5.4,
+      "normal_text_4_5_pass": true
+    },
+    {
+      "foreground": "#A92F33",
+      "background": "#F7F9FC",
+      "role": "Recovery text",
+      "contrast_ratio": 6.34,
+      "normal_text_4_5_pass": true
+    },
+    {
+      "foreground": "#244CCD",
+      "background": "#F7F9FC",
+      "role": "Focus and underlined link",
+      "contrast_ratio": 6.66,
+      "normal_text_4_5_pass": true
+    }
+  ],
+  "visual_review": {
+    "first_batch": "13 October 2026",
+    "confirmation": "14 October 2026",
+    "scope": "All 40 final PDF pages, identity board, course covers, 24/32/48px symbol, 160/240px compact wordmark, 320px full lockup and corrected EN/AR lesson comparisons",
+    "material_fixes": [
+      "Arabic film heading clears fixed brand symbol",
+      "Equal-scale photos fill both centre/edge frames independently of text direction",
+      "Full lockup ACADEMY descriptor below custom lettering",
+      "Whole-journey Arabic lesson title consistency"
+    ],
+    "result": "Confirmed at the listed artifact scope"
+  },
+  "decode": "Both MP4s decoded fully with ffmpeg -v error -f null and no errors",
+  "finish_review_corrections": {
+    "date": "2026-10-14",
+    "covers": "Explicit RTL count/time metadata in the three Arabic cover masters and exports",
+    "workbooks": "Preview-only Light/Grid prompts no longer imply app completion",
+    "affected_pdf_pages": 31,
+    "preserved_total_pages": 40,
+    "source_manifest_files": 88,
+    "provenance_scan": {
+      "rasters": 28,
+      "missing": 0
+    },
+    "score": "Independent reviewer scored both listed findings resolved; no visible regression in that bounded fix batch. This does not claim whole-product approval."
+  }
+}

@@ -143,11 +143,12 @@ class CaseRuntime {
 
   void _populate(CaseStudy study) {
     _current = study;
+    setClass(_modal, 'case-self-initiated', study.isSelfInitiated);
     _currentIndex = content.caseStudies.indexOf(study);
     _countsStarted = false;
     final token = _contentGeneration.begin();
     _contentEvents = EventScope();
-    _applyImage(_heroImage, study.heroImage, study.name, loading: 'eager');
+    _applyImage(_heroImage, study.heroImage, study.heroAlt ?? study.name, loading: 'eager');
     _heroImage.removeAttribute('hidden');
     _contentEvents!.listen(_heroImage, 'error', (_) {
       if (_contentGeneration.accepts(token)) _transition.cancel();
@@ -156,9 +157,9 @@ class CaseRuntime {
     elementById<web.HTMLElement>('cmTag').textContent = study.tag;
     _meta.textContent = '';
     for (final entry in <(String, String)>[
-      (content.t(UiTextKey.caseClient), study.client),
+      (content.t(study.isSelfInitiated ? UiTextKey.caseProject : UiTextKey.caseClient), study.client),
       (content.t(UiTextKey.caseRole), study.role),
-      (content.t(UiTextKey.caseTimeline), study.timeline),
+      (content.t(study.isSelfInitiated ? UiTextKey.caseFormat : UiTextKey.caseTimeline), study.timeline),
       (content.t(UiTextKey.caseDeliverables), study.deliverables),
     ]) {
       final item = _element('div');
@@ -179,6 +180,7 @@ class CaseRuntime {
       ..append(_element('em', text: study.lede.emphasis))
       ..append(web.document.createTextNode(study.lede.after));
     _body.append(lede);
+    _renderDownloads(study);
     switch (study.layout) {
       case CaseLayout.split:
         _renderSplit(study);
@@ -260,6 +262,7 @@ class CaseRuntime {
   }
 
   void _renderSticky(CaseStudy study) {
+    _appendParagraphs(_body, study.paragraphs);
     final sticky = _element('div', classes: 'cm-sticky');
     final left = _element('div', classes: 'cm-stickyleft', attributes: {'aria-hidden': 'true'});
     if (study.chapters.isNotEmpty) {
@@ -334,27 +337,29 @@ class CaseRuntime {
   }
 
   void _renderStatistics(CaseStudy study) {
-    final metrics = _element(
-      'div',
-      classes: 'cm-stats',
-      attributes: {'role': 'group', 'aria-label': content.t(UiTextKey.caseResults)},
-    );
-    for (final metric in study.metrics) {
-      final card = _element('div');
-      final value = '${content.formatMetric(metric.target, metric.decimals)}${metric.suffix}';
-      final number = _element('div', classes: 'n');
-      final visualValue = _element('span', text: value, attributes: {'aria-hidden': 'true'});
-      number
-        ..append(_element('span', classes: 'visually-hidden', text: content.spokenMetricValue(metric)))
-        ..append(visualValue);
-      _metricValues.add((visualValue, metric));
-      card
-        ..append(number)
-        ..append(_element('div', classes: 'l', text: metric.label));
-      metrics.append(card);
+    if (study.metrics.isNotEmpty) {
+      final metrics = _element(
+        'div',
+        classes: 'cm-stats',
+        attributes: {'role': 'group', 'aria-label': content.t(UiTextKey.caseResults)},
+      );
+      for (final metric in study.metrics) {
+        final card = _element('div');
+        final value = '${content.formatMetric(metric.target, metric.decimals)}${metric.suffix}';
+        final number = _element('div', classes: 'n');
+        final visualValue = _element('span', text: value, attributes: {'aria-hidden': 'true'});
+        number
+          ..append(_element('span', classes: 'visually-hidden', text: content.spokenMetricValue(metric)))
+          ..append(visualValue);
+        _metricValues.add((visualValue, metric));
+        card
+          ..append(number)
+          ..append(_element('div', classes: 'l', text: metric.label));
+        metrics.append(card);
+      }
+      _body.append(metrics);
+      _observeMetrics(metrics, study);
     }
-    _body.append(metrics);
-    _observeMetrics(metrics, study);
     _appendParagraphs(_body, study.paragraphs);
     _appendFigures(_body, study);
     if (study.quote case final quote?) _body.append(_quote(quote, study));
@@ -428,6 +433,49 @@ class CaseRuntime {
     for (final paragraph in paragraphs) {
       parent.append(_element('p', classes: 'cm-paras', text: paragraph));
     }
+  }
+
+  void _renderDownloads(CaseStudy study) {
+    if (study.downloads.isEmpty) return;
+    final section = _element('section', classes: 'cm-downloads', attributes: {'aria-labelledby': 'cmDownloadsTitle'});
+    final hasDemonstrations = study.downloads.any((download) => !download.isDownload);
+    section
+      ..append(
+        _element(
+          'h3',
+          id: 'cmDownloadsTitle',
+          text: content.t(hasDemonstrations ? UiTextKey.caseDemonstrations : UiTextKey.caseDownloads),
+        ),
+      )
+      ..append(
+        _element(
+          'p',
+          text: content.t(
+            hasDemonstrations ? UiTextKey.caseDemonstrationsDescription : UiTextKey.caseDownloadsDescription,
+          ),
+        ),
+      );
+    final links = _element('div', classes: 'cm-download-links');
+    for (final download in study.downloads) {
+      final link = _element(
+        'a',
+        classes: 'cm-download',
+        attributes: {
+          'href': download.href,
+          if (download.isDownload) 'download': download.href.split('/').last,
+          'aria-label': content.t(
+            download.isDownload ? UiTextKey.caseDownloadAria : UiTextKey.caseOpenAria,
+            values: {'label': download.label, 'format': download.format},
+          ),
+        },
+      );
+      link
+        ..append(_element('span', text: download.label))
+        ..append(_element('span', classes: 'cm-download-format', text: download.format, attributes: {'dir': 'ltr'}));
+      links.append(link);
+    }
+    section.append(links);
+    _body.append(section);
   }
 
   void _appendFigures(web.HTMLElement parent, CaseStudy study) {

@@ -1,0 +1,7 @@
+{
+  "origin": "web/assets/selected-work/fold/shopping-flow-ar.mp4",
+  "seekSeconds": 9.007,
+  "prompt": "Origin: actual decoded browser video frame from shopping-flow-ar.mp4 at 9.007s. Exact video pixels; no generated UI or compositing. Event checkpoints are relative to page creation and are retained separately.",
+  "kind": "actual decoded recording frame",
+  "provenanceStorage": "native image metadata"
+}

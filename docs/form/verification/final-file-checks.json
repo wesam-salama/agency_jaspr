@@ -1,0 +1,345 @@
+{
+  "date": "2026-10-13",
+  "files": [
+    {
+      "file": "baseline-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "baseline.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "card-480.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "card-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "card.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "cms-edit-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "cms-edit.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "details/image-crop-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "details/image-crop.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "details/project-facts-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "details/project-facts.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "details/wordmark-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "details/wordmark.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "enquiry-states-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "enquiry-states.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "hero-480.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "hero-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "hero.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "identity-system-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "identity-system.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "project-desktop-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "project-desktop.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "project-mobile-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "project-mobile.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "redesign-960.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "redesign.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/clear-space.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/frame-mark.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/identity-system.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/small-size-proof.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/starting-brochure.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/starting-identity.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/stationery-cover.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/wordmark-dark.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/wordmark-mono.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "source/wordmark.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/courtyard-house-detail-source.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/courtyard-house-detail.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/courtyard-house-exterior-source.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/courtyard-house-exterior.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/courtyard-house-source.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/courtyard-house.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/line-studio-detail-source.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/line-studio-detail.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/line-studio-exterior-source.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/line-studio-exterior.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/line-studio-source.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/line-studio.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/shore-library-detail-source.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/shore-library-detail.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/shore-library-exterior-source.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/shore-library-exterior.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/shore-library-source.png",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    },
+    {
+      "file": "studies/shore-library.webp",
+      "source_build_match": true,
+      "manifest_sha_match": true
+    }
+  ],
+  "zip": {
+    "integrity": "passed",
+    "entries": 267,
+    "arabic_font_paths_portable": true,
+    "source_build_sha_match": true,
+    "sha256": "034ee02ce1c741d7870686e77f94e80ea960c82892568d9d0601deb7ca23fce5"
+  },
+  "http": [
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/",
+      "status": 200,
+      "sha256": "48ca4afa674a033a432cfde760a966b0afe37779d6d2ddf59a23b3bb4492dbbf"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/ar/",
+      "status": 200,
+      "sha256": "a511f732c6c0a74e4f98e8f730bec431c97d7614e19042dfc12a1430999e985a"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/fr/",
+      "status": 200,
+      "sha256": "0e9c3a71d0b02dea0d064bf221d3b4101789c5e213b7c492295deaba9d7e515b"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/main.client.dart.js",
+      "status": 200,
+      "sha256": "60d29a146ab7fbb5a0a992c62f06c9790e99dc345939541c3708452ada4d463d"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/assets/styles.css",
+      "status": 200,
+      "sha256": "83fff129ac5032cffe8416b20bbdafe2edf7ecd3ded2a3c20c94d8e91ff60ffe"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/assets/selected-work/form/site/index.html",
+      "status": 200,
+      "sha256": "f166561ad17e6aa60abca3a3a5ab81455d83b4ffffde0856f31f3ce16d98c7f7"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/assets/selected-work/form/site/editor.html",
+      "status": 200,
+      "sha256": "0cb79c721a9c8859eaad33988705c363aed39dfc9e442f13e2c711f0cd4a08b1"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/assets/selected-work/form/site/baseline.html",
+      "status": 200,
+      "sha256": "75c53de0788114d4b44af52371ec7759a837fdd915e6810543774e14019fd52f"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/assets/selected-work/form/hero.webp",
+      "status": 200,
+      "sha256": "67cb728b79502fee63a0e7dcf2934b7b0a855d46c4ca9884d9426e919c009034"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/assets/selected-work/form/form-source.zip",
+      "status": 200,
+      "sha256": "034ee02ce1c741d7870686e77f94e80ea960c82892568d9d0601deb7ca23fce5",
+      "source_bytes_match": true
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/assets/selected-work/sift/sift-brand-guide.pdf",
+      "status": 200,
+      "sha256": "ad6e756d0643ff8bffebbc1114219b58f76b360259d1e4629b2043c404aa658c"
+    },
+    {
+      "url": "http://127.0.0.1:8798/agency_jaspr/assets/selected-work/sift/sift-artwork.zip",
+      "status": 200,
+      "sha256": "3d6affe66ae18b28f8ee4865913162454632f1066076b1291e861951b6329e92"
+    }
+  ]
+}

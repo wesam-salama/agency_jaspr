@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-13T16:10:35.145878Z",
+  "title": "Design System: Form Architecture",
+  "extensions": {
+    "colorMeta": {
+      "chalk": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "canonical": "#f1f0ea",
+        "tonalRamp": [
+          "oklch(15% 0.00804 98.88)",
+          "oklch(27% 0.00804 98.88)",
+          "oklch(38% 0.00804 98.88)",
+          "oklch(49% 0.00804 98.88)",
+          "oklch(60% 0.00804 98.88)",
+          "oklch(71% 0.00804 98.88)",
+          "oklch(82% 0.00804 98.88)",
+          "oklch(95% 0.00804 98.88)"
+        ]
+      },
+      "charcoal": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "canonical": "#2d3331",
+        "tonalRamp": [
+          "oklch(15% 0.00900 173.73)",
+          "oklch(27% 0.00900 173.73)",
+          "oklch(38% 0.00900 173.73)",
+          "oklch(49% 0.00900 173.73)",
+          "oklch(60% 0.00900 173.73)",
+          "oklch(71% 0.00900 173.73)",
+          "oklch(82% 0.00900 173.73)",
+          "oklch(95% 0.00900 173.73)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Sage",
+        "canonical": "#69766a",
+        "tonalRamp": [
+          "oklch(15% 0.02403 147.41)",
+          "oklch(27% 0.02403 147.41)",
+          "oklch(38% 0.02403 147.41)",
+          "oklch(49% 0.02403 147.41)",
+          "oklch(60% 0.02403 147.41)",
+          "oklch(71% 0.02403 147.41)",
+          "oklch(82% 0.02403 147.41)",
+          "oklch(95% 0.02403 147.41)"
+        ]
+      },
+      "functional-sage": {
+        "role": "primary",
+        "displayName": "Functional Sage",
+        "canonical": "#4e5e51",
+        "tonalRamp": [
+          "oklch(15% 0.02867 150.62)",
+          "oklch(27% 0.02867 150.62)",
+          "oklch(38% 0.02867 150.62)",
+          "oklch(49% 0.02867 150.62)",
+          "oklch(60% 0.02867 150.62)",
+          "oklch(71% 0.02867 150.62)",
+          "oklch(82% 0.02867 150.62)",
+          "oklch(95% 0.02867 150.62)"
+        ]
+      },
+      "clay": {
+        "role": "secondary",
+        "displayName": "Clay",
+        "canonical": "#a56b50",
+        "tonalRamp": [
+          "oklch(15% 0.08438 45.60)",
+          "oklch(27% 0.08438 45.60)",
+          "oklch(38% 0.08438 45.60)",
+          "oklch(49% 0.08438 45.60)",
+          "oklch(60% 0.08438 45.60)",
+          "oklch(71% 0.08438 45.60)",
+          "oklch(82% 0.08438 45.60)",
+          "oklch(95% 0.08438 45.60)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#d2d5cb",
+        "tonalRamp": [
+          "oklch(15% 0.01393 120.31)",
+          "oklch(27% 0.01393 120.31)",
+          "oklch(38% 0.01393 120.31)",
+          "oklch(49% 0.01393 120.31)",
+          "oklch(60% 0.01393 120.31)",
+          "oklch(71% 0.01393 120.31)",
+          "oklch(82% 0.01393 120.31)",
+          "oklch(95% 0.01393 120.31)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#59605a",
+        "tonalRamp": [
+          "oklch(15% 0.01288 149.66)",
+          "oklch(27% 0.01288 149.66)",
+          "oklch(38% 0.01288 149.66)",
+          "oklch(49% 0.01288 149.66)",
+          "oklch(60% 0.01288 149.66)",
+          "oklch(71% 0.01288 149.66)",
+          "oklch(82% 0.01288 149.66)",
+          "oklch(95% 0.01288 149.66)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Public Error",
+        "canonical": "#852f26",
+        "tonalRamp": [
+          "oklch(15% 0.12012 28.96)",
+          "oklch(27% 0.12012 28.96)",
+          "oklch(38% 0.12012 28.96)",
+          "oklch(49% 0.12012 28.96)",
+          "oklch(60% 0.12012 28.96)",
+          "oklch(71% 0.12012 28.96)",
+          "oklch(82% 0.12012 28.96)",
+          "oklch(95% 0.12012 28.96)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "Public Field Border",
+        "canonical": "#788075",
+        "tonalRamp": [
+          "oklch(15% 0.01898 137.06)",
+          "oklch(27% 0.01898 137.06)",
+          "oklch(38% 0.01898 137.06)",
+          "oklch(49% 0.01898 137.06)",
+          "oklch(60% 0.01898 137.06)",
+          "oklch(71% 0.01898 137.06)",
+          "oklch(82% 0.01898 137.06)",
+          "oklch(95% 0.01898 137.06)"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Public Placeholder",
+        "canonical": "#646b63",
+        "tonalRamp": [
+          "oklch(15% 0.01504 141.76)",
+          "oklch(27% 0.01504 141.76)",
+          "oklch(38% 0.01504 141.76)",
+          "oklch(49% 0.01504 141.76)",
+          "oklch(60% 0.01504 141.76)",
+          "oklch(71% 0.01504 141.76)",
+          "oklch(82% 0.01504 141.76)",
+          "oklch(95% 0.01504 141.76)"
+        ]
+      },
+      "secondary-hover": {
+        "role": "neutral",
+        "displayName": "Secondary Hover",
+        "canonical": "#e4e5db",
+        "tonalRamp": [
+          "oklch(15% 0.01341 111.29)",
+          "oklch(27% 0.01341 111.29)",
+          "oklch(38% 0.01341 111.29)",
+          "oklch(49% 0.01341 111.29)",
+          "oklch(60% 0.01341 111.29)",
+          "oklch(71% 0.01341 111.29)",
+          "oklch(82% 0.01341 111.29)",
+          "oklch(95% 0.01341 111.29)"
+        ]
+      },
+      "diagram-surface": {
+        "role": "neutral",
+        "displayName": "Diagram Surface",
+        "canonical": "#e8e9e0",
+        "tonalRamp": [
+          "oklch(15% 0.01204 111.77)",
+          "oklch(27% 0.01204 111.77)",
+          "oklch(38% 0.01204 111.77)",
+          "oklch(49% 0.01204 111.77)",
+          "oklch(60% 0.01204 111.77)",
+          "oklch(71% 0.01204 111.77)",
+          "oklch(82% 0.01204 111.77)",
+          "oklch(95% 0.01204 111.77)"
+        ]
+      },
+      "frame-surface": {
+        "role": "neutral",
+        "displayName": "Frame Surface",
+        "canonical": "#e3e5dc",
+        "tonalRamp": [
+          "oklch(15% 0.01222 116.82)",
+          "oklch(27% 0.01222 116.82)",
+          "oklch(38% 0.01222 116.82)",
+          "oklch(49% 0.01222 116.82)",
+          "oklch(60% 0.01222 116.82)",
+          "oklch(71% 0.01222 116.82)",
+          "oklch(82% 0.01222 116.82)",
+          "oklch(95% 0.01222 116.82)"
+        ]
+      },
+      "editor-paper": {
+        "role": "neutral",
+        "displayName": "Editor Paper",
+        "canonical": "#fafaf6",
+        "tonalRamp": [
+          "oklch(15% 0.00527 106.50)",
+          "oklch(27% 0.00527 106.50)",
+          "oklch(38% 0.00527 106.50)",
+          "oklch(49% 0.00527 106.50)",
+          "oklch(60% 0.00527 106.50)",
+          "oklch(71% 0.00527 106.50)",
+          "oklch(82% 0.00527 106.50)",
+          "oklch(95% 0.00527 106.50)"
+        ]
+      },
+      "editor-error": {
+        "role": "neutral",
+        "displayName": "Editor Error",
+        "canonical": "#7d432f",
+        "tonalRamp": [
+          "oklch(15% 0.08612 39.62)",
+          "oklch(27% 0.08612 39.62)",
+          "oklch(38% 0.08612 39.62)",
+          "oklch(49% 0.08612 39.62)",
+          "oklch(60% 0.08612 39.62)",
+          "oklch(71% 0.08612 39.62)",
+          "oklch(82% 0.08612 39.62)",
+          "oklch(95% 0.08612 39.62)"
+        ]
+      },
+      "editor-field-border": {
+        "role": "neutral",
+        "displayName": "Editor Field Border",
+        "canonical": "#879186",
+        "tonalRamp": [
+          "oklch(15% 0.01984 142.77)",
+          "oklch(27% 0.01984 142.77)",
+          "oklch(38% 0.01984 142.77)",
+          "oklch(49% 0.01984 142.77)",
+          "oklch(60% 0.01984 142.77)",
+          "oklch(71% 0.01984 142.77)",
+          "oklch(82% 0.01984 142.77)",
+          "oklch(95% 0.01984 142.77)"
+        ]
+      },
+      "editor-placeholder": {
+        "role": "neutral",
+        "displayName": "Editor Placeholder",
+        "canonical": "#5c685d",
+        "tonalRamp": [
+          "oklch(15% 0.02259 147.58)",
+          "oklch(27% 0.02259 147.58)",
+          "oklch(38% 0.02259 147.58)",
+          "oklch(49% 0.02259 147.58)",
+          "oklch(60% 0.02259 147.58)",
+          "oklch(71% 0.02259 147.58)",
+          "oklch(82% 0.02259 147.58)",
+          "oklch(95% 0.02259 147.58)"
+        ]
+      },
+      "editor-feedback": {
+        "role": "neutral",
+        "displayName": "Editor Feedback",
+        "canonical": "#e5eadf",
+        "tonalRamp": [
+          "oklch(15% 0.01559 126.83)",
+          "oklch(27% 0.01559 126.83)",
+          "oklch(38% 0.01559 126.83)",
+          "oklch(49% 0.01559 126.83)",
+          "oklch(60% 0.01559 126.83)",
+          "oklch(71% 0.01559 126.83)",
+          "oklch(82% 0.01559 126.83)",
+          "oklch(95% 0.01559 126.83)"
+        ]
+      },
+      "editor-warning": {
+        "role": "neutral",
+        "displayName": "Editor Warning",
+        "canonical": "#eee0d4",
+        "tonalRamp": [
+          "oklch(15% 0.02231 63.19)",
+          "oklch(27% 0.02231 63.19)",
+          "oklch(38% 0.02231 63.19)",
+          "oklch(49% 0.02231 63.19)",
+          "oklch(60% 0.02231 63.19)",
+          "oklch(71% 0.02231 63.19)",
+          "oklch(82% 0.02231 63.19)",
+          "oklch(95% 0.02231 63.19)"
+        ]
+      },
+      "editor-hover": {
+        "role": "neutral",
+        "displayName": "Editor Hover",
+        "canonical": "#e2e6dd",
+        "tonalRamp": [
+          "oklch(15% 0.01276 126.38)",
+          "oklch(27% 0.01276 126.38)",
+          "oklch(38% 0.01276 126.38)",
+          "oklch(49% 0.01276 126.38)",
+          "oklch(60% 0.01276 126.38)",
+          "oklch(71% 0.01276 126.38)",
+          "oklch(82% 0.01276 126.38)",
+          "oklch(95% 0.01276 126.38)"
+        ]
+      },
+      "editor-active": {
+        "role": "neutral",
+        "displayName": "Editor Active",
+        "canonical": "#d2d9cf",
+        "tonalRamp": [
+          "oklch(15% 0.01550 136.09)",
+          "oklch(27% 0.01550 136.09)",
+          "oklch(38% 0.01550 136.09)",
+          "oklch(49% 0.01550 136.09)",
+          "oklch(60% 0.01550 136.09)",
+          "oklch(71% 0.01550 136.09)",
+          "oklch(82% 0.01550 136.09)",
+          "oklch(95% 0.01550 136.09)"
+        ]
+      },
+      "editor-on-action": {
+        "role": "neutral",
+        "displayName": "Editor On Action",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(27% 0.00000 0.00)",
+          "oklch(38% 0.00000 0.00)",
+          "oklch(49% 0.00000 0.00)",
+          "oklch(60% 0.00000 0.00)",
+          "oklch(71% 0.00000 0.00)",
+          "oklch(82% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Latin page title",
+        "purpose": "General public titles; local Cormorant Garamond with serif fallback."
+      },
+      "hero": {
+        "displayName": "Latin positioning",
+        "purpose": "Home positioning, whole-word wrapping; exact responsive overrides are documented in DESIGN.md."
+      },
+      "body": {
+        "displayName": "Public information",
+        "purpose": "Instrument Sans reading, facts and controls; Form Symbols supplies only the missing U+00B2 from the approved local Cormorant WOFF2."
+      },
+      "arabic-display": {
+        "displayName": "Arabic title",
+        "purpose": "Local IBM Plex Sans Arabic, normal tracking, document RTL."
+      },
+      "editor-body": {
+        "displayName": "Editor information",
+        "purpose": "Denser functional editor with the same Instrument Sans / Form Symbols / sans-serif chain; the recorded fallback resolves superscript two without claiming Instrument coverage."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "project-image-hover",
+        "value": "transform 650ms cubic-bezier(.16,1,.3,1); scale(1.018)",
+        "purpose": "Restrained user-triggered preview feedback; removed for reduced motion."
+      },
+      {
+        "name": "text-action-arrow",
+        "value": "translate(2px,-2px)",
+        "purpose": "Small hover direction cue; horizontal movement mirrors in RTL."
+      },
+      {
+        "name": "public-reduced-motion",
+        "value": "animation-duration:.01ms; transition-duration:.01ms; transform:none",
+        "purpose": "Keep visible content and remove image-hover motion when the device requests reduction."
+      },
+      {
+        "name": "editor-reduced-motion",
+        "value": "transition:none; scroll-behavior:auto",
+        "purpose": "Editor device-motion preference."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "public-large-cap",
+        "value": "1600px"
+      },
+      {
+        "name": "public-compact-desktop",
+        "value": "1000px"
+      },
+      {
+        "name": "public-linear-mobile",
+        "value": "760px"
+      },
+      {
+        "name": "public-narrow-mobile",
+        "value": "380px"
+      },
+      {
+        "name": "editor-large-grid",
+        "value": "1600px"
+      },
+      {
+        "name": "editor-stacked-preview",
+        "value": "1150px"
+      },
+      {
+        "name": "editor-in-flow-studies",
+        "value": "760px"
+      },
+      {
+        "name": "editor-single-fields",
+        "value": "430px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Public Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Enquiry preview action, with hover, keyboard focus and disabled pending state.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Preview demo receipt<svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M5 19 19 5M5 5h14v14\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></button>",
+      "css": ".ds-primary{font-family:'Instrument Sans','Form Symbols',sans-serif;font-size:16px;line-height:1.5;font-weight:500;min-height:52px;background:var(--functional-sage,#4e5e51);color:var(--chalk,#f1f0ea);border:1px solid var(--functional-sage,#4e5e51);border-radius:0;padding:13px 24px;display:inline-flex;align-items:center;justify-content:center;gap:24px;cursor:pointer}.ds-primary:hover{background:var(--charcoal,#2d3331);border-color:var(--charcoal,#2d3331)}.ds-primary:focus-visible{outline:3px solid var(--functional-sage,#4e5e51);outline-offset:4px;}.ds-primary:disabled{cursor:wait;opacity:.68}"
+    },
+    {
+      "name": "Public Secondary Action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet outlined secondary control.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Edit enquiry</button>",
+      "css": ".ds-secondary{font-family:'Instrument Sans','Form Symbols',sans-serif;font-size:16px;line-height:1.65;font-weight:500;min-height:48px;background:transparent;color:var(--charcoal,#2d3331);border:1px solid var(--charcoal,#2d3331);border-radius:0;padding:11px 20px;cursor:pointer}.ds-secondary:hover{background:#e4e5db}.ds-secondary:focus-visible{outline:3px solid var(--functional-sage,#4e5e51);outline-offset:4px;}.ds-secondary:disabled{cursor:wait;opacity:.68}"
+    },
+    {
+      "name": "Text Action",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Underlined open editorial action with the authored SVG direction cue.",
+      "html": "<a class=\"ds-text-action\" href=\"#work\">Explore the studies<svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M5 19 19 5M5 5h14v14\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></a>",
+      "css": ".ds-text-action{font-family:'Instrument Sans','Form Symbols',sans-serif;font-size:15px;font-weight:500;line-height:1.65;color:var(--charcoal,#2d3331);text-decoration:none;display:inline-flex;align-items:center;justify-content:space-between;gap:24px;min-height:48px;border-bottom:1px solid var(--charcoal,#2d3331);padding:4px 0}.ds-text-action svg{flex-shrink:0}.ds-text-action:hover svg{transform:translate(2px,-2px)}.ds-text-action:focus-visible{outline:3px solid var(--functional-sage,#4e5e51);outline-offset:4px;}[dir=rtl] .ds-text-action svg{transform:scaleX(-1)}[dir=rtl] .ds-text-action:hover svg{transform:translate(-2px,-2px) scaleX(-1)}"
+    },
+    {
+      "name": "Public Text Field",
+      "kind": "input",
+      "refersTo": "public-field",
+      "description": "Permanent label, transparent square field, associated hint/error and visible keyboard focus.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-location\">Project location <small>Required</small></label><input id=\"ds-location\" name=\"location\" type=\"text\" aria-describedby=\"ds-location-hint ds-location-error\" required><p id=\"ds-location-hint\">A city or region is enough; no full address is needed.</p><p class=\"ds-field-error\" id=\"ds-location-error\"></p></div>",
+      "css": ".ds-field{font-family:'Instrument Sans','Form Symbols',sans-serif;color:var(--charcoal,#2d3331);display:flex;flex-direction:column;gap:8px;max-width:480px}.ds-field label{font-size:14px;font-weight:500;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.ds-field small{font-size:12px;font-weight:400;color:var(--muted,#59605a)}.ds-field input{font-family:'Instrument Sans','Form Symbols',sans-serif;color:inherit;font-size:16px;line-height:1.5;background:transparent;border:1px solid #788075;border-radius:0;min-height:52px;padding:13px 14px;caret-color:var(--functional-sage,#4e5e51)}.ds-field input::placeholder{color:#646b63}.ds-field input:focus-visible{outline:3px solid var(--functional-sage,#4e5e51);outline-offset:4px;}.ds-field input[aria-invalid=true]{border-color:var(--error,#852f26)}.ds-field p{font-size:13px;margin:0;line-height:1.5;color:var(--muted,#59605a)}.ds-field .ds-field-error{color:var(--error,#852f26)}.ds-field-error:empty{display:none}"
+    },
+    {
+      "name": "Public Navigation",
+      "kind": "nav",
+      "description": "Visible native links with current-page underlining and practical targets.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary navigation\"><a href=\"#work\" aria-current=\"page\">Work</a><a href=\"#studio\">Studio</a><a href=\"#contact\">Contact</a></nav>",
+      "css": ".ds-nav{font-family:'Instrument Sans','Form Symbols',sans-serif;display:flex;gap:clamp(20px,3.3vw,48px);color:var(--charcoal,#2d3331);font-size:16px;line-height:1.65}.ds-nav a{min-height:44px;display:flex;align-items:center;color:inherit;text-decoration:none;text-underline-offset:5px;text-decoration-thickness:1px}.ds-nav a[aria-current=page]{text-decoration:underline}.ds-nav a:hover{text-decoration-thickness:2px}.ds-nav a:focus-visible{outline:3px solid var(--functional-sage,#4e5e51);outline-offset:4px;}@media(max-width:760px){.ds-nav{justify-content:space-between;border-top:1px solid var(--rule,#d2d5cb);padding-top:8px}.ds-nav a{font-size:15px}}"
+    },
+    {
+      "name": "Project Facts",
+      "kind": "custom",
+      "description": "Quiet project facts with ruled grouping and tabular, direction-stable metadata.",
+      "html": "<dl class=\"ds-facts\"><div><dt>Study</dt><dd>Residential study</dd></div><div><dt>Study year</dt><dd dir=\"ltr\">2025</dd></div><div><dt>Area</dt><dd dir=\"ltr\">240 m²</dd></div></dl>",
+      "css": ".ds-facts{font-family:'Instrument Sans','Form Symbols',sans-serif;display:grid;max-width:360px;margin:0;color:var(--charcoal,#2d3331);line-height:1.65}.ds-facts div{display:grid;grid-template-columns:1fr 1.1fr;gap:24px;padding:14px 0;border-bottom:1px solid var(--rule,#d2d5cb);font-size:14px}.ds-facts div:first-child{border-top:1px solid var(--rule,#d2d5cb)}.ds-facts dt{color:var(--muted,#59605a)}.ds-facts dd{margin:0;font-variant-numeric:tabular-nums}@media(max-width:760px){.ds-facts{max-width:none}.ds-facts div{grid-template-columns:1fr 1.25fr}}"
+    },
+    {
+      "name": "Open Frame",
+      "kind": "custom",
+      "description": "The original 3:4 secondary-mark geometry. The small digital proof needs nearby Form identification.",
+      "html": "<div class=\"ds-mark\"><svg class=\"ds-frame\" width=\"96\" height=\"128\" viewBox=\"0 0 96 128\" role=\"img\" aria-label=\"Form open frame, lower-right opening\"><path d=\"M94.0,95.2V4H4V124H65.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\"/></svg><span>Form Architecture</span></div>",
+      "css": ".ds-mark{font-family:'Instrument Sans','Form Symbols',sans-serif;display:flex;align-items:center;gap:16px;color:var(--charcoal,#2d3331);font-size:14px}.ds-frame{display:block;width:18px;height:24px;flex-shrink:0}"
+    },
+    {
+      "name": "Editor Primary Action",
+      "kind": "button",
+      "refersTo": "editor-button-primary",
+      "description": "The editor uses the same functional hue with its observed white action text.",
+      "html": "<button class=\"ds-editor-primary\" type=\"button\">Publish changes</button>",
+      "css": ".ds-editor-primary{font-family:'Instrument Sans','Form Symbols',sans-serif;font-size:16px;line-height:1.25;min-height:44px;border:1px solid var(--functional,#4e5e51);background:var(--functional,#4e5e51);color:#fff;border-radius:0;padding:10px 16px;cursor:pointer}.ds-editor-primary:hover{background:var(--charcoal,#2d3331)}.ds-editor-primary:focus-visible{outline:2px solid var(--functional,#4e5e51);outline-offset:4px}.ds-editor-primary:disabled{opacity:.6;cursor:not-allowed}"
+    },
+    {
+      "name": "Editor Text Field",
+      "kind": "input",
+      "refersTo": "editor-field",
+      "description": "Denser paper field with permanent label and the editor error boundary.",
+      "html": "<div class=\"ds-editor-field\"><label for=\"ds-title\">English title <span>Required</span></label><input id=\"ds-title\" type=\"text\" value=\"Courtyard House\" lang=\"en\" dir=\"ltr\" aria-describedby=\"ds-title-error\" required><p id=\"ds-title-error\" class=\"ds-editor-error\"></p></div>",
+      "css": ".ds-editor-field{font-family:'Instrument Sans','Form Symbols',sans-serif;color:var(--charcoal,#2d3331);display:flex;flex-direction:column;gap:6px;max-width:480px}.ds-editor-field label{display:flex;justify-content:space-between;gap:8px;font-size:.875rem;font-weight:600}.ds-editor-field label span{font-size:.75rem;font-weight:400;color:var(--functional,#4e5e51)}.ds-editor-field input{font:inherit;color:inherit;background:var(--paper,#fafaf6);border:1px solid #879186;border-radius:0;min-height:44px;padding:10px 12px;caret-color:var(--functional,#4e5e51)}.ds-editor-field input::placeholder{color:#5c685d}.ds-editor-field input:focus-visible{outline:2px solid var(--functional,#4e5e51);outline-offset:4px}.ds-editor-field input[aria-invalid=true]{border:2px solid var(--error,#7d432f)}.ds-editor-error{font-size:.8125rem;line-height:1.5;color:var(--error,#7d432f);margin:0}.ds-editor-error:empty{display:none}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Material-led architecture",
+    "overview": "Material-led architecture connects a spatial image to the decision it explains. Chalk surfaces, Charcoal reading, restrained Sage actions and the retained open-frame cue carry a quiet, useful architectural identity. Editorial headings give the idea room; facts, captions and controls keep it inspectable.\n\nThis is the finished Form public/editor system, extracted from its source on 13 October 2026. It is intentionally scoped to Form. The agency's root `DESIGN.md` and `.impeccable/design.json` continue to own the CR8.Media shell; Sift keeps its own identity. The approved code-led contract in `direction.md` supplies the descriptive language. Its internal direction text belongs in documentation, not public site copy.",
+    "keyCharacteristics": [
+      "Spatial imagery beside a readable explanation, with captions and full-image inspection.",
+      "Custom serif wordmark, a vertical open frame, square corners and thin rules.",
+      "Editorial desktop asymmetry that becomes a purposeful linear mobile sequence.",
+      "Functional controls and visible focus within a restrained material palette.",
+      "English and shaped Arabic records with equivalent actions and clear concept status."
+    ],
+    "rules": [
+      {
+        "name": "The Readable Actions Rule",
+        "body": "Use Functional Sage for small text and actions on Chalk. Sage and Clay carry restrained identity emphasis; they must not replace readable functional text or become the only status cue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Arabic Shaping Rule",
+        "body": "Arabic uses IBM Plex Sans Arabic, normal letter spacing and document RTL. Latin identities, file paths, email addresses and numeric fragments retain readable direction; do not track Arabic to imitate the Latin display voice.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do keep each spatial image beside its caption and the decision it explains.",
+      "Do retain the approved custom wordmark, lower-right open frame, square corners and one-pixel rules.",
+      "Do use the implemented crop for each placement and preserve full-image inspection.",
+      "Do preserve readable focus, permanent labels, drafts and story/image relations through recovery.",
+      "Do shape Arabic with the local family and normal tracking while keeping Latin/numeric fragments readable.",
+      "Do keep Form's documented world scoped separately from the CR8.Media shell and Sift."
+    ],
+    "donts": [
+      "Don't turn generated study scenes or conceptual diagrams into commissioned, built or construction-approved claims.",
+      "Don't use decorative Sage or Clay as the ordinary functional text or sole status signal.",
+      "Don't replace the usage-specific crops with one generic desktop/mobile ratio.",
+      "Don't hide content behind an entrance animation, automatic slideshow or scroll takeover.",
+      "Don't present browser-local Publish or Preview as server publication, or the demo receipt as a sent enquiry.",
+      "Don't paste the internal direction contract into the public site."
+    ]
+  }
+}

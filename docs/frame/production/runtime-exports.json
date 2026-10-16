@@ -1,0 +1,696 @@
+{
+  "date": "2026-10-14",
+  "exports": [
+    {
+      "file": "web/assets/selected-work/frame/card.webp",
+      "width": 1600,
+      "height": 1000,
+      "source": "docs/frame/presentation-sources/card.webp.html",
+      "captures": [
+        "docs/frame/verification/native/restarted-next-en.png",
+        "docs/frame/verification/website/course-decision-desktop-en.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 54644,
+      "sha256": "ba70aef69938a7b5978c9a6eb845af4c81edb5bdfff24c00706618b981309d07",
+      "caption": "Composition Essentials discovery and saved continuation",
+      "alt": "Actual website decision and native app with 1 of 6 and lesson 02.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/card-480.webp",
+      "width": 1600,
+      "height": 1000,
+      "source": "docs/frame/presentation-sources/card.webp.html",
+      "captures": [
+        "docs/frame/verification/native/restarted-next-en.png",
+        "docs/frame/verification/website/course-decision-desktop-en.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 9846,
+      "sha256": "6d68d4d45f3fccd3283ae51853c7e42b46115de763078d036894fbe2335e9368",
+      "caption": "Composition Essentials discovery and saved continuation",
+      "alt": "Actual website decision and native app with 1 of 6 and lesson 02.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/card-960.webp",
+      "width": 1600,
+      "height": 1000,
+      "source": "docs/frame/presentation-sources/card.webp.html",
+      "captures": [
+        "docs/frame/verification/native/restarted-next-en.png",
+        "docs/frame/verification/website/course-decision-desktop-en.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 25838,
+      "sha256": "80442649b941efd3a188ba614022335e1575ee2f59a0e30cb3096ac2d7bec55b",
+      "caption": "Composition Essentials discovery and saved continuation",
+      "alt": "Actual website decision and native app with 1 of 6 and lesson 02.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/hero.webp",
+      "width": 2560,
+      "height": 1600,
+      "source": "docs/frame/presentation-sources/hero.webp.html",
+      "captures": [
+        "docs/frame/verification/native/restarted-next-en.png",
+        "docs/frame/verification/website/course-decision-desktop-en.png",
+        "web/assets/selected-work/frame/source/composition-cover.svg"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 100044,
+      "sha256": "14323574dcf939d2c53b61957bc73e183a50379b6f6365f92a8c3bd2562dbc79",
+      "caption": "One system from course discovery to native continuation",
+      "alt": "Editable course cover and actual web/app screens.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/hero-480.webp",
+      "width": 2560,
+      "height": 1600,
+      "source": "docs/frame/presentation-sources/hero.webp.html",
+      "captures": [
+        "docs/frame/verification/native/restarted-next-en.png",
+        "docs/frame/verification/website/course-decision-desktop-en.png",
+        "web/assets/selected-work/frame/source/composition-cover.svg"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 10478,
+      "sha256": "5f56dde3a13cb76ed9bd04d0a8a31d1c1baa56e78f1c2a92bc4bf83bd04d5f1e",
+      "caption": "One system from course discovery to native continuation",
+      "alt": "Editable course cover and actual web/app screens.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/hero-960.webp",
+      "width": 2560,
+      "height": 1600,
+      "source": "docs/frame/presentation-sources/hero.webp.html",
+      "captures": [
+        "docs/frame/verification/native/restarted-next-en.png",
+        "docs/frame/verification/website/course-decision-desktop-en.png",
+        "web/assets/selected-work/frame/source/composition-cover.svg"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 26884,
+      "sha256": "3f7454371080c75a87751ef872397b40605c5e46e724bfa00c043d54a6d5ef08",
+      "caption": "One system from course discovery to native continuation",
+      "alt": "Editable course cover and actual web/app screens.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/identity.webp",
+      "width": 2000,
+      "height": 1500,
+      "source": "docs/frame/presentation-sources/identity.webp.html",
+      "captures": [
+        "web/assets/selected-work/frame/source/identity-system.svg"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 93292,
+      "sha256": "4f12404eac987755522835478ab0409089c9822692afe67683ef425020ed96d6",
+      "caption": "Carry the identity",
+      "alt": "Approved fixed open corners, palette, type and course covers.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/identity-960.webp",
+      "width": 2000,
+      "height": 1500,
+      "source": "docs/frame/presentation-sources/identity.webp.html",
+      "captures": [
+        "web/assets/selected-work/frame/source/identity-system.svg"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 36876,
+      "sha256": "8582c7a522c6eafa8d30612f7c2fed7b9a21a5c193518e4555a6d4ae86706600",
+      "caption": "Carry the identity",
+      "alt": "Approved fixed open corners, palette, type and course covers.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/course-discovery.webp",
+      "width": 2000,
+      "height": 1500,
+      "source": "docs/frame/presentation-sources/course-discovery.webp.html",
+      "captures": [
+        "docs/frame/verification/website/course-detail-mobile-en.png",
+        "docs/frame/verification/website/course-decision-desktop-en.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 115742,
+      "sha256": "13466f77c294cc6e2b2516a3dd3f7b1d08e373b1f60b2e53e8a8963a946d3517",
+      "caption": "Choose with clarity",
+      "alt": "Actual outcome, prerequisite and equipment before enrolment.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/course-discovery-960.webp",
+      "width": 2000,
+      "height": 1500,
+      "source": "docs/frame/presentation-sources/course-discovery.webp.html",
+      "captures": [
+        "docs/frame/verification/website/course-detail-mobile-en.png",
+        "docs/frame/verification/website/course-decision-desktop-en.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 41704,
+      "sha256": "cecbe4b4aa9a1bf238b41263bd408eaadb0eca19806a350f98a12c8fdaf00623",
+      "caption": "Choose with clarity",
+      "alt": "Actual outcome, prerequisite and equipment before enrolment.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/lesson-continuation.webp",
+      "width": 2000,
+      "height": 1500,
+      "source": "docs/frame/presentation-sources/lesson-continuation.webp.html",
+      "captures": [
+        "docs/frame/verification/native/restarted-next-en.png",
+        "docs/frame/verification/native/lesson-02-en.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 95766,
+      "sha256": "bbaf0e3ce530cbfd326128f31f9fb27ece83f2422f8cda6abd09a6dd2d9277eb",
+      "caption": "Keep the next step visible",
+      "alt": "Actual 1 of 6 after cold restart with lesson 02 next.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/lesson-continuation-960.webp",
+      "width": 2000,
+      "height": 1500,
+      "source": "docs/frame/presentation-sources/lesson-continuation.webp.html",
+      "captures": [
+        "docs/frame/verification/native/restarted-next-en.png",
+        "docs/frame/verification/native/lesson-02-en.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 34840,
+      "sha256": "199d3730309f07550b91364a34284f60b8d6310d4c04bd747c4e1204c6a6c4f3",
+      "caption": "Keep the next step visible",
+      "alt": "Actual 1 of 6 after cold restart with lesson 02 next.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/exercise-recovery.webp",
+      "width": 2000,
+      "height": 1500,
+      "source": "docs/frame/presentation-sources/exercise-recovery.webp.html",
+      "captures": [
+        "docs/frame/verification/native/exercise-failed-en.png",
+        "docs/frame/verification/native/exercise-saved-en.png",
+        "docs/frame/verification/native/completed-en.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 118268,
+      "sha256": "3dcbf768fd59bcea095f72ee6fa31e2b22303b1ee2ff17df38ed289dc704ca87",
+      "caption": "Recover without losing work",
+      "alt": "Actual retained failed note, confirmed retry and explicit completion.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/exercise-recovery-960.webp",
+      "width": 2000,
+      "height": 1500,
+      "source": "docs/frame/presentation-sources/exercise-recovery.webp.html",
+      "captures": [
+        "docs/frame/verification/native/exercise-failed-en.png",
+        "docs/frame/verification/native/exercise-saved-en.png",
+        "docs/frame/verification/native/completed-en.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 41466,
+      "sha256": "3c43cfcfd96d42d96045dfb71d6dd8958f27293befea7e50659ba9e2cf2a1015",
+      "caption": "Recover without losing work",
+      "alt": "Actual retained failed note, confirmed retry and explicit completion.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/arabic-journey.webp",
+      "width": 2400,
+      "height": 1600,
+      "source": "docs/frame/presentation-sources/arabic-journey.webp.html",
+      "captures": [
+        "docs/frame/verification/website/course-decision-mobile-ar.png",
+        "docs/frame/verification/native/lesson-player-ar.png",
+        "docs/frame/verification/native/exercise-saved-ar.png",
+        "docs/frame/verification/native/restarted-next-ar.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 133842,
+      "sha256": "d6a0534ec0c9a92be9f0e3dc55df776ddd84f37b5926a11566e192ce5fa4f8eb",
+      "caption": "Complete Arabic continuity",
+      "alt": "Actual Arabic decision, captioned player, saved note and restart.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "file": "web/assets/selected-work/frame/arabic-journey-960.webp",
+      "width": 2400,
+      "height": 1600,
+      "source": "docs/frame/presentation-sources/arabic-journey.webp.html",
+      "captures": [
+        "docs/frame/verification/website/course-decision-mobile-ar.png",
+        "docs/frame/verification/native/lesson-player-ar.png",
+        "docs/frame/verification/native/exercise-saved-ar.png",
+        "docs/frame/verification/native/restarted-next-ar.png"
+      ],
+      "provenance": "Original editable HTML presentation composed from actual web/native implementation captures and approved authored artwork; no generated interface",
+      "status": "designed presentation / verified implementation evidence",
+      "created": "2026-10-14",
+      "bytes": 37302,
+      "sha256": "cf968c85eaefcb6b69a8c447f65d59e95c161bd22193686ccbcfcefa2f178fd8",
+      "caption": "Complete Arabic continuity",
+      "alt": "Actual Arabic decision, captioned player, saved note and restart.",
+      "cropRule": "Preserve complete presentation; contain chapter boards. Safe margin eight percent on card/hero.",
+      "rights": "Original authored digital composition; actual software captures, licensed local fonts and declared generated teaching artwork."
+    },
+    {
+      "language": "en",
+      "learner": "demo",
+      "course": "FA-PH-01",
+      "recordedAt": "2026-10-14",
+      "annotationLanguage": "en",
+      "nativeKernelSHA256": "bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b",
+      "nativeBinaryAuthority": "docs/frame/verification/native/native-binary.json",
+      "nativePTSAuthority": "docs/frame/verification/native/native-pts-en.json",
+      "webDiscoveryRecord": "docs/frame/verification/website/capture-record-en.json",
+      "finalRequestRecord": "docs/frame/verification/website/request-only-en.json",
+      "nativeColdHandoffRecord": "docs/frame/verification/native/native-handoff-en.json",
+      "nativeSessionRecord": "docs/frame/verification/native/native-session-en.json",
+      "sharedConsistencyRecord": "docs/frame/verification/website/shared-progress-en.json",
+      "sourceSHA256": {
+        "docs/frame/verification/website/handoff-en.webm": "467bd1294a5dbf9f421646901652270cc4d24a6b96491923a06551731bc4e78b",
+        "docs/frame/verification/website/request-only-en.webm": "790d43804f429c8367ce40f30a8f50f16f4f06afae05c40b4f90eb4679fdc3d5",
+        "docs/frame/verification/native/native-core-en-raw.mp4": "caf8451e146854ab6acf09db1724c2e11fd40dc75defff1bd9e19521d6f7f3f9"
+      },
+      "editScope": "An edited highlight sequence of actual separate browser discovery, final browser handoff request and native exercise/cold-restart recordings for the same stored demo learner. Original sources retained; cuts and speed changes are explicit.",
+      "segments": [
+        {
+          "source": "docs/frame/verification/website/handoff-en.webm",
+          "kind": "web",
+          "start": 0.25,
+          "end": 1.85,
+          "label": "Choose Composition Essentials.",
+          "footnote": "Actual course catalogue \u00b7 authored studio fixture"
+        },
+        {
+          "source": "docs/frame/verification/website/handoff-en.webm",
+          "kind": "web",
+          "start": 4.1,
+          "end": 6.6,
+          "label": "Preview lesson 01. Viewing does not complete it.",
+          "footnote": "Actual authored video and captions \u00b7 30 seconds of produced media"
+        },
+        {
+          "source": "docs/frame/verification/website/handoff-en.webm",
+          "kind": "web",
+          "start": 12.05,
+          "end": 13.1,
+          "label": "Demo enrolment confirmed.",
+          "footnote": "Same demo learner \u00b7 free local demonstration"
+        },
+        {
+          "source": "docs/frame/verification/website/request-only-en.webm",
+          "kind": "web",
+          "start": 6.7,
+          "end": 7.28,
+          "speed": 0.25,
+          "label": "Real local app-open request acknowledged.",
+          "footnote": "Actual final helper readiness \u00b7 HTTP 200 acknowledgement \u00b7 this segment 0.25\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "kind": "native",
+          "start": 12,
+          "end": 13.8,
+          "label": "Matching course.\n0 of 6 complete.",
+          "footnote": "FA-PH-01 \u00b7 same demo learner \u00b7 actual native app"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "kind": "native",
+          "start": 22.16,
+          "end": 23.9,
+          "speed": 0.75,
+          "label": "Play the authored lesson.\nCaptions beside the video.",
+          "footnote": "30-second produced lesson \u00b7 8 minutes planned study \u00b7 this segment 0.75\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "kind": "native",
+          "start": 34.2,
+          "end": 35.4,
+          "speed": 0.5,
+          "label": "Save failed.\nThe note stays in place.",
+          "footnote": "Controlled real service failure \u00b7 entered work retained \u00b7 this segment 0.5\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "kind": "native",
+          "start": 35.9,
+          "end": 37.3,
+          "speed": 0.5,
+          "label": "Retry confirmed.\nExercise draft saved.",
+          "footnote": "The complete stored note is visible \u00b7 this segment 0.5\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "kind": "native",
+          "start": 37.9,
+          "end": 39.1,
+          "label": "Explicit completion.\n1 of 6 complete.",
+          "footnote": "Playing the lesson alone never writes completion"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "kind": "native",
+          "start": 39.1,
+          "end": 51.9,
+          "speed": 5,
+          "label": "Terminate the app.\nLaunch it again.",
+          "footnote": "Actual cold launch \u00b7 waiting shown at 5\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "kind": "native",
+          "start": 52,
+          "end": 54.2,
+          "speed": 0.8,
+          "label": "Progress restored.\nContinue at lesson 02.",
+          "footnote": "Same learner \u00b7 1 of 6 after restart \u00b7 this segment 0.8\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-en-raw.mp4",
+          "kind": "native",
+          "start": 55,
+          "end": 57,
+          "label": "02 Find the subject.\nThe next useful step.",
+          "footnote": "Actual next lesson \u00b7 later lesson media is clearly unavailable"
+        }
+      ],
+      "exportCleanup": "The request acknowledgement interval ends before the original Playwright full-page screenshot temporarily resized its recorded viewport. Actual request and native acceptance authorities are unchanged. The final lesson02 interval ends before XCTest teardown returns to the iOS home screen, so the closing labelled state remains the actual lesson.",
+      "output": "web/assets/selected-work/frame/demo-journey.mp4",
+      "duration": 25.2,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 25,
+      "sha256": "27f296891cf95ffcb89df7d2c908ae71a211944d22814912e1451c16ae998c87",
+      "editTruth": "Cuts and stated speed changes use actual video frames. No screenshot animation, generated UI, synthetic event or fabricated saved state.",
+      "verification": {
+        "completeDecode": "Passed: editor executed ffmpeg -v error -i output -f null -",
+        "decodedOutput": true,
+        "frameInspection": "Final joined one-frame-per-second contact and full-resolution semantic frames visually inspected. Exact source PTS supplied by native owner; selected intervals checked directly rather than inferred from invocation UTC.",
+        "contact": "docs/frame/production/recording-sources/qa/journey-en-contact.png",
+        "checkedFrames": [
+          {
+            "state": "request",
+            "time": 6.8,
+            "path": "docs/frame/production/recording-sources/qa/journey-en-request.png"
+          },
+          {
+            "state": "saved",
+            "time": 15.3,
+            "path": "docs/frame/production/recording-sources/qa/journey-en-saved.png"
+          },
+          {
+            "state": "restored",
+            "time": 21.9,
+            "path": "docs/frame/production/recording-sources/qa/journey-en-restored.png"
+          },
+          {
+            "state": "next",
+            "time": 24.5,
+            "path": "docs/frame/production/recording-sources/qa/journey-en-next.png"
+          }
+        ],
+        "timelineStates": [
+          "course choice",
+          "authored preview",
+          "confirmed demo enrolment",
+          "acknowledged final local Open request",
+          "matching native course at 0 of 6",
+          "captioned authored playback",
+          "controlled failure retains full note",
+          "retry confirms stored draft",
+          "explicit completion at 1 of 6",
+          "actual terminate/launch",
+          "1 of 6 and next 02 after restart",
+          "actual lesson 02"
+        ],
+        "stableRequestAcknowledgement": true,
+        "originalRecordingsRetained": true,
+        "priorEditPreserved": "docs/frame/production/recording-sources/before-final-read-race-fix/",
+        "closingFrame": {
+          "time": 25.1,
+          "path": "docs/frame/production/recording-sources/qa/journey-en-final.png",
+          "state": "Actual lesson 02; XCTest teardown home screen excluded"
+        }
+      },
+      "file": "web/assets/selected-work/frame/demo-journey.mp4",
+      "caption": "Actual website/app journey; cuts and stated playback speeds documented.",
+      "rights": "Original local implementation recording; no synthetic interface."
+    },
+    {
+      "language": "ar",
+      "learner": "demo-ar",
+      "course": "FA-PH-01",
+      "recordedAt": "2026-10-14",
+      "annotationLanguage": "en",
+      "nativeKernelSHA256": "bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b",
+      "nativeBinaryAuthority": "docs/frame/verification/native/native-binary.json",
+      "nativePTSAuthority": "docs/frame/verification/native/native-pts-ar.json",
+      "webDiscoveryRecord": "docs/frame/verification/website/capture-record-ar.json",
+      "finalRequestRecord": "docs/frame/verification/website/request-only-ar.json",
+      "nativeColdHandoffRecord": "docs/frame/verification/native/native-handoff-ar.json",
+      "nativeSessionRecord": "docs/frame/verification/native/native-session-ar.json",
+      "sharedConsistencyRecord": "docs/frame/verification/website/shared-progress-ar.json",
+      "supplementalNextLessonRecord": "docs/frame/verification/native/native-next02-ar.json",
+      "sourceSHA256": {
+        "docs/frame/verification/website/handoff-ar.webm": "c5c8dfd556b65b377aac5606bc8d70e69805908b7f5a42f89ef69e972565d7b3",
+        "docs/frame/verification/website/request-only-ar.webm": "bce971c792555b353ee8a58f2ae501133ff8846681936d8c444693aa8a778c87",
+        "docs/frame/verification/native/native-core-ar-raw.mp4": "c688127fcb11e815feb7337b4e641947920a0f2d5fab388821cc1ce064b2e143",
+        "docs/frame/verification/native/native-next02-ar-raw.mp4": "6bfe3e6d29e9b42443c87276346d2e7d770bfbfa38d8bf9730222539fffa13de"
+      },
+      "editScope": "An edited highlight sequence of actual original Arabic browser discovery/preview/enrolment, the final browser cold-handoff request and native exercise/cold-restart recordings for demo-ar. English evidence annotations accompany the actual Arabic interface. Original sources retained; cuts and speed changes are explicit.",
+      "sourceNotes": "Original catalogue video has unloaded cover thumbnails; canonical course selection text and actual Arabic preview/enrolment remain recorded. The corrected final covers are verified separately in current full website screenshots. Final lesson02 uses a later real read-only hold because the continuous raw source records it for only22ms; it is an explicit supplemental cut, not an extended screenshot or fabricated frame.",
+      "segments": [
+        {
+          "source": "docs/frame/verification/website/handoff-ar.webm",
+          "kind": "web",
+          "start": 0.1,
+          "end": 0.72,
+          "label": "Choose Composition Essentials in Arabic.",
+          "footnote": "Actual original catalogue text \u00b7 authored studio fixture"
+        },
+        {
+          "source": "docs/frame/verification/website/handoff-ar.webm",
+          "kind": "web",
+          "start": 1,
+          "end": 3.12,
+          "label": "Preview lesson 01 with Arabic captions.",
+          "footnote": "Actual authored preview \u00b7 viewing does not complete the lesson"
+        },
+        {
+          "source": "docs/frame/verification/website/handoff-ar.webm",
+          "kind": "web",
+          "start": 3.5,
+          "end": 4.35,
+          "label": "Demo enrolment confirmed for demo-ar.",
+          "footnote": "Actual original confirmed enrolment \u00b7 initial 0 of 6"
+        },
+        {
+          "source": "docs/frame/verification/website/request-only-ar.webm",
+          "kind": "web",
+          "start": 2.3,
+          "end": 5.6,
+          "label": "The final local app-open request is acknowledged.",
+          "footnote": "Actual final helper readiness \u00b7 same learner and course \u00b7 HTTP 200"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "kind": "native",
+          "start": 28.5,
+          "end": 30.5,
+          "label": "Matching Arabic course.\n0 of 6 complete.",
+          "footnote": "FA-PH-01 \u00b7 demo-ar \u00b7 actual native app"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "kind": "native",
+          "start": 50.8,
+          "end": 53.2,
+          "label": "Play the authored lesson.\nArabic captions remain clear.",
+          "footnote": "30-second produced lesson \u00b7 8 minutes planned study"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "kind": "native",
+          "start": 100.08,
+          "end": 101.3,
+          "speed": 0.5,
+          "label": "Save failed.\nThe Arabic note remains.",
+          "footnote": "Controlled real service failure \u00b7 entered work retained \u00b7 this segment 0.5\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "kind": "native",
+          "start": 101.65,
+          "end": 103.35,
+          "speed": 0.6,
+          "label": "Retry confirmed.\nThe full note is saved.",
+          "footnote": "Actual confirmed draft \u00b7 same exact stored note \u00b7 this segment 0.6\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "kind": "native",
+          "start": 104,
+          "end": 105.5,
+          "label": "Explicit completion.\n1 of 6 complete.",
+          "footnote": "Playing the lesson alone never writes completion"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "kind": "native",
+          "start": 105.5,
+          "end": 126.9,
+          "speed": 8,
+          "label": "Terminate the app.\nLaunch it again.",
+          "footnote": "Actual cold launch \u00b7 waiting shown at 8\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-core-ar-raw.mp4",
+          "kind": "native",
+          "start": 127,
+          "end": 129.3,
+          "speed": 0.8,
+          "label": "Arabic progress restored.\nContinue at lesson 02.",
+          "footnote": "Same learner \u00b7 1 of 6 after restart \u00b7 this segment 0.8\u00d7"
+        },
+        {
+          "source": "docs/frame/verification/native/native-next02-ar-raw.mp4",
+          "kind": "native",
+          "start": 1,
+          "end": 6,
+          "label": "02 Find the subject.\nThe next useful step.",
+          "footnote": "Supplemental actual read-only hold \u00b7 same persisted learner \u00b7 no state mutation"
+        }
+      ],
+      "supplementalHoldDuration": 5,
+      "output": "web/assets/selected-work/frame/demo-journey-ar.mp4",
+      "duration": 28.6,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 25,
+      "sha256": "1f725b8159a2bd7f84c8a6acf1708047c6e0c985bdd38b0f676755a471d9383c",
+      "editTruth": "Cuts and stated speed changes use actual video frames. No screenshot animation, generated UI, synthetic event or fabricated saved state.",
+      "verification": {
+        "completeDecode": "Passed: editor executed ffmpeg -v error -i output -f null -",
+        "decodedOutput": true,
+        "frameInspection": "Final joined one-frame-per-second contact and full-resolution semantic frames visually inspected. Exact source PTS supplied by native owner; selected intervals checked directly rather than inferred from invocation UTC.",
+        "contact": "docs/frame/production/recording-sources/qa/journey-ar-contact.png",
+        "checkedFrames": [
+          {
+            "state": "request",
+            "time": 6,
+            "path": "docs/frame/production/recording-sources/qa/journey-ar-request.png"
+          },
+          {
+            "state": "saved",
+            "time": 15.1,
+            "path": "docs/frame/production/recording-sources/qa/journey-ar-saved.png"
+          },
+          {
+            "state": "restored",
+            "time": 22,
+            "path": "docs/frame/production/recording-sources/qa/journey-ar-restored.png"
+          },
+          {
+            "state": "next",
+            "time": 26,
+            "path": "docs/frame/production/recording-sources/qa/journey-ar-next.png"
+          }
+        ],
+        "timelineStates": [
+          "course choice",
+          "authored preview",
+          "confirmed demo enrolment",
+          "acknowledged final local Open request",
+          "matching native course at 0 of 6",
+          "captioned authored playback",
+          "controlled failure retains full note",
+          "retry confirms stored draft",
+          "explicit completion at 1 of 6",
+          "actual terminate/launch",
+          "1 of 6 and next 02 after restart",
+          "actual lesson 02"
+        ],
+        "stableRequestAcknowledgement": true,
+        "originalRecordingsRetained": true,
+        "priorEditPreserved": null,
+        "supplementalEnding": {
+          "source": "docs/frame/verification/native/native-next02-ar-raw.mp4",
+          "start": 1,
+          "end": 6,
+          "normalSpeedDuration": 5,
+          "authority": "docs/frame/verification/native/native-next02-ar.json",
+          "scope": "Later real read-only hold of persisted Arabic lesson02; source/API unchanged, same learner and canonical guarded code. No screenshot animation or frame fabrication."
+        }
+      },
+      "file": "web/assets/selected-work/frame/demo-journey-ar.mp4",
+      "caption": "Actual website/app journey; cuts and stated playback speeds documented.",
+      "rights": "Original local implementation recording; no synthetic interface."
+    }
+  ]
+}

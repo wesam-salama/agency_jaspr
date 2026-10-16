@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-15",
+  "scope": "Actual headless Chrome, local Fold source; sample fixtures only",
+  "mode": "recordings",
+  "checks": [
+    {
+      "name": "Canonical $252 journey with controlled recovery (en)",
+      "status": "passed",
+      "detail": {
+        "locale": "en",
+        "viewport": 1440,
+        "basket": "FL01-CHK-M + FL02-INK-M",
+        "subtotal": 24000,
+        "shipping": 1200,
+        "tax": 0,
+        "total": 25200,
+        "reference": "FOLD-DEMO-76895E88",
+        "cartSaveFailure": "Retained previous empty cart; retry added chosen SKU",
+        "checkoutFailure": "Retained two cart lines and every shipping input; retry confirmed",
+        "language": "en"
+      }
+    },
+    {
+      "name": "Canonical $252 journey with controlled recovery (ar)",
+      "status": "passed",
+      "detail": {
+        "locale": "ar",
+        "viewport": 390,
+        "basket": "FL01-CHK-M + FL02-INK-M",
+        "subtotal": 24000,
+        "shipping": 1200,
+        "tax": 0,
+        "total": 25200,
+        "reference": "FOLD-DEMO-76895E88",
+        "cartSaveFailure": "Retained previous empty cart; retry added chosen SKU",
+        "checkoutFailure": "Retained two cart lines and every shipping input; retry confirmed",
+        "language": "ar"
+      }
+    }
+  ],
+  "responsive": [],
+  "screens": [],
+  "recordings": [
+    {
+      "locale": "en",
+      "raw": "docs/fold/production/recordings/shopping-flow-en.webm",
+      "path": "shopping-flow-en.mp4",
+      "timeline": "docs/fold/production/recordings/shopping-flow-en-timeline.json",
+      "trace": "docs/fold/production/recordings/shopping-flow-en-trace.zip",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 1000
+        }
+      ],
+      "format": {
+        "duration": "13.000000"
+      }
+    },
+    {
+      "locale": "ar",
+      "raw": "docs/fold/production/recordings/shopping-flow-ar.webm",
+      "path": "shopping-flow-ar.mp4",
+      "timeline": "docs/fold/production/recordings/shopping-flow-ar-timeline.json",
+      "trace": "docs/fold/production/recordings/shopping-flow-ar-trace.zip",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "format": {
+        "duration": "12.958333"
+      }
+    }
+  ],
+  "pageErrors": [],
+  "externalRequests": [],
+  "targetObservations": []
+}

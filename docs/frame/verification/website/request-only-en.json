@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-14",
+  "capturedAtUTC": "2026-10-14T15:30:28.435Z",
+  "nativeReadyUTC": "2026-10-14T15:30:12.917Z",
+  "learner": "demo",
+  "lang": "en",
+  "course": "FA-PH-01",
+  "completed": 0,
+  "revision": 1,
+  "requestSent": true,
+  "method": "Actual website Open action after the native XCTest helper is ready; no enrolment/reset/progress mutation",
+  "httpStatus": 200,
+  "acknowledgement": {
+    "requestSent": true,
+    "learner": "demo",
+    "courseId": "FA-PH-01",
+    "lang": "en",
+    "deepLink": "frameacademy://course/FA-PH-01?learner=demo&lang=en",
+    "target": "iPhone simulator"
+  },
+  "nativeAcceptance": "Verified separately by the installed app helper; this record acknowledges the simulator-open request only.",
+  "link": "frameacademy://course/FA-PH-01?learner=demo&lang=en"
+}

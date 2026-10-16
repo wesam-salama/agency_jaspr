@@ -1,0 +1,85 @@
+{
+  "language": "en",
+  "source": "native-core-en-raw.mp4",
+  "method": "Actual original decoded frames with original PTS (showinfo; fps_mode passthrough) compared against actual XCTest PNGs, status bar excluded, RGB MAE at120x260. No resampling or invocation-time assumptions.",
+  "frameCount": 934,
+  "anchors": [
+    {
+      "name": "course-zero-en",
+      "rawPTS": 5.788333,
+      "frameIndex": 2,
+      "matchMAE": 1.889479160308838,
+      "nearMatchPTSRange": [
+        0.0,
+        7.048333
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "lesson-player-en",
+      "rawPTS": 22.273333,
+      "frameIndex": 280,
+      "matchMAE": 2.065150499343872,
+      "nearMatchPTSRange": [
+        22.156667,
+        23.883333
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "exercise-failed-en",
+      "rawPTS": 34.158333,
+      "frameIndex": 580,
+      "matchMAE": 2.1262383460998535,
+      "nearMatchPTSRange": [
+        34.123333,
+        34.158333
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "exercise-saved-en",
+      "rawPTS": 37.423333,
+      "frameIndex": 593,
+      "matchMAE": 1.9455093145370483,
+      "nearMatchPTSRange": [
+        35.825,
+        37.43
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "completed-en",
+      "rawPTS": 37.856667,
+      "frameIndex": 619,
+      "matchMAE": 1.8771990537643433,
+      "nearMatchPTSRange": [
+        37.856667,
+        37.856667
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "restarted-next-en",
+      "rawPTS": 51.991667,
+      "frameIndex": 895,
+      "matchMAE": 1.964664340019226,
+      "nearMatchPTSRange": [
+        51.991667,
+        51.991667
+      ],
+      "validatedMatch": true
+    },
+    {
+      "name": "lesson-02-en",
+      "rawPTS": 54.956667,
+      "frameIndex": 924,
+      "matchMAE": 1.8876389265060425,
+      "nearMatchPTSRange": [
+        54.941667,
+        54.956667
+      ],
+      "validatedMatch": true
+    }
+  ]
+}

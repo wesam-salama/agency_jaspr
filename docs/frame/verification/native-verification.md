@@ -1,0 +1,37 @@
+# Frame Academy — native verification
+
+14 October 2026. The final English and Arabic journeys passed on the iPhone 17 Pro simulator running iOS 26.5, bundle `media.cr8.frameAcademy`, UDID `8BDFE212-1DE0-4F67-928E-65C3E9B24533`. This is actual running Flutter/native evidence for the local shared demonstration, not an app-store release or physical-device certification. [The machine-readable record](native-checks.json) names every source and scope.
+
+## Final validation
+
+Eleven focused Flutter tests passed; [app-tests.log](logs/app-tests.log) covers confirmed persistence, failure/retry, explicit completion and restart, pending draft edits, delayed reads before/during completion, an older resume read after a learner switch, keyboard Tab/Enter/Back focus, and English/Arabic 1.6× text scale with `disableAnimations`. [Full app analysis](logs/app-analysis.log), [the debug simulator build](logs/app-build.log), [the native XCTest runner build](logs/app-ui-build.log) and scoped whitespace checks passed. The final rebuilt app was attached and hot-reloaded successfully before the final journeys; [the reload record](native/native-hot-reload.json) identifies the action.
+
+The request-generation guard in `app/lib/session.dart` captures each requested learner and accepts only the current read. Enrol/save invalidate outstanding reads both before the write and on its response, so a read begun before or during completion cannot restore zero progress after acknowledgement. Invalidated reads do not leave loading stuck. A newer note edited during a save remains unsaved. The three delayed-response tests reproduce the reviewed lifecycle races; they do not claim those timing conditions were forced through the native UI film.
+
+## Actual cold website handoff
+
+The native XCTest helper terminated Frame and asserted `notRunning` before the actual website Open request. It then asserted `runningForeground`, the matching Course overview, `Composition Essentials`/`FA-PH-01`, prerequisite, equipment, expected language and zero progress. It never activated Frame to manufacture handoff acceptance. Both final runs opened directly under the existing iOS approval; the helper also accepts the ordinary app-open confirmation when shown.
+
+English passed in **26.551 seconds**, Arabic in **27.340 seconds**. [English handoff record](native/native-handoff-en.json) and [Arabic handoff record](native/native-handoff-ar.json) retain the actual state transitions, UTC events, screenshots and raw recordings. Matching website request records are `verification/website/request-only-en.json` and `request-only-ar.json`.
+
+The small native `SceneDelegate.swift` adapter forwards cold and warm UIScene URLs to `AppLinks.shared.handleLink`. Dart validates the exact scheme/host/course path and coalesces duplicate deliveries within one second. Native preferences retain selected learner/language; the shared service owns enrolment, draft and progress.
+
+## Core flow and shared persistence
+
+English native XCTest passed in **43.046 seconds**; Arabic passed in **103.402 seconds**. Each started with its enrolled learner at revision 1, 0 of 6 and an empty note, played the authored 30-second lesson with captions, entered the exact practice note, received a controlled real 503 without losing the note, retried to confirmed draft save, explicitly completed lesson 01, then terminated/launched the app and continued to lesson 02. Each final service record is revision 3, completed `['01']`, with its exact note retained. Playback alone never completes a lesson.
+
+The final records are [native-session-en.json](native/native-session-en.json) and [native-session-ar.json](native/native-session-ar.json), with `native-ui-en.log`/`native-ui-ar.log` and continuous `native-core-en-raw.mp4`/`native-core-ar-raw.mp4`. Seven actual screenshots per language use the names `course-zero`, `lesson-player`, `exercise-failed`, `exercise-saved`, `completed`, `restarted-next`, and `lesson-02`. Failure, confirmed retry, explicit completion and resumed next step were visually inspected. The website's final read-only comparison uses the same stored learner records.
+
+The simulator front end had to be restored for native HID input; earlier failed runner attempts are preserved in diagnostic folders. The successful final Arabic run uses native XCTest controls. No production UI was changed to accommodate those attempts. Only the reserved Arabic demo was reset once for the coordinated final run, after its earlier native/web proof and stored record were archived.
+
+## Binary and preference authority
+
+[The binary record](native/native-binary.json) establishes the final canonical Flutter AUT and installed kernel as `bf80950a5b583979773ada224f9416482bef643493ef5eb50858b78e9217745b`, with current parity true and the xctestrun naming that app. Xcode's test build produced a `c91aed06…` kernel variant from the same unchanged Dart source; the initial pre-attach comparison is retained. Flutter attach synchronized the canonical Flutter kernel before the final journeys. The record includes final source hashes, build-log authority and generation/learner/save-guard strings present in both variants. The mismatch against the initial artifact was retained separately rather than relabelled.
+
+The immediate Arabic handoff plist snapshot read `frame.arabic=false` while actual UI was Arabic. Its original value is preserved. [The later actual disk read](native/native-preferences-final.json), timestamped 15:55:48 UTC, shows `demo-ar` and Arabic `true`; the successful actual app termination/launch retained Arabic. The handoff record adds that observation without patching the earlier snapshot. This scopes the finding to delayed CFPreferences disk flushing and actual app restart, not a device reboot.
+
+## Recording timing and limits
+
+`rawStartUTC` is the recorder invocation timestamp. The native capture UTC is printed before `XCUIScreen` acquisition; neither is a guaranteed first-frame wall-clock timestamp. [English PTS anchors](native/native-pts-en.json) and [Arabic PTS anchors](native/native-pts-ar.json) match original decoded frames against actual screenshots using their original presentation timestamps. Updated `native-video-en.json`/`native-video-ar.json` retain current ffprobe metadata. The raw recordings are **57.370 seconds** and **129.603333 seconds**, respectively; an edited demonstration film must document its cuts/speeds rather than claim real elapsed duration. Arabic lesson 02 is present in the final original frame; [A separate actual10.225-second hold](native/native-next02-ar.json), `native-next02-ar-raw.mp4`, provides a readable export segment without changing its learner record. After the app had exited during the later session gap, normal launch and its actual Continue action reopened the persisted Arabic lesson02; the capture retains read-only native state, source hashes and equal before/after API records.
+
+Widget keyboard/focus, 1.6× text scale, RTL and disabled-animation checks are local widget evidence. Native UI/running media and app restart are simulator evidence. Neither establishes independent accessibility certification, physical-device behavior, Android/macOS execution or a commercial synchronization service. Only lesson 01 has produced media: 30 seconds in English and Arabic. Eight minutes is its planned study target; six lessons/62 minutes is planned curriculum. Lesson 02 is the written next destination with an explicit video-not-produced state; lessons 02–06 do not masquerade as produced films.

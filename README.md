@@ -4,6 +4,10 @@ A static Jaspr/Dart agency website built around the Connected studio direction: 
 
 The site has three complete language editions: English at `/`, Arabic at `/ar/`, and French at `/fr/`. Arabic uses a right-to-left document layout; all three pages keep the same section anchors and four case studies.
 
+## Selected Work developer handoff
+
+Start with the [Selected Work handoff](docs/selected-work/README.md) for the current Sift → Form → Frame → Fold selection, shared context, per-project source maps, setup/check commands and evidence retention rules. Each project groups its design contracts, production records, tools and verification evidence into folders, with a developer README under `docs/sift/`, `docs/form/`, `docs/frame/` and `docs/fold/`. Dated delivery sections below preserve the scope at the time of each replacement; the handoff and current plan describe the final four-project state.
+
 ## Architecture
 
 The Jaspr components, typed localized content, and stylesheet are the source of truth. They replace the former reference generator and `lib/generated/agency_markup.dart`; there is no markup-regeneration step.
@@ -15,13 +19,13 @@ The Jaspr components, typed localized content, and stylesheet are the source of 
 - `lib/runtime/` enhances navigation, the service constellation, case exploration, animation, and enquiry preparation.
 - `web/assets/styles.css` owns the implemented visual system and responsive layouts.
 
-Jaspr is configured with `mode: static`. Build output contains prerendered HTML for all three routes and client JavaScript; hosting needs static-file serving, not a running Dart backend. Section anchors and the four case layouts remain part of the page contract.
+Jaspr is configured with `mode: static`. Build output contains prerendered HTML for all three routes and client JavaScript; hosting needs static-file serving, not a running Dart backend. Section anchors, four case slots and the supported case-layout renderers remain part of the page contract. Sift uses sticky chapters, Form uses split, Frame uses four horizontal chapters, and Fold uses the statistics family with narrative/figures, empty metrics and no results strip.
 
 ## Languages and enquiry
 
 The header language selector uses native links and works before hydration or with JavaScript disabled. On an enhanced switch, the current section is retained. An unfinished enquiry is passed through same-tab temporary storage, restored once on the destination page, and removed from storage. If storage fails, the site keeps the brief on the current page and explains how to continue. A direct visit to the main URL always opens English.
 
-English keeps the approved reference wording. Arabic uses a natural, professional Saudi/Gulf marketing voice; French uses professional “vous.” Project identities, numbers, timescales, and illustrative claims retain their source meaning. Page metadata, image descriptions, labels, validation, live messages, case details, and the `mailto:` draft use the selected language. User-written brief text is copied verbatim into the email draft. The site does not send the email.
+English keeps the approved reference wording outside the user-authorised Sift, Form, Frame and Fold replacements. Existing Arabic agency copy retains its professional Gulf voice; Sift's international case uses clear professional Arabic. French uses professional “vous.” Project identities, numbers, timescales, and illustrative claims retain their source meaning. Page metadata, image descriptions, labels, validation, live messages, case details, and the `mailto:` draft use the selected language. User-written brief text is copied verbatim into the email draft. The site does not send the email.
 
 ## Motion
 
@@ -37,15 +41,21 @@ For local profiling, append `?motionProfile=1` to the preview URL. Hidden `#agen
 
 ## Content and enquiry semantics
 
-Projects, client names, quotes, outcomes, service durations, process timings, and engagement terms are illustrative examples. They are not verified client evidence or business commitments. The user approved exact reference wording and removal of visible example labels on 9 October 2026. Preserve this copy choice while retaining internal illustrative classification; approval of supplied copy does not verify its claims.
+All four authored Selected Work projects are self-initiated studio concepts. Fictional product/course/study fixtures are separate from the actual artwork and local implementation evidence. No customer quotation, business-performance metric or real commissioning client is represented. Service durations, process timings and engagement terms remain examples rather than commitments. The original HTML and dated reference-restoration records remain preserved historical inputs; the subsequent authorised replacements supersede all four old example cases.
 
 The enquiry action prepares an encoded `mailto:` draft addressed to `hello@cr8.media`. Visitors review and send it in their email app; this website does not deliver messages or confirm receipt. Name, email, and a project goal are required; services and rough timing are optional. The visible email address supplies an alternative when browser enhancement or an email-app handoff is unavailable.
+
+## Sift Selected Work study
+
+Sift Coffee replaces Fenwick & Ash in slot 01 only. Four sticky chapters reveal the Selected Line identity, the three-product range, English/Arabic label hierarchy and applications. The card says Studio concept; case metadata identifies a self-initiated studio project and Design study format, with 2026 as the study year. No client quotation or performance metrics are attached. Public copy leads with the finished craft, while coffee-fixture and production boundaries remain in the brand guide/source records.
+
+`CaseStudy.downloads` supplies localized PDF/ZIP links with descriptive accessible labels. The Sift guide and editable artwork live under `web/assets/selected-work/sift/` as `sift-brand-guide.pdf` and `sift-artwork.zip`. The six case images share that directory. Keep exact names Everyday, Daybreak and After Hours across English, Arabic and French. The original HTML and legacy reference assets remain unchanged. `test/sift_case_test.dart` covers status, metadata, translations and card semantics; the reference-copy tests still protect every remaining original case.
 
 ## Local assets
 
 Fonts are served from `web/assets/fonts/` with `font-display: swap`. Arabic uses Regular and SemiBold from [IBM's Plex Sans Arabic source](https://github.com/IBM/plex/tree/master/packages/plex-sans-arabic/fonts/complete/woff2), licensed under the SIL Open Font License in `web/assets/fonts/IBM-Plex-Sans-Arabic-OFL.txt`. The preserved CR8 mark is `web/assets/cr8-logo.svg`.
 
-`lib/utils/image_assets.dart` maps the existing JPEG content paths to local WebP sources, responsive `srcset` candidates, and intrinsic dimensions. Variants use 480px, 960px where applicable, and full-size widths. Original JPEG assets remain available as references. The legacy `loop-phone.jpg` contains a captured 404 response; its metadata deliberately aliases the valid Loop onboarding photo rather than displaying that broken asset.
+`lib/utils/image_assets.dart` maps legacy JPEG paths and Sift WebP paths to local sources, responsive `srcset` candidates, and intrinsic dimensions. Sift card/hero variants use 480px, 960px and full-size widths; its detail boards use 960px and full size. Original JPEG assets remain available as references. The legacy `loop-phone.jpg` contains a captured 404 response; its metadata deliberately aliases the valid Loop onboarding photo rather than displaying that broken asset.
 
 These asset changes reduce file payloads locally. They are not field measurements, Core Web Vitals results, or deployment evidence.
 
@@ -150,4 +160,39 @@ See [the motion restoration report](docs/impeccable-motion.md) for the restored 
 
 ## Reference copy and process parity
 
-The eight page sections and four case studies now use the original HTML wording, including process deliverables, engagement terms and Studio values. The enhanced contact controls and shared case curtain remain. The process uses the original 70%-viewport scroll formula, a continuous 2px rail, reversible dots, 250ms/300ms ease transitions and the 860px geometry breakpoint. Tests compare typed and rendered copy to `test/fixtures/reference_copy.json`, captured from the unchanged reference, and cover process progress boundaries and reverse scrolling. See [verification](docs/reference-copy-timeline.md).
+The eight page sections retain the original HTML wording, including process deliverables, engagement terms and Studio values. Sift's authorised replacement has its own study copy and tests. The enhanced contact controls and shared case curtain remain. The process uses the original 70%-viewport scroll formula, a continuous 2px rail, reversible dots, 250ms/300ms ease transitions and the 860px geometry breakpoint. Tests compare preserved typed/rendered copy to `test/fixtures/reference_copy.json`, captured from the unchanged reference, and cover process progress boundaries and reverse scrolling. See [verification](docs/reference-copy-timeline.md).
+
+## Form Selected Work study
+
+Form Architecture replaces Loop in slot 02 with a split case in English, Arabic and French. The authored rebrand retains the name/open-frame cue, and the fictional baseline uses the same Courtyard House, Line Studio and Shore Library studies. Its standalone responsive website and local project editor are implemented in English and Arabic. The contextual enquiry preserves drafts and previews a not-sent demo receipt; the project editor publishes in browser-local storage. This is a self-initiated project, with no commissioned/built architecture or external launch claim.
+
+The complete source is `web/assets/selected-work/form/`; open `site/index.html`, `site/editor.html` or `site/baseline.html` through an HTTP server. The production agency case links to those destinations and `form-source.zip`. `CaseDownload.isDownload` keeps Sift’s downloads while opening Form’s HTML pages. Actual screenshots, source/provenance records, scoped Form PRODUCT/DESIGN/sidecar and reproducible public/CMS/agency checks are in `docs/form/`. See [production](docs/form/production/production-record.md) and [verification](docs/form/verification/verification.md).
+
+Local production preview: `http://127.0.0.1:8798/agency_jaspr/`. Sift assets and the original reference are byte-preserved; Marrow/Northline, CR8 identity, curtain and agency email-draft flow remain unchanged. This historical Form record is superseded for slot 03 by the Frame delivery below; Fold is completed by the later local delivery record below.
+
+## Frame Academy — local delivery
+
+Frame replaces Marrow in Selected Work slot 03 with four horizontal chapters in EN/AR/FR. It is a Studio concept with editable identity artwork and bilingual course workbooks, a responsive discovery site, one captioned/transcribed lesson and a running Flutter iOS learning demo. The recorded EN/AR journeys use shared enrolment, drafts and explicit progress; failure/retry and cold restart restore 1 of 6 and continue at lesson 02. Media duration is 30 seconds; planned study remains 8 minutes for lesson 01 and 62 for the course.
+
+Run `node docs/frame/tools/start-preview.mjs` from the repository to keep the loopback preview running independently of a terminal session, or use `node docs/frame/service/server.mjs` in a terminal. Then open both local previews:
+
+- Agency build: `http://127.0.0.1:8803/agency_jaspr/` (requires the production build below).
+- Frame discovery: `http://127.0.0.1:8803/assets/selected-work/frame/site/`.
+- Native app: `docs/frame/app/README.md` supplies simulator setup; the shared API defaults to port 8803.
+
+The source package `web/assets/selected-work/frame/frame-source.zip` excludes build caches and learner state; a fresh learner starts at 0 of 6. Current local proof learners demo/demo-ar intentionally retain their recorded 1-of-6 exercises. [Production](docs/frame/production/production-record.md) and [verification](docs/frame/verification/verification.md) link actual captures, two short journey films, test/build records, provenance and scoped limits. Sift/Form assets, Northline, the original HTML, CR8.Media identity, curtain and enquiry are preserved. This is local production, with no push, deployment or app-store release.
+
+## Fold Clothing — local delivery
+
+Fold replaces Northline in Selected Work slot 04 in English, Arabic and French. Its statistics case combines narrative and five figures without metrics, an empty results strip or a testimonial. Fold's editorial identity, editable packaging and generated garment artwork remain inside its own visual system; CR8.Media, Sift, Form, Frame, the shared curtain, locale/focus behavior and agency enquiry are preserved. Earlier dated Form/Frame paragraphs retain their historical preservation boundaries.
+
+Run `node docs/fold/tools/start-preview.mjs`, then open:
+
+- Agency production: `http://127.0.0.1:8804/agency_jaspr/#work`
+- Fold English: `http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/site/`
+- Fold Arabic: `http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/site/?lang=ar`
+- Recorded journeys: `http://127.0.0.1:8804/agency_jaspr/assets/selected-work/fold/shopping-flow.html`
+
+The complete EN/AR store covers URL filters, exact garment/colour/size/SKU decisions, half-width measurements, stock limits, versioned browser-local cart, Undo, clear cart, retained cart/shipping through controlled failure and retry, simulated checkout and deterministic confirmation. The canonical basket is $240 + $12 demonstration shipping + $0 test tax = $252. No payment, real order or email occurs. Version 1.1 includes an actual observed and checked keyboard-maintenance improvement.
+
+Editable sources, native generated imagery, licensed fonts, actual captures/recordings and reproducible checks are in `web/assets/selected-work/fold/` and `docs/fold/`; `fold-source.zip` retains portable repository-relative paths. See [production](docs/fold/production/production-record.md), [verification](docs/fold/verification/verification.md), [source guide](web/assets/selected-work/fold/SOURCE-README.md) and the printable editable brand guide at `source/fold-brand-guide.html`. This is verified local digital production, with no public deployment or physical-device/manufacturing claim.

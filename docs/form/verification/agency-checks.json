@@ -1,0 +1,2324 @@
+{
+  "checkedAt": "2026-10-13T16:25:48.787Z",
+  "origin": "http://localhost:8798",
+  "base": "/agency_jaspr/",
+  "records": [
+    {
+      "locale": "en",
+      "width": 320,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-320-top.png",
+        "verification/agency/en-320-middle.png",
+        "verification/agency/en-320-end.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero-480.webp",
+            "loaded": true,
+            "alt": "Form Architecture identity and actual homepage excerpt beside a generated Courtyard House spatial study.",
+            "intrinsicWidth": 320
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Fictional starting identity created for this rebrand study. The actual baseline homepage uses the same three studies, a two-line wordmark and slate-blue frame.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The same homepage viewport after the rebrand: retained recognition, material-led colour, consistent image ratios and project information beside the relevant image.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: One identity system connects the custom wordmark, open 3:4 frame, colour roles, editorial and functional type, and English/Arabic applications.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Actual Courtyard House project page: light, privacy and a planted courtyard organize the narrative alongside the canonical 240 m² study facts.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The implemented mobile project page keeps image, caption and explanation in a purposeful sequence, with comfortably readable facts and controls.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Actual entered draft, inline validation and demo receipt. An invalid enquiry preserves the draft and explains the next action; the receipt states that nothing has been sent.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The implemented project editor and its corresponding page change: edit, preview and local publish, with required fields and image focal points under structured control.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The wordmark clear-space rule holds across a narrow navigation bar and printed-cover artwork.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Desktop and mobile crops preserve the same meaningful spatial feature; separate focal points remain editable and the full image remains inspectable.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Facts, units and captions keep a consistent reading order in English and Arabic, with optional facts omitted when absent.",
+            "intrinsicWidth": 288
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Form websiteHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "Open Explore Form website (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Open project editorHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "Open Open project editor (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Editable sourcesZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "Download Editable sources (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleConcept strategy, identity, art direction, UX/UI & website implementationFormatDesign & implementation studyDeliverablesIdentity, architectural study imagery, responsive website, project editor & enquiry demo"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-390-top.png",
+        "verification/agency/en-390-middle.png",
+        "verification/agency/en-390-end.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero-480.webp",
+            "loaded": true,
+            "alt": "Form Architecture identity and actual homepage excerpt beside a generated Courtyard House spatial study.",
+            "intrinsicWidth": 389
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Fictional starting identity created for this rebrand study. The actual baseline homepage uses the same three studies, a two-line wordmark and slate-blue frame.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The same homepage viewport after the rebrand: retained recognition, material-led colour, consistent image ratios and project information beside the relevant image.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: One identity system connects the custom wordmark, open 3:4 frame, colour roles, editorial and functional type, and English/Arabic applications.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Actual Courtyard House project page: light, privacy and a planted courtyard organize the narrative alongside the canonical 240 m² study facts.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The implemented mobile project page keeps image, caption and explanation in a purposeful sequence, with comfortably readable facts and controls.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Actual entered draft, inline validation and demo receipt. An invalid enquiry preserves the draft and explains the next action; the receipt states that nothing has been sent.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The implemented project editor and its corresponding page change: edit, preview and local publish, with required fields and image focal points under structured control.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The wordmark clear-space rule holds across a narrow navigation bar and printed-cover artwork.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Desktop and mobile crops preserve the same meaningful spatial feature; separate focal points remain editable and the full image remains inspectable.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Facts, units and captions keep a consistent reading order in English and Arabic, with optional facts omitted when absent.",
+            "intrinsicWidth": 351
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Form websiteHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "Open Explore Form website (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Open project editorHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "Open Open project editor (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Editable sourcesZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "Download Editable sources (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleConcept strategy, identity, art direction, UX/UI & website implementationFormatDesign & implementation studyDeliverablesIdentity, architectural study imagery, responsive website, project editor & enquiry demo"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-768-top.png",
+        "verification/agency/en-768-middle.png",
+        "verification/agency/en-768-end.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture identity and actual homepage excerpt beside a generated Courtyard House spatial study.",
+            "intrinsicWidth": 768
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Fictional starting identity created for this rebrand study. The actual baseline homepage uses the same three studies, a two-line wordmark and slate-blue frame.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The same homepage viewport after the rebrand: retained recognition, material-led colour, consistent image ratios and project information beside the relevant image.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: One identity system connects the custom wordmark, open 3:4 frame, colour roles, editorial and functional type, and English/Arabic applications.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Actual Courtyard House project page: light, privacy and a planted courtyard organize the narrative alongside the canonical 240 m² study facts.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The implemented mobile project page keeps image, caption and explanation in a purposeful sequence, with comfortably readable facts and controls.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Actual entered draft, inline validation and demo receipt. An invalid enquiry preserves the draft and explains the next action; the receipt states that nothing has been sent.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The implemented project editor and its corresponding page change: edit, preview and local publish, with required fields and image focal points under structured control.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The wordmark clear-space rule holds across a narrow navigation bar and printed-cover artwork.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Desktop and mobile crops preserve the same meaningful spatial feature; separate focal points remain editable and the full image remains inspectable.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Facts, units and captions keep a consistent reading order in English and Arabic, with optional facts omitted when absent.",
+            "intrinsicWidth": 691
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Form websiteHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "Open Explore Form website (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Open project editorHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "Open Open project editor (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Editable sourcesZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "Download Editable sources (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleConcept strategy, identity, art direction, UX/UI & website implementationFormatDesign & implementation studyDeliverablesIdentity, architectural study imagery, responsive website, project editor & enquiry demo"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/en-1440-top.png",
+        "verification/agency/en-1440-middle.png",
+        "verification/agency/en-1440-end.png"
+      ],
+      "page": {
+        "language": "en",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero.webp",
+            "loaded": true,
+            "alt": "Form Architecture identity and actual homepage excerpt beside a generated Courtyard House spatial study.",
+            "intrinsicWidth": 1199
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Fictional starting identity created for this rebrand study. The actual baseline homepage uses the same three studies, a two-line wordmark and slate-blue frame.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The same homepage viewport after the rebrand: retained recognition, material-led colour, consistent image ratios and project information beside the relevant image.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: One identity system connects the custom wordmark, open 3:4 frame, colour roles, editorial and functional type, and English/Arabic applications.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Actual Courtyard House project page: light, privacy and a planted courtyard organize the narrative alongside the canonical 240 m² study facts.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The implemented mobile project page keeps image, caption and explanation in a purposeful sequence, with comfortably readable facts and controls.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Actual entered draft, inline validation and demo receipt. An invalid enquiry preserves the draft and explains the next action; the receipt states that nothing has been sent.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The implemented project editor and its corresponding page change: edit, preview and local publish, with required fields and image focal points under structured control.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: The wordmark clear-space rule holds across a narrow navigation bar and printed-cover artwork.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Desktop and mobile crops preserve the same meaningful spatial feature; separate focal points remain editable and the full image remains inspectable.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Facts, units and captions keep a consistent reading order in English and Arabic, with optional facts omitted when absent.",
+            "intrinsicWidth": 960
+          }
+        ],
+        "links": [
+          {
+            "label": "Explore Form websiteHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "Open Explore Form website (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Open project editorHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "Open Open project editor (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Editable sourcesZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "Download Editable sources (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjectSelf-initiated studio projectRoleConcept strategy, identity, art direction, UX/UI & website implementationFormatDesign & implementation studyDeliverablesIdentity, architectural study imagery, responsive website, project editor & enquiry demo"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-320-top.png",
+        "verification/agency/ar-320-middle.png",
+        "verification/agency/ar-320-end.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero-480.webp",
+            "loaded": true,
+            "alt": "هوية Form Architecture ومقتطف من صفحتها الرئيسية الفعلية بجانب صورة مولّدة للدراسة المكانية Courtyard House.",
+            "intrinsicWidth": 320
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: هوية ابتدائية خيالية أُنشئت لهذه الدراسة. تستخدم الصفحة الرئيسية الفعلية الدراسات الثلاث نفسها وشعارًا من سطرين وإطارًا بلون أزرق أردوازي.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: حجم عرض الصفحة الرئيسية نفسه بعد تجديد الهوية: عناصر تعرّف محفوظة، وألوان مستوحاة من المواد، ونسب صور متسقة، ومعلومات المشروع بجانب الصورة ذات الصلة.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: يربط نظام هوية واحد الشعار المخصص والإطار المفتوح بنسبة 3:4 وأدوار الألوان والخطوط التحريرية والوظيفية والتطبيقات الإنجليزية والعربية.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: صفحة Courtyard House الفعلية: ينظّم الضوء والخصوصية والفناء المزروع السرد بجانب حقائق الدراسة الأساسية ومساحتها البالغة 240 m².",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ صفحة المشروع المنفّذة للهاتف على تسلسل مقصود للصورة والتعليق والشرح، مع حقائق وعناصر تحكّم مريحة للقراءة.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: مسودة مُدخلة فعلية، وتحقق بجانب الحقول، وإيصال تجريبي. يحافظ الاستفسار غير الصالح على المسودة ويوضّح الخطوة التالية؛ ويذكر الإيصال أن شيئًا لم يُرسل.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: محرّر المشاريع المنفّذ والتغيير المقابل في الصفحة: تعديل ومعاينة ونشر محلي، مع تنظيم الحقول المطلوبة ونقاط تركيز الصور.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تبقى قاعدة المساحة الخالية حول الشعار واضحة في شريط تنقّل ضيق وفي تصميم الغلاف المطبوع.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ قصّات الحاسوب والهاتف على العنصر المكاني المهم نفسه؛ ويمكن تعديل نقاط تركيز مستقلة وفحص الصورة كاملة.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ الحقائق والوحدات والتعليقات على ترتيب قراءة متسق بالإنجليزية والعربية، وتُحذف الحقائق الاختيارية عند غيابها.",
+            "intrinsicWidth": 288
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف موقع FormHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "افتح استكشف موقع Form (HTML)",
+            "status": 200
+          },
+          {
+            "label": "افتح محرّر المشاريعHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "افتح افتح محرّر المشاريع (HTML)",
+            "status": 200
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورنااستراتيجية تصوّرية، هوية، توجيه فني، تجربة وواجهة المستخدم وتنفيذ الموقعالنوعدراسة تصميم وتنفيذالمخرجاتهوية، صور لدراسات معمارية، موقع متجاوب، محرّر مشاريع ونموذج استفسار تجريبي"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-390-top.png",
+        "verification/agency/ar-390-middle.png",
+        "verification/agency/ar-390-end.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero-480.webp",
+            "loaded": true,
+            "alt": "هوية Form Architecture ومقتطف من صفحتها الرئيسية الفعلية بجانب صورة مولّدة للدراسة المكانية Courtyard House.",
+            "intrinsicWidth": 389
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: هوية ابتدائية خيالية أُنشئت لهذه الدراسة. تستخدم الصفحة الرئيسية الفعلية الدراسات الثلاث نفسها وشعارًا من سطرين وإطارًا بلون أزرق أردوازي.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: حجم عرض الصفحة الرئيسية نفسه بعد تجديد الهوية: عناصر تعرّف محفوظة، وألوان مستوحاة من المواد، ونسب صور متسقة، ومعلومات المشروع بجانب الصورة ذات الصلة.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: يربط نظام هوية واحد الشعار المخصص والإطار المفتوح بنسبة 3:4 وأدوار الألوان والخطوط التحريرية والوظيفية والتطبيقات الإنجليزية والعربية.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: صفحة Courtyard House الفعلية: ينظّم الضوء والخصوصية والفناء المزروع السرد بجانب حقائق الدراسة الأساسية ومساحتها البالغة 240 m².",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ صفحة المشروع المنفّذة للهاتف على تسلسل مقصود للصورة والتعليق والشرح، مع حقائق وعناصر تحكّم مريحة للقراءة.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: مسودة مُدخلة فعلية، وتحقق بجانب الحقول، وإيصال تجريبي. يحافظ الاستفسار غير الصالح على المسودة ويوضّح الخطوة التالية؛ ويذكر الإيصال أن شيئًا لم يُرسل.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: محرّر المشاريع المنفّذ والتغيير المقابل في الصفحة: تعديل ومعاينة ونشر محلي، مع تنظيم الحقول المطلوبة ونقاط تركيز الصور.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تبقى قاعدة المساحة الخالية حول الشعار واضحة في شريط تنقّل ضيق وفي تصميم الغلاف المطبوع.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ قصّات الحاسوب والهاتف على العنصر المكاني المهم نفسه؛ ويمكن تعديل نقاط تركيز مستقلة وفحص الصورة كاملة.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ الحقائق والوحدات والتعليقات على ترتيب قراءة متسق بالإنجليزية والعربية، وتُحذف الحقائق الاختيارية عند غيابها.",
+            "intrinsicWidth": 351
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف موقع FormHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "افتح استكشف موقع Form (HTML)",
+            "status": 200
+          },
+          {
+            "label": "افتح محرّر المشاريعHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "افتح افتح محرّر المشاريع (HTML)",
+            "status": 200
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورنااستراتيجية تصوّرية، هوية، توجيه فني، تجربة وواجهة المستخدم وتنفيذ الموقعالنوعدراسة تصميم وتنفيذالمخرجاتهوية، صور لدراسات معمارية، موقع متجاوب، محرّر مشاريع ونموذج استفسار تجريبي"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-768-top.png",
+        "verification/agency/ar-768-middle.png",
+        "verification/agency/ar-768-end.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero-960.webp",
+            "loaded": true,
+            "alt": "هوية Form Architecture ومقتطف من صفحتها الرئيسية الفعلية بجانب صورة مولّدة للدراسة المكانية Courtyard House.",
+            "intrinsicWidth": 768
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: هوية ابتدائية خيالية أُنشئت لهذه الدراسة. تستخدم الصفحة الرئيسية الفعلية الدراسات الثلاث نفسها وشعارًا من سطرين وإطارًا بلون أزرق أردوازي.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: حجم عرض الصفحة الرئيسية نفسه بعد تجديد الهوية: عناصر تعرّف محفوظة، وألوان مستوحاة من المواد، ونسب صور متسقة، ومعلومات المشروع بجانب الصورة ذات الصلة.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: يربط نظام هوية واحد الشعار المخصص والإطار المفتوح بنسبة 3:4 وأدوار الألوان والخطوط التحريرية والوظيفية والتطبيقات الإنجليزية والعربية.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: صفحة Courtyard House الفعلية: ينظّم الضوء والخصوصية والفناء المزروع السرد بجانب حقائق الدراسة الأساسية ومساحتها البالغة 240 m².",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ صفحة المشروع المنفّذة للهاتف على تسلسل مقصود للصورة والتعليق والشرح، مع حقائق وعناصر تحكّم مريحة للقراءة.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: مسودة مُدخلة فعلية، وتحقق بجانب الحقول، وإيصال تجريبي. يحافظ الاستفسار غير الصالح على المسودة ويوضّح الخطوة التالية؛ ويذكر الإيصال أن شيئًا لم يُرسل.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: محرّر المشاريع المنفّذ والتغيير المقابل في الصفحة: تعديل ومعاينة ونشر محلي، مع تنظيم الحقول المطلوبة ونقاط تركيز الصور.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تبقى قاعدة المساحة الخالية حول الشعار واضحة في شريط تنقّل ضيق وفي تصميم الغلاف المطبوع.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ قصّات الحاسوب والهاتف على العنصر المكاني المهم نفسه؛ ويمكن تعديل نقاط تركيز مستقلة وفحص الصورة كاملة.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ الحقائق والوحدات والتعليقات على ترتيب قراءة متسق بالإنجليزية والعربية، وتُحذف الحقائق الاختيارية عند غيابها.",
+            "intrinsicWidth": 691
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف موقع FormHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "افتح استكشف موقع Form (HTML)",
+            "status": 200
+          },
+          {
+            "label": "افتح محرّر المشاريعHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "افتح افتح محرّر المشاريع (HTML)",
+            "status": 200
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورنااستراتيجية تصوّرية، هوية، توجيه فني، تجربة وواجهة المستخدم وتنفيذ الموقعالنوعدراسة تصميم وتنفيذالمخرجاتهوية، صور لدراسات معمارية، موقع متجاوب، محرّر مشاريع ونموذج استفسار تجريبي"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/ar-1440-top.png",
+        "verification/agency/ar-1440-middle.png",
+        "verification/agency/ar-1440-end.png"
+      ],
+      "page": {
+        "language": "ar",
+        "direction": "rtl",
+        "overflow": 0,
+        "fonts": {
+          "inter": false,
+          "spaceGrotesk": true,
+          "arabic": true
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "unloaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "loaded"
+          }
+        ],
+        "bodyFont": "\"IBM Plex Sans Arabic\", Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero.webp",
+            "loaded": true,
+            "alt": "هوية Form Architecture ومقتطف من صفحتها الرئيسية الفعلية بجانب صورة مولّدة للدراسة المكانية Courtyard House.",
+            "intrinsicWidth": 1199
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: هوية ابتدائية خيالية أُنشئت لهذه الدراسة. تستخدم الصفحة الرئيسية الفعلية الدراسات الثلاث نفسها وشعارًا من سطرين وإطارًا بلون أزرق أردوازي.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: حجم عرض الصفحة الرئيسية نفسه بعد تجديد الهوية: عناصر تعرّف محفوظة، وألوان مستوحاة من المواد، ونسب صور متسقة، ومعلومات المشروع بجانب الصورة ذات الصلة.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: يربط نظام هوية واحد الشعار المخصص والإطار المفتوح بنسبة 3:4 وأدوار الألوان والخطوط التحريرية والوظيفية والتطبيقات الإنجليزية والعربية.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: صفحة Courtyard House الفعلية: ينظّم الضوء والخصوصية والفناء المزروع السرد بجانب حقائق الدراسة الأساسية ومساحتها البالغة 240 m².",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ صفحة المشروع المنفّذة للهاتف على تسلسل مقصود للصورة والتعليق والشرح، مع حقائق وعناصر تحكّم مريحة للقراءة.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: مسودة مُدخلة فعلية، وتحقق بجانب الحقول، وإيصال تجريبي. يحافظ الاستفسار غير الصالح على المسودة ويوضّح الخطوة التالية؛ ويذكر الإيصال أن شيئًا لم يُرسل.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: محرّر المشاريع المنفّذ والتغيير المقابل في الصفحة: تعديل ومعاينة ونشر محلي، مع تنظيم الحقول المطلوبة ونقاط تركيز الصور.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تبقى قاعدة المساحة الخالية حول الشعار واضحة في شريط تنقّل ضيق وفي تصميم الغلاف المطبوع.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ قصّات الحاسوب والهاتف على العنصر المكاني المهم نفسه؛ ويمكن تعديل نقاط تركيز مستقلة وفحص الصورة كاملة.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: تحافظ الحقائق والوحدات والتعليقات على ترتيب قراءة متسق بالإنجليزية والعربية، وتُحذف الحقائق الاختيارية عند غيابها.",
+            "intrinsicWidth": 960
+          }
+        ],
+        "links": [
+          {
+            "label": "استكشف موقع FormHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "افتح استكشف موقع Form (HTML)",
+            "status": 200
+          },
+          {
+            "label": "افتح محرّر المشاريعHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "افتح افتح محرّر المشاريع (HTML)",
+            "status": 200
+          },
+          {
+            "label": "الملفات المصدرية القابلة للتعديلZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "حمّل الملفات المصدرية القابلة للتعديل (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "المشروعمشروع ذاتي من الاستوديودورنااستراتيجية تصوّرية، هوية، توجيه فني، تجربة وواجهة المستخدم وتنفيذ الموقعالنوعدراسة تصميم وتنفيذالمخرجاتهوية، صور لدراسات معمارية، موقع متجاوب، محرّر مشاريع ونموذج استفسار تجريبي"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "fr",
+      "width": 320,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-320-top.png",
+        "verification/agency/fr-320-middle.png",
+        "verification/agency/fr-320-end.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero-480.webp",
+            "loaded": true,
+            "alt": "Identité Form Architecture et extrait réel de sa page d’accueil avec une image générée de l’étude spatiale Courtyard House.",
+            "intrinsicWidth": 320
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Identité de départ fictive créée pour cette étude. La véritable page d’accueil initiale utilise les trois mêmes études, une signature sur deux lignes et un cadre bleu ardoise.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La page d’accueil au même format après la refonte : repères conservés, couleurs inspirées des matières, proportions d’images cohérentes et informations à côté de l’image concernée.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Un système d’identité relie la signature sur mesure, le cadre ouvert 3:4, les rôles des couleurs, les typographies éditoriales et fonctionnelles, et les applications anglaises et arabes.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Véritable page du projet Courtyard House : lumière, intimité et cour plantée organisent le récit avec les faits de l’étude et sa surface de 240 m².",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La page mobile réalisée place image, légende et explication dans une séquence réfléchie, avec des faits et des commandes confortablement lisibles.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Brouillon réellement saisi, validation près des champs et récapitulatif de démonstration. Une demande invalide conserve le brouillon et explique la suite ; le récapitulatif précise que rien n’a été envoyé.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: L’éditeur de projets réalisé et le changement correspondant dans la page : modification, aperçu et publication locale, avec champs obligatoires et points focaux structurés.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La règle d’espace libre de la signature reste cohérente dans une navigation étroite et sur l’artwork de couverture imprimée.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Les cadrages ordinateur et mobile conservent le même élément spatial significatif ; leurs points focaux sont modifiables et l’image complète reste consultable.",
+            "intrinsicWidth": 288
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Faits, unités et légendes gardent un ordre de lecture cohérent en anglais et en arabe ; les faits facultatifs absents sont omis.",
+            "intrinsicWidth": 288
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorez le site FormHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorez le site Form (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Ouvrez l’éditeur de projetsHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "Ouvrir Ouvrez l’éditeur de projets (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Sources modifiablesZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "Télécharger Sources modifiables (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie conceptuelle, identité, direction artistique, UX/UI et réalisation du siteFormatÉtude de design et de réalisationLivrablesIdentité, images d’études architecturales, site responsive, éditeur de projets et demande de démonstration"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "fr",
+      "width": 390,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-390-top.png",
+        "verification/agency/fr-390-middle.png",
+        "verification/agency/fr-390-end.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero-480.webp",
+            "loaded": true,
+            "alt": "Identité Form Architecture et extrait réel de sa page d’accueil avec une image générée de l’étude spatiale Courtyard House.",
+            "intrinsicWidth": 389
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Identité de départ fictive créée pour cette étude. La véritable page d’accueil initiale utilise les trois mêmes études, une signature sur deux lignes et un cadre bleu ardoise.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La page d’accueil au même format après la refonte : repères conservés, couleurs inspirées des matières, proportions d’images cohérentes et informations à côté de l’image concernée.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Un système d’identité relie la signature sur mesure, le cadre ouvert 3:4, les rôles des couleurs, les typographies éditoriales et fonctionnelles, et les applications anglaises et arabes.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Véritable page du projet Courtyard House : lumière, intimité et cour plantée organisent le récit avec les faits de l’étude et sa surface de 240 m².",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La page mobile réalisée place image, légende et explication dans une séquence réfléchie, avec des faits et des commandes confortablement lisibles.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Brouillon réellement saisi, validation près des champs et récapitulatif de démonstration. Une demande invalide conserve le brouillon et explique la suite ; le récapitulatif précise que rien n’a été envoyé.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: L’éditeur de projets réalisé et le changement correspondant dans la page : modification, aperçu et publication locale, avec champs obligatoires et points focaux structurés.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La règle d’espace libre de la signature reste cohérente dans une navigation étroite et sur l’artwork de couverture imprimée.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Les cadrages ordinateur et mobile conservent le même élément spatial significatif ; leurs points focaux sont modifiables et l’image complète reste consultable.",
+            "intrinsicWidth": 351
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Faits, unités et légendes gardent un ordre de lecture cohérent en anglais et en arabe ; les faits facultatifs absents sont omis.",
+            "intrinsicWidth": 351
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorez le site FormHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorez le site Form (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Ouvrez l’éditeur de projetsHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "Ouvrir Ouvrez l’éditeur de projets (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Sources modifiablesZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "Télécharger Sources modifiables (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie conceptuelle, identité, direction artistique, UX/UI et réalisation du siteFormatÉtude de design et de réalisationLivrablesIdentité, images d’études architecturales, site responsive, éditeur de projets et demande de démonstration"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "fr",
+      "width": 768,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-768-top.png",
+        "verification/agency/fr-768-middle.png",
+        "verification/agency/fr-768-end.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero-960.webp",
+            "loaded": true,
+            "alt": "Identité Form Architecture et extrait réel de sa page d’accueil avec une image générée de l’étude spatiale Courtyard House.",
+            "intrinsicWidth": 768
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Identité de départ fictive créée pour cette étude. La véritable page d’accueil initiale utilise les trois mêmes études, une signature sur deux lignes et un cadre bleu ardoise.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La page d’accueil au même format après la refonte : repères conservés, couleurs inspirées des matières, proportions d’images cohérentes et informations à côté de l’image concernée.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Un système d’identité relie la signature sur mesure, le cadre ouvert 3:4, les rôles des couleurs, les typographies éditoriales et fonctionnelles, et les applications anglaises et arabes.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Véritable page du projet Courtyard House : lumière, intimité et cour plantée organisent le récit avec les faits de l’étude et sa surface de 240 m².",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La page mobile réalisée place image, légende et explication dans une séquence réfléchie, avec des faits et des commandes confortablement lisibles.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Brouillon réellement saisi, validation près des champs et récapitulatif de démonstration. Une demande invalide conserve le brouillon et explique la suite ; le récapitulatif précise que rien n’a été envoyé.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: L’éditeur de projets réalisé et le changement correspondant dans la page : modification, aperçu et publication locale, avec champs obligatoires et points focaux structurés.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La règle d’espace libre de la signature reste cohérente dans une navigation étroite et sur l’artwork de couverture imprimée.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Les cadrages ordinateur et mobile conservent le même élément spatial significatif ; leurs points focaux sont modifiables et l’image complète reste consultable.",
+            "intrinsicWidth": 691
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Faits, unités et légendes gardent un ordre de lecture cohérent en anglais et en arabe ; les faits facultatifs absents sont omis.",
+            "intrinsicWidth": 691
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorez le site FormHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorez le site Form (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Ouvrez l’éditeur de projetsHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "Ouvrir Ouvrez l’éditeur de projets (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Sources modifiablesZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "Télécharger Sources modifiables (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie conceptuelle, identité, direction artistique, UX/UI et réalisation du siteFormatÉtude de design et de réalisationLivrablesIdentité, images d’études architecturales, site responsive, éditeur de projets et demande de démonstration"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    },
+    {
+      "locale": "fr",
+      "width": 1440,
+      "height": 1000,
+      "errors": [],
+      "captures": [
+        "verification/agency/fr-1440-top.png",
+        "verification/agency/fr-1440-middle.png",
+        "verification/agency/fr-1440-end.png"
+      ],
+      "page": {
+        "language": "fr",
+        "direction": "ltr",
+        "overflow": 0,
+        "fonts": {
+          "inter": true,
+          "spaceGrotesk": true,
+          "arabic": false
+        },
+        "fontFaces": [
+          {
+            "family": "IBM Plex Mono",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "status": "loaded"
+          },
+          {
+            "family": "Space Grotesk",
+            "status": "loaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          },
+          {
+            "family": "IBM Plex Sans Arabic",
+            "status": "unloaded"
+          }
+        ],
+        "bodyFont": "Inter, system-ui, sans-serif",
+        "cards": [
+          "Sift Coffee",
+          "Form Architecture",
+          "Marrow",
+          "Northline"
+        ]
+      },
+      "open": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "initialFocus": "cmTitle",
+      "focusWrap": {
+        "firstFocus": "cmClose",
+        "lastFocus": "cmNext",
+        "wrappedFocus": "cmClose"
+      },
+      "case": {
+        "modalOverflow": 0,
+        "bodyOverflow": 0,
+        "split": true,
+        "figureCount": 10,
+        "images": [
+          {
+            "src": "assets/selected-work/form/hero.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/hero.webp",
+            "loaded": true,
+            "alt": "Identité Form Architecture et extrait réel de sa page d’accueil avec une image générée de l’étude spatiale Courtyard House.",
+            "intrinsicWidth": 1199
+          },
+          {
+            "src": "assets/selected-work/form/baseline.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/baseline-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Identité de départ fictive créée pour cette étude. La véritable page d’accueil initiale utilise les trois mêmes études, une signature sur deux lignes et un cadre bleu ardoise.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/redesign.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/redesign-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La page d’accueil au même format après la refonte : repères conservés, couleurs inspirées des matières, proportions d’images cohérentes et informations à côté de l’image concernée.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/identity-system.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/identity-system-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Un système d’identité relie la signature sur mesure, le cadre ouvert 3:4, les rôles des couleurs, les typographies éditoriales et fonctionnelles, et les applications anglaises et arabes.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/project-desktop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-desktop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Véritable page du projet Courtyard House : lumière, intimité et cour plantée organisent le récit avec les faits de l’étude et sa surface de 240 m².",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/project-mobile.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/project-mobile-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La page mobile réalisée place image, légende et explication dans une séquence réfléchie, avec des faits et des commandes confortablement lisibles.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/enquiry-states.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/enquiry-states-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Brouillon réellement saisi, validation près des champs et récapitulatif de démonstration. Une demande invalide conserve le brouillon et explique la suite ; le récapitulatif précise que rien n’a été envoyé.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/cms-edit.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/cms-edit-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: L’éditeur de projets réalisé et le changement correspondant dans la page : modification, aperçu et publication locale, avec champs obligatoires et points focaux structurés.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/details/wordmark.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/wordmark-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: La règle d’espace libre de la signature reste cohérente dans une navigation étroite et sur l’artwork de couverture imprimée.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/details/image-crop.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/image-crop-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Les cadrages ordinateur et mobile conservent le même élément spatial significatif ; leurs points focaux sont modifiables et l’image complète reste consultable.",
+            "intrinsicWidth": 960
+          },
+          {
+            "src": "assets/selected-work/form/details/project-facts.webp",
+            "currentSrc": "http://localhost:8798/agency_jaspr/assets/selected-work/form/details/project-facts-960.webp",
+            "loaded": true,
+            "alt": "Form Architecture: Faits, unités et légendes gardent un ordre de lecture cohérent en anglais et en arabe ; les faits facultatifs absents sont omis.",
+            "intrinsicWidth": 960
+          }
+        ],
+        "links": [
+          {
+            "label": "Explorez le site FormHTML",
+            "href": "assets/selected-work/form/site/index.html",
+            "download": null,
+            "aria": "Ouvrir Explorez le site Form (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Ouvrez l’éditeur de projetsHTML",
+            "href": "assets/selected-work/form/site/editor.html",
+            "download": null,
+            "aria": "Ouvrir Ouvrez l’éditeur de projets (HTML)",
+            "status": 200
+          },
+          {
+            "label": "Sources modifiablesZIP",
+            "href": "assets/selected-work/form/form-source.zip",
+            "download": "form-source.zip",
+            "aria": "Télécharger Sources modifiables (ZIP)",
+            "status": 200
+          }
+        ],
+        "metadata": "ProjetProjet personnel du studioNotre rôleStratégie conceptuelle, identité, direction artistique, UX/UI et réalisation du siteFormatÉtude de design et de réalisationLivrablesIdentité, images d’études architecturales, site responsive, éditeur de projets et demande de démonstration"
+      },
+      "next": {
+        "name": "Marrow",
+        "curtainSeen": true
+      },
+      "restoredFocus": "Form Architecture",
+      "sift": {
+        "name": "Sift Coffee",
+        "curtainSeen": true
+      },
+      "siftChapters": 4,
+      "siftNext": {
+        "name": "Form Architecture",
+        "curtainSeen": true
+      },
+      "siftRestoredFocus": "Sift Coffee",
+      "result": "passed"
+    }
+  ],
+  "failures": []
+}

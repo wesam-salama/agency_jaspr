@@ -1,0 +1,29 @@
+[
+  {
+    "file": "web/assets/selected-work/form/fonts/cormorant-garamond-latin.woff2",
+    "proof": "Architecture shaped around how people live. É œ 240 m²",
+    "missing": [],
+    "sha256": "9aae27007526ca16389451f9466569e1a289c017d4c5f0882ac7fdcd1483bd6b"
+  },
+  {
+    "file": "web/assets/selected-work/form/fonts/instrument-sans-latin.woff2",
+    "proof": "Project facts / Français / 240 m² / €100,000",
+    "sha256": "64d04b2ed274609dec01423eb3b58b582e032aae5e5a254b15cbc8f425b404e1",
+    "fallback": {
+      "family": "Form Symbols",
+      "source": "cormorant-garamond-latin.woff2",
+      "unicode": "U+00B2",
+      "coverage_verified": true
+    },
+    "resolved_missing": [
+      "²"
+    ],
+    "missing": []
+  },
+  {
+    "file": "web/assets/fonts/ibm-plex-sans-arabic-regular.woff2",
+    "proof": "عمارة تتشكّل حول حياة الناس",
+    "missing": [],
+    "sha256": "74112e1b7bf2e2c547989a4e947a60cba6cd1f9156e0065670134636e717199d"
+  }
+]

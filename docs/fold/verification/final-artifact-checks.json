@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-15",
+  "protectedFilesChecked": 371,
+  "protectedFilesChanged": [],
+  "sourceBuildFilesMatched": 194,
+  "manifestAssetsChecked": 192,
+  "zipIntegrity": "passed",
+  "zipSHA256": "5e6612ef8e5c8d7fe167f390f91b1d5b3b2d2148f79917f039dff1d72ddc86a4",
+  "recordings": [
+    {
+      "locale": "en",
+      "path": "web/assets/selected-work/fold/shopping-flow-en.mp4",
+      "sha256": "9b81fc2d2b2942280137a8542ecb6611d11f8d837f302029371941f0964ead0a",
+      "decode": "passed",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1440,
+          "height": 1000,
+          "avg_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "15.166667"
+      }
+    },
+    {
+      "locale": "ar",
+      "path": "web/assets/selected-work/fold/shopping-flow-ar.mp4",
+      "sha256": "030181fd321cb705a02a7c60eeb0ea3959f0d3f97dca673f09d1883fe775e81e",
+      "decode": "passed",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 390,
+          "height": 844,
+          "avg_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "12.583333"
+      }
+    }
+  ],
+  "originalReferenceSHA256": "7a4d4736ada6b8e624f17ef95e082e6f67fac80e21903fc52192ac1f8c803295"
+}

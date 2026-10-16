@@ -1,0 +1,41 @@
+{
+  "origin": "docs/fold/presentation-sources/shopping.html",
+  "operation": "Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "sourceFiles": [
+    "docs/fold/verification/store/cart-detail-en-1440.png",
+    "docs/fold/verification/store/confirmation-detail-en-1440.png",
+    "docs/fold/verification/store/checkout-total-en-1440.png"
+  ],
+  "sourceFileChecksums": [
+    {
+      "file": "docs/fold/presentation-sources/shopping.html",
+      "sha256": "9dd7ef53d57aa447ccc974179192578502bd3ef022852b0833ffee7b14064a61"
+    },
+    {
+      "file": "docs/fold/presentation-sources/boards.css",
+      "sha256": "c2ebd5e399f4649a65c2fc09354890e2d1432110d472f254aa94984741b5929d"
+    },
+    {
+      "file": "docs/fold/verification/store/cart-detail-en-1440.png",
+      "sha256": "f8e886caf93fd7d6a8b222fb14391fddf52ec1f832985885c3e2ed2bb835b317"
+    },
+    {
+      "file": "docs/fold/verification/store/confirmation-detail-en-1440.png",
+      "sha256": "9b0cf4abe2d034b42192e6aa8df3fd16a91be035a08c50929584eeaef12496cb"
+    },
+    {
+      "file": "docs/fold/verification/store/checkout-total-en-1440.png",
+      "sha256": "16a20a0f7f36abe308ffcf1aa809e4a8850ec4a7903adcc8c67c46ccd334f0c0"
+    }
+  ],
+  "generatedImageReferences": [],
+  "created": "2026-10-15",
+  "capturedAt": "2026-10-15T12:59:56.600Z",
+  "creator": "CR8.Media / Codex authored presentation composition",
+  "file": "docs/fold/presentation-sources/shopping.png",
+  "width": 2000,
+  "height": 1500,
+  "sha256": "6aa8ddc75bf3b928a4f09a88f022aac566035ad47aa5283ec26bbfa5eab65c79",
+  "prompt": "Origin: docs/fold/presentation-sources/shopping.html. Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "provenanceStorage": "native image metadata"
+}

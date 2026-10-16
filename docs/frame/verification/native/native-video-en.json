@@ -1,0 +1,27 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "h264",
+      "width": 1206,
+      "height": 2622,
+      "avg_frame_rate": "186800/11477",
+      "start_time": "0.000000",
+      "duration": "57.370000",
+      "nb_frames": "934"
+    }
+  ],
+  "format": {
+    "start_time": "0.000000",
+    "duration": "57.370000",
+    "tags": {
+      "creation_time": "2026-10-14T15:30:54.000000Z"
+    }
+  },
+  "checkedUTC": "2026-10-14T20:07:12.324126+00:00",
+  "source": "native-core-en-raw.mp4",
+  "rawInvocationUTC": "2026-10-14T15:30:53.204Z",
+  "frameAnchors": "native-pts-en.json",
+  "timingNote": "rawStartUTC is recorder invocation; native captureUTC is printed before XCUIScreen capture. Exact video cut anchors use decoded original frame PTS."
+}

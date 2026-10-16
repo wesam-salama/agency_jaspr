@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-14",
+  "target": "iOS26.5 iPhone17Pro simulator",
+  "learner": "demo",
+  "language": "en",
+  "before": {
+    "learner": "demo",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [],
+    "drafts": {
+      "01": {
+        "note": "",
+        "attachment": false
+      }
+    },
+    "revision": 1
+  },
+  "after": {
+    "learner": "demo",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [
+      "01"
+    ],
+    "drafts": {
+      "01": {
+        "note": "Moving the object toward the edge made the surrounding space more visible. I kept the light the same in both photographs.",
+        "attachment": false
+      }
+    },
+    "revision": 3
+  },
+  "xctestExit": 0,
+  "rawStartUTC": "2026-10-14T15:30:53.204Z",
+  "events": [
+    {
+      "name": "course-zero-en",
+      "utc": "2026-10-14T15:31:09Z"
+    },
+    {
+      "name": "lesson-player-en",
+      "utc": "2026-10-14T15:31:16Z"
+    },
+    {
+      "name": "exercise-failed-en",
+      "utc": "2026-10-14T15:31:29Z"
+    },
+    {
+      "name": "exercise-saved-en",
+      "utc": "2026-10-14T15:31:31Z"
+    },
+    {
+      "name": "completed-en",
+      "utc": "2026-10-14T15:31:33Z"
+    },
+    {
+      "name": "restarted-next-en",
+      "utc": "2026-10-14T15:31:48Z"
+    },
+    {
+      "name": "lesson-02-en",
+      "utc": "2026-10-14T15:31:50Z"
+    }
+  ],
+  "recording": "native-core-en-raw.mp4",
+  "recordingTimingNote": "rawStartUTC is recorder invocation; native captureUTC is printed before XCUIScreen capture. Exact video cut anchors use decoded original frame PTS.",
+  "framePTSAnchors": "native-pts-en.json",
+  "captureKernelAuthority": "native-binary.json"
+}

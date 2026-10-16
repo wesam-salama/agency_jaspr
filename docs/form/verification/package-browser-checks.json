@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-13",
+  "result": "passed",
+  "records": [
+    {
+      "route": "index.html?lang=en#home",
+      "title": "Form Architecture — Architecture shaped around how people live.",
+      "overflow": 0,
+      "fonts": [
+        "Form Symbols",
+        "Cormorant Garamond",
+        "Instrument Sans"
+      ],
+      "broken": []
+    },
+    {
+      "route": "index.html?lang=ar#project/courtyard-house",
+      "title": "منزل الفناء — Form Architecture",
+      "overflow": 0,
+      "fonts": [
+        "Cormorant Garamond",
+        "Plex Arabic"
+      ],
+      "broken": []
+    },
+    {
+      "route": "editor.html",
+      "title": "Project editor — Form Architecture",
+      "overflow": 0,
+      "fonts": [
+        "Form Symbols",
+        "Instrument Sans",
+        "IBM Plex Sans Arabic"
+      ],
+      "broken": []
+    }
+  ]
+}

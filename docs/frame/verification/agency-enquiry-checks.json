@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-14",
+  "target": "Actual compiled agency, Chrome390px, reduced motion",
+  "records": [
+    {
+      "lang": "en",
+      "unfinishedBriefPreserved": true,
+      "requiredFieldsValid": true,
+      "sectionRetained": true,
+      "action": "mailto:hello@cr8.media"
+    },
+    {
+      "lang": "ar",
+      "unfinishedBriefPreserved": true,
+      "requiredFieldsValid": true,
+      "sectionRetained": true,
+      "action": "mailto:hello@cr8.media"
+    },
+    {
+      "lang": "fr",
+      "unfinishedBriefPreserved": true,
+      "requiredFieldsValid": true,
+      "sectionRetained": true,
+      "action": "mailto:hello@cr8.media"
+    }
+  ],
+  "errors": [],
+  "scope": "Empty required-field validity and complete unfinished brief retained EN→AR→FR including service/timing choices. Submit was never activated; no mail client or external message was opened."
+}

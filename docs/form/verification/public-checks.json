@@ -1,0 +1,1826 @@
+{
+  "date": "2026-10-13",
+  "base": "http://127.0.0.1:8798/agency_jaspr/assets/selected-work/form/site/",
+  "scope": "Local source implementation; generated studies are fictional",
+  "responsive": [
+    {
+      "lang": "en",
+      "width": 320,
+      "route": "#home",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Architecture shaped around how people live."
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "route": "#work",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Three spaces. Three starting points."
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "route": "#studio",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "A thoughtful relationship between space and life."
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "route": "#contact",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Tell us about the space you have in mind."
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "route": "#project/courtyard-house",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Courtyard HouseArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "route": "#project/line-studio",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Line StudioArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "route": "#project/shore-library",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Shore LibraryArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "route": "#home",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Architecture shaped around how people live."
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "route": "#work",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Three spaces. Three starting points."
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "route": "#studio",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "A thoughtful relationship between space and life."
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "route": "#contact",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Tell us about the space you have in mind."
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "route": "#project/courtyard-house",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Courtyard HouseArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "route": "#project/line-studio",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Line StudioArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "route": "#project/shore-library",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Shore LibraryArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "route": "#home",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Architecture shaped around how people live."
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "route": "#work",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Three spaces. Three starting points."
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "route": "#studio",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "A thoughtful relationship between space and life."
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "route": "#contact",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Tell us about the space you have in mind."
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "route": "#project/courtyard-house",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Courtyard HouseArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "route": "#project/line-studio",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Line StudioArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "route": "#project/shore-library",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Shore LibraryArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "route": "#home",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Architecture shaped around how people live."
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "route": "#work",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Three spaces. Three starting points."
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "route": "#studio",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "A thoughtful relationship between space and life."
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "route": "#contact",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Tell us about the space you have in mind."
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "route": "#project/courtyard-house",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Courtyard HouseArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "route": "#project/line-studio",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Line StudioArchitectural study · Studio concept"
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "route": "#project/shore-library",
+      "overflow": 0,
+      "dir": "ltr",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "Shore LibraryArchitectural study · Studio concept"
+    },
+    {
+      "lang": "ar",
+      "width": 320,
+      "route": "#home",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "عمارة تتشكّل حول حياة الناس."
+    },
+    {
+      "lang": "ar",
+      "width": 320,
+      "route": "#work",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "ثلاث مساحات. ثلاث نقاط بداية."
+    },
+    {
+      "lang": "ar",
+      "width": 320,
+      "route": "#studio",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "علاقة مدروسة بين المكان والحياة."
+    },
+    {
+      "lang": "ar",
+      "width": 320,
+      "route": "#contact",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "أخبرنا عن المكان الذي تفكّر فيه."
+    },
+    {
+      "lang": "ar",
+      "width": 320,
+      "route": "#project/courtyard-house",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "منزل الفناءدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 320,
+      "route": "#project/line-studio",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "استوديو الخطدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 320,
+      "route": "#project/shore-library",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "مكتبة الساحلدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "route": "#home",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "عمارة تتشكّل حول حياة الناس."
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "route": "#work",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "ثلاث مساحات. ثلاث نقاط بداية."
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "route": "#studio",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "علاقة مدروسة بين المكان والحياة."
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "route": "#contact",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "أخبرنا عن المكان الذي تفكّر فيه."
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "route": "#project/courtyard-house",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "منزل الفناءدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "route": "#project/line-studio",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "استوديو الخطدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "route": "#project/shore-library",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "مكتبة الساحلدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "route": "#home",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "عمارة تتشكّل حول حياة الناس."
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "route": "#work",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "ثلاث مساحات. ثلاث نقاط بداية."
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "route": "#studio",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "علاقة مدروسة بين المكان والحياة."
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "route": "#contact",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "أخبرنا عن المكان الذي تفكّر فيه."
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "route": "#project/courtyard-house",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "منزل الفناءدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "route": "#project/line-studio",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "استوديو الخطدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "route": "#project/shore-library",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "مكتبة الساحلدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 1440,
+      "route": "#home",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "عمارة تتشكّل حول حياة الناس."
+    },
+    {
+      "lang": "ar",
+      "width": 1440,
+      "route": "#work",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "ثلاث مساحات. ثلاث نقاط بداية."
+    },
+    {
+      "lang": "ar",
+      "width": 1440,
+      "route": "#studio",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "علاقة مدروسة بين المكان والحياة."
+    },
+    {
+      "lang": "ar",
+      "width": 1440,
+      "route": "#contact",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "أخبرنا عن المكان الذي تفكّر فيه."
+    },
+    {
+      "lang": "ar",
+      "width": 1440,
+      "route": "#project/courtyard-house",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "منزل الفناءدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 1440,
+      "route": "#project/line-studio",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "استوديو الخطدراسة معمارية · تصور من الاستوديو"
+    },
+    {
+      "lang": "ar",
+      "width": 1440,
+      "route": "#project/shore-library",
+      "overflow": 0,
+      "dir": "rtl",
+      "broken": [],
+      "font": [
+        {
+          "family": "Form Symbols",
+          "status": "unloaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "status": "loaded"
+        },
+        {
+          "family": "Instrument Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "loaded"
+        },
+        {
+          "family": "Plex Arabic",
+          "status": "unloaded"
+        }
+      ],
+      "h1": "مكتبة الساحلدراسة معمارية · تصور من الاستوديو"
+    }
+  ],
+  "checks": [
+    {
+      "name": "56 responsive route checks",
+      "result": "passed",
+      "detail": "Seven route/study views in EN/AR at 320,390,768,1440px; no document overflow or broken images."
+    },
+    {
+      "name": "Home → Work → study → contextual enquiry",
+      "result": "passed",
+      "detail": "Native links reached Courtyard House and carried the editable reference into Contact; route focus reached H1."
+    },
+    {
+      "name": "Invalid enquiry preserves values and focuses first error",
+      "result": "passed",
+      "detail": "Missing name/type/location produced associated inline errors; email and outline stayed intact."
+    },
+    {
+      "name": "Language switch, reload and editable reference preserve draft",
+      "result": "passed",
+      "detail": "All entered words retained verbatim, reference changed to Line Studio and survived EN/AR/reload."
+    },
+    {
+      "name": "Recovery and honest receipt",
+      "result": "passed",
+      "detail": "Induced local failure retained the draft; retry reached exact not-sent receipt and focused its heading."
+    },
+    {
+      "name": "Over-limit outline is preserved",
+      "result": "passed",
+      "detail": "2,010-character draft stayed intact with recovery text; no silent truncation."
+    },
+    {
+      "name": "Reduced motion",
+      "result": "passed",
+      "detail": "Core project content and native actions remain visible with reduced motion."
+    },
+    {
+      "name": "No-script fallback",
+      "result": "passed",
+      "detail": "Usable English homepage, canonical full-image links and clear no-send enquiry guidance at 320px."
+    },
+    {
+      "name": "Unavailable storage",
+      "result": "passed",
+      "detail": "In-memory draft survives language change and explanatory warning is visible."
+    }
+  ],
+  "screenshots": [
+    "verification/website/en-home-390.png",
+    "verification/website/en-work-390.png",
+    "verification/website/en-studio-390.png",
+    "verification/website/en-contact-390.png",
+    "verification/website/en-courtyard-390.png",
+    "verification/website/en-line-390.png",
+    "verification/website/en-shore-390.png",
+    "verification/website/en-home-1440.png",
+    "verification/website/en-work-1440.png",
+    "verification/website/en-studio-1440.png",
+    "verification/website/en-contact-1440.png",
+    "verification/website/en-courtyard-1440.png",
+    "verification/website/en-line-1440.png",
+    "verification/website/en-shore-1440.png",
+    "verification/website/ar-home-390.png",
+    "verification/website/ar-work-390.png",
+    "verification/website/ar-studio-390.png",
+    "verification/website/ar-contact-390.png",
+    "verification/website/ar-courtyard-390.png",
+    "verification/website/ar-line-390.png",
+    "verification/website/ar-shore-390.png",
+    "verification/website/ar-home-1440.png",
+    "verification/website/ar-work-1440.png",
+    "verification/website/ar-studio-1440.png",
+    "verification/website/ar-contact-1440.png",
+    "verification/website/ar-courtyard-1440.png",
+    "verification/website/ar-line-1440.png",
+    "verification/website/ar-shore-1440.png",
+    "verification/website/enquiry-invalid-desktop.png",
+    "verification/website/enquiry-entered-desktop.png",
+    "verification/website/enquiry-error-desktop.png",
+    "verification/website/enquiry-receipt-desktop.png",
+    "verification/website/enquiry-mobile.png"
+  ],
+  "javascriptErrors": []
+}

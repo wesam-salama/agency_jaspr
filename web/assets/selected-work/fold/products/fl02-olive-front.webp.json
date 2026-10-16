@@ -1,0 +1,6 @@
+{
+  "prompt": "Use case: precise-object-edit. This reference is the approved Fold Clothing garment canon. Make an EXACT colourway derivative. Change ONLY the garment fabric and matching buttons to Olive deep olive #3C4A3E. Keep the background, lighting, identical crop, THREE equal-width panel triptych layout (front/back/construction macro), silhouette, material texture, all seam locations, hems, all pocket shapes and positions, ALL button counts precisely unchanged. Front/back/detail must remain the SAME GARMENT and same colour. Do not add features, text, labels, logos, decorations, watermarks, hardware, buttonholes or buttons. This is product art for a fictional studio concept. Preserve full garments in first2 panels. Output high resolution landscape with same aspect as reference.",
+  "origin": "source/fl02-olive-triptych.png",
+  "operation": "Equal-panel crop; front/back canvas padded to 3:4 without altering garment geometry; native-height export. Generated artwork, not software evidence.",
+  "provenanceStorage": "installed tool sidecar fallback for this format"
+}

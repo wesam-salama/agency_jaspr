@@ -1,0 +1,182 @@
+[
+  {
+    "id": "wordmark",
+    "source": "source/wordmark.svg",
+    "dimensions": [
+      760,
+      240
+    ],
+    "caption": "Form Architecture wordmark",
+    "alt": "Form Architecture wordmark",
+    "provenance": "Original code-native vector authored with Codex",
+    "rights": "Original artwork; font files retain bundled SIL OFL licences",
+    "status": "designed",
+    "crop": "Full artboard; preserve wordmark clear space",
+    "concept": true
+  },
+  {
+    "id": "wordmark-dark",
+    "source": "source/wordmark-dark.svg",
+    "dimensions": [
+      760,
+      240
+    ],
+    "caption": "Form Architecture light wordmark",
+    "alt": "Form Architecture light wordmark",
+    "provenance": "Original code-native vector authored with Codex",
+    "rights": "Original artwork; font files retain bundled SIL OFL licences",
+    "status": "designed",
+    "crop": "Full artboard; preserve wordmark clear space",
+    "concept": true
+  },
+  {
+    "id": "wordmark-mono",
+    "source": "source/wordmark-mono.svg",
+    "dimensions": [
+      760,
+      240
+    ],
+    "caption": "Form Architecture monochrome wordmark",
+    "alt": "Form Architecture monochrome wordmark",
+    "provenance": "Original code-native vector authored with Codex",
+    "rights": "Original artwork; font files retain bundled SIL OFL licences",
+    "status": "designed",
+    "crop": "Full artboard; preserve wordmark clear space",
+    "concept": true
+  },
+  {
+    "id": "frame-mark",
+    "source": "source/frame-mark.svg",
+    "dimensions": [
+      96,
+      128
+    ],
+    "caption": "Form open frame, 3:4 with lower-right opening",
+    "alt": "Form open frame, 3:4 with lower-right opening",
+    "provenance": "Original code-native vector authored with Codex",
+    "rights": "Original artwork; font files retain bundled SIL OFL licences",
+    "status": "designed",
+    "crop": "Full artboard; preserve wordmark clear space",
+    "concept": true
+  },
+  {
+    "id": "starting-identity",
+    "source": "source/starting-identity.svg",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "caption": "Fictional starting identity created for this rebrand study",
+    "alt": "Fictional starting identity created for this rebrand study",
+    "provenance": "Original code-native vector authored with Codex",
+    "rights": "Original artwork; font files retain bundled SIL OFL licences",
+    "status": "designed",
+    "crop": "Full artboard; preserve wordmark clear space",
+    "concept": true
+  },
+  {
+    "id": "identity-system",
+    "source": "source/identity-system.svg",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "caption": "Form identity: original wordmark, frame, palette and bilingual typography",
+    "alt": "Form identity: original wordmark, frame, palette and bilingual typography",
+    "provenance": "Original code-native vector authored with Codex",
+    "rights": "Original artwork; font files retain bundled SIL OFL licences",
+    "status": "designed",
+    "crop": "Full artboard; preserve wordmark clear space",
+    "concept": true
+  },
+  {
+    "id": "clear-space",
+    "source": "source/clear-space.svg",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "caption": "Original wordmark clear space and inspected digital minima",
+    "alt": "Original wordmark clear space and inspected digital minima",
+    "provenance": "Original code-native vector authored with Codex",
+    "rights": "Original artwork; font files retain bundled SIL OFL licences",
+    "status": "designed",
+    "crop": "Full artboard; preserve wordmark clear space",
+    "concept": true
+  },
+  {
+    "id": "stationery-cover",
+    "source": "source/stationery-cover.svg",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "caption": "Form editorial project cover and bilingual stationery",
+    "alt": "Form editorial project cover and bilingual stationery",
+    "provenance": "Original code-native vector authored with Codex",
+    "rights": "Original artwork; font files retain bundled SIL OFL licences",
+    "status": "designed",
+    "crop": "Full artboard; preserve wordmark clear space",
+    "concept": true
+  },
+  {
+    "id": "courtyard-house-diagram",
+    "source": "studies/courtyard-house-diagram.svg",
+    "dimensions": [
+      1200,
+      750
+    ],
+    "caption": "Conceptual spatial relationship diagram; not a construction drawing.",
+    "alt": "Courtyard House relationships shown as four connected spaces.",
+    "provenance": "Original geometric vector diagram authored with Codex",
+    "rights": "Original code-native artwork",
+    "status": "designed",
+    "crop": "Full image",
+    "concept": true
+  },
+  {
+    "id": "line-studio-diagram",
+    "source": "studies/line-studio-diagram.svg",
+    "dimensions": [
+      1200,
+      750
+    ],
+    "caption": "Conceptual spatial relationship diagram; not a construction drawing.",
+    "alt": "Line Studio relationships shown as four connected spaces.",
+    "provenance": "Original geometric vector diagram authored with Codex",
+    "rights": "Original code-native artwork",
+    "status": "designed",
+    "crop": "Full image",
+    "concept": true
+  },
+  {
+    "id": "shore-library-diagram",
+    "source": "studies/shore-library-diagram.svg",
+    "dimensions": [
+      1200,
+      750
+    ],
+    "caption": "Conceptual spatial relationship diagram; not a construction drawing.",
+    "alt": "Shore Library relationships shown as four connected spaces.",
+    "provenance": "Original geometric vector diagram authored with Codex",
+    "rights": "Original code-native artwork",
+    "status": "designed",
+    "crop": "Full image",
+    "concept": true
+  },
+  {
+    "id": "starting-brochure",
+    "source": "source/starting-brochure.svg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "caption": "Fictional starting brochure cover for the Form rebrand study",
+    "alt": "Fictional starting brochure cover for the Form rebrand study",
+    "provenance": "Original code-native vector authored with Codex",
+    "rights": "Original artwork; font files retain bundled SIL OFL licences",
+    "status": "designed",
+    "crop": "Full artboard; preserve wordmark clear space",
+    "concept": true
+  }
+]

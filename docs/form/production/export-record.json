@@ -1,0 +1,98 @@
+[
+  {
+    "file": "card.webp",
+    "width": 1600,
+    "height": 1000,
+    "source": "docs/form/presentation-sources/card.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "hero.webp",
+    "width": 2560,
+    "height": 1600,
+    "source": "docs/form/presentation-sources/hero.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "identity-system.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/identity-system.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "baseline.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/baseline.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "redesign.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/redesign.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "project-desktop.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/project-desktop.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "project-mobile.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/project-mobile.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "enquiry-states.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/enquiry-states.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "cms-edit.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/cms-edit.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "details/wordmark.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/details-wordmark.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "details/image-crop.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/details-image-crop.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  },
+  {
+    "file": "details/project-facts.webp",
+    "width": 2000,
+    "height": 1500,
+    "source": "docs/form/presentation-sources/details-project-facts.webp.png",
+    "provenance": "Authored HTML presentation using original vector masters and genuine local implementation screenshots",
+    "status": "verified implementation capture / studio concept"
+  }
+]

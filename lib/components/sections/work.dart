@@ -17,7 +17,7 @@ extension _WorkSection on AgencyPage {
                     [
                       _image(
                         project.cardImage,
-                        project.caseStudy.name,
+                        project.cardAlt ?? project.caseStudy.name,
                       ),
                       _el(
                         'canvas',
@@ -30,7 +30,10 @@ extension _WorkSection on AgencyPage {
                     attributes: {'data-motion-loop': 'work'},
                   ),
                   _el('div', [
-                    _el('p', [_text(project.category)], classes: 'work-category'),
+                    _el('p', [
+                      _text(project.category),
+                      if (project.status case final status?) _el('span', [_text(status)], classes: 'work-status'),
+                    ], classes: 'work-category'),
                     _el('div', [
                       _el('h3', [_text(project.caseStudy.name)]),
                       _el('span', [_text(_t(UiTextKey.workViewCaseStudy))], classes: 'work-open'),

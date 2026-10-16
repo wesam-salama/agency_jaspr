@@ -1,0 +1,96 @@
+[
+  {
+    "surface": "identity-board.html",
+    "width": 2000,
+    "fonts": [
+      {
+        "family": "Archivo",
+        "status": "loaded"
+      },
+      {
+        "family": "DM Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "PlexArabic",
+        "status": "loaded"
+      },
+      {
+        "family": "PlexArabic",
+        "status": "unloaded"
+      }
+    ],
+    "images": true
+  },
+  {
+    "surface": "packaging-board.html",
+    "width": 2000,
+    "fonts": [
+      {
+        "family": "Archivo",
+        "status": "loaded"
+      },
+      {
+        "family": "DM Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "PlexArabic",
+        "status": "unloaded"
+      },
+      {
+        "family": "PlexArabic",
+        "status": "unloaded"
+      }
+    ],
+    "images": true
+  },
+  {
+    "surface": "brand-guide",
+    "width": 390,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Archivo",
+        "status": "loaded"
+      },
+      {
+        "family": "DM Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "PlexArabic",
+        "status": "loaded"
+      },
+      {
+        "family": "PlexArabic",
+        "status": "unloaded"
+      }
+    ],
+    "images": true
+  },
+  {
+    "surface": "brand-guide",
+    "width": 1440,
+    "overflow": 0,
+    "fonts": [
+      {
+        "family": "Archivo",
+        "status": "loaded"
+      },
+      {
+        "family": "DM Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "PlexArabic",
+        "status": "loaded"
+      },
+      {
+        "family": "PlexArabic",
+        "status": "unloaded"
+      }
+    ],
+    "images": true
+  }
+]

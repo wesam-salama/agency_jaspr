@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-14",
+  "origin": "http://127.0.0.1:8803",
+  "checks": [
+    {
+      "check": "An unimplemented course cannot launch the simulator.",
+      "result": "passed"
+    },
+    {
+      "check": "Malformed learner input is rejected before invocation.",
+      "result": "passed"
+    },
+    {
+      "check": "Only the two learning-journey languages are accepted.",
+      "result": "passed"
+    },
+    {
+      "check": "An external browser origin cannot invoke the local simulator bridge.",
+      "result": "passed"
+    },
+    {
+      "check": "Saved exercise records are not served as static files.",
+      "result": "passed"
+    },
+    {
+      "check": "The local catalogue serves the exact implemented course.",
+      "result": "passed"
+    }
+  ],
+  "scope": "Real HTTP validation. Acknowledged xcrun requests are captured in verification/website/capture-record.json, request-only-en/ar.json and handoff-request-en/ar.png. Native acceptance is verified separately by the installed app helper."
+}

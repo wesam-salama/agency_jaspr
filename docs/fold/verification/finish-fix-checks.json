@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-15",
+  "scope": "Two material findings from the independent finish review, fixed in one batch",
+  "before": "docs/fold/verification/store/before-finish-fixes/",
+  "after": "docs/fold/verification/store/",
+  "feedback": "Status and errors are in-flow between header and main; actual browser assertions require static position and feedback.bottom <= main.top. Role/status, dismissal, persistent Undo and retry remain.",
+  "catalogue": {
+    "minimumMeasuredTargetDimensionCSSPixels": 44,
+    "measuredGroups": 10,
+    "targets": [
+      "mini-swatches",
+      "product-name links",
+      "removable filter chips",
+      "visible masthead links",
+      "footer links"
+    ]
+  },
+  "verification": {
+    "nodeTests": 19,
+    "browserChecks": 19,
+    "responsiveObservations": 66,
+    "screens": 20,
+    "actualRecordings": 2,
+    "pageErrors": 0,
+    "externalRequests": 0
+  },
+  "recoveryFocus": {
+    "before": "docs/fold/verification/failure-focus-before.json",
+    "after": "docs/fold/verification/failure-focus-after.json",
+    "cases": 6,
+    "assertions": "Immediate active Retry; full error and retry inside viewport after controlled save, checkout and real quota failure in EN/AR; valid cart and shipping retained.",
+    "functionalChecks": 11,
+    "recordingChecks": 2,
+    "decodedActualVideoFrames": [
+      "docs/fold/verification/store/failure-video-after-en-checkout.png",
+      "docs/fold/verification/store/failure-video-after-ar-checkout.png"
+    ],
+    "recordingDurationsSeconds": {
+      "en": "15.166667",
+      "ar": "12.583333"
+    }
+  }
+}

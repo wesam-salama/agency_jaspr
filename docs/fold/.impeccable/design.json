@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T12:56:14.604029+00:00",
+  "title": "Design System: Fold Clothing",
+  "extensions": {
+    "colorMeta": {
+      "ivory": {
+        "canonical": "#F6F3EC",
+        "displayName": "Ivory",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.00983 87.47)",
+          "oklch(27% 0.00983 87.47)",
+          "oklch(38% 0.00983 87.47)",
+          "oklch(49% 0.00983 87.47)",
+          "oklch(60% 0.00983 87.47)",
+          "oklch(71% 0.00983 87.47)",
+          "oklch(82% 0.00983 87.47)",
+          "oklch(95% 0.00983 87.47)"
+        ]
+      },
+      "ink": {
+        "canonical": "#161A18",
+        "displayName": "Ink",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.00721 164.22)",
+          "oklch(27% 0.00721 164.22)",
+          "oklch(38% 0.00721 164.22)",
+          "oklch(49% 0.00721 164.22)",
+          "oklch(60% 0.00721 164.22)",
+          "oklch(71% 0.00721 164.22)",
+          "oklch(82% 0.00721 164.22)",
+          "oklch(95% 0.00721 164.22)"
+        ]
+      },
+      "citrine": {
+        "canonical": "#D8F16A",
+        "displayName": "Citrine",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.16213 118.51)",
+          "oklch(27% 0.16213 118.51)",
+          "oklch(38% 0.16213 118.51)",
+          "oklch(49% 0.16213 118.51)",
+          "oklch(60% 0.16213 118.51)",
+          "oklch(71% 0.16213 118.51)",
+          "oklch(82% 0.16213 118.51)",
+          "oklch(95% 0.16213 118.51)"
+        ]
+      },
+      "olive": {
+        "canonical": "#3C4A3E",
+        "displayName": "Olive",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.02688 149.09)",
+          "oklch(27% 0.02688 149.09)",
+          "oklch(38% 0.02688 149.09)",
+          "oklch(49% 0.02688 149.09)",
+          "oklch(60% 0.02688 149.09)",
+          "oklch(71% 0.02688 149.09)",
+          "oklch(82% 0.02688 149.09)",
+          "oklch(95% 0.02688 149.09)"
+        ]
+      },
+      "slate": {
+        "canonical": "#636F65",
+        "displayName": "Slate",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.02119 150.26)",
+          "oklch(27% 0.02119 150.26)",
+          "oklch(38% 0.02119 150.26)",
+          "oklch(49% 0.02119 150.26)",
+          "oklch(60% 0.02119 150.26)",
+          "oklch(71% 0.02119 150.26)",
+          "oklch(82% 0.02119 150.26)",
+          "oklch(95% 0.02119 150.26)"
+        ]
+      },
+      "mist": {
+        "canonical": "#D8DDD3",
+        "displayName": "Mist",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.01450 128.64)",
+          "oklch(27% 0.01450 128.64)",
+          "oklch(38% 0.01450 128.64)",
+          "oklch(49% 0.01450 128.64)",
+          "oklch(60% 0.01450 128.64)",
+          "oklch(71% 0.01450 128.64)",
+          "oklch(82% 0.01450 128.64)",
+          "oklch(95% 0.01450 128.64)"
+        ]
+      },
+      "rule": {
+        "canonical": "#B4B8AE",
+        "displayName": "Rule",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.01462 124.62)",
+          "oklch(27% 0.01462 124.62)",
+          "oklch(38% 0.01462 124.62)",
+          "oklch(49% 0.01462 124.62)",
+          "oklch(60% 0.01462 124.62)",
+          "oklch(71% 0.01462 124.62)",
+          "oklch(82% 0.01462 124.62)",
+          "oklch(95% 0.01462 124.62)"
+        ]
+      },
+      "error": {
+        "canonical": "#9A3026",
+        "displayName": "Error",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.14296 29.03)",
+          "oklch(27% 0.14296 29.03)",
+          "oklch(38% 0.14296 29.03)",
+          "oklch(49% 0.14296 29.03)",
+          "oklch(60% 0.14296 29.03)",
+          "oklch(71% 0.14296 29.03)",
+          "oklch(82% 0.14296 29.03)",
+          "oklch(95% 0.14296 29.03)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Latin title",
+        "purpose": "Local Archivo 600 editorial titles."
+      },
+      "headline": {
+        "displayName": "Latin heading",
+        "purpose": "Archivo hierarchy in natural document flow."
+      },
+      "body": {
+        "displayName": "Interface information",
+        "purpose": "Local DM Sans for prose, controls, captions and product information."
+      },
+      "arabic": {
+        "displayName": "Arabic text",
+        "purpose": "Actual IBM Plex Sans Arabic 400/600, normal tracking, RTL."
+      },
+      "price": {
+        "displayName": "Numeric information",
+        "purpose": "DM Sans tabular numerals for prices, totals and measurements."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "action-press",
+        "value": "transform 120ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "User-triggered press feedback."
+      },
+      {
+        "name": "arrow",
+        "value": "transform 160ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Useful link direction feedback."
+      },
+      {
+        "name": "product-preview",
+        "value": "transform 350ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Fine-pointer garment preview feedback."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none;transition:none;transform:none;scroll-behavior:auto",
+        "purpose": "Keep content and controls stable when reduction is requested."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "linear-mobile",
+        "value": "760px"
+      },
+      {
+        "name": "narrow-mobile",
+        "value": "370px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "description": "Square Ink action, Olive hover and visible keyboard focus.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Add to demo cart</button>",
+      "css": ".ds-primary{font-family:'DM Sans',sans-serif;color:var(--ink,#161A18);border-radius:0;font-size:14px;line-height:1.4;min-height:56px;padding:16px 20px;border:1px solid var(--ink,#161A18);background:var(--ink,#161A18);color:var(--ivory,#F6F3EC);transition:transform 120ms cubic-bezier(.16,1,.3,1),background-color 120ms cubic-bezier(.16,1,.3,1)}.ds-primary:hover{background:var(--olive,#3C4A3E)}.ds-primary:focus-visible{outline:2px solid var(--olive,#3C4A3E);outline-offset:5px}.ds-primary:active{transform:scale(.98)}.ds-primary:disabled{background:var(--mist,#D8DDD3);color:var(--slate,#636F65);border-color:var(--slate,#636F65)}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}.ds-primary:active{transform:none}}"
+    },
+    {
+      "name": "Shipping field",
+      "kind": "input",
+      "description": "Permanent label and square 52 px minimum shipping field.",
+      "html": "<label class=\"ds-field\">Full name<input type=\"text\" autocomplete=\"name\" value=\"Demo shopper\"></label>",
+      "css": ".ds-field{font-family:'DM Sans',sans-serif;color:var(--ink,#161A18);border-radius:0;display:grid;gap:10px;font-size:12px;max-width:400px}.ds-field input{font:inherit;font-size:16px;min-height:52px;padding:10px 12px;background:var(--ivory,#F6F3EC);color:var(--ink,#161A18);border:1px solid var(--slate,#636F65);border-radius:0;caret-color:var(--olive,#3C4A3E)}.ds-field input:focus-visible{outline:2px solid var(--olive,#3C4A3E);outline-offset:5px}"
+    },
+    {
+      "name": "Collection navigation",
+      "kind": "nav",
+      "description": "Plain links with current underline and Olive hover.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Fold navigation\"><a href=\"#collection\" aria-current=\"page\">Collection</a><a href=\"#about\">About Fold</a><a href=\"#cart\">Cart (2)</a></nav>",
+      "css": ".ds-nav{font-family:'DM Sans',sans-serif;color:var(--ink,#161A18);border-radius:0;display:flex;gap:32px;flex-wrap:wrap}.ds-nav a{color:inherit;font-size:14px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none}.ds-nav a[aria-current]{text-decoration:underline;text-underline-offset:8px}.ds-nav a:hover{color:var(--olive,#3C4A3E)}.ds-nav a:focus-visible{outline:2px solid var(--olive,#3C4A3E);outline-offset:5px}"
+    },
+    {
+      "name": "Removable filter",
+      "kind": "chip",
+      "description": "Mist filter chip with explicit removal and a 44 px minimum height.",
+      "html": "<button class=\"ds-filter\" type=\"button\" aria-label=\"Remove Chalk filter\">Chalk <svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" aria-hidden=\"true\"><path d=\"M2 2L10 10M10 2L2 10\" fill=\"none\" stroke=\"currentColor\"/></svg></button>",
+      "css": ".ds-filter{font-family:'DM Sans',sans-serif;color:var(--ink,#161A18);border-radius:0;min-height:44px;display:inline-flex;align-items:center;gap:12px;padding:8px 12px;border:0;background:var(--mist,#D8DDD3);font-size:12px;cursor:pointer}.ds-filter:focus-visible{outline:2px solid var(--olive,#3C4A3E);outline-offset:5px}"
+    },
+    {
+      "name": "Garment information",
+      "kind": "card",
+      "description": "The unboxed product name/price/colour text below a garment image.",
+      "html": "<article class=\"ds-garment\"><div><h3><a href=\"#box-shirt\">Box Shirt</a></h3><span>$95.00</span></div><p>Chalk / Ink \u00b7 2 colours</p></article>",
+      "css": ".ds-garment{font-family:'DM Sans',sans-serif;color:var(--ink,#161A18);border-radius:0;max-width:360px}.ds-garment>div{display:flex;align-items:start;justify-content:space-between;gap:12px}.ds-garment h3{font-family:inherit;font-size:16px;font-weight:500;letter-spacing:-.02em;margin:0}.ds-garment a{color:inherit;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}.ds-garment a:focus-visible{outline:2px solid var(--olive,#3C4A3E);outline-offset:5px}.ds-garment span{font-size:13px;font-variant-numeric:tabular-nums}.ds-garment p{font-size:11px;color:var(--slate,#636F65);margin:0}"
+    },
+    {
+      "name": "Explicit size choice",
+      "kind": "custom",
+      "description": "Selected radio, named unavailable size and focus around the full visible target.",
+      "html": "<fieldset class=\"ds-sizes\"><legend>Choose a size</legend><label><input type=\"radio\" name=\"ds-size\" value=\"M\" checked><span>M</span></label><label class=\"ds-unavailable\"><input type=\"radio\" name=\"ds-size\" value=\"XS\" disabled><span>XS <small>Unavailable</small></span></label></fieldset>",
+      "css": ".ds-sizes{font-family:'DM Sans',sans-serif;color:var(--ink,#161A18);border-radius:0;border:0;padding:0;display:flex;gap:8px;max-width:320px}.ds-sizes legend{font-size:13px;margin-bottom:12px}.ds-sizes label{position:relative;flex:1;cursor:pointer}.ds-sizes input{position:absolute;opacity:0;width:1px;height:1px}.ds-sizes span{min-height:50px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;border:1px solid var(--slate,#636F65);font-size:13px}.ds-sizes input:checked+span{border:2px solid var(--ink,#161A18);background:var(--citrine,#D8F16A)}.ds-sizes input:focus-visible+span{outline:2px solid var(--olive,#3C4A3E);outline-offset:3px}.ds-sizes label:not(.ds-unavailable):hover span{background:var(--mist,#D8DDD3)}.ds-sizes .ds-unavailable span{border-style:dashed;color:var(--slate,#636F65)}.ds-sizes small{font-size:8px;line-height:1.3}"
+    },
+    {
+      "name": "In-flow cart feedback",
+      "kind": "custom",
+      "description": "A state region that reserves space instead of covering shopping content.",
+      "html": "<div class=\"ds-status\" role=\"status\"><span>Removed Box Shirt from the demo cart.</span><button type=\"button\">Undo</button><button type=\"button\">Dismiss</button></div>",
+      "css": ".ds-status{font-family:'DM Sans',sans-serif;color:var(--ink,#161A18);border-radius:0;position:static;display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;padding:16px 20px;border:1px solid var(--olive,#3C4A3E);background:var(--citrine,#D8F16A);font-size:13px;line-height:1.5}.ds-status>span{flex:1 1 180px}.ds-status button{font:inherit;font-size:12px;min-height:44px;min-width:44px;background:none;border:0;color:inherit;text-decoration:underline;text-underline-offset:4px}.ds-status button:focus-visible{outline:2px solid var(--olive,#3C4A3E);outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Everyday Structure",
+    "overview": "Garment shape, fabric and useful information carry Fold's expression. The compact cut-letter signature, ivory canvas, ink information, olive textile imagery and restrained citrine selections connect editorial clothing to practical shopping decisions. Generous garment space, square edges and clear hierarchy keep the system tactile and direct.\n\nThis scoped system records the finished local source on 15 October 2026. [site/style.css](../../web/assets/selected-work/fold/site/style.css) owns store values; [source/identity.css](../../web/assets/selected-work/fold/source/identity.css) owns the editable boards/guide. CR8.Media's root design system remains separate. Product records and demo boundaries belong to [PRODUCT.md](PRODUCT.md); surface composition belongs to [.impeccable/surfaces/store.md](.impeccable/surfaces/store.md).",
+    "keyCharacteristics": [
+      "Manually drawn FOLD geometry with one controlled cut and a repeatable F monogram.",
+      "Ivory and Ink, restrained Citrine, and tactile Olive garment imagery.",
+      "Archivo editorial hierarchy, DM Sans information and shaped Arabic without tracking.",
+      "Square controls, crisp rules, readable measurements and in-flow state feedback.",
+      "Garment and colour continuity, equivalent English/Arabic decisions and honest demo evidence."
+    ],
+    "rules": [
+      {
+        "name": "The Readable Information Rule",
+        "body": "Slate text on Ivory stays at full opacity; Mist does not supply an accessible text or control boundary by itself.",
+        "section": "colors"
+      },
+      {
+        "name": "The Arabic Shaping Rule",
+        "body": "Arabic uses the local Arabic family and normal tracking; Latin identities and numeric fragments retain their readable direction.",
+        "section": "typography"
+      },
+      {
+        "name": "The Feedback Space Rule",
+        "body": "Feedback stays in normal flow, preserves readable purchase information and never covers a shopping control.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do use the exact authored signature and garment canon across every view.",
+      "Do keep garment measurements, stock words and numeric values readable in both scripts.",
+      "Do retain square targets, visible focus and in-flow feedback with explicit recovery actions.",
+      "Do distinguish generated garment imagery, authored artwork and actual software captures.",
+      "Do preserve the independent CR8.Media identity and the other Selected Work projects."
+    ],
+    "donts": [
+      "Don't track Arabic or mirror the Latin FOLD signature.",
+      "Don't use Mist or decorative rules as the only accessible control boundary.",
+      "Don't allow feedback to cover product information or shopping controls.",
+      "Don't present packaging geometry as manufacturing instructions or a demo as a commercial order.",
+      "Don't invent sourcing claims, testimonials, commercial outcomes or performance metrics."
+    ]
+  }
+}

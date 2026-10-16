@@ -1,0 +1,966 @@
+{
+  "date": "2026-10-15",
+  "method": "Installed Impeccable embed-prompt: native PNG metadata and supported WebP sidecar fallback. Exact tool prompts identify generated sources; origin metadata identifies authored captures and derivatives.",
+  "files": [
+    {
+      "file": "web/assets/selected-work/fold/card-480.webp",
+      "sha256": "fa7f5904735096e5e9ca90af9c391b78a04a77d3c0a557b2520423de8498f572",
+      "provenance": "web/assets/selected-work/fold/card-480.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/card-960.webp",
+      "sha256": "8ce96a2768b6eeb193bf14989e055be3b9121a72a2ba8729ec4c424010882c72",
+      "provenance": "web/assets/selected-work/fold/card-960.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/card.webp",
+      "sha256": "e90def656cf853719d49c0237bdbdb0e9f020cfbc0e4dd5b3426ce5996b65bab",
+      "provenance": "web/assets/selected-work/fold/card.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/continuity-960.webp",
+      "sha256": "71487e19273ff04eb901eb15a60396c13c8523364672390345c02d627feb2b5b",
+      "provenance": "web/assets/selected-work/fold/case/continuity-960.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/continuity.webp",
+      "sha256": "44bc5101562082778277c390c51c5a58eb66593646cf8d37d357df38911831f1",
+      "provenance": "web/assets/selected-work/fold/case/continuity.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/identity-960.webp",
+      "sha256": "a76edc2af9277c56e022434e9c7f6ee9ec262e33d75c5c9e33adf8dec25b6187",
+      "provenance": "web/assets/selected-work/fold/case/identity-960.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/identity.webp",
+      "sha256": "c484c56db75d5ebb927813d4fae7150f858132d4b58686b9b1f63095b9378a8c",
+      "provenance": "web/assets/selected-work/fold/case/identity.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/maintenance-960.webp",
+      "sha256": "af8d86e8b274b86db29cf8f85815ffd34101c1f8c6e116dee2d4c851f60fabfe",
+      "provenance": "web/assets/selected-work/fold/case/maintenance-960.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/maintenance.webp",
+      "sha256": "85a760872ac31fae50ca2908224e2d0c6da82d62e3e89e046d46bf495f18a53d",
+      "provenance": "web/assets/selected-work/fold/case/maintenance.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/measurements-960.webp",
+      "sha256": "7a0c6f1213557d4cd5f020055f61a1b0e86c6f40ea7427d038b1bf6953d062f5",
+      "provenance": "web/assets/selected-work/fold/case/measurements-960.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/measurements.webp",
+      "sha256": "8a2f62525eeb390355cfd8d4384076af4907285fec136f5b2f3037c2e5d2d1c4",
+      "provenance": "web/assets/selected-work/fold/case/measurements.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/shopping-960.webp",
+      "sha256": "1084bccf8a396676bcb96b47756710b7e940c953097ce01d5697c1db10ccf227",
+      "provenance": "web/assets/selected-work/fold/case/shopping-960.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/case/shopping.webp",
+      "sha256": "954d31cd541823b274995aafce1d5fdb48f4215c8d50db4c0ccfe197cada1c8e",
+      "provenance": "web/assets/selected-work/fold/case/shopping.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/editorial/capsule.webp",
+      "sha256": "529c97ba45d81bb2df4a3cb06bbaf7d0d643574246272f8b611e9fee2dc92150",
+      "provenance": "web/assets/selected-work/fold/editorial/capsule.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/editorial/fabric.webp",
+      "sha256": "436ca234b45a6b7f785eac23bb4d7d835da184e8c51762c6f28dfbe77cfdaaf6",
+      "provenance": "web/assets/selected-work/fold/editorial/fabric.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/hero-480.webp",
+      "sha256": "ce4e8bd02c6347d7b5a017da3ccc92595b3d30239809129ecd47365fad290cfa",
+      "provenance": "web/assets/selected-work/fold/hero-480.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/hero-960.webp",
+      "sha256": "eb8d5f9b9f1080d3a49cc64a38e5fc3d2bd8b361e07a6fdeb566215036f47bec",
+      "provenance": "web/assets/selected-work/fold/hero-960.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/hero.webp",
+      "sha256": "e49a393a88116a9af84bf634538495154f0dbfad99785129904408a391326328",
+      "provenance": "web/assets/selected-work/fold/hero.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-chalk-back.webp",
+      "sha256": "8bde8c8bff256c17a3b1b8f9e52b10e6ea43526b58af4766a928ce7f9e4eb174",
+      "provenance": "web/assets/selected-work/fold/products/fl01-chalk-back.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-chalk-detail.webp",
+      "sha256": "1a306af83a7f8b070cfedf940c82ddbfb115716be14d63a1a0e3c4da2c252632",
+      "provenance": "web/assets/selected-work/fold/products/fl01-chalk-detail.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-chalk-front.webp",
+      "sha256": "647ecf22cdbac81d95d53236efc9f40e17e37ce970dcced83df1df7f08395af9",
+      "provenance": "web/assets/selected-work/fold/products/fl01-chalk-front.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-ink-back.webp",
+      "sha256": "545d7517258c1c9f768df85bcae273653ad477dc317f2ba63bed14d695716eb5",
+      "provenance": "web/assets/selected-work/fold/products/fl01-ink-back.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-ink-detail.webp",
+      "sha256": "b48c98b439399ee0473deac53501aee26630a5ed28140275523c399d5f93bf46",
+      "provenance": "web/assets/selected-work/fold/products/fl01-ink-detail.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl01-ink-front.webp",
+      "sha256": "6746fd504b867ac90277a59101b1b955a2c5a767c95ee334285f0599826100b1",
+      "provenance": "web/assets/selected-work/fold/products/fl01-ink-front.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl02-ink-back.webp",
+      "sha256": "fa7a8421b427659b806f72ec2f3049ac35f377df621d14ac05e9182be5d54e43",
+      "provenance": "web/assets/selected-work/fold/products/fl02-ink-back.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl02-ink-detail.webp",
+      "sha256": "08415150f0eb4aa2ef51db78005a0cdecaceb0318145e8afca61726c45937814",
+      "provenance": "web/assets/selected-work/fold/products/fl02-ink-detail.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl02-ink-front.webp",
+      "sha256": "c1c5c7541f76222d67c879fc7df7eb1314e45fcecee4244cd521181f14450e1d",
+      "provenance": "web/assets/selected-work/fold/products/fl02-ink-front.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl02-olive-back.webp",
+      "sha256": "6837f73db5b7fdd8e7b90449303511d011afa9e0291292053c9c6f7cc621a805",
+      "provenance": "web/assets/selected-work/fold/products/fl02-olive-back.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl02-olive-detail.webp",
+      "sha256": "491d022469b9e5a9569059e121ae760770b4325e9430fc0f70b2eee98f47e2c0",
+      "provenance": "web/assets/selected-work/fold/products/fl02-olive-detail.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl02-olive-front.webp",
+      "sha256": "2c0e8779ca29f2570f93c26d922e13485af8f63828ae509fa8b15cee8074d764",
+      "provenance": "web/assets/selected-work/fold/products/fl02-olive-front.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl03-olive-back.webp",
+      "sha256": "4303cfa48b52282d9194fc9ca1b4581329c4985f5e31749743b2f88656157a0e",
+      "provenance": "web/assets/selected-work/fold/products/fl03-olive-back.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl03-olive-detail.webp",
+      "sha256": "e7d5768d89c899283e231ea4ceab1bf285db8a67a0f5fe38a101a378ebb7b902",
+      "provenance": "web/assets/selected-work/fold/products/fl03-olive-detail.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl03-olive-front.webp",
+      "sha256": "8dc8ed297659c136427666e69ede8ac93f68d5dfc3d3184c04d2e128e2dc5d84",
+      "provenance": "web/assets/selected-work/fold/products/fl03-olive-front.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl03-stone-back.webp",
+      "sha256": "b6f81b4e7cdfcc13991884560ad7834d9d426a0ee49575686a96b2376d3683b0",
+      "provenance": "web/assets/selected-work/fold/products/fl03-stone-back.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl03-stone-detail.webp",
+      "sha256": "61920ac29b14b6a42e37df88e89903ac481951b819c198beededf4af46be87ea",
+      "provenance": "web/assets/selected-work/fold/products/fl03-stone-detail.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl03-stone-front.webp",
+      "sha256": "84c931f7c1205758797a504982766826eb8934492496669b3393b1f769e653e5",
+      "provenance": "web/assets/selected-work/fold/products/fl03-stone-front.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl04-olive-back.webp",
+      "sha256": "bb87e8d55e542e1d7b8279b55a02231e781ba61a903ce47065437ac23f27e9c4",
+      "provenance": "web/assets/selected-work/fold/products/fl04-olive-back.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl04-olive-detail.webp",
+      "sha256": "7106251ea8ae2f69a1f42db9ad706a22c09006802a5472bf669e51990bdbda07",
+      "provenance": "web/assets/selected-work/fold/products/fl04-olive-detail.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl04-olive-front.webp",
+      "sha256": "59d374386edf0857f657efcb2f22f278ec5392231cdfaeb8085e902ba65fb750",
+      "provenance": "web/assets/selected-work/fold/products/fl04-olive-front.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl04-stone-back.webp",
+      "sha256": "7b4492aff2ded5fda3277d71bc43cb1ed07af3e3b6b41eb204f04fb37848c131",
+      "provenance": "web/assets/selected-work/fold/products/fl04-stone-back.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl04-stone-detail.webp",
+      "sha256": "67f90b437a9ba4e9528dd9c5487c69b9c3972431541b67569378422df47ae37e",
+      "provenance": "web/assets/selected-work/fold/products/fl04-stone-detail.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/products/fl04-stone-front.webp",
+      "sha256": "5abf1695be1ea9d6c74b711396f809defc32a52417c2df34d307fb5a4803a6e0",
+      "provenance": "web/assets/selected-work/fold/products/fl04-stone-front.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-1440-cart.webp",
+      "sha256": "3de12ec750f6b16495e95ae448f55048d53a815de6c0fe8e52afcb4dcb2d6e20",
+      "provenance": "web/assets/selected-work/fold/screens/ar-1440-cart.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-1440-checkout.webp",
+      "sha256": "ac296becfb2fb55e374a7e1e167ae7674c5e1ce311ed3767e7d1ed60d43b17ab",
+      "provenance": "web/assets/selected-work/fold/screens/ar-1440-checkout.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-1440-collection.webp",
+      "sha256": "3e5a44d9320342c733a39f4a760a915eb2fb2429400a2d486135586cce5f5e35",
+      "provenance": "web/assets/selected-work/fold/screens/ar-1440-collection.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-1440-confirmation.webp",
+      "sha256": "30c46d4fbd51d7481c5fa971afe8979b6f76279574e204fa978356014c4d1aa6",
+      "provenance": "web/assets/selected-work/fold/screens/ar-1440-confirmation.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-1440-product.webp",
+      "sha256": "3c02cedf3b2778001c6f7b7ade71b7b5ce4fd46eae817f4c505f23616ffef031",
+      "provenance": "web/assets/selected-work/fold/screens/ar-1440-product.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-390-cart.webp",
+      "sha256": "b3111879b6051b5e8f3cf51c4cd9594f5f5dcdce08f72992962b5c217ef453d8",
+      "provenance": "web/assets/selected-work/fold/screens/ar-390-cart.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-390-checkout.webp",
+      "sha256": "9c89f3d1e8629f927a0516fec1b3c4a0287964517b35b2144e10fa865d6c2792",
+      "provenance": "web/assets/selected-work/fold/screens/ar-390-checkout.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-390-collection.webp",
+      "sha256": "83a4684c025b8c0b7ec9f879b45c1735e628fb396df410982c22a36becfe8265",
+      "provenance": "web/assets/selected-work/fold/screens/ar-390-collection.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-390-confirmation.webp",
+      "sha256": "8357048a98ff20de9f879d80972312e7366b997e13ee77e58f252aac8fe61886",
+      "provenance": "web/assets/selected-work/fold/screens/ar-390-confirmation.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/ar-390-product.webp",
+      "sha256": "4795fd29b0dc639a74c927656763e54efb89c184c4f84d8f4f6a32592e8f376b",
+      "provenance": "web/assets/selected-work/fold/screens/ar-390-product.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-1440-cart.webp",
+      "sha256": "ad1a57b63957b88e30837b64547312d58cff3085e78b927e07b9f8bae48f57c5",
+      "provenance": "web/assets/selected-work/fold/screens/en-1440-cart.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-1440-checkout.webp",
+      "sha256": "bb07c9a7608da4bcf6cfd1f65d1de0254c5c0e516d7ee9a13cd7b51678d4ea6b",
+      "provenance": "web/assets/selected-work/fold/screens/en-1440-checkout.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-1440-collection.webp",
+      "sha256": "7563a93606fab8156af3fbf74f81e28f95306a3d67a78101021fb42ee1b35d0e",
+      "provenance": "web/assets/selected-work/fold/screens/en-1440-collection.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-1440-confirmation.webp",
+      "sha256": "503d03752a52999946f9cfe2b009b1d98d0e1757b4954a17b5cfab7ff22891ca",
+      "provenance": "web/assets/selected-work/fold/screens/en-1440-confirmation.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-1440-product.webp",
+      "sha256": "f208812279a64e6f43b1da643f11b9171e088933b503a4329c7153cab63d495c",
+      "provenance": "web/assets/selected-work/fold/screens/en-1440-product.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-390-cart.webp",
+      "sha256": "a88c2982e9452ccee07525da097ac6bd4c71761c600d1f31ca4ea8673cd75e1c",
+      "provenance": "web/assets/selected-work/fold/screens/en-390-cart.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-390-checkout.webp",
+      "sha256": "3243507c570cabb00301d26fdd4ef7413d52f302a8047cfde1071671562a935a",
+      "provenance": "web/assets/selected-work/fold/screens/en-390-checkout.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-390-collection.webp",
+      "sha256": "77bcdafa471ba8efa52ea2d4df42e8bc1306f2c15dbb5ab730acfe47ec18c765",
+      "provenance": "web/assets/selected-work/fold/screens/en-390-collection.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-390-confirmation.webp",
+      "sha256": "ad9ad451bc8f51cfda28233a29f6b19668d4865a920837d3cda31925242c43a4",
+      "provenance": "web/assets/selected-work/fold/screens/en-390-confirmation.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/screens/en-390-product.webp",
+      "sha256": "5a48f275dbceacf4ca00c86c04813c1ece17629afb20f2453feda96102f8c536",
+      "provenance": "web/assets/selected-work/fold/screens/en-390-product.webp.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/capsule-source.png",
+      "sha256": "0d609433b1ec36c2d673ef4b92e5a4d30c338667ac51bd906647f98fec59bab7",
+      "provenance": "web/assets/selected-work/fold/source/capsule-source.png.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/fabric-source.png",
+      "sha256": "b05133564111dccc34a5fc034c2561c0ee8f06e7ab8eead5eb7803d149251916",
+      "provenance": "web/assets/selected-work/fold/source/fabric-source.png.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/fl01-chalk-triptych.png",
+      "sha256": "8bccaededa549a0d6d8bc5a09e88d7dc81e8472d1a8e77eddd80fce4d9699eac",
+      "provenance": "web/assets/selected-work/fold/source/fl01-chalk-triptych.png.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/fl01-ink-triptych.png",
+      "sha256": "a788ee18a1d0d581b0af5ff3d2f73a9fcdb138d5711916e299eb72764a2d407c",
+      "provenance": "web/assets/selected-work/fold/source/fl01-ink-triptych.png.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/fl02-ink-triptych.png",
+      "sha256": "fa1d070ae0ec488c4b407bee924c6791a82165c2216998f3138de8352f8cc39f",
+      "provenance": "web/assets/selected-work/fold/source/fl02-ink-triptych.png.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/fl02-olive-triptych.png",
+      "sha256": "e237b15fb807be710d78cc0a3ebd459a96067b8b4728ec3058246dd0588deb0b",
+      "provenance": "web/assets/selected-work/fold/source/fl02-olive-triptych.png.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/fl03-olive-triptych.png",
+      "sha256": "541307ba9430c41816205806132bd3b509bdc1742138b3c0a01c5e4af135c22d",
+      "provenance": "web/assets/selected-work/fold/source/fl03-olive-triptych.png.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/fl03-stone-triptych.png",
+      "sha256": "67979be17f583ca0001f0aea3986f505119a47690da17ecad8a7229ea9f2839d",
+      "provenance": "web/assets/selected-work/fold/source/fl03-stone-triptych.png.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/fl04-olive-triptych.png",
+      "sha256": "c42bc071cb6ca0c2b8d67ab41345c07ec73e50ae4511fcf709b486134c8b9c4b",
+      "provenance": "web/assets/selected-work/fold/source/fl04-olive-triptych.png.json"
+    },
+    {
+      "file": "web/assets/selected-work/fold/source/fl04-stone-triptych.png",
+      "sha256": "4eb0479a1d61c8d43c8fe9d9dac31b03e0cb56d601e5cc9bb7cfcd1f696f15b0",
+      "provenance": "web/assets/selected-work/fold/source/fl04-stone-triptych.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/ar-1440-end.png",
+      "sha256": "4a338c09305eebb797b8166b5235bbd01071ff75ee125131ae0ca61712276aff",
+      "provenance": "docs/fold/verification/agency/ar-1440-end.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/ar-1440-middle.png",
+      "sha256": "de79202e8eaad824d9fd8f97f72f6819174d2cdb38b452de31a9c11b7acef870",
+      "provenance": "docs/fold/verification/agency/ar-1440-middle.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/ar-1440-top.png",
+      "sha256": "071111cd3c60d4aba120935d741299bce9c4a1d2ce2d3788aae054c537f84bad",
+      "provenance": "docs/fold/verification/agency/ar-1440-top.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/ar-390-end.png",
+      "sha256": "1f765d2185cb3344df13e5e71d9a730480518a446f7185b03fafd7a7fa4f3413",
+      "provenance": "docs/fold/verification/agency/ar-390-end.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/ar-390-middle.png",
+      "sha256": "323e4dc7a3f4614dfee992f360e252af944b5b9cee7fa0e4083d9439a2465b17",
+      "provenance": "docs/fold/verification/agency/ar-390-middle.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/ar-390-top.png",
+      "sha256": "96c5f8bca73430bef9555dd9c9ffddd7f3baf43d357cd99079f7d5c3e2b72a01",
+      "provenance": "docs/fold/verification/agency/ar-390-top.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/before-preview-route-fix/en-320-failure.png",
+      "sha256": "818faa9d491c10355aae81349fe1b777da05cb6d223aa8f591495da7b1d8103a",
+      "provenance": "docs/fold/verification/agency/before-preview-route-fix/en-320-failure.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/before-preview-route-fix/en-390-failure.png",
+      "sha256": "1fd04b447f65ba33b4841d1f23ea3dac93289d78dd7a06ee9f45c274261b5279",
+      "provenance": "docs/fold/verification/agency/before-preview-route-fix/en-390-failure.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/en-1440-end.png",
+      "sha256": "6ed8d675e564f6b1c9d5fb1db37b0a22d1c55fbe0f0222afa204ab044a3e76b8",
+      "provenance": "docs/fold/verification/agency/en-1440-end.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/en-1440-middle.png",
+      "sha256": "fda1585140b32680d5e01439fe22b4eb9b7de1e7b0cecce335fe3b50a9352f88",
+      "provenance": "docs/fold/verification/agency/en-1440-middle.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/en-1440-top.png",
+      "sha256": "fef857a7de072204be8d851fe945b8659bb942a4a5b13971dd81eb11ceda2f9f",
+      "provenance": "docs/fold/verification/agency/en-1440-top.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/en-390-end.png",
+      "sha256": "e5b4a1cb34b9eff011ac536c870a26b7703807cca8a892f7d00d85b9386bafea",
+      "provenance": "docs/fold/verification/agency/en-390-end.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/en-390-middle.png",
+      "sha256": "06abd0df953efdb8e3e1c59f607cf6ee7d33c4219bba9e27beccf668497009f5",
+      "provenance": "docs/fold/verification/agency/en-390-middle.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/en-390-top.png",
+      "sha256": "1c952a2ffc9801e382b2543a2b657d7aebc6aa947c0dd8a15f68483eb1c0845f",
+      "provenance": "docs/fold/verification/agency/en-390-top.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/fr-1440-end.png",
+      "sha256": "539b7cb5cf1e55c2026cd3380896f89cef4ce4fc257abe6e670b37db1aa520af",
+      "provenance": "docs/fold/verification/agency/fr-1440-end.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/fr-1440-middle.png",
+      "sha256": "1a62b56053e5801d082299167feb7b6c897bc7d9f377cfcad4804d0be15e90ba",
+      "provenance": "docs/fold/verification/agency/fr-1440-middle.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/fr-1440-top.png",
+      "sha256": "da29f2b8d486b86aaac86542ef89cc3c605616fa0d48a331b19ac03148dff7b3",
+      "provenance": "docs/fold/verification/agency/fr-1440-top.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/fr-390-end.png",
+      "sha256": "c6a92a5acf6511cbfad9199e449653ec5425526d832c7c3d9f6ad3b9c4eeb57c",
+      "provenance": "docs/fold/verification/agency/fr-390-end.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/fr-390-middle.png",
+      "sha256": "eaf77580cbeb019c9e06a31ba9b5e1aeca80180412d11857751d2702d17fc585",
+      "provenance": "docs/fold/verification/agency/fr-390-middle.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/fr-390-top.png",
+      "sha256": "d99519d4351a0136d43fb132c9f86abf4bf8466164866e8fc6513c958765f053",
+      "provenance": "docs/fold/verification/agency/fr-390-top.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/review/ar-contact-sheet.png",
+      "sha256": "0a2b18694167d1be42b91e86dc56104093d61131a3b4d165014d9e9b3736f27d",
+      "provenance": "docs/fold/verification/agency/review/ar-contact-sheet.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/review/en-contact-sheet.png",
+      "sha256": "95ce3efa89bf1466ce86bcc7a473cf0c8fd8bcb79dc10f0b72b7cc1436569a7b",
+      "provenance": "docs/fold/verification/agency/review/en-contact-sheet.png.json"
+    },
+    {
+      "file": "docs/fold/verification/agency/review/fr-contact-sheet.png",
+      "sha256": "98f5f24a4d51adbfff3bf053d28c58bcc008fc80ac1869ffe8670fb114cedfbc",
+      "provenance": "docs/fold/verification/agency/review/fr-contact-sheet.png.json"
+    },
+    {
+      "file": "docs/fold/verification/identity/guide-1440.png",
+      "sha256": "41290b64c30a1fe4e84eba856f5cfc2497a91b41e610caee6cbeb007077fb80c",
+      "provenance": "docs/fold/verification/identity/guide-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/identity/guide-390.png",
+      "sha256": "b9033a31bf2b38a5d43aaf1964565438dffd8f150c6c2c0ba51bb0d9a25b924c",
+      "provenance": "docs/fold/verification/identity/guide-390.png.json"
+    },
+    {
+      "file": "docs/fold/verification/identity/identity-board.png",
+      "sha256": "54d4eb72a5cc0b1309c9e4974f322b9e890f373995701c957c7ff59f9c8f5660",
+      "provenance": "docs/fold/verification/identity/identity-board.png.json"
+    },
+    {
+      "file": "docs/fold/verification/identity/packaging-board.png",
+      "sha256": "2a9761cf3899b4ced48623626059792b48db269ab8b889ad29844962ffca3601",
+      "provenance": "docs/fold/verification/identity/packaging-board.png.json"
+    },
+    {
+      "file": "docs/fold/presentation-sources/card.png",
+      "sha256": "50b78818bd8f0a7694dd19a0668a23936f409e691e8d4e6035802fbb7f561760",
+      "provenance": "docs/fold/presentation-sources/card.png.json"
+    },
+    {
+      "file": "docs/fold/presentation-sources/continuity.png",
+      "sha256": "dc0ab75427bee63742a83b826365817a6685b784f1ad9a652acb5fe015a44480",
+      "provenance": "docs/fold/presentation-sources/continuity.png.json"
+    },
+    {
+      "file": "docs/fold/presentation-sources/hero.png",
+      "sha256": "881b0e8b022af7017c3e9761ed1f978e4b980148dd52e5c6f9bb9cafb06e0bce",
+      "provenance": "docs/fold/presentation-sources/hero.png.json"
+    },
+    {
+      "file": "docs/fold/presentation-sources/identity.png",
+      "sha256": "b36c7ea52946a9eadafb1209425e1d204d0742b1a0ae0af020694324b5ac1680",
+      "provenance": "docs/fold/presentation-sources/identity.png.json"
+    },
+    {
+      "file": "docs/fold/presentation-sources/maintenance-after-en-crop.png",
+      "sha256": "47b3c38deeb92a2a045da59f20bd54ea2c180b8bed3d0f23503552c04b2c4d48",
+      "provenance": "docs/fold/presentation-sources/maintenance-after-en-crop.png.json"
+    },
+    {
+      "file": "docs/fold/presentation-sources/maintenance-before-en-crop.png",
+      "sha256": "feab4a9c82401fa25ff658fe6fdece74d1adc66de5bf3be1c6fa0ccf32bfea0a",
+      "provenance": "docs/fold/presentation-sources/maintenance-before-en-crop.png.json"
+    },
+    {
+      "file": "docs/fold/presentation-sources/maintenance.png",
+      "sha256": "16b62315256546c9dd149e5c0afbae6f0ebf20b18585686e465ce8f75dcd352f",
+      "provenance": "docs/fold/presentation-sources/maintenance.png.json"
+    },
+    {
+      "file": "docs/fold/presentation-sources/measurements.png",
+      "sha256": "4868ac5140838ecead115d43134ec74f2f060ad69f7e936dd3091e98f1b218d5",
+      "provenance": "docs/fold/presentation-sources/measurements.png.json"
+    },
+    {
+      "file": "docs/fold/presentation-sources/shopping.png",
+      "sha256": "6aa8ddc75bf3b928a4f09a88f022aac566035ad47aa5283ec26bbfa5eab65c79",
+      "provenance": "docs/fold/presentation-sources/shopping.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/ar-cart.png",
+      "sha256": "f96254b3f2e5467a34c4f645e1d62d8487f96aaff055fc136f4ac868ca179ff2",
+      "provenance": "docs/fold/verification/recording/ar-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/ar-confirmation.png",
+      "sha256": "e0269738391db82ba54cd8543e9aaa6dc6fcc9e82de2b9ef92315e6fd893b1ab",
+      "provenance": "docs/fold/verification/recording/ar-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/ar-failed-checkout.png",
+      "sha256": "861bb27f757bb879df456d436a6d695ed4a5662b4fac9b12d1c7dbc5930e2d65",
+      "provenance": "docs/fold/verification/recording/ar-failed-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/before-recovery-focus-fix/ar-cart.png",
+      "sha256": "845f0b3d525ac2082ff2426c115bb1f928c7ee3f1c6f4d082926025e6968da36",
+      "provenance": "docs/fold/verification/recording/before-recovery-focus-fix/ar-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/before-recovery-focus-fix/ar-confirmation.png",
+      "sha256": "9cd09ca5176c0dab3db29b9d167a859ef5ed4bf9035aa0dfe17193aa27643937",
+      "provenance": "docs/fold/verification/recording/before-recovery-focus-fix/ar-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/before-recovery-focus-fix/ar-failed-checkout.png",
+      "sha256": "097031e55898cc8c36a40897b82a6bb88753b31a184e8c93e4631429cba63e62",
+      "provenance": "docs/fold/verification/recording/before-recovery-focus-fix/ar-failed-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/before-recovery-focus-fix/en-cart.png",
+      "sha256": "c7474b4ccfb60bfbd011278fc249e94bf8c62f9affbcb354e96dd82b2d91bca0",
+      "provenance": "docs/fold/verification/recording/before-recovery-focus-fix/en-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/before-recovery-focus-fix/en-confirmation.png",
+      "sha256": "9d8d0a58e7187a487170e5f5fd0a9aa3b96b744f4e6692c08466aebc538edcd3",
+      "provenance": "docs/fold/verification/recording/before-recovery-focus-fix/en-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/before-recovery-focus-fix/en-failed-checkout.png",
+      "sha256": "1b0f81c01da09f6f79086729c7e336d128bf9ab916f0876a4370603988a3317e",
+      "provenance": "docs/fold/verification/recording/before-recovery-focus-fix/en-failed-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/en-cart.png",
+      "sha256": "8ab7e6a6a6e4314e42a1c156f0146a85d9439bbcce3eb5fb2ebd6065e457baee",
+      "provenance": "docs/fold/verification/recording/en-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/en-confirmation.png",
+      "sha256": "68b73cab2801377df9e7ecfa74fb13bbe7738903440dbf39f16d10e47e0f5a3e",
+      "provenance": "docs/fold/verification/recording/en-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/recording/en-failed-checkout.png",
+      "sha256": "f361246aa1aa4f432fcfafaff100a7f65f2fc61cda0f8dbc2e39d67d6b6cfe50",
+      "provenance": "docs/fold/verification/recording/en-failed-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-1440-cart.png",
+      "sha256": "497ddf1f7e8f7d722251f75791ce8520c2bfd90010ac8866dfa44f974f0c2f72",
+      "provenance": "docs/fold/verification/store/ar-1440-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-1440-checkout.png",
+      "sha256": "7d5f8a4eaab07999b40b2d2df581c75e784e368c966de4815ee9b0bc428a81fc",
+      "provenance": "docs/fold/verification/store/ar-1440-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-1440-collection.png",
+      "sha256": "b3958421f5a8303b8732dbed1bcb9e694d15c0149a5acdc9609b629b5b121549",
+      "provenance": "docs/fold/verification/store/ar-1440-collection.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-1440-confirmation.png",
+      "sha256": "717dc301c07369cbd2c1615a8be2f7935aa06ad5bbaca656312c52ed0a579ffc",
+      "provenance": "docs/fold/verification/store/ar-1440-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-1440-product.png",
+      "sha256": "35608e16923edfb3dfa161ada71f5581ace67356d853536ed1955db37f162463",
+      "provenance": "docs/fold/verification/store/ar-1440-product.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-390-cart.png",
+      "sha256": "340d2fbe158fdc03c34a44ddf8cea58f5b0b208a07a073c69aa5ef6e96068b53",
+      "provenance": "docs/fold/verification/store/ar-390-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-390-checkout.png",
+      "sha256": "4cce2b065bf3bc136462233e0c71ceb09ab98a4fddee892576ab5329de6afa3f",
+      "provenance": "docs/fold/verification/store/ar-390-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-390-collection.png",
+      "sha256": "a03add1876ebac6e61316513565d1003d7c5a8e249cfa812857143a497a12d0c",
+      "provenance": "docs/fold/verification/store/ar-390-collection.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-390-confirmation.png",
+      "sha256": "977b43db6103b585439c8127c819cc396e2e27d93dce4628bb17da7f39ad23c2",
+      "provenance": "docs/fold/verification/store/ar-390-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/ar-390-product.png",
+      "sha256": "44f33d6c9531a700089bd39e2688b4f7bb9c0dbe0dbf1895af49162bd67d99d7",
+      "provenance": "docs/fold/verification/store/ar-390-product.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-1440-cart.png",
+      "sha256": "c4f34b60d22dbb70ecc812cd1775428ec687ef61462aba154dc25bcba3820ce4",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-1440-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-1440-checkout.png",
+      "sha256": "9bf3319fe413ff7daa06c897f63cc99e3f9e5fe6379d56217f93ea5686073371",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-1440-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-1440-collection.png",
+      "sha256": "846a8db17fe2d90fb47b4045a74d39263a9db37191044dcb9f9f1b69f46d4d20",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-1440-collection.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-1440-confirmation.png",
+      "sha256": "3e742a911193761934f43fec9b31724d1429c4b31a7b03ed665e4f8836a7aec9",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-1440-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-1440-product.png",
+      "sha256": "7e4246e621a4b5fdfb7d1d46ef8860c8bcdabeabf2d7b37b7dac4955ac4544d1",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-1440-product.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-390-cart.png",
+      "sha256": "c0f6c426a5f1a27b8dbf648fea5d9ce386f355dbf7362480656443a17e984071",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-390-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-390-checkout.png",
+      "sha256": "c6545496b852dfe0c061682da3322e2e081631e7285d5c791ee64d924f8d0279",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-390-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-390-collection.png",
+      "sha256": "d18ce687f2e7ed1bd464b5ff8d554b4c0fd08c88b1ec0e2bf70fe1606d5fcd29",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-390-collection.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-390-confirmation.png",
+      "sha256": "895f334e3dc4b88bff9a87d2b4b9a985e80f16f18c684c3c8d0db3af53d51f1d",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-390-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/ar-390-product.png",
+      "sha256": "b268fd00b5375ab2a5aa4a4ed3293a76315528c254574d863eeb4d6c96fb181d",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/ar-390-product.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/cart-detail-en-1440.png",
+      "sha256": "cadad3cb271a6f03fd0d7721848faa61032271451ad1fbc59b157d327707fbab",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/cart-detail-en-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/checkout-total-en-1440.png",
+      "sha256": "f1bf17e3e53658ec82a37343ad9185a62104ea3a3baa806f02c7775e1f4808b1",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/checkout-total-en-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/confirmation-detail-en-1440.png",
+      "sha256": "fff9cff7c9ae0d1a16bdd6cda25ad619ec5fcda4b0b2fcdb3a13ed28db30d8b8",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/confirmation-detail-en-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-1440-cart.png",
+      "sha256": "733fa3670ab027e06ec5f164c942cb56ab01a4d6198a743dd08c233981f514cc",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-1440-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-1440-checkout.png",
+      "sha256": "43b8cf3b6009d58a53d72d32f8f1bf6c576417df173fc40818dd9942ab7dd2cc",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-1440-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-1440-collection.png",
+      "sha256": "db67cb53c75f8b2a07ed7e8ad554180326a4a871c918b9352e56d78a9c674b03",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-1440-collection.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-1440-confirmation.png",
+      "sha256": "d5ef36a20fa75ed06dd7cae62966dd2dfb39570fffbc5c53f9746f7c4c061653",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-1440-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-1440-product.png",
+      "sha256": "e52315c09532459afffbf17a8da89b24a9e0de0864349dff6b410b640cdea0d4",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-1440-product.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-390-cart.png",
+      "sha256": "340b3cc4a933f3cb5b6f326a4026ec929a7b26da8265ccdee35ef85bff4bc885",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-390-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-390-checkout.png",
+      "sha256": "b91b1ad98f8cdcb15ba0925ea8bdedbef98cff8f047ddc2fd30317907a31a559",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-390-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-390-collection.png",
+      "sha256": "a87832a52daa2c063ec66e698c68cab00b2cebb399bf78589df8fa6d9117f571",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-390-collection.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-390-confirmation.png",
+      "sha256": "d431a752c18d1e569ee05e8391b2dfadbbea46733700f7c7d683133555047be5",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-390-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/en-390-product.png",
+      "sha256": "eb232efb15780a1b14849950b99e6302f9a0594b92499539643028b7ced70c3f",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/en-390-product.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/maintenance-after-ar.png",
+      "sha256": "dad567293f346804d1af1b8b1582d005d76f8a91979c0f187b86516eadbd1806",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/maintenance-after-ar.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/maintenance-after-en.png",
+      "sha256": "66d7c489d0cde769c6e8d68984ce88e2b1770228c32e80bd935f9472323c0258",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/maintenance-after-en.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/maintenance-before-ar.png",
+      "sha256": "d27c6b9f100b67185a55eac1910bc84917c8fce37e6d7222c094973dc6a5bc76",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/maintenance-before-ar.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/maintenance-before-en.png",
+      "sha256": "b274713f789e22625f5f1ee9ffecd723a1def1bdb4a682c5f45f1a76f5b040d8",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/maintenance-before-en.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/measurements-ar-1440.png",
+      "sha256": "9e48d717b4796853ea6d1659af9efc5170e0dd3c5e740f208905b17243fb1ca6",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/measurements-ar-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/before-finish-fixes/measurements-en-1440.png",
+      "sha256": "f6b8ef344fbbb51cfc3f9cb8ba8b950a8a8d5b2d438c43b4c154632b603986b8",
+      "provenance": "docs/fold/verification/store/before-finish-fixes/measurements-en-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/cart-detail-en-1440.png",
+      "sha256": "f8e886caf93fd7d6a8b222fb14391fddf52ec1f832985885c3e2ed2bb835b317",
+      "provenance": "docs/fold/verification/store/cart-detail-en-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/checkout-total-en-1440.png",
+      "sha256": "16a20a0f7f36abe308ffcf1aa809e4a8850ec4a7903adcc8c67c46ccd334f0c0",
+      "provenance": "docs/fold/verification/store/checkout-total-en-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/confirmation-detail-en-1440.png",
+      "sha256": "9b0cf4abe2d034b42192e6aa8df3fd16a91be035a08c50929584eeaef12496cb",
+      "provenance": "docs/fold/verification/store/confirmation-detail-en-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-1440-cart.png",
+      "sha256": "7ac300c693203a64bea3dfc5f2a194459d5403a1483640991e08252a423c0f52",
+      "provenance": "docs/fold/verification/store/en-1440-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-1440-checkout.png",
+      "sha256": "11746665f8f6c6d3a2e9ce37f29f2c92631ac6c0637b39467af6cee0ad301f61",
+      "provenance": "docs/fold/verification/store/en-1440-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-1440-collection.png",
+      "sha256": "75aed1124c1fd44473bc7cefc769c5068fa845b655bad0025c5663f9ad58afd0",
+      "provenance": "docs/fold/verification/store/en-1440-collection.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-1440-confirmation.png",
+      "sha256": "c092e1427e38d85bfa88c57b2951ae3e4e7a74a19e67bc5784f65fc570307156",
+      "provenance": "docs/fold/verification/store/en-1440-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-1440-product.png",
+      "sha256": "bc035a430919e9f4a2248ad4174ad40381dd1287a2ace19f1aa5574dea2ae906",
+      "provenance": "docs/fold/verification/store/en-1440-product.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-390-cart.png",
+      "sha256": "bdf56c4f482f4d87e1ed056f98216ee16e10294a46806f3c606fa15b72d7fe07",
+      "provenance": "docs/fold/verification/store/en-390-cart.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-390-checkout.png",
+      "sha256": "73cbdacebffdc07c74044528345e98e91bcae8bed2a573c3381773b83a3042ed",
+      "provenance": "docs/fold/verification/store/en-390-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-390-collection.png",
+      "sha256": "1dcd0553ba5417e8d1d38aa9c91c89a8488f9c075e4c58e9a8ac0a68fd16b7b5",
+      "provenance": "docs/fold/verification/store/en-390-collection.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-390-confirmation.png",
+      "sha256": "caf4bdcf631f4267fe2e7849eef8f3e809b956bbc7e61f9e010b67f0d4ad07af",
+      "provenance": "docs/fold/verification/store/en-390-confirmation.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/en-390-product.png",
+      "sha256": "a8a1337805707d06095c7f3bd443b59dd6d9940d303817caf90eeea70a644057",
+      "provenance": "docs/fold/verification/store/en-390-product.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-after-ar-cart-save.png",
+      "sha256": "db298f797a7e50fb778802375b8ae1bef1f1f3733bc39bbbc5b187017264ed7e",
+      "provenance": "docs/fold/verification/store/failure-focus-after-ar-cart-save.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-after-ar-checkout.png",
+      "sha256": "d09fb9430b036f4371306f3d34d80e06953e88ec16150f6c25f3c4b85fd4d2f9",
+      "provenance": "docs/fold/verification/store/failure-focus-after-ar-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-after-ar-storage-quota.png",
+      "sha256": "68f864306992d434a6d9ab4c67de276b035cf675d0b917cf221b1f96644d9722",
+      "provenance": "docs/fold/verification/store/failure-focus-after-ar-storage-quota.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-after-en-cart-save.png",
+      "sha256": "009bb3f550a6f12f070d6c498a9d7e3961e0c30439756ad482ccceac2a26495a",
+      "provenance": "docs/fold/verification/store/failure-focus-after-en-cart-save.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-after-en-checkout.png",
+      "sha256": "df6f30d5e7fc3ce3931f33c71aeb4ab84584e8662cab3073e7a84439cb8913bb",
+      "provenance": "docs/fold/verification/store/failure-focus-after-en-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-after-en-storage-quota.png",
+      "sha256": "84ff4ae3961dbf6882924169b877a6fe3ab3134bcb42e7d5e915b0ed83279253",
+      "provenance": "docs/fold/verification/store/failure-focus-after-en-storage-quota.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-before-ar-cart-save.png",
+      "sha256": "e41e3bf3424a23dd3d7253854a6ba3f38fbff2d3e5c760e87e2b302979c1ad63",
+      "provenance": "docs/fold/verification/store/failure-focus-before-ar-cart-save.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-before-ar-checkout.png",
+      "sha256": "1d408f3d2a5814141190e47ae511e41dcc62ae16e82b2710f206e4f762a86f39",
+      "provenance": "docs/fold/verification/store/failure-focus-before-ar-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-before-ar-storage-quota.png",
+      "sha256": "0b8ab37f30121c4eb0c13e631c043dd0f78ec6af20927a2b9ba03b8a93586572",
+      "provenance": "docs/fold/verification/store/failure-focus-before-ar-storage-quota.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-before-en-cart-save.png",
+      "sha256": "6f764b266476074267a9ae436201544df011c6298cf390c6471f050cca06c8c7",
+      "provenance": "docs/fold/verification/store/failure-focus-before-en-cart-save.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-before-en-checkout.png",
+      "sha256": "9edb5425d34de80beee3955cf4856a19964e3c73e5b2896b708175e412ae127a",
+      "provenance": "docs/fold/verification/store/failure-focus-before-en-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-focus-before-en-storage-quota.png",
+      "sha256": "a33c4ce65067c8011e275a90b37baf3d4e40613fe4c8998366d2bbf0382d2c42",
+      "provenance": "docs/fold/verification/store/failure-focus-before-en-storage-quota.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-video-after-ar-checkout.png",
+      "sha256": "dad279acd66c51df44f59e5284c18c53d3a5e084ab64d3479dc832268fb4c610",
+      "provenance": "docs/fold/verification/store/failure-video-after-ar-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/failure-video-after-en-checkout.png",
+      "sha256": "b66a564203967b43162fc3fe73ec5de5a3581242cd56bc9058485e264b687943",
+      "provenance": "docs/fold/verification/store/failure-video-after-en-checkout.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/maintenance-after-ar.png",
+      "sha256": "1e189200bd23b00f2328c8a9349734cf383892afca8b4048dade9b21846fda79",
+      "provenance": "docs/fold/verification/store/maintenance-after-ar.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/maintenance-after-en.png",
+      "sha256": "c772a17795a7fd5b6c3aa609d0a649eb26e4809bf4d65ae82e40e9619d5e2351",
+      "provenance": "docs/fold/verification/store/maintenance-after-en.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/maintenance-before-ar.png",
+      "sha256": "831c93f807fd00002062453619c14d5e8d440740a912d939824b82ee778a7fe6",
+      "provenance": "docs/fold/verification/store/maintenance-before-ar.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/maintenance-before-en.png",
+      "sha256": "2588173329bfe17da7191376e532a0330af1cb9e3a594e13ad59d202fc796eb9",
+      "provenance": "docs/fold/verification/store/maintenance-before-en.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/measurements-ar-1440.png",
+      "sha256": "da67498a9cba68c39e6c4c94e266c7e38913de566ca133611c65f930498d96c5",
+      "provenance": "docs/fold/verification/store/measurements-ar-1440.png.json"
+    },
+    {
+      "file": "docs/fold/verification/store/measurements-en-1440.png",
+      "sha256": "f9a4d8d2902a6893f68e4c16ed6953612ee89dde565a75559e15f642be3a1dd6",
+      "provenance": "docs/fold/verification/store/measurements-en-1440.png.json"
+    }
+  ]
+}

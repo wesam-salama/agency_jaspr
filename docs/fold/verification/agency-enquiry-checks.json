@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-15T13:40:21.417Z",
+  "target": "Actual compiled Fold agency integration, Chrome 390×1000, reduced motion, http://127.0.0.1:8804/agency_jaspr/",
+  "required": {
+    "name": true,
+    "email": true,
+    "message": true
+  },
+  "emptyRequiredValid": false,
+  "expected": {
+    "name": "Demo reviewer",
+    "email": "reviewer@example.test",
+    "message": "A bilingual ecommerce brand and store.\nملاحظة تجريبية تبقى كما هي.",
+    "timing": "soon",
+    "services": [
+      "0",
+      "3"
+    ]
+  },
+  "records": [
+    {
+      "language": "en",
+      "actual": {
+        "name": "Demo reviewer",
+        "email": "reviewer@example.test",
+        "message": "A bilingual ecommerce brand and store.\nملاحظة تجريبية تبقى كما هي.",
+        "timing": "soon",
+        "services": [
+          "0",
+          "3"
+        ]
+      },
+      "unfinishedBriefPreserved": true,
+      "requiredFieldsValid": true,
+      "sectionRetained": true,
+      "action": "mailto:hello@cr8.media"
+    },
+    {
+      "language": "ar",
+      "actual": {
+        "name": "Demo reviewer",
+        "email": "reviewer@example.test",
+        "message": "A bilingual ecommerce brand and store.\nملاحظة تجريبية تبقى كما هي.",
+        "timing": "soon",
+        "services": [
+          "0",
+          "3"
+        ]
+      },
+      "unfinishedBriefPreserved": true,
+      "requiredFieldsValid": true,
+      "sectionRetained": true,
+      "action": "mailto:hello@cr8.media"
+    },
+    {
+      "language": "fr",
+      "actual": {
+        "name": "Demo reviewer",
+        "email": "reviewer@example.test",
+        "message": "A bilingual ecommerce brand and store.\nملاحظة تجريبية تبقى كما هي.",
+        "timing": "soon",
+        "services": [
+          "0",
+          "3"
+        ]
+      },
+      "unfinishedBriefPreserved": true,
+      "requiredFieldsValid": true,
+      "sectionRetained": true,
+      "action": "mailto:hello@cr8.media"
+    }
+  ],
+  "errors": [],
+  "externalMailRequests": [],
+  "nonReadRequests": [],
+  "popups": [],
+  "submitActivated": false,
+  "scope": "Empty required-field validity and complete unfinished brief retained exactly EN→AR→FR, including service/timing choices. Submit was never activated; no mail client or external message was opened."
+}

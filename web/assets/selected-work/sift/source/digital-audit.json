@@ -1,0 +1,365 @@
+{
+  "date": "2026-10-13",
+  "scope": "Digital SVG artwork; no physical printing, coffee testing, supplier verification or commercial launch established.",
+  "svg_count": 40,
+  "structural": [
+    {
+      "file": "pack-everyday-250g-front.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-daybreak-250g-front.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-after-hours-250g-front.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "label-front-sheet.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-everyday-250g-reverse.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-everyday-250g-side.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-daybreak-250g-reverse.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-daybreak-250g-side.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-after-hours-250g-reverse.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-after-hours-250g-side.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-everyday-1kg-front.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-everyday-1kg-reverse.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "pack-everyday-1kg-side.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-wordmark-horizontal.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-wordmark-stacked.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-wordmark-mono.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-wordmark-reverse.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-wordmark-small.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-selected-line.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-clearspace.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-identity-board.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-wordmark-system.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "shipping-carton-panel.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "shipping-tape-repeat.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-shipping-carton.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "brew-card-daybreak-front.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "brew-card-daybreak-reverse.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-brewing-cards.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sample-box-lid.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sample-box-insert.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-sample-box.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-wholesale-sheet.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "social-launch-template.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "social-product-template.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-social-templates.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-counter-display.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-detail-information.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-detail-bilingual.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-range-board.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    },
+    {
+      "file": "sift-applications-board.svg",
+      "xml_valid": true,
+      "dimensions_match": true,
+      "source_checksum_match": true,
+      "render_exists": true,
+      "bitmap_free": true
+    }
+  ],
+  "text_pair_contrast": [
+    {
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 13.276,
+      "normal_text_pass": true
+    },
+    {
+      "foreground": "paper",
+      "background": "ink",
+      "ratio": 13.276,
+      "normal_text_pass": true
+    },
+    {
+      "foreground": "paper",
+      "background": "cobalt",
+      "ratio": 5.868,
+      "normal_text_pass": true
+    },
+    {
+      "foreground": "ink",
+      "background": "mist",
+      "ratio": 11.044,
+      "normal_text_pass": true
+    },
+    {
+      "foreground": "ink",
+      "background": "roast",
+      "ratio": 3.897,
+      "normal_text_pass": false
+    }
+  ],
+  "browser_render_count": 40,
+  "all_requested_fonts_loaded": true,
+  "text_artboard_overflow": {},
+  "canonical_collection_checks": "passed",
+  "fixture_disclosures": "passed",
+  "review": "40 rendered masters inspected in four batched contact sheets; one missing carton-board background corrected and visually confirmed."
+}

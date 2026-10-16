@@ -1,0 +1,114 @@
+[
+  {
+    "file": "applications-960.webp",
+    "dimensions": [
+      960,
+      720
+    ],
+    "bytes": 34468
+  },
+  {
+    "file": "applications.webp",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "bytes": 96000
+  },
+  {
+    "file": "bilingual-960.webp",
+    "dimensions": [
+      960,
+      720
+    ],
+    "bytes": 30998
+  },
+  {
+    "file": "bilingual.webp",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "bytes": 86374
+  },
+  {
+    "file": "card-480.webp",
+    "dimensions": [
+      480,
+      301
+    ],
+    "bytes": 24012
+  },
+  {
+    "file": "card-960.webp",
+    "dimensions": [
+      960,
+      601
+    ],
+    "bytes": 69940
+  },
+  {
+    "file": "card.webp",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "bytes": 166002
+  },
+  {
+    "file": "hero-480.webp",
+    "dimensions": [
+      480,
+      301
+    ],
+    "bytes": 26952
+  },
+  {
+    "file": "hero-960.webp",
+    "dimensions": [
+      960,
+      601
+    ],
+    "bytes": 77186
+  },
+  {
+    "file": "hero.webp",
+    "dimensions": [
+      1586,
+      992
+    ],
+    "bytes": 174374
+  },
+  {
+    "file": "identity-960.webp",
+    "dimensions": [
+      960,
+      720
+    ],
+    "bytes": 23492
+  },
+  {
+    "file": "identity.webp",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "bytes": 58292
+  },
+  {
+    "file": "range-960.webp",
+    "dimensions": [
+      960,
+      720
+    ],
+    "bytes": 40456
+  },
+  {
+    "file": "range.webp",
+    "dimensions": [
+      2000,
+      1500
+    ],
+    "bytes": 111686
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-14",
+  "target": "iOS26.5 iPhone17Pro simulator",
+  "learner": "demo",
+  "language": "en",
+  "before": {
+    "learner": "demo",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [],
+    "drafts": {
+      "01": {
+        "note": "",
+        "attachment": false
+      }
+    },
+    "revision": 1
+  },
+  "after": {
+    "learner": "demo",
+    "displayName": "Demo learner",
+    "enrolments": [
+      "FA-PH-01"
+    ],
+    "completed": [
+      "01"
+    ],
+    "drafts": {
+      "01": {
+        "note": "Moving the object toward the edge made the surrounding space more visible. I kept the light the same in both photographs.",
+        "attachment": false
+      }
+    },
+    "revision": 3
+  },
+  "xctestExit": 0,
+  "recording": "native-core-en-raw.mp4"
+}

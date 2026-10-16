@@ -1,0 +1,41 @@
+{
+  "stage": "after",
+  "date": "2026-10-15",
+  "method": "Real browser quantity commit via keyboard Tab; size selection followed by active-element and retained SKU/value observations",
+  "records": [
+    {
+      "language": "en",
+      "quantity": {
+        "activeTag": "BUTTON",
+        "activeChange": null,
+        "activeLine": "0",
+        "activeAction": "remove",
+        "sku": "FL01-CHK-M",
+        "quantity": "2"
+      },
+      "sizing": {
+        "activeTag": "SELECT",
+        "activeChange": "size",
+        "activeLine": "0",
+        "sku": "FL01-CHK-L"
+      }
+    },
+    {
+      "language": "ar",
+      "quantity": {
+        "activeTag": "BUTTON",
+        "activeChange": null,
+        "activeLine": "0",
+        "activeAction": "remove",
+        "sku": "FL01-CHK-M",
+        "quantity": "2"
+      },
+      "sizing": {
+        "activeTag": "SELECT",
+        "activeChange": "size",
+        "activeLine": "0",
+        "sku": "FL01-CHK-L"
+      }
+    }
+  ]
+}

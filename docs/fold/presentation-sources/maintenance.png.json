@@ -1,0 +1,36 @@
+{
+  "origin": "docs/fold/presentation-sources/maintenance.html",
+  "operation": "Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "sourceFiles": [
+    "docs/fold/presentation-sources/maintenance-before-en-crop.png",
+    "docs/fold/presentation-sources/maintenance-after-en-crop.png"
+  ],
+  "sourceFileChecksums": [
+    {
+      "file": "docs/fold/presentation-sources/maintenance.html",
+      "sha256": "54b4fb7e3e58bb1e5aa622419b9243cf97e50b4f3ff9c443dc5d6a8f29bf10eb"
+    },
+    {
+      "file": "docs/fold/presentation-sources/boards.css",
+      "sha256": "c2ebd5e399f4649a65c2fc09354890e2d1432110d472f254aa94984741b5929d"
+    },
+    {
+      "file": "docs/fold/presentation-sources/maintenance-before-en-crop.png",
+      "sha256": "feab4a9c82401fa25ff658fe6fdece74d1adc66de5bf3be1c6fa0ccf32bfea0a"
+    },
+    {
+      "file": "docs/fold/presentation-sources/maintenance-after-en-crop.png",
+      "sha256": "47b3c38deeb92a2a045da59f20bd54ea2c180b8bed3d0f23503552c04b2c4d48"
+    }
+  ],
+  "generatedImageReferences": [],
+  "created": "2026-10-15",
+  "capturedAt": "2026-10-15T12:59:57.603Z",
+  "creator": "CR8.Media / Codex authored presentation composition",
+  "file": "docs/fold/presentation-sources/maintenance.png",
+  "width": 2000,
+  "height": 1500,
+  "sha256": "16b62315256546c9dd149e5c0afbae6f0ebf20b18585686e465ce8f75dcd352f",
+  "prompt": "Origin: docs/fold/presentation-sources/maintenance.html. Local Chrome capture of authored editable HTML presentation; photographic inputs and actual UI screenshots remain separate source records",
+  "provenanceStorage": "native image metadata"
+}

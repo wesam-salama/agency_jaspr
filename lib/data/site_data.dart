@@ -1,6 +1,7 @@
 import '../models/site_models.dart';
 
-// Authored reference copy from ../agency_website.html; runtime stays app-owned.
+// Retained agency reference copy plus four authorised self-initiated studies;
+// runtime stays app-owned.
 
 const heroEyebrow = "Brand & product studio";
 const heroHeadline = "Every brand is a handful of points. We draw the line between them.";
@@ -224,173 +225,355 @@ const services = <Service>[
 
 const caseStudies = <CaseStudy>[
   CaseStudy(
-    name: 'Fenwick & Ash',
+    name: 'Sift Coffee',
     isIllustrative: true,
+    isSelfInitiated: true,
     transition: CaseTransition.accentCurtain,
-    heroImage: 'assets/images/fenwick-hero.jpg',
-    tag: 'Rebrand & Web · 2025',
-    client: 'Fenwick & Ash Ltd.',
-    role: 'Identity, web design & build',
-    timeline: '9 weeks',
-    deliverables: 'Identity system, guidelines, site, CMS',
-    layout: CaseLayout.split,
-    lede: CaseLede(
-      'Forty years of joinery, rebuilt for a design-forward audience ',
-      'without losing the workshop',
-      ' underneath it.',
-    ),
-    facts: [
-      CaseFact('Problem', 'Brand older than its audience'),
-      CaseFact('Move', 'Keep the workshop, rebuild the voice'),
-      CaseFact('System', 'Wordmark, grid, timber palette'),
-      CaseFact('Web', 'Hand-built, CMS-handover'),
-    ],
-    paragraphs: [
-      "Fenwick & Ash made beautiful furniture and looked like a phone directory advert. The audit kept everything earned (the name, the heritage, the client book) and cut everything that wasn’t.",
-      'The site runs on the same grid. Every project page is a case file: commission, wood, hours at the bench. The team edits it themselves through a CMS handover.',
-    ],
-    figures: [
-      CaseFigure('assets/images/fenwick-room.jpg', 'Art direction: rooms, not showrooms'),
-      CaseFigure('assets/images/fenwick-chair.jpg', 'Product photography: one object, one light'),
-    ],
-    quote: CaseQuote(
-      '“They kept forty years of history and still made us look like the future.”',
-      'E. Fenwick, Managing Director',
-    ),
-  ),
-  CaseStudy(
-    name: 'Loop',
-    isIllustrative: true,
-    transition: CaseTransition.accentCurtain,
-    heroImage: 'assets/images/loop-hero.jpg',
-    tag: 'Product & App · 2024',
-    client: 'Loop Health Ltd.',
-    role: 'Product design, iOS & Android',
-    timeline: '11 weeks',
-    deliverables: 'Design system, app, store launch',
-    layout: CaseLayout.horizontalScroll,
-    lede: CaseLede('A habit tracker people actually ', 'keep opening', ', from onboarding flow to App Store.'),
-    paragraphs: [
-      'Most habit apps are guilt machines. Loop is built around streaks that forgive: miss a day and the line bends, it doesn’t break. That single product decision shaped the whole design system: soft curves, warm darks, one accent.',
-    ],
-    chapters: [
-      CaseChapter(number: '01', title: 'Onboarding: 90 seconds max', image: 'assets/images/loop-onboarding.jpg'),
-      CaseChapter(number: '02', title: 'Streaks that bend, not break', image: 'assets/images/loop-phone.jpg'),
-      CaseChapter(number: '03', title: 'Home-screen widgets', image: 'assets/images/loop-widgets.jpg'),
-      CaseChapter(number: '04', title: 'Weekly review, no guilt', image: 'assets/images/loop-review.jpg'),
-    ],
-    quote: CaseQuote(
-      '“D30 retention doubled against the old prototype. The forgiveness mechanic did that.”',
-      'Product Lead, Loop',
-    ),
-  ),
-  CaseStudy(
-    name: 'Marrow',
-    isIllustrative: true,
-    transition: CaseTransition.accentCurtain,
-    heroImage: 'assets/images/marrow-hero.jpg',
-    tag: 'Brand & Consultancy · 2024',
-    client: 'Marrow Butchery Co.',
-    role: 'Naming, positioning, identity',
-    timeline: '6 weeks',
-    deliverables: 'Name, voice, identity, packaging',
+    heroImage: 'assets/selected-work/sift/hero.webp',
+    tag: 'Brand Strategy & Identity · 2026',
+    client: 'Self-initiated studio project',
+    role: 'Strategy, naming, identity & packaging',
+    timeline: 'Design study',
+    deliverables: 'Identity system, bilingual packaging, brewing cards & brand guide',
     layout: CaseLayout.stickyChapters,
-    lede: CaseLede('A direct-to-consumer butchery entering a ', 'crowded shelf', ': named, positioned, dressed.'),
+    lede: CaseLede(
+      'A coffee identity shaped around ',
+      'clear choices',
+      ', from the first label to the last small detail.',
+    ),
+    paragraphs: [
+      'Sift Coffee is a self-initiated brand study for curious home brewers. The idea is simple: a small collection, a clear place to start, and useful information wherever someone meets the brand. Good coffee. Clearly chosen.',
+      'Three directions give the collection a clear rhythm: Everyday for a rounded daily cup, Daybreak for brighter flavours, and After Hours for a deeper profile. Shared label rules make the differences easy to find while holding the range together.',
+    ],
     chapters: [
       CaseChapter(
         number: '01',
-        title: 'Naming',
+        title: 'A line that makes a choice',
+        image: 'assets/selected-work/sift/identity.webp',
         body:
-            'Shortlists went from forty names to four to one. “Marrow” won because it’s the part of the animal chefs fight over: depth, richness, the good stuff.',
-        image: 'assets/images/marrow-food.jpg',
+            'Sift suggests selecting and refining. The Selected Line gives that idea a visible form: five horizontal rules, with one longer cobalt rule. Warm paper, dark ink and an optically spaced wordmark keep the system precise without making it cold. The same motif works on a label, a brewing card and a small profile icon.',
       ),
       CaseChapter(
         number: '02',
-        title: 'Positioning',
+        title: 'Three clear starting points',
+        image: 'assets/selected-work/sift/range.webp',
         body:
-            'The shelf already shouts “artisanal small-batch”. Marrow is positioned on provenance transparency: farm, distance, days aged, printed on every pack.',
-        image: 'assets/images/marrow-salad.jpg',
+            'Everyday is the rounded daily starting point, Daybreak the brighter direction, and After Hours the deeper cup. Roast orange, cobalt and dark ink distinguish them, while written names keep the range readable in grayscale. Every label puts product, flavour direction and weight before specialist detail.',
       ),
       CaseChapter(
         number: '03',
-        title: 'Identity',
+        title: 'English and Arabic, considered together',
+        image: 'assets/selected-work/sift/bilingual.webp',
         body:
-            'The identity is a butcher’s block of a wordmark, blood-red accent, and packaging that reads like a spec sheet. It stands out by standing still.',
-        image: 'assets/images/marrow-pack.jpg',
+            'English and Arabic share a deliberate reading hierarchy. Arabic has its own natural shaping, spacing and line height; it is not squeezed into a translated footnote. Origin, process and variable roast-date fields sit where they can be found. The 250 g and 1 kg formats use the same rules at comfortable sizes.',
+      ),
+      CaseChapter(
+        number: '04',
+        title: 'An identity beyond the bag',
+        image: 'assets/selected-work/sift/applications.webp',
+        body:
+            'Brewing cards, a sample box, shipping materials and reusable layouts carry the same identity beyond the front label. Editable artwork and the brand guide make the decisions inspectable: optical logo sizes, bilingual hierarchy, product identifiers and clear handling of variable information. The handoff pairs reusable artwork with clear usage rules, so each new application can keep the same level of care.',
+      ),
+    ],
+    downloads: [
+      CaseDownload(
+        label: 'Brand guide',
+        href: 'assets/selected-work/sift/sift-brand-guide.pdf',
+        format: 'PDF',
+      ),
+      CaseDownload(
+        label: 'Editable artwork',
+        href: 'assets/selected-work/sift/sift-artwork.zip',
+        format: 'ZIP',
       ),
     ],
   ),
   CaseStudy(
-    name: 'Northline',
+    name: 'Form Architecture',
     isIllustrative: true,
+    isSelfInitiated: true,
     transition: CaseTransition.accentCurtain,
-    heroImage: 'assets/images/northline-hero.jpg',
-    tag: 'Web Development · 2023',
-    client: 'Northline Logistics',
-    role: 'UX, full-stack rebuild',
-    timeline: '14 weeks',
-    deliverables: 'Platform, routing engine, dashboards',
-    layout: CaseLayout.statistics,
+    heroImage: 'assets/selected-work/form/hero.webp',
+    heroAlt: 'Form Architecture identity and actual homepage excerpt beside a generated Courtyard House spatial study.',
+    tag: 'Rebrand & Website Relaunch · 2026',
+    client: 'Self-initiated studio project',
+    role: 'Concept strategy, identity, art direction, UX/UI & website implementation',
+    timeline: 'Design & implementation study',
+    deliverables: 'Identity, architectural study imagery, responsive website, project editor & enquiry demo',
+    layout: CaseLayout.split,
     lede: CaseLede(
-      'A logistics platform rebuilt from the database up, for speed and for the ',
-      'people using it daily',
-      '.',
+      'A material-led identity and project website that make ',
+      'architectural decisions',
+      ' easier to explore.',
     ),
-    metrics: [
-      CaseMetric(68, '%', 0, 'Faster route queries'),
-      CaseMetric(12400, '', 0, 'Routes re-planned daily'),
-      CaseMetric(.4, 's', 1, 'Median dashboard load'),
-    ],
     paragraphs: [
-      'The old system took eleven seconds to draw a morning board. Dispatchers had memorised workarounds. We rebuilt the query layer first, then the UI around the three questions a dispatcher actually asks: what’s late, what’s empty, what’s next.',
+      'Form Architecture is a self-initiated rebrand and website study. Architecture shaped around how people live is the positioning: light, material, movement and use become the way to explain each space. The three architectural studies are fictional; their generated imagery and authored diagrams are recorded in the source register.',
+      'The fictional starting identity presented projects as disconnected images. We created that baseline for this exercise, then defined a clearer way to connect space, context and enquiry. Both versions use Courtyard House, Line Studio and Shore Library, so the comparison holds the project content steady.',
+      'Recognition comes from keeping the Form name and open-frame cue. A refined vector wordmark, a vertical 3:4 frame with a lower-right opening, and a chalk, charcoal, sage and clay palette carry the same idea through navigation, stationery and project facts. Cormorant Garamond gives editorial passages room; Instrument Sans and IBM Plex Sans Arabic keep information useful in both directions.',
+      'The responsive website puts a brief beside its spatial response and gives each study an ordered story. Project facts, captions and material details explain what the image shows. English and Arabic use the same records, with natural Arabic shaping and readable Latin project names.',
+      'Discuss a similar project carries the selected study into Contact. Inline validation preserves the draft, names the missing information and focuses the first invalid field. Preview demo receipt ends with a clear message: Demo complete. This enquiry has not been sent.',
+      'The local project editor makes content inspectable: stable IDs, unique slugs, bilingual titles, facts, ordered chapters, image descriptions and separate desktop/mobile focal points. Edit, preview and publish demonstrate a local content change; required fields block an incomplete publication. The website, editor and receipt are working demonstrations, with no commercial launch or architectural construction claim.',
+    ],
+    facts: [
+      CaseFact('Positioning', 'Architecture shaped around how people live.'),
+      CaseFact('Recognition retained', 'Form name · open structural frame'),
+      CaseFact('Canonical studies', 'Courtyard House · Line Studio · Shore Library'),
+      CaseFact('Courtyard House', 'Residential study · 2025 · fictional Mediterranean setting · 240 m²'),
+      CaseFact('Line Studio', 'Workplace study · 2026 · fictional international urban setting · 180 m²'),
+      CaseFact('Shore Library', 'Cultural-space study · 2026 · fictional coastal setting · 620 m²'),
+      CaseFact('Digital scope', 'Responsive site · local project editor · contextual enquiry demo'),
+      CaseFact(
+        'Image authorship',
+        'Generated architectural study imagery and authored conceptual diagrams; source register included.',
+      ),
     ],
     figures: [
-      CaseFigure('assets/images/northline-city.jpg', 'The network: 400 vehicles, one board'),
-      CaseFigure('assets/images/northline-field.jpg', 'Routing engine: recalculated every 90 seconds'),
+      CaseFigure(
+        'assets/selected-work/form/baseline.webp',
+        'Fictional starting identity created for this rebrand study. The actual baseline homepage uses the same three studies, a two-line wordmark and slate-blue frame.',
+      ),
+      CaseFigure(
+        'assets/selected-work/form/redesign.webp',
+        'The same homepage viewport after the rebrand: retained recognition, material-led colour, consistent image ratios and project information beside the relevant image.',
+      ),
+      CaseFigure(
+        'assets/selected-work/form/identity-system.webp',
+        'One identity system connects the custom wordmark, open 3:4 frame, colour roles, editorial and functional type, and English/Arabic applications.',
+      ),
+      CaseFigure(
+        'assets/selected-work/form/project-desktop.webp',
+        'Actual Courtyard House project page: light, privacy and a planted courtyard organize the narrative alongside the canonical 240 m² study facts.',
+      ),
+      CaseFigure(
+        'assets/selected-work/form/project-mobile.webp',
+        'The implemented mobile project page keeps image, caption and explanation in a purposeful sequence, with comfortably readable facts and controls.',
+      ),
+      CaseFigure(
+        'assets/selected-work/form/enquiry-states.webp',
+        'Actual entered draft, inline validation and demo receipt. An invalid enquiry preserves the draft and explains the next action; the receipt states that nothing has been sent.',
+      ),
+      CaseFigure(
+        'assets/selected-work/form/cms-edit.webp',
+        'The implemented project editor and its corresponding page change: edit, preview and local publish, with required fields and image focal points under structured control.',
+      ),
+      CaseFigure(
+        'assets/selected-work/form/details/wordmark.webp',
+        'The wordmark clear-space rule holds across a narrow navigation bar and printed-cover artwork.',
+      ),
+      CaseFigure(
+        'assets/selected-work/form/details/image-crop.webp',
+        'Desktop and mobile crops preserve the same meaningful spatial feature; separate focal points remain editable and the full image remains inspectable.',
+      ),
+      CaseFigure(
+        'assets/selected-work/form/details/project-facts.webp',
+        'Facts, units and captions keep a consistent reading order in English and Arabic, with optional facts omitted when absent.',
+      ),
     ],
-    quote: CaseQuote(
-      '“The morning board loads before my coffee does. That’s the whole review.”',
-      'Operations Director, Northline',
+    downloads: [
+      CaseDownload(
+        label: 'Explore Form website',
+        href: 'assets/selected-work/form/site/index.html',
+        format: 'HTML',
+        isDownload: false,
+      ),
+      CaseDownload(
+        label: 'Open project editor',
+        href: 'assets/selected-work/form/site/editor.html',
+        format: 'HTML',
+        isDownload: false,
+      ),
+      CaseDownload(label: 'Editable sources', href: 'assets/selected-work/form/form-source.zip', format: 'ZIP'),
+    ],
+  ),
+  CaseStudy(
+    name: 'Frame Academy',
+    isIllustrative: true,
+    isSelfInitiated: true,
+    transition: CaseTransition.accentCurtain,
+    heroImage: 'assets/selected-work/frame/hero.webp',
+    layout: CaseLayout.horizontalScroll,
+    tag: 'Brand, Website & App · 2026',
+    heroAlt: 'Frame Academy workbook artwork with actual course discovery and native app continuation screens.',
+    client: 'Self-initiated studio project',
+    role: 'Strategy, identity, course artwork, web & Flutter mobile app',
+    timeline: 'Design & implementation study',
+    deliverables: 'Editable identity and workbooks, captioned lesson, EN/AR website, iOS demo & shared saved progress',
+    lede: CaseLede(
+      'A creative academy shaped around ',
+      'the next useful step',
+      ', from choosing a course to returning to the lesson.',
     ),
+    paragraphs: [
+      'Frame Academy is a self-initiated learning brand for practical photography, filmmaking and visual design. Make your next idea is its invitation: a clear place to start, a small exercise to try and a useful next step. Composition Essentials connects the discovery website with a running Flutter learning app.',
+      'Two offset open corners give course artwork a point of view. Space Grotesk, Inter and naturally shaped IBM Plex Sans Arabic carry a bright canvas, midnight ink and crisp blue actions. The expressive workbook becomes a quieter learning surface, with course outcome and equipment visible before enrolment.',
+      'The recorded English and Arabic journeys start at 0 of 6. An authored lesson has captions and a transcript; its actual media duration is separate from the planned curriculum. A confirmed exercise save, explicit completion and app restart preserve 1 of 6 complete and continue at lesson 02, Find the subject. A controlled save failure keeps the note available for successful retry. This is a local demonstration, with no instructor-review or commercial-launch claim.',
+    ],
+    chapters: [
+      CaseChapter(
+        number: '01',
+        title: 'Choose with clarity',
+        body:
+            'Actual course detail puts the outcome, equipment and prerequisite beside the decision. Composition Essentials is FA-PH-01: six lessons and 62 planned study minutes. The first authored preview explains the exercise before the learner continues as Demo learner.',
+        image: 'assets/selected-work/frame/course-discovery.webp',
+      ),
+      CaseChapter(
+        number: '02',
+        title: 'Carry the identity',
+        body:
+            'The custom wordmark, two displaced L corners, course covers and exercise sheets share one measured system. The mark keeps its orientation across locales; Arabic text shapes naturally and directional controls follow the reading direction.',
+        image: 'assets/selected-work/frame/identity.webp',
+      ),
+      CaseChapter(
+        number: '03',
+        title: 'Keep the next step visible',
+        body:
+            'The actual native app after restart shows 1 of 6 lessons complete beside the next action: 02 Find the subject. Enrolment, progress and exercise drafts use the same local demonstration record as the website. Opening the player alone never completes a lesson.',
+        image: 'assets/selected-work/frame/lesson-continuation.webp',
+      ),
+      CaseChapter(
+        number: '04',
+        title: 'Recover without losing work',
+        body:
+            'A controlled failed save leaves the practice note intact. Retry confirms persistence before saved feedback appears; completion remains a separate action. Actual English and Arabic captures show the retained work, saved exercise and useful next step.',
+        image: 'assets/selected-work/frame/exercise-recovery.webp',
+      ),
+    ],
+    downloads: [
+      CaseDownload(
+        label: 'Explore Frame Academy',
+        href: 'assets/selected-work/frame/site/index.html',
+        format: 'HTML',
+        isDownload: false,
+      ),
+      CaseDownload(
+        label: 'Watch the recorded journey',
+        href: 'assets/selected-work/frame/demo-journey.mp4',
+        format: 'MP4',
+        isDownload: false,
+      ),
+      CaseDownload(
+        label: 'Editable project sources',
+        href: 'assets/selected-work/frame/frame-source.zip',
+        format: 'ZIP',
+      ),
+    ],
+  ),
+  CaseStudy(
+    name: 'Fold Clothing',
+    isIllustrative: true,
+    isSelfInitiated: true,
+    transition: CaseTransition.accentCurtain,
+    heroImage: 'assets/selected-work/fold/hero.webp',
+    heroAlt: 'Bespoke FOLD signature with a four-garment capsule, presented through generated garment concept imagery.',
+    tag: 'Ecommerce Brand & Store · 2026',
+    client: 'Self-initiated studio project',
+    role: 'Strategy, identity, garment art direction, UX/UI & store implementation',
+    timeline: 'Design & implementation study',
+    deliverables: 'Editable identity, packaging, garment imagery, EN/AR store & simulated checkout',
+    layout: CaseLayout.statistics,
+    metrics: [],
+    lede: CaseLede(
+      'A considered clothing identity and a store built around ',
+      'clear product choices',
+      '.',
+    ),
+    paragraphs: [
+      'Fold Clothing is a self-initiated ecommerce brand and store study. Clothes that give your day room is the proposition: useful silhouettes, considered construction and clear choices. Collection 01: Everyday Structure brings together Box Shirt, Pleat Trouser, Layer Vest and Field Overshirt.',
+      'The FOLD wordmark and pattern-cut line system take their cues from garment construction. Ivory, Ink, Citrine and Deep olive frame the collection; Archivo carries the editorial voice and DM Sans the shopping information. Naturally shaped IBM Plex Sans Arabic gives the Arabic store its own comfortable reading rhythm.',
+      'A locked pattern defines each garment before image production: the shirt’s five-button placket and single chest pocket, the trouser’s forward pleats and side pockets, the vest’s four buttons and two patch pockets, and the overshirt’s six buttons and two chest pockets. The generated garment visuals are concept art, registered separately from actual store captures. Materials, stock and prices are illustrative catalogue fixtures.',
+      'The implemented English and Arabic store keeps colour, imagery, size and SKU together. URL-based filters retain the selection; size must be chosen explicitly before adding. Layer Vest Stone/XS is labelled unavailable. A change of size rechecks stock rather than silently accepting a different variant.',
+      'Size guidance states the measurement method before the table: these are laid-flat garment measurements, with chest and waist shown as half-widths, not body circumferences. Centimetres and inches stay readable beside sizes XS–XL, including in the Arabic layout.',
+      'The complete demonstration journey selects Box Shirt Chalk/M at \$95 and Pleat Trouser Ink/M at \$145. The basket is \$240, plus \$12 demo shipping and \$0 test tax: \$252. The checkout states “Demo checkout — no payment or order will be placed.” A simulated action ends with a deterministic demo reference and the same basket summary.',
+      'The versioned demo cart stays on this browser, with stock limits, removal Undo and Clear demo cart. Recoverable failures retain valid cart contents and entered shipping details for retry. The first working version exposed a keyboard issue: changing cart quantity or size sent focus to the page body. Version 1.1 keeps cart order stable and restores the intended edited or next control, including after retry. Editable artwork, store source and an actual shopping-flow recording make the local implementation inspectable; no commercial launch or business result is claimed.',
+    ],
+    figures: [
+      CaseFigure(
+        'assets/selected-work/fold/case/identity.webp',
+        'The authored FOLD identity: a cut in the wordmark, purposeful pattern lines, bilingual hierarchy and editable packaging artwork.',
+      ),
+      CaseFigure(
+        'assets/selected-work/fold/case/continuity.webp',
+        'Generated garment concept imagery across front, back and construction detail, reviewed against the locked pattern and colour canon. These are not photographs of manufactured garments.',
+      ),
+      CaseFigure(
+        'assets/selected-work/fold/case/measurements.webp',
+        'Actual size guidance makes the laid-flat method explicit. Chest and waist are half-widths; cm and inches stay associated with each size in English and Arabic.',
+      ),
+      CaseFigure(
+        'assets/selected-work/fold/case/shopping.webp',
+        'Actual shopping screens connect explicit variant selection with the \$240 basket and \$252 demo total. Unavailable stock remains named and the checkout clearly explains its simulation.',
+      ),
+      CaseFigure(
+        'assets/selected-work/fold/case/maintenance.webp',
+        'Actual before/after maintenance evidence: quantity and size changes originally lost keyboard focus. Version 1.1 preserves cart order and restores the intended edited or next control, including after retry.',
+      ),
+    ],
+    downloads: [
+      CaseDownload(
+        label: 'Explore Fold store',
+        href: 'assets/selected-work/fold/site/index.html',
+        format: 'HTML',
+        isDownload: false,
+      ),
+      CaseDownload(
+        label: 'Watch the shopping flow',
+        href: 'assets/selected-work/fold/shopping-flow.html',
+        format: 'HTML',
+        isDownload: false,
+      ),
+      CaseDownload(
+        label: 'Editable project sources',
+        href: 'assets/selected-work/fold/fold-source.zip',
+        format: 'ZIP',
+      ),
+    ],
   ),
 ];
 
 final workProjects = List<WorkProject>.unmodifiable([
   WorkProject(
     index: '01',
-    year: '2025',
-    disciplines: 'Identity · Web · CMS',
-    cardImage: 'assets/images/fenwick-card.jpg',
-    category: 'Rebrand & Web',
+    year: '2026',
+    disciplines: 'Strategy · Identity · Packaging',
+    cardImage: 'assets/selected-work/sift/card.webp',
+    category: 'Brand Strategy & Identity',
+    status: 'Studio concept',
     description:
-        "A 40-year furniture maker's identity, rebuilt for a design-forward audience without losing the workshop underneath it.",
+        'A coffee identity built around clear choices, considered packaging and equal care in English and Arabic.',
     caseStudy: caseStudies[0],
   ),
   WorkProject(
     index: '02',
-    year: '2024',
-    disciplines: 'Product · iOS · Android',
-    cardImage: 'assets/images/loop-card.jpg',
-    category: 'Product & App',
-    description: 'A habit-tracking app taken from onboarding flow to App Store: design system, build and launch.',
+    year: '2026',
+    disciplines: 'Rebrand · UX/UI · Web',
+    cardImage: 'assets/selected-work/form/card.webp',
+    cardAlt: 'Actual Form Architecture website preview with a generated architectural courtyard study.',
+    category: 'Rebrand & website relaunch',
+    status: 'Studio concept',
+    description: 'A material-led identity and project website that make architectural decisions easier to explore.',
     caseStudy: caseStudies[1],
   ),
   WorkProject(
     index: '03',
-    year: '2024',
-    disciplines: 'Naming · Positioning · Identity',
-    cardImage: 'assets/images/marrow-card.jpg',
-    category: 'Brand & Consultancy',
-    description: 'Naming and positioning for a direct-to-consumer butchery brand entering a crowded shelf.',
+    year: '2026',
+    disciplines: 'Strategy · Identity · Web · Mobile app',
+    category: 'Brand, Website & App',
+    description:
+        'A creative learning concept connecting course discovery with a clear, continuous learning experience.',
+    status: 'Studio concept',
+    cardAlt: 'Actual Composition Essentials website detail and Frame native app with saved 1-of-6 progress.',
+    cardImage: 'assets/selected-work/frame/card.webp',
     caseStudy: caseStudies[2],
   ),
   WorkProject(
     index: '04',
-    year: '2023',
-    disciplines: 'UX · Build · Database',
-    cardImage: 'assets/images/northline-card.jpg',
-    category: 'Web Development',
-    description: 'A logistics platform rebuilt from the database up, for speed and for the people using it daily.',
+    year: '2026',
+    disciplines: 'Strategy · Identity · Ecommerce · Maintenance',
+    cardImage: 'assets/selected-work/fold/card.webp',
+    cardAlt: 'Bespoke FOLD signature beside a generated Field Overshirt concept.',
+    category: 'Ecommerce Brand & Store',
+    status: 'Studio concept',
+    description: 'A considered clothing identity and a store concept built around clear product choices.',
     caseStudy: caseStudies[3],
   ),
 ]);

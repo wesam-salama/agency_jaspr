@@ -1,0 +1,16 @@
+{
+  "file": "docs/fold/verification/identity/guide-390.png",
+  "source": "web/assets/selected-work/fold/source/fold-brand-guide.html",
+  "dimensions": [
+    390,
+    7551
+  ],
+  "creator": "Authored SVG/HTML board rendered in local headless Google Chrome using Playwright",
+  "origin": "Digital source artwork capture; no image generation",
+  "status": "Designed digital artwork and guide verification",
+  "sha256": "b9033a31bf2b38a5d43aaf1964565438dffd8f150c6c2c0ba51bb0d9a25b924c",
+  "created": "2026-10-15",
+  "caption": "Fold Clothing guide 390; authored studio concept",
+  "prompt": "Origin: Digital source artwork capture; no image generation. Actual local authored capture; not generated software imagery.",
+  "provenanceStorage": "native image metadata"
+}

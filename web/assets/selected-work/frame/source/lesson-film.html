@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Frame — authored lesson source</title>
+<style>
+@font-face{font-family:Space Grotesk;src:url(../fonts/space-grotesk-latin.woff2);font-weight:300 700}
+@font-face{font-family:Inter;src:url(../fonts/inter-latin.woff2);font-weight:100 900}
+@font-face{font-family:IBM Plex Sans Arabic;src:url(../fonts/ibm-plex-sans-arabic-regular.woff2);font-weight:400}
+@font-face{font-family:IBM Plex Sans Arabic;src:url(../fonts/ibm-plex-sans-arabic-semibold.woff2);font-weight:600}
+*{box-sizing:border-box}html,body{width:1920px;height:1080px;margin:0;overflow:hidden;background:#F7F9FC;color:#18243D;font-family:Inter,sans-serif}
+body.ar{font-family:'IBM Plex Sans Arabic';direction:rtl}main{position:relative;width:1920px;height:1080px;padding:80px 120px}
+.mark{position:absolute;right:120px;top:68px;width:96px;height:96px;direction:ltr}
+h1{font-family:'Space Grotesk';font-size:72px;line-height:1.12;font-weight:600;letter-spacing:-.025em;margin:0 0 24px;max-width:1510px}
+.ar h1{font-family:'IBM Plex Sans Arabic';letter-spacing:0;font-size:72px;line-height:1.35;padding-right:160px;max-width:none}
+.copy{font-size:34px;line-height:1.48;max-width:1530px;margin:0;min-height:100px}.ar .copy{font-size:36px}
+.photos{position:absolute;top:332px;left:120px;right:120px;height:576px;display:flex;gap:50px;direction:ltr}
+.figure{flex:1;min-width:0;position:relative}.figure.single{max-width:1200px;margin:auto}
+.photo{height:496px;overflow:hidden;background:#e8edf4;position:relative}
+.photo img{position:absolute;width:145%;max-width:none;height:100%;object-fit:cover;left:0;top:0;transform:translateX(-15.5%)}
+.window{position:absolute;inset:26px;border:2px solid #244CCD}
+.window:before{content:'';position:absolute;left:-2px;top:-2px;width:120px;height:110px;border-left:10px solid #244CCD;border-top:10px solid #244CCD}
+.window:after{content:'';position:absolute;right:-2px;bottom:-2px;width:120px;height:110px;border-right:10px solid #244CCD;border-bottom:10px solid #244CCD}
+.label{font-size:26px;margin:16px 0 0;color:#52627B}.ar .label{text-align:right;direction:rtl}
+.footer{position:absolute;bottom:72px;left:120px;right:120px;display:flex;justify-content:space-between;border-top:2px solid #CBD4E2;padding-top:24px;font-size:22px;direction:ltr}
+.ar .footer{font-family:Inter}
+.progress{position:absolute;bottom:0;left:0;height:8px;width:0;background:#244CCD}
+</style></head><body><main><h1 id="title"></h1><p class="copy" id="copy"></p><img class="mark" src="frame-symbol.svg" alt="">
+<div class="photos" id="photos"></div><div class="footer"><span id="lesson">01 See the edges · FA-PH-01</span><span id="meta">Frame Academy · authored visual lesson · 30 sec</span></div><div class="progress" id="progress"></div></main>
+<script>
+const lang=new URLSearchParams(location.search).get('lang')||'en';const ar=lang==='ar';document.documentElement.lang=lang;document.body.className=ar?'ar':'';document.documentElement.dir=ar?'rtl':'ltr';
+const scenes=ar?[
+['انظر إلى أطراف الصورة','موضع الشيء يغيّر الطريقة التي نقرأ بها الصورة.'],
+['ابدأ من الوسط','التقط الصورة الأولى والشيء في الوسط. راقب المساحة على جانبيه.'],
+['اقترب من إحدى الحواف','غيّر الإطار مع إبقاء الشيء نفسه. لاحظ المساحة التي ظهرت بجانبه.'],
+['قارن ما تغيّر','الصورة الأولى ثابتة ومتوازنة. الثانية تعطي المساحة دورًا أكبر. اختر عن قصد.'],
+['جرّب التمرين','التقط صورتين للشيء نفسه: واحدة في الوسط، وأخرى قرب الحافة. حافظ على الضوء وقارن النتيجة.'],
+['دوّن قرارك التالي','ما الذي تغيّر؟ اكتب ملاحظة ممارسة، احفظها، ثم أكمل التمرين صراحةً في التطبيق.']
+]:[
+['See the edges','Where you place an object changes how an image reads.'],
+['Begin at the centre','Make the first photograph with your object in the centre. Notice the space on either side.'],
+['Move toward one edge','Change the frame around the same object. Notice the space that opens beside it.'],
+['Compare what changes','The first feels steady. The second gives space a larger role. Choose the placement deliberately.'],
+['Try the exercise','Make two photographs of the same object: one in the centre, one toward an edge. Keep the light and compare.'],
+['Make your next decision','What changed? Write a practice note, save it, then explicitly complete the exercise in the app.']
+];
+function figure(label,position,single=false){return '<div class="figure '+(single?'single':'')+'"><div class="photo"><img style="transform:translateX('+position+'%)" src="../media/composition-source.png" alt=""><span class="window"></span></div><div class="label">'+label+'</div></div>'}
+window.setLessonTime=(t)=>{let stage=t<4?0:t<10?1:t<16?2:t<21?3:t<26?4:5;document.getElementById('title').textContent=scenes[stage][0];document.getElementById('copy').textContent=scenes[stage][1];const center=ar?'الصورة الأولى · في الوسط':'A / Centre placement';const edge=ar?'الصورة الثانية · قرب الحافة':'B / Edge placement';let out='';if(stage===0||stage===1)out=figure(center,-15.5,true);else if(stage===2){const u=Math.min(1,Math.max(0,(t-10)/3));const eased=1-Math.pow(1-u,3);out=figure(edge,-15.5-14.5*eased,true)}else out=figure(center,-15.5)+figure(edge,-30);document.getElementById('photos').innerHTML=out;document.getElementById('progress').style.width=(t/30*100)+'%';document.getElementById('lesson').textContent=ar?'01 انظر إلى أطراف الصورة · FA-PH-01':'01 See the edges · FA-PH-01';document.getElementById('meta').textContent=ar?'Frame Academy · درس مرئي مؤلّف · 30 ثانية':'Frame Academy · authored visual lesson · 30 sec';};
+setLessonTime(Number(new URLSearchParams(location.search).get('t'))||0);
+</script></body></html>

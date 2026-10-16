@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-14",
+  "capturedAtUTC": "2026-10-14T15:53:49.376Z",
+  "method": "Read-only website/API/native-record comparison after the actual native exercise and cold restart; state unchanged by capture",
+  "learner": "demo-ar",
+  "course": "FA-PH-01",
+  "completed": [
+    "01"
+  ],
+  "note": "عندما قرّبت العنصر من الحافة، أصبحت المساحة المجاورة أوضح. أبقيت الضوء نفسه في الصورتين.",
+  "attachment": false,
+  "revision": 3,
+  "nextLesson": "02",
+  "nativeProof": "docs/frame/verification/native/native-session-ar.json",
+  "nativeProofRawStartUTC": "2026-10-14T15:47:04.142Z",
+  "apiRequests": [
+    {
+      "method": "GET",
+      "path": "/api/catalogue"
+    },
+    {
+      "method": "GET",
+      "path": "/api/session"
+    }
+  ],
+  "pageErrors": [],
+  "screenshots": [
+    "shared-progress-ar.png",
+    "shared-progress-mobile-ar.png",
+    "saved-record-desktop-ar.png",
+    "saved-record-mobile-ar.png"
+  ]
+}
